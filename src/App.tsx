@@ -19,6 +19,9 @@ import { TermsPage } from '@/pages/TermsPage'
 import { CommercialHVACPage } from '@/pages/CommercialHVACPage'
 import { NotFoundPage } from '@/pages/NotFoundPage'
 
+const rawBase = import.meta.env.BASE_URL
+const basename = rawBase !== '/' ? rawBase.replace(/\/$/, '') : undefined
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route element={<AppShell />}>
@@ -40,7 +43,8 @@ const router = createBrowserRouter(
       <Route path="terms" element={<TermsPage />} />
       <Route path="*" element={<NotFoundPage />} />
     </Route>
-  )
+  ),
+  { basename }
 )
 
 export default function App() {
