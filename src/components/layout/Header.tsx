@@ -28,7 +28,7 @@ export const Header = () => {
           </div>
         </Link>
 
-        <nav className="hidden items-center gap-6 lg:flex">
+        <nav className="hidden items-center gap-6 lg:mr-6 lg:flex">
           {navItems.map((item) => (
             <NavLink
               key={item.to}
