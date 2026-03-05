@@ -8,15 +8,12 @@ import { TestimonialCarousel } from '@/components/domain/TestimonialCarousel'
 import { BlogGrid } from '@/components/domain/BlogGrid'
 import { services, cities, posts } from '@/content'
 import { Button } from '@/components/ui/Button'
-
-const testimonials = [
-  { quote: 'Technician arrived fast and fixed our AC the same day.', author: 'Maria P.', city: 'Miami Beach' },
-  { quote: 'Felt like working with family—the owners even called afterward to check temperatures.', author: 'Andre V.', city: 'Fort Lauderdale' },
-  { quote: 'They remember our kids’ names and still deliver enterprise-level quality.', author: 'Lena S.', city: 'Brickell' }
-]
+import { useCopy } from '@/context/LanguageContext'
+import { CONTACT_PHONE_LINK } from '@/config/site'
 
 export const HomePage = () => {
   const navigate = useNavigate()
+  const copy = useCopy()
 
   return (
     <>
@@ -28,33 +25,27 @@ export const HomePage = () => {
         />
       </Helmet>
       <Hero
-        title="MGM A/C Appliances — Florida’s Family HVAC Partner"
-        subtitle="Three generations of the MGM family deliver 24/7 care for homes, HOAs, commercial spaces and mission-critical facilities across Miami, Fort Lauderdale, Orlando and Tampa."
-        highlight="Family owned & operated"
+        title={copy.hero.title}
+        subtitle={copy.hero.subtitle}
+        highlight={copy.hero.highlight}
+        stats={copy.hero.stats}
+        callLabel={copy.hero.callLabel}
+        primaryCtaLabel={copy.hero.primaryCta}
+        coverageEyebrow={copy.hero.coverageEyebrow}
+        coverageTitle={copy.hero.coverageTitle}
+        coverageBody={copy.hero.coverageBody}
+        coveragePoints={copy.hero.coveragePoints}
       />
 
       <section className="bg-brand-light py-14">
         <div className="container space-y-8">
           <div>
-            <p className="section-title">Insured. Battle-tested for Miami heat.</p>
-            <p className="section-subtitle">Trusted by 8,000+ homeowners and 120 commercial properties.</p>
+            <p className="section-title">{copy.home.familySection.title}</p>
+            <p className="section-subtitle">{copy.home.familySection.subtitle}</p>
           </div>
-          <TrustBadges />
+          <TrustBadges items={copy.home.trustBadges} />
           <div className="grid gap-4 md:grid-cols-3">
-            {[
-              {
-                title: 'Three-generation roots',
-                copy: 'Grandparents started in Hialeah garages; today their kids and grandkids still run every crew.'
-              },
-              {
-                title: 'Neighbors first',
-                copy: 'Technicians live in the same neighborhoods they serve—no outsourced call centers.'
-              },
-              {
-                title: 'Hands-on ownership',
-                copy: 'An MGM family member reviews every major install and follows up with homeowners personally.'
-              }
-            ].map((item) => (
+            {copy.home.familySection.cards.map((item) => (
               <div key={item.title} className="rounded-2xl bg-white p-6 shadow-card">
                 <p className="text-xl font-semibold text-brand-dark">{item.title}</p>
                 <p className="mt-2 text-slate-600">{item.copy}</p>
@@ -68,11 +59,11 @@ export const HomePage = () => {
         <div className="container space-y-8">
           <div className="flex flex-wrap items-center justify-between gap-4">
             <div>
-              <p className="section-title">Flagship HVAC services</p>
-              <p className="section-subtitle">From emergency repair to multi-zone installs engineered for Florida humidity.</p>
+              <p className="section-title">{copy.home.servicesSection.title}</p>
+              <p className="section-subtitle">{copy.home.servicesSection.subtitle}</p>
             </div>
             <Button variant="secondary" onClick={() => navigate('/services')}>
-              View all services
+              {copy.home.servicesSection.cta}
             </Button>
           </div>
           <ServiceGrid services={services.slice(0, 6)} />
@@ -82,13 +73,13 @@ export const HomePage = () => {
       <section className="bg-brand-dark py-12 text-white">
         <div className="container flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
           <div>
-            <p className="text-3xl font-semibold">24/7 Emergency HVAC Command</p>
-            <p className="mt-3 text-white/80">Live humans answer within 60 seconds. Fleet GPS tracking + temporary cooling assets ready for data rooms & luxury residences.</p>
+            <p className="text-3xl font-semibold">{copy.home.emergencySection.title}</p>
+            <p className="mt-3 text-white/80">{copy.home.emergencySection.subtitle}</p>
           </div>
           <div className="flex gap-3">
-            <Button onClick={() => (window.location.href = 'tel:+13057208273')}>Call Now</Button>
+            <Button onClick={() => (window.location.href = CONTACT_PHONE_LINK)}>{copy.header.callNow}</Button>
             <Button variant="secondary" onClick={() => navigate('/services/emergency-hvac')}>
-              Emergency Details
+              {copy.home.emergencySection.detailsCta}
             </Button>
           </div>
         </div>
@@ -98,11 +89,11 @@ export const HomePage = () => {
         <div className="container space-y-8">
           <div className="flex flex-wrap items-center justify-between gap-4">
             <div>
-              <p className="section-title">Florida coverage</p>
-              <p className="section-subtitle">Local teams embedded in every metro for lightning response.</p>
+              <p className="section-title">{copy.home.coverageSection.title}</p>
+              <p className="section-subtitle">{copy.home.coverageSection.subtitle}</p>
             </div>
             <Button variant="secondary" onClick={() => navigate('/service-areas')}>
-              Explore service areas
+              {copy.home.coverageSection.cta}
             </Button>
           </div>
           <CityGrid cities={cities} />
@@ -113,11 +104,11 @@ export const HomePage = () => {
         <div className="container space-y-8">
           <div className="flex flex-wrap items-center justify-between gap-4">
             <div>
-              <p className="section-title">Homeowner + HOA love</p>
-              <p className="section-subtitle">Straight from recent dispatches across Miami-Dade.</p>
+              <p className="section-title">{copy.home.testimonialsSection.title}</p>
+              <p className="section-subtitle">{copy.home.testimonialsSection.subtitle}</p>
             </div>
           </div>
-          <TestimonialCarousel testimonials={testimonials} />
+          <TestimonialCarousel testimonials={copy.home.testimonialsSection.items} />
         </div>
       </section>
 
@@ -125,11 +116,11 @@ export const HomePage = () => {
         <div className="container space-y-8">
           <div className="flex flex-wrap items-center justify-between gap-4">
             <div>
-              <p className="section-title">HVAC Learning Center</p>
-              <p className="section-subtitle">Practical HVAC intelligence written for South Florida properties.</p>
+              <p className="section-title">{copy.home.blogSection.title}</p>
+              <p className="section-subtitle">{copy.home.blogSection.subtitle}</p>
             </div>
             <Button variant="secondary" onClick={() => navigate('/blog')}>
-              View blog
+              {copy.home.blogSection.cta}
             </Button>
           </div>
           <BlogGrid posts={posts} />

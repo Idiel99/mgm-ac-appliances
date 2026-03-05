@@ -3,9 +3,12 @@ import { Helmet } from 'react-helmet-async'
 import { Input } from '@/components/ui/Input'
 import { Textarea } from '@/components/ui/Textarea'
 import { Button } from '@/components/ui/Button'
+import { useCopy } from '@/context/LanguageContext'
+import { CONTACT_PHONE_LINK } from '@/config/site'
 
 export const ContactPage = () => {
   const [submitted, setSubmitted] = useState(false)
+  const copy = useCopy()
 
   return (
     <div className="bg-white py-14">
@@ -15,19 +18,22 @@ export const ContactPage = () => {
       </Helmet>
       <div className="container grid gap-10 lg:grid-cols-2">
         <section className="space-y-4">
-          <p className="section-title">Let’s talk HVAC</p>
-          <p className="section-subtitle">Call 305-720-8273 or send a message for proposals, partnerships or emergencies—an MGM family member still picks up.</p>
+          <p className="section-title">{copy.contact.title}</p>
+          <p className="section-subtitle">{copy.contact.subtitle}</p>
           <div className="rounded-2xl bg-brand-light p-6">
-            <p className="text-lg font-semibold text-brand-dark">Dispatch Centers</p>
-            <p className="text-sm text-slate-600">Miami • Fort Lauderdale • Orlando • Tampa</p>
+            <p className="text-lg font-semibold text-brand-dark">{copy.contact.dispatchTitle}</p>
+            <p className="text-sm text-slate-600">{copy.contact.dispatchAreas}</p>
             <p className="mt-4 text-sm text-slate-600">Email: dispatch@mgmacappliances.com</p>
+            <Button variant="secondary" className="mt-4" onClick={() => (window.location.href = CONTACT_PHONE_LINK)}>
+              {copy.header.callNow}
+            </Button>
           </div>
         </section>
         <section className="rounded-2xl border border-slate-100 p-6 shadow-card">
           {submitted ? (
             <div className="space-y-3 text-center">
-              <p className="text-2xl font-semibold text-brand-dark">Message received</p>
-              <p className="text-slate-600">Our team will respond within one business hour.</p>
+              <p className="text-2xl font-semibold text-brand-dark">{copy.contact.successTitle}</p>
+              <p className="text-slate-600">{copy.contact.successBody}</p>
             </div>
           ) : (
             <form

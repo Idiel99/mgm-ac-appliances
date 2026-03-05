@@ -18,6 +18,7 @@ import { PrivacyPage } from '@/pages/PrivacyPage'
 import { TermsPage } from '@/pages/TermsPage'
 import { CommercialHVACPage } from '@/pages/CommercialHVACPage'
 import { NotFoundPage } from '@/pages/NotFoundPage'
+import { LanguageProvider } from '@/context/LanguageContext'
 
 const rawBase = import.meta.env.BASE_URL
 const basename = rawBase !== '/' ? rawBase.replace(/\/$/, '') : undefined
@@ -50,7 +51,9 @@ const router = createBrowserRouter(
 export default function App() {
   return (
     <HelmetProvider>
-      <RouterProvider router={router} />
+      <LanguageProvider>
+        <RouterProvider router={router} />
+      </LanguageProvider>
     </HelmetProvider>
   )
 }

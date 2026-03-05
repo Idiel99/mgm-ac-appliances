@@ -1,13 +1,32 @@
 import { Button } from '@/components/ui/Button'
 import { useNavigate } from 'react-router-dom'
+import { CONTACT_PHONE_LINK } from '@/config/site'
 
 interface HeroProps {
   title: string
   subtitle: string
   highlight?: string
+  stats: { value: string; label: string }[]
+  callLabel: string
+  primaryCtaLabel: string
+  coverageEyebrow: string
+  coverageTitle: string
+  coverageBody: string
+  coveragePoints: string[]
 }
 
-export const Hero = ({ title, subtitle, highlight }: HeroProps) => {
+export const Hero = ({
+  title,
+  subtitle,
+  highlight,
+  stats,
+  callLabel,
+  primaryCtaLabel,
+  coverageEyebrow,
+  coverageTitle,
+  coverageBody,
+  coveragePoints
+}: HeroProps) => {
   const navigate = useNavigate()
 
   return (
@@ -18,37 +37,30 @@ export const Hero = ({ title, subtitle, highlight }: HeroProps) => {
           <h1 className="text-4xl font-bold text-brand-dark md:text-5xl">{title}</h1>
           <p className="text-lg text-slate-600">{subtitle}</p>
           <div className="flex flex-wrap gap-4">
-            <Button size="lg" onClick={() => navigate('/booking')}>Schedule Service</Button>
-            <Button variant="secondary" size="lg" onClick={() => (window.location.href = 'tel:+13057208273')}>
-              Call 305-720-8273
+            <Button size="lg" onClick={() => navigate('/booking')}>
+              {primaryCtaLabel}
+            </Button>
+            <Button variant="secondary" size="lg" onClick={() => (window.location.href = CONTACT_PHONE_LINK)}>
+              {callLabel}
             </Button>
           </div>
           <div className="flex flex-wrap gap-8 text-sm">
-            <div>
-              <p className="text-3xl font-bold text-brand-dark">24/7</p>
-              <p className="text-slate-600">Emergency dispatch</p>
-            </div>
-            <div>
-              <p className="text-3xl font-bold text-brand-dark">45k+</p>
-              <p className="text-slate-600">Systems maintained</p>
-            </div>
-            <div>
-              <p className="text-3xl font-bold text-brand-dark">4.9 ★</p>
-              <p className="text-slate-600">Google rating</p>
-            </div>
+            {stats.map((stat) => (
+              <div key={stat.label}>
+                <p className="text-3xl font-bold text-brand-dark">{stat.value}</p>
+                <p className="text-slate-600">{stat.label}</p>
+              </div>
+            ))}
           </div>
         </div>
         <div className="rounded-3xl bg-gradient-to-br from-brand-primary to-brand-dark p-8 text-white shadow-2xl">
-          <p className="text-lg font-semibold uppercase tracking-widest text-white/70">Florida Coverage</p>
-          <h2 className="mt-6 text-3xl font-bold">Enterprise HVAC for Miami, Fort Lauderdale, Orlando & Tampa</h2>
-          <p className="mt-4 text-white/80">
-            Dedicated technician teams in each market, fleet GPS tracking, and redundancy for storm season to keep
-            residences, data rooms and commercial spaces online.
-          </p>
+          <p className="text-lg font-semibold uppercase tracking-widest text-white/70">{coverageEyebrow}</p>
+          <h2 className="mt-6 text-3xl font-bold">{coverageTitle}</h2>
+          <p className="mt-4 text-white/80">{coverageBody}</p>
           <ul className="mt-6 space-y-3 text-white/80">
-            <li>• Fully insured field teams on call 24/7</li>
-            <li>• FEMA & hurricane response ready</li>
-            <li>• Financing up to 60 months</li>
+            {coveragePoints.map((point) => (
+              <li key={point}>• {point}</li>
+            ))}
           </ul>
         </div>
       </div>
