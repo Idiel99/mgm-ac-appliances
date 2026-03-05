@@ -2,11 +2,13 @@ import { useParams, useNavigate } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 import { getCityBySlug } from '@/content'
 import { Button } from '@/components/ui/Button'
+import { useCopy } from '@/context/LanguageContext'
 
 export const CityPage = () => {
   const { citySlug } = useParams()
   const city = getCityBySlug(citySlug)
   const navigate = useNavigate()
+  const copy = useCopy()
 
   if (!city) {
     return (
@@ -30,7 +32,7 @@ export const CityPage = () => {
           <h1 className="text-4xl font-bold text-brand-dark">{city.name}</h1>
           <p className="text-lg text-slate-600">{city.hero}</p>
           <p className="text-slate-600">{city.coverageText}</p>
-          <Button onClick={() => navigate('/booking')}>Book in {city.name}</Button>
+          <Button onClick={() => navigate('/booking')}>{copy.hero.primaryCta}</Button>
         </header>
         <section>
           <p className="section-title">Neighborhoods + Coverage</p>

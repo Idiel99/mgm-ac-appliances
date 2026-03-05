@@ -11,6 +11,7 @@ export const ServiceDetailPage = () => {
   const { serviceSlug } = useParams()
   const service = getServiceBySlug(serviceSlug)
   const navigate = useNavigate()
+  const copy = useCopy()
 
   const faqItems = useMemo(
     () => service?.faq.map((item, index) => ({ id: `${index}`, title: item.question, content: item.answer })) ?? [],
@@ -42,9 +43,9 @@ export const ServiceDetailPage = () => {
           <h1 className="text-4xl font-bold text-brand-dark">{service.hero}</h1>
           <p className="text-lg text-slate-600">{service.shortDescription}</p>
           <div className="flex flex-wrap gap-3">
-            <Button onClick={() => navigate('/booking')}>Schedule service</Button>
-            <Button variant="secondary" onClick={() => (window.location.href = 'tel:+13057208273')}>
-              Call dispatch
+            <Button onClick={() => navigate('/booking')}>{copy.hero.primaryCta}</Button>
+            <Button variant="secondary" onClick={() => (window.location.href = CONTACT_PHONE_LINK)}>
+              {copy.header.callNow}
             </Button>
           </div>
         </header>
