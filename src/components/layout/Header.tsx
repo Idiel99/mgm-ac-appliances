@@ -53,7 +53,7 @@ export const Header = () => {
         </div>
 
         <button className="lg:hidden" onClick={() => setOpen((prev) => !prev)} aria-label="Toggle navigation">
-          <span className="text-2xl">☰</span>
+          <span className="text-2xl">{open ? '✕' : '☰'}</span>
         </button>
       </div>
 
