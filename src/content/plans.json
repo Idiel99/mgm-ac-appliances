@@ -1,0 +1,40 @@
+[
+  {
+    "id": "basic",
+    "name": "Essential",
+    "priceMonthly": 19,
+    "priceYearly": 199,
+    "perks": [
+      "1 seasonal tune-up",
+      "10% repair discount",
+      "24/7 live support"
+    ],
+    "bestFor": "Townhomes & condos"
+  },
+  {
+    "id": "pro",
+    "name": "Comfort Pro",
+    "priceMonthly": 39,
+    "priceYearly": 399,
+    "perks": [
+      "2 tune-ups per year",
+      "15% repair discount",
+      "Priority dispatch",
+      "Indoor air quality check"
+    ],
+    "bestFor": "Single-family homes"
+  },
+  {
+    "id": "premium",
+    "name": "Signature",
+    "priceMonthly": 69,
+    "priceYearly": 699,
+    "perks": [
+      "Quarterly inspections",
+      "30% repair discount",
+      "No after-hours fees",
+      "Dedicated account manager"
+    ],
+    "bestFor": "Luxury homes & light commercial"
+  }
+]

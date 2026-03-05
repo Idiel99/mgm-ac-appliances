@@ -1,0 +1,59 @@
+[
+  {
+    "slug": "miami",
+    "name": "Miami",
+    "counties": ["Miami-Dade"],
+    "neighborhoods": ["Brickell", "Coconut Grove", "Kendall", "Doral"],
+    "hero": "Same-day HVAC service throughout Miami-Dade.",
+    "coverageText": "Technicians are stationed from Florida City to Aventura with GPS-routed dispatching.",
+    "faq": [
+      {
+        "question": "What is the average arrival time?",
+        "answer": "Under 90 minutes for emergency calls and same-day for standard appointments."
+      }
+    ],
+    "seo": {
+      "title": "Miami AC Repair & Installation",
+      "description": "Insured HVAC crews covering every Miami neighborhood with 24/7 emergency response."
+    }
+  },
+  {
+    "slug": "fort-lauderdale",
+    "name": "Fort Lauderdale",
+    "counties": ["Broward"],
+    "neighborhoods": ["Las Olas", "Plantation", "Pembroke Pines"],
+    "hero": "HVAC coverage along the entire Broward corridor.",
+    "coverageText": "From beachfront condos to inland warehouses, we stage technicians minutes away.",
+    "faq": [],
+    "seo": {
+      "title": "Fort Lauderdale HVAC Services",
+      "description": "Commercial and residential HVAC repair, replacement and maintenance across Broward County."
+    }
+  },
+  {
+    "slug": "orlando",
+    "name": "Orlando",
+    "counties": ["Orange", "Seminole"],
+    "neighborhoods": ["Lake Nona", "Winter Park", "Dr. Phillips"],
+    "hero": "Central Florida’s enterprise HVAC partner.",
+    "coverageText": "Fleet coverage throughout I-4 including theme park corridor and surrounding HOAs.",
+    "faq": [],
+    "seo": {
+      "title": "Orlando AC Repair & Installation",
+      "description": "Fast AC repair and new installations engineered for humid Central Florida climates."
+    }
+  },
+  {
+    "slug": "tampa",
+    "name": "Tampa",
+    "counties": ["Hillsborough", "Pinellas"],
+    "neighborhoods": ["South Tampa", "Wesley Chapel", "Clearwater"],
+    "hero": "Bay-area HVAC with hurricane-ready installs.",
+    "coverageText": "Dedicated coastal response team for storm-season outages and salt-air corrosion.",
+    "faq": [],
+    "seo": {
+      "title": "Tampa HVAC Company",
+      "description": "HVAC replacements, maintenance plans and emergency repair for homes and high-rises across Tampa Bay."
+    }
+  }
+]

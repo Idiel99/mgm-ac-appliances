@@ -1,0 +1,29 @@
+[
+  {
+    "id": "proj-miami-beach",
+    "title": "High-Rise Chiller Retrofit",
+    "serviceType": "Commercial HVAC",
+    "city": "Miami Beach",
+    "beforeImage": "/images/project-chiller-before.webp",
+    "afterImage": "/images/project-chiller-after.webp",
+    "description": "Replaced 1980s rooftop chillers with variable-speed magnetic bearing chillers, cutting energy use 32%."
+  },
+  {
+    "id": "proj-orlando-estate",
+    "title": "Lake Nona Luxury Home Upgrade",
+    "serviceType": "AC Installation",
+    "city": "Orlando",
+    "beforeImage": "/images/project-lake-nona-before.webp",
+    "afterImage": "/images/project-lake-nona-after.webp",
+    "description": "Installed three-zone inverter systems with whole-home dehumidification and HEPA filtration."
+  },
+  {
+    "id": "proj-miami-repair",
+    "title": "24/7 Emergency Data Center",
+    "serviceType": "Emergency HVAC",
+    "city": "Miami",
+    "beforeImage": "/images/project-data-before.webp",
+    "afterImage": "/images/project-data-after.webp",
+    "description": "Stabilized server room temps within 45 minutes using temporary cooling and redundant CRAC units."
+  }
+]

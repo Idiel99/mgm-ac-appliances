@@ -1,0 +1,157 @@
+[
+  {
+    "slug": "ac-repair",
+    "name": "AC Repair",
+    "shortDescription": "Rapid diagnostics and same-day repairs for residential and commercial systems.",
+    "hero": "Get cold air back in hours, not days.",
+    "symptoms": [
+      "AC blowing warm air",
+      "Water leaking from air handler",
+      "Breaker tripping when unit starts",
+      "High humidity inside"
+    ],
+    "includes": [
+      "Full system diagnostic",
+      "Up-front repair estimate",
+      "Temporary cooling solutions",
+      "90-day workmanship warranty"
+    ],
+    "faq": [
+      {
+        "question": "How fast can you arrive in Miami?",
+        "answer": "Technicians are staged throughout Miami-Dade with average arrival times under 90 minutes."
+      },
+      {
+        "question": "Do you service all brands?",
+        "answer": "Yes. We carry OEM parts for Trane, Carrier, Lennox, Rheem, Goodman and more."
+      }
+    ],
+    "seo": {
+      "title": "Miami Emergency AC Repair | MGM A/C Appliances",
+      "description": "24/7 AC repair across Miami, Fort Lauderdale, Orlando and Tampa with fully insured technicians."
+    },
+    "relatedServices": ["ac-maintenance", "ac-installation"]
+  },
+  {
+    "slug": "ac-installation",
+    "name": "AC Installation",
+    "shortDescription": "High-efficiency replacements engineered for Florida humidity and hurricane zones.",
+    "hero": "Engineered installs backed by load calculations and permitting.",
+    "symptoms": [
+      "Systems older than 12 years",
+      "Frequent repair calls",
+      "Uneven temperatures",
+      "High energy bills"
+    ],
+    "includes": [
+      "Load calculation & duct evaluation",
+      "Permit handling & inspections",
+      "Financing options with $0 down",
+      "10-year parts & labor warranties"
+    ],
+    "faq": [
+      {
+        "question": "Do you offer financing?",
+        "answer": "Yes. 12, 36 and 60-month plans with promotional APRs for qualified homeowners."
+      },
+      {
+        "question": "Can you integrate smart thermostats?",
+        "answer": "We install Nest, Ecobee and proprietary building automation controls."
+      }
+    ],
+    "seo": {
+      "title": "HVAC Installation Miami | High-Efficiency AC Replacements",
+      "description": "Professional AC installation with permitting, financing and humidity control packages."
+    },
+    "relatedServices": ["ac-repair", "heat-pump-services"]
+  },
+  {
+    "slug": "ac-maintenance",
+    "name": "AC Maintenance",
+    "shortDescription": "Precision tune-ups that extend equipment life and maintain efficiency.",
+    "hero": "Stop breakdowns before peak summer hits.",
+    "symptoms": [
+      "Uneven cooling",
+      "Rising energy bills",
+      "Dust buildup",
+      "Unit short cycling"
+    ],
+    "includes": [
+      "21-point system inspection",
+      "Coil cleaning & drain flush",
+      "Refrigerant balancing",
+      "Filter program"
+    ],
+    "faq": [
+      {
+        "question": "How often should I schedule maintenance?",
+        "answer": "Twice per year in Florida—pre-summer and pre-winter."
+      },
+      {
+        "question": "Do maintenance plans include discounts?",
+        "answer": "Members receive 15% off repairs, priority dispatching and extended warranties."
+      }
+    ],
+    "seo": {
+      "title": "Miami AC Maintenance Plans | Preventative HVAC Service",
+      "description": "Seasonal tune-ups, drain cleanings and coil care to keep Florida AC units running peak."
+    },
+    "relatedServices": ["ac-repair", "maintenance-plans"]
+  },
+  {
+    "slug": "emergency-hvac",
+    "name": "Emergency HVAC",
+    "shortDescription": "24/7 live dispatch for no-cool situations and commercial outages.",
+    "hero": "When the thermostat flashes 85°, we’re already rolling.",
+    "symptoms": [
+      "System completely off",
+      "Smoke or burning smells",
+      "Server room temp alerts"
+    ],
+    "includes": [
+      "Live agent within 60 seconds",
+      "Technician ETA tracking",
+      "Temporary cooling trailers",
+      "Insurance-ready documentation"
+    ],
+    "faq": [
+      {
+        "question": "Is there an emergency dispatch fee?",
+        "answer": "No after-hours premium for maintenance members; standard flat rate for others."
+      }
+    ],
+    "seo": {
+      "title": "Miami 24/7 Emergency HVAC Service",
+      "description": "Rapid-response HVAC technicians with trucks stocked for most emergency repairs."
+    },
+    "relatedServices": ["ac-repair", "commercial-hvac"]
+  },
+  {
+    "slug": "commercial-hvac",
+    "name": "Commercial HVAC",
+    "shortDescription": "Design-build, retrofits and maintenance contracts for facilities up to 500,000 sq ft.",
+    "hero": "Enterprise programs with dedicated project managers and analytics.",
+    "symptoms": [
+      "Frequent rooftop unit alarms",
+      "Inconsistent building automation data",
+      "Need for predictive maintenance"
+    ],
+    "includes": [
+      "Capital planning roadmap",
+      "Sensor-driven maintenance",
+      "Technician badging and compliance",
+      "After-action reporting"
+    ],
+    "faq": [
+      {
+        "question": "Do you handle multi-site portfolios?",
+        "answer": "Yes. Our national accounts desk supports HOAs, REITs and franchise groups."
+      }
+    ],
+    "seo": {
+      "title": "Florida Commercial HVAC Programs",
+      "description": "Rooftop units, VRF, chillers and maintenance contracts with analytics-backed reporting."
+    },
+    "relatedServices": ["ac-installation", "maintenance-plans"]
+  }
+]
