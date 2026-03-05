@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import { Link, NavLink, useNavigate } from 'react-router-dom'
 import { Button } from '@/components/ui/Button'
 import { cn } from '@/lib/utils'
 
@@ -16,6 +16,7 @@ const navItems = [
 
 export const Header = () => {
   const [open, setOpen] = useState(false)
+  const navigate = useNavigate()
 
   return (
     <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur">
@@ -46,7 +47,7 @@ export const Header = () => {
           <Button variant="secondary" size="sm" onClick={() => (window.location.href = 'tel:+13055550100')}>
             Call 305-555-0100
           </Button>
-          <Button size="sm" onClick={() => (window.location.href = '/booking')}>
+          <Button size="sm" onClick={() => navigate('/booking')}>
             Schedule Service
           </Button>
         </div>
@@ -71,7 +72,7 @@ export const Header = () => {
                 {item.label}
               </NavLink>
             ))}
-            <Button onClick={() => (window.location.href = '/booking')}>Schedule Service</Button>
+            <Button onClick={() => navigate('/booking')}>Schedule Service</Button>
           </nav>
         </div>
       )}

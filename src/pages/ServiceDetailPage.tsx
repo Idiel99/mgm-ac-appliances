@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { Link, useParams, useNavigate } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 import { getServiceBySlug, services } from '@/content'
 import { Button } from '@/components/ui/Button'
@@ -8,6 +8,7 @@ import { Accordion } from '@/components/ui/Accordion'
 export const ServiceDetailPage = () => {
   const { serviceSlug } = useParams()
   const service = getServiceBySlug(serviceSlug)
+  const navigate = useNavigate()
 
   const faqItems = useMemo(
     () => service?.faq.map((item, index) => ({ id: `${index}`, title: item.question, content: item.answer })) ?? [],
@@ -39,7 +40,7 @@ export const ServiceDetailPage = () => {
           <h1 className="text-4xl font-bold text-brand-dark">{service.hero}</h1>
           <p className="text-lg text-slate-600">{service.shortDescription}</p>
           <div className="flex flex-wrap gap-3">
-            <Button onClick={() => (window.location.href = '/booking')}>Schedule service</Button>
+            <Button onClick={() => navigate('/booking')}>Schedule service</Button>
             <Button variant="secondary" onClick={() => (window.location.href = 'tel:+13055550100')}>
               Call dispatch
             </Button>

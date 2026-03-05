@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom'
+import { useParams, useNavigate } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 import { getCityBySlug } from '@/content'
 import { Button } from '@/components/ui/Button'
@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/Button'
 export const CityPage = () => {
   const { citySlug } = useParams()
   const city = getCityBySlug(citySlug)
+  const navigate = useNavigate()
 
   if (!city) {
     return (
@@ -29,7 +30,7 @@ export const CityPage = () => {
           <h1 className="text-4xl font-bold text-brand-dark">{city.name}</h1>
           <p className="text-lg text-slate-600">{city.hero}</p>
           <p className="text-slate-600">{city.coverageText}</p>
-          <Button onClick={() => (window.location.href = '/booking')}>Book in {city.name}</Button>
+          <Button onClick={() => navigate('/booking')}>Book in {city.name}</Button>
         </header>
         <section>
           <p className="section-title">Neighborhoods + Coverage</p>

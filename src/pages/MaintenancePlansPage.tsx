@@ -5,11 +5,13 @@ import { PricingTable } from '@/components/domain/PricingTable'
 import { Button } from '@/components/ui/Button'
 import { Modal } from '@/components/ui/Modal'
 import type { PlanItem } from '@/content/types'
+import { useNavigate } from 'react-router-dom'
 
 export const MaintenancePlansPage = () => {
   const [billing, setBilling] = useState<'monthly' | 'yearly'>('monthly')
   const [selectedPlan, setSelectedPlan] = useState<PlanItem | null>(null)
   const [modalOpen, setModalOpen] = useState(false)
+  const navigate = useNavigate()
 
   const handleSelectPlan = (plan: PlanItem) => {
     setSelectedPlan(plan)
@@ -45,7 +47,7 @@ export const MaintenancePlansPage = () => {
         <div className="rounded-2xl bg-brand-dark p-6 text-white">
           <p className="text-2xl font-semibold">Need a multi-property plan?</p>
           <p className="mt-2 text-white/80">Our commercial team builds maintenance contracts for HOAs, resorts and portfolios with 10-500 rooftops.</p>
-          <Button className="mt-4" variant="secondary" onClick={() => (window.location.href = '/contact')}>
+          <Button className="mt-4" variant="secondary" onClick={() => navigate('/contact')}>
             Talk to commercial team
           </Button>
         </div>
@@ -64,7 +66,7 @@ export const MaintenancePlansPage = () => {
                 <li key={perk}>• {perk}</li>
               ))}
             </ul>
-            <Button className="w-full" onClick={() => (window.location.href = '/booking')}>
+            <Button className="w-full" onClick={() => navigate('/booking')}>
               Continue to booking
             </Button>
           </div>

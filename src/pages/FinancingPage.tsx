@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet-async'
 import { Input } from '@/components/ui/Input'
 import { Select } from '@/components/ui/Select'
 import { Button } from '@/components/ui/Button'
+import { useNavigate } from 'react-router-dom'
 
 const terms = [12, 36, 60]
 
@@ -12,6 +13,7 @@ export const FinancingPage = () => {
   const apr = 0.089
   const monthlyRate = apr / 12
   const payment = Math.round((amount * monthlyRate) / (1 - Math.pow(1 + monthlyRate, -term)))
+  const navigate = useNavigate()
 
   return (
     <div className="bg-white py-14">
@@ -31,7 +33,7 @@ export const FinancingPage = () => {
             <li>• Soft credit pull pre-qualification</li>
             <li>• Works with PACE and green energy incentives</li>
           </ul>
-          <Button onClick={() => (window.location.href = '/booking')}>Start application</Button>
+          <Button onClick={() => navigate('/booking')}>Start application</Button>
         </section>
         <section className="rounded-2xl border border-slate-100 bg-brand-light p-6 shadow-inner">
           <p className="text-lg font-semibold text-brand-dark">Financing calculator</p>
