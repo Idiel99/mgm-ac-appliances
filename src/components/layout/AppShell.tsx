@@ -2,6 +2,7 @@ import { Outlet, useLocation } from 'react-router-dom'
 import { Header } from './Header'
 import { Footer } from './Footer'
 import { MobileCTA } from './MobileCTA'
+import { ScrollToTop } from './ScrollToTop'
 
 export const AppShell = () => {
   const location = useLocation()
@@ -9,6 +10,7 @@ export const AppShell = () => {
 
   return (
     <div className="flex min-h-screen flex-col bg-brand-light">
+      <ScrollToTop />
       <Header />
       <main className="flex-1 pb-24 lg:pb-0">
         <Outlet />
