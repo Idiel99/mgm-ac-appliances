@@ -11,7 +11,7 @@ export const BookingPage = () => (
       <header className="space-y-2 text-center">
         <p className="text-sm font-semibold uppercase tracking-wide text-brand-primary">Book now</p>
         <h1 className="text-4xl font-bold text-brand-dark">Schedule service in 4 steps</h1>
-        <p className="text-slate-600">Emergency? Call 305-555-0100 for priority routing.</p>
+        <p className="text-slate-600">Emergency? Call 305-720-8273 for priority routing.</p>
       </header>
       <BookingWizard />
     </div>

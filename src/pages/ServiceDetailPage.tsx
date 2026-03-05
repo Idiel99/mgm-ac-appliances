@@ -41,7 +41,7 @@ export const ServiceDetailPage = () => {
           <p className="text-lg text-slate-600">{service.shortDescription}</p>
           <div className="flex flex-wrap gap-3">
             <Button onClick={() => navigate('/booking')}>Schedule service</Button>
-            <Button variant="secondary" onClick={() => (window.location.href = 'tel:+13055550100')}>
+            <Button variant="secondary" onClick={() => (window.location.href = 'tel:+13057208273')}>
               Call dispatch
             </Button>
           </div>

@@ -19,8 +19,8 @@ export const Hero = ({ title, subtitle, highlight }: HeroProps) => {
           <p className="text-lg text-slate-600">{subtitle}</p>
           <div className="flex flex-wrap gap-4">
             <Button size="lg" onClick={() => navigate('/booking')}>Schedule Service</Button>
-            <Button variant="secondary" size="lg" onClick={() => (window.location.href = 'tel:+13055550100')}>
-              Call 305-555-0100
+            <Button variant="secondary" size="lg" onClick={() => (window.location.href = 'tel:+13057208273')}>
+              Call 305-720-8273
             </Button>
           </div>
           <div className="flex flex-wrap gap-8 text-sm">

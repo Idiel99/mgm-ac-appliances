@@ -86,7 +86,7 @@ export const HomePage = () => {
             <p className="mt-3 text-white/80">Live humans answer within 60 seconds. Fleet GPS tracking + temporary cooling assets ready for data rooms & luxury residences.</p>
           </div>
           <div className="flex gap-3">
-            <Button onClick={() => (window.location.href = 'tel:+13055550100')}>Call Now</Button>
+            <Button onClick={() => (window.location.href = 'tel:+13057208273')}>Call Now</Button>
             <Button variant="secondary" onClick={() => navigate('/services/emergency-hvac')}>
               Emergency Details
             </Button>

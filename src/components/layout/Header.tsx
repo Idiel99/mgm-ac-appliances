@@ -44,8 +44,8 @@ export const Header = () => {
         </nav>
 
         <div className="hidden items-center gap-3 lg:flex">
-          <Button variant="secondary" size="sm" onClick={() => (window.location.href = 'tel:+13055550100')}>
-            Call 305-555-0100
+          <Button variant="secondary" size="sm" onClick={() => (window.location.href = 'tel:+13057208273')}>
+            Call 305-720-8273
           </Button>
           <Button size="sm" onClick={() => navigate('/booking')}>
             Schedule Service
