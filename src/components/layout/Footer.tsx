@@ -34,10 +34,10 @@ export const Footer = () => (
       <div className="space-y-3">
         <p className="text-xl font-bold">MGM A/C Appliances</p>
         <p className="text-sm text-white/80">
-          South Florida’s enterprise HVAC partner for Miami, Fort Lauderdale, Orlando and Tampa. Fully insured crews
+          South Florida’s family-owned HVAC partner for Miami, Fort Lauderdale, Orlando and Tampa. Fully insured crews
           backed by 24/7 dispatch.
         </p>
-        <p className="text-sm text-white/80">Fully insured • BBB A+</p>
+        <p className="text-sm text-white/80">Family owned • Fully insured • BBB A+</p>
       </div>
 
       {footerLinks.map((section) => (

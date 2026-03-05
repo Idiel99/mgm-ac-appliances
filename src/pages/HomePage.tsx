@@ -10,8 +10,8 @@ import { Button } from '@/components/ui/Button'
 
 const testimonials = [
   { quote: 'Technician arrived fast and fixed our AC the same day.', author: 'Maria P.', city: 'Miami Beach' },
-  { quote: 'Very professional service and great pricing.', author: 'Andre V.', city: 'Fort Lauderdale' },
-  { quote: 'Best HVAC company in Miami.', author: 'Lena S.', city: 'Brickell' }
+  { quote: 'Felt like working with family—the owners even called afterward to check temperatures.', author: 'Andre V.', city: 'Fort Lauderdale' },
+  { quote: 'They remember our kids’ names and still deliver enterprise-level quality.', author: 'Lena S.', city: 'Brickell' }
 ]
 
 export const HomePage = () => (
@@ -20,10 +20,14 @@ export const HomePage = () => (
       <title>MGM A/C Appliances | Enterprise HVAC Services for Miami & Beyond</title>
       <meta
         name="description"
-        content="Premium HVAC repair, installation and maintenance with 24/7 response across Miami, Fort Lauderdale, Orlando and Tampa."
+        content="Family-owned MGM A/C Appliances delivers premium HVAC repair, installation and maintenance with 24/7 response across Miami, Fort Lauderdale, Orlando and Tampa."
       />
     </Helmet>
-    <Hero title="Florida’s Enterprise HVAC Partner" subtitle="24/7 elite technicians for homes, HOAs, commercial spaces and mission-critical facilities across Miami, Fort Lauderdale, Orlando and Tampa." highlight="Same-Day Dispatch" />
+    <Hero
+      title="MGM A/C Appliances — Florida’s Family HVAC Partner"
+      subtitle="Three generations of the MGM family deliver 24/7 care for homes, HOAs, commercial spaces and mission-critical facilities across Miami, Fort Lauderdale, Orlando and Tampa."
+      highlight="Family owned & operated"
+    />
 
     <section className="bg-brand-light py-14">
       <div className="container space-y-8">
@@ -32,6 +36,27 @@ export const HomePage = () => (
           <p className="section-subtitle">Trusted by 8,000+ homeowners and 120 commercial properties.</p>
         </div>
         <TrustBadges />
+        <div className="grid gap-4 md:grid-cols-3">
+          {[
+            {
+              title: 'Three-generation roots',
+              copy: 'Grandparents started in Hialeah garages; today their kids and grandkids still run every crew.'
+            },
+            {
+              title: 'Neighbors first',
+              copy: 'Technicians live in the same neighborhoods they serve—no outsourced call centers.'
+            },
+            {
+              title: 'Hands-on ownership',
+              copy: 'An MGM family member reviews every major install and follows up with homeowners personally.'
+            }
+          ].map((item) => (
+            <div key={item.title} className="rounded-2xl bg-white p-6 shadow-card">
+              <p className="text-xl font-semibold text-brand-dark">{item.title}</p>
+              <p className="mt-2 text-slate-600">{item.copy}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
 

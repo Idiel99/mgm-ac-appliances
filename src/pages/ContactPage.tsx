@@ -16,7 +16,7 @@ export const ContactPage = () => {
       <div className="container grid gap-10 lg:grid-cols-2">
         <section className="space-y-4">
           <p className="section-title">Let’s talk HVAC</p>
-          <p className="section-subtitle">Call 305-555-0100 or send a message for proposals, partnerships or emergencies.</p>
+          <p className="section-subtitle">Call 305-555-0100 or send a message for proposals, partnerships or emergencies—an MGM family member still picks up.</p>
           <div className="rounded-2xl bg-brand-light p-6">
             <p className="text-lg font-semibold text-brand-dark">Dispatch Centers</p>
             <p className="text-sm text-slate-600">Miami • Fort Lauderdale • Orlando • Tampa</p>

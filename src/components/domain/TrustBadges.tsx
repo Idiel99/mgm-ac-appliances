@@ -1,5 +1,5 @@
 const badges = [
-  { label: 'Certified Technicians', detail: 'NATE & OEM trained' },
+  { label: 'Family Owned', detail: 'Serving Florida since 1998' },
   { label: '4.9 ★ Google', detail: '1,200+ reviews' },
   { label: '24/7 Emergency', detail: 'Live dispatch in 60s' },
   { label: 'Fully Insured', detail: 'General liability & workers comp' }
