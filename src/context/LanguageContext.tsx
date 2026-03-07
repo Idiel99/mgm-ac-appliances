@@ -1,4 +1,5 @@
-import { createContext, PropsWithChildren, useContext, useState } from 'react'
+import { createContext, useContext, useState } from 'react'
+import type { PropsWithChildren } from 'react'
 import { copy, type Language } from '@/i18n/copy'
 
 interface LanguageContextValue {

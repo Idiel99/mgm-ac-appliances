@@ -6,13 +6,13 @@ interface HeroProps {
   title: string
   subtitle: string
   highlight?: string
-  stats: { value: string; label: string }[]
+  stats: ReadonlyArray<{ value: string; label: string }>
   callLabel: string
   primaryCtaLabel: string
   coverageEyebrow: string
   coverageTitle: string
   coverageBody: string
-  coveragePoints: string[]
+  coveragePoints: ReadonlyArray<string>
 }
 
 export const Hero = ({

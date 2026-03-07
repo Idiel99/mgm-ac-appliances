@@ -49,6 +49,9 @@ export const Header = () => {
 
         <div className="hidden items-center gap-4 lg:flex">
           <LanguageSwitcher />
+          <Button variant="secondary" size="sm" onClick={() => (window.location.href = CONTACT_PHONE_LINK)}>
+            {copy.header.callNow}
+          </Button>
           <Button size="sm" onClick={() => navigate('/booking')}>
             {copy.header.schedule}
           </Button>

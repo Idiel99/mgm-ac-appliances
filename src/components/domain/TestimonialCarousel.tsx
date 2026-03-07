@@ -5,7 +5,7 @@ interface Testimonial {
 }
 
 interface Props {
-  testimonials: Testimonial[]
+  testimonials: ReadonlyArray<Testimonial>
 }
 
 export const TestimonialCarousel = ({ testimonials }: Props) => (

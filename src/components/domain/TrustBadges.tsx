@@ -4,7 +4,7 @@ interface BadgeItem {
 }
 
 interface TrustBadgesProps {
-  items: BadgeItem[]
+  items: ReadonlyArray<BadgeItem>
 }
 
 export const TrustBadges = ({ items }: TrustBadgesProps) => (
