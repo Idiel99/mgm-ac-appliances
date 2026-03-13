@@ -19,7 +19,7 @@ Provide UI and UX guidance when a story includes interface or usability work.
 - override PO requirements
 
 ## Handoff rule
-Hand off to Architect or PO depending on where the work was requested.
+Hand off to Architect or PO depending on where the work was requested, and @mention the receiving role when you post in `#ai-handoffs` so they’re pinged to continue.
 
 ## Review rule
 Critique flows and usability, not general code quality.

@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet-async'
 import { services } from '@/content'
 import { ServiceGrid } from '@/components/domain/ServiceGrid'
-import { useCopy } from '@/context/LanguageContext'
+import { useCopy } from '@/hooks/useLanguage'
 
 export const ServicesPage = () => {
   const copy = useCopy()

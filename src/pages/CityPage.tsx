@@ -2,7 +2,7 @@ import { useParams, useNavigate } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 import { getCityBySlug } from '@/content'
 import { Button } from '@/components/ui/Button'
-import { useCopy } from '@/context/LanguageContext'
+import { useCopy } from '@/hooks/useLanguage'
 
 export const CityPage = () => {
   const { citySlug } = useParams()

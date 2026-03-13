@@ -21,7 +21,7 @@ Support infrastructure, CI/CD, environment readiness, and security posture for s
 - merge PRs
 
 ## Handoff rule
-Hand off readiness notes to the PO, Developer, or Eng Lead as appropriate.
+Hand off readiness notes to the PO, Developer, or Eng Lead as appropriate, and @mention whichever role you’re routing to when you post in `#ai-handoffs` so they get the alert.
 
 ## Review rule
 Critique operational safety, deployment readiness, and infra risk.

@@ -3,6 +3,8 @@ name: Deploy MGM AC Appliances
 on:
   push:
     branches: [ main ]
+  pull_request:
+    branches: [ main ]
   workflow_dispatch:
 
 permissions:
@@ -15,6 +17,31 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  performance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: Run Lighthouse CI budgets
+        run: npm run perf:lhci
+      - name: Upload Lighthouse artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lhci-report
+          path: ./.lighthouseci
+      - name: Run WebPageTest guardrail (optional)
+        run: npm run perf:wpt
+        env:
+          WPT_API_KEY: ${{ secrets.WPT_API_KEY }}
+          WPT_TEST_URL: ${{ vars.WPT_TEST_URL }}
+          WPT_LOCATION: ${{ vars.WPT_LOCATION }}
+          WPT_CONNECTIVITY: ${{ vars.WPT_CONNECTIVITY }}
   build:
     runs-on: ubuntu-latest
     steps:
@@ -29,7 +56,8 @@ jobs:
         with:
           path: dist
   deploy:
-    needs: build
+    needs: [build, performance]
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     environment:
       name: github-pages

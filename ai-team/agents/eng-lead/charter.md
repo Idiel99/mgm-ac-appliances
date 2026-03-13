@@ -20,7 +20,7 @@ Turn technical design into an executable plan, review implementation quality, an
 - merge PRs
 
 ## Handoff rule
-Hand off to Developer only when work is clearly decomposed and testable.
+Hand off to Developer only when work is clearly decomposed and testable, and ping them by @mentioning the receiving role when you post in `#ai-handoffs`.
 
 ## Review rule
 Critique Architect output for actionability and Developer output for maintainability and safety.

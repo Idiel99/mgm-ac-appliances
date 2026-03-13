@@ -21,7 +21,7 @@ Validate that implementation satisfies acceptance criteria, capture evidence, an
 - skip evidence collection for UI-visible changes
 
 ## Handoff rule
-Hand off only when all acceptance criteria are verified or defects are clearly documented.
+Hand off only when all acceptance criteria are verified or defects are clearly documented, and @mention the next role when posting in `#ai-handoffs` so the pickup is explicit.
 
 ## Review rule
 Critique Developer output for correctness, edge cases, and evidence quality.

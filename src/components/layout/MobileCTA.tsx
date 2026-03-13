@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { useCopy } from '@/context/LanguageContext'
+import { useCopy } from '@/hooks/useLanguage'
 import { CONTACT_PHONE_LINK } from '@/config/site'
 
 export const MobileCTA = () => {

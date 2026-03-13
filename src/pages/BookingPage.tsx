@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async'
 import { BookingWizard } from '@/components/domain/BookingWizard'
-import { useCopy } from '@/context/LanguageContext'
+import { useCopy } from '@/hooks/useLanguage'
 
 export const BookingPage = () => {
   const copy = useCopy()

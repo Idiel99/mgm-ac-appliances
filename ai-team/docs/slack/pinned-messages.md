@@ -16,6 +16,8 @@ NEXT ACTION:
 FILES UPDATED:
 ```
 
+Reminder: @mention the receiving role/operator in the post so they get a realtime ping.
+
 ## #ai-alerts
 ```text
 Purpose:

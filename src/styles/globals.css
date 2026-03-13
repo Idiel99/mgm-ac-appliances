@@ -31,3 +31,63 @@ img {
 .card {
   @apply bg-white rounded-2xl shadow-card p-6;
 }
+
+@keyframes heroAmbientDrift {
+  0% {
+    transform: translate3d(-4%, -2%, 0) scale(1.05);
+    filter: hue-rotate(0deg) saturate(1);
+  }
+  50% {
+    transform: translate3d(4%, 3%, 0) scale(1);
+    filter: hue-rotate(35deg) saturate(1.2);
+  }
+  100% {
+    transform: translate3d(-3%, 2%, 0) scale(1.08);
+    filter: hue-rotate(70deg) saturate(1);
+  }
+}
+
+@keyframes heroCtaPulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(14, 116, 144, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 18px rgba(14, 116, 144, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(14, 116, 144, 0);
+  }
+}
+
+@keyframes heroCtaShimmer {
+  0% {
+    transform: translateX(-150%);
+  }
+  100% {
+    transform: translateX(150%);
+  }
+}
+
+.hero-ambient-layer {
+  animation: heroAmbientDrift 18s ease-in-out infinite;
+}
+
+.hero-cta-pulse {
+  animation: heroCtaPulse 7s ease-in-out infinite;
+}
+
+.hero-cta-shimmer::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(120deg, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0) 70%);
+  transform: translateX(-150%);
+  animation: heroCtaShimmer 6s linear infinite;
+  pointer-events: none;
+}
+
+.hero-cta-shimmer {
+  position: relative;
+  overflow: hidden;
+}

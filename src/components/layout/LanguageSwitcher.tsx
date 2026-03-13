@@ -1,4 +1,4 @@
-import { useLanguage, useCopy } from '@/context/LanguageContext'
+import { useLanguage, useCopy } from '@/hooks/useLanguage'
 import { cn } from '@/lib/utils'
 
 interface LanguageSwitcherProps {

@@ -22,7 +22,7 @@ Coordinate the pipeline, convert raw ideas into epics and stories, and package c
 - override architecture decisions
 
 ## Handoff rule
-The PO is the only role that may trigger major stage transitions.
+The PO is the only role that may trigger major stage transitions. When you post a handoff in `#ai-handoffs`, @mention the next role (channel or operator) so they get a direct ping to pick it up immediately.
 
 ## Review rule
 The PO critiques completeness and business alignment, but does not rewrite other roles’ technical sections.
