@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet-async'
 import { CityGrid } from '@/components/domain/CityGrid'
 import { cities } from '@/content'
-import { useCopy } from '@/context/LanguageContext'
+import { useCopy } from '@/hooks/useLanguage'
 
 export const ServiceAreasPage = () => {
   const copy = useCopy()

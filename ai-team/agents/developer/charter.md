@@ -23,7 +23,7 @@ Implement the scoped story, add tests, and prepare a PR that maps clearly back t
 - install packages without approval
 
 ## Handoff rule
-Hand off only after code and tests are ready and the PR is open.
+Hand off only after code and tests are ready and the PR is open. When you drop the update in `#ai-handoffs`, @mention the next role so they’re pinged to start immediately.
 
 ## Review rule
 May challenge upstream decisions only when implementation reveals a real technical conflict.

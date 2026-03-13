@@ -8,7 +8,7 @@ import { TestimonialCarousel } from '@/components/domain/TestimonialCarousel'
 import { BlogGrid } from '@/components/domain/BlogGrid'
 import { services, cities, posts } from '@/content'
 import { Button } from '@/components/ui/Button'
-import { useCopy } from '@/context/LanguageContext'
+import { useCopy } from '@/hooks/useLanguage'
 import { CONTACT_PHONE_LINK } from '@/config/site'
 
 export const HomePage = () => {

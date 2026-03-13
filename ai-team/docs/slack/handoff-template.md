@@ -4,6 +4,7 @@
 ARTIFACT: STORY-###
 FROM: <ROLE>
 TO: <ROLE>
+(@mention the receiving role/operator here so they’re pinged.)
 
 STATUS: <STATUS>
 

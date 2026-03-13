@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async'
 import { Input } from '@/components/ui/Input'
 import { Textarea } from '@/components/ui/Textarea'
 import { Button } from '@/components/ui/Button'
-import { useCopy } from '@/context/LanguageContext'
+import { useCopy } from '@/hooks/useLanguage'
 import { CONTACT_PHONE_LINK } from '@/config/site'
 
 export const ContactPage = () => {

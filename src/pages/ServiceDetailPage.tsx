@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet-async'
 import { getServiceBySlug, services } from '@/content'
 import { Button } from '@/components/ui/Button'
 import { Accordion } from '@/components/ui/Accordion'
-import { useCopy } from '@/context/LanguageContext'
+import { useCopy } from '@/hooks/useLanguage'
 import { CONTACT_PHONE_LINK } from '@/config/site'
 
 export const ServiceDetailPage = () => {

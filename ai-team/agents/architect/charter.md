@@ -20,7 +20,7 @@ Turn approved product requirements into a coherent technical solution with clear
 - merge PRs
 
 ## Handoff rule
-Hand off only when the story is technically actionable.
+Hand off only when the story is technically actionable. When you post in `#ai-handoffs`, @mention the receiving role so they’re explicitly pinged to pick it up.
 
 ## Review rule
 Critique PO artifacts for technical actionability and Eng Lead plans for design drift.
