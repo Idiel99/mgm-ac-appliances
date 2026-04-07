@@ -1,4 +1,5 @@
 import { getTranslations } from "next-intl/server";
+import ScrollReveal from "./ScrollReveal";
 
 const SERVICE_KEYS = [
   "installation",
@@ -37,7 +38,7 @@ export default async function Services() {
           {t("subtitle")}
         </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <ScrollReveal animation="fade-up" staggerChildren staggerInterval={120} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {SERVICE_KEYS.map((key) => (
             <div
               key={key}
@@ -58,7 +59,7 @@ export default async function Services() {
               </p>
             </div>
           ))}
-        </div>
+        </ScrollReveal>
       </div>
     </section>
   );

@@ -1,4 +1,5 @@
 import { getTranslations } from "next-intl/server";
+import ScrollReveal from "./ScrollReveal";
 
 const WHY_KEYS = ["family", "licensed", "bilingual"] as const;
 
@@ -27,7 +28,7 @@ export default async function WhyUs() {
           {t("title")}
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <ScrollReveal animation="zoom-in" staggerChildren staggerInterval={150} className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {WHY_KEYS.map((key) => (
             <div
               key={key}
@@ -45,7 +46,7 @@ export default async function WhyUs() {
               </p>
             </div>
           ))}
-        </div>
+        </ScrollReveal>
       </div>
     </section>
   );

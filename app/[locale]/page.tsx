@@ -5,6 +5,7 @@ import Services from "@/components/Services";
 import WhyUs from "@/components/WhyUs";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import ScrollReveal from "@/components/ScrollReveal";
 
 export default async function Home({
   params,
@@ -20,7 +21,9 @@ export default async function Home({
       <Hero />
       <Services />
       <WhyUs />
-      <Contact />
+      <ScrollReveal animation="fade-up">
+        <Contact />
+      </ScrollReveal>
       <Footer />
     </main>
   );

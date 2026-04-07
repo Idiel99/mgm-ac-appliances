@@ -19,3 +19,57 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-outfit), sans-serif;
 }
+
+/* Scroll reveal animations */
+.scroll-hidden {
+  opacity: 0;
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.scroll-hidden.scroll-fade-up {
+  transform: translateY(32px);
+}
+
+.scroll-hidden.scroll-fade-left {
+  transform: translateX(-32px);
+}
+
+.scroll-hidden.scroll-fade-right {
+  transform: translateX(32px);
+}
+
+.scroll-hidden.scroll-zoom-in {
+  transform: scale(0.92);
+}
+
+.scroll-visible {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+/* Stagger mode — children start hidden, reveal individually */
+.scroll-stagger > * {
+  opacity: 0;
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.scroll-stagger.scroll-fade-up > * {
+  transform: translateY(24px);
+}
+
+.scroll-stagger.scroll-fade-left > * {
+  transform: translateX(-24px);
+}
+
+.scroll-stagger.scroll-fade-right > * {
+  transform: translateX(24px);
+}
+
+.scroll-stagger.scroll-zoom-in > * {
+  transform: scale(0.92);
+}
+
+.scroll-stagger > .scroll-visible {
+  opacity: 1 !important;
+  transform: none !important;
+}
