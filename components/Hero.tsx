@@ -1,13 +1,15 @@
 import { getTranslations } from "next-intl/server";
+import IceParticles from "./IceParticles";
+import StatCounter from "./StatCounter";
 
 export default async function Hero() {
   const t = await getTranslations("hero");
   const shared = await getTranslations("shared");
 
   const stats = [
-    { num: t("stat1Number"), label: t("stat1Label") },
-    { num: t("stat2Number"), label: t("stat2Label") },
-    { num: t("stat3Number"), label: t("stat3Label") },
+    { num: t("stat1Number"), label: t("stat1Label"), delay: 0 },
+    { num: t("stat2Number"), label: t("stat2Label"), delay: 200 },
+    { num: t("stat3Number"), label: t("stat3Label"), delay: 400 },
   ];
 
   return (
@@ -16,10 +18,19 @@ export default async function Hero() {
       <div className="absolute -top-48 -right-48 w-[700px] h-[700px] bg-sky-500/10 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute -bottom-36 -left-36 w-[500px] h-[500px] bg-sky-200/5 rounded-full blur-3xl pointer-events-none" />
 
+      {/* Airflow lines */}
+      <div className="airflow-line" style={{ top: "20%", "--duration": "7s", "--delay": "0s" } as React.CSSProperties} />
+      <div className="airflow-line" style={{ top: "40%", "--duration": "9s", "--delay": "2s" } as React.CSSProperties} />
+      <div className="airflow-line" style={{ top: "65%", "--duration": "8s", "--delay": "4s" } as React.CSSProperties} />
+      <div className="airflow-line" style={{ top: "85%", "--duration": "11s", "--delay": "1s" } as React.CSSProperties} />
+
+      {/* Floating ice particles */}
+      <IceParticles />
+
       <div className="relative z-10 max-w-6xl mx-auto w-full">
         {/* Badge */}
         <div className="inline-flex items-center gap-2 bg-sky-500/15 border border-sky-500/30 text-sky-200 text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-widest mb-6">
-          ⚡ {t("badge")}
+          ❄️ {t("badge")}
         </div>
 
         {/* Headline */}
@@ -28,7 +39,7 @@ export default async function Hero() {
           style={{ fontSize: "clamp(2.8rem, 6vw, 5rem)", fontFamily: "var(--font-outfit), sans-serif" }}
         >
           {t("h1Line1")}{" "}
-          <span className="bg-gradient-to-r from-sky-500 to-sky-200 bg-clip-text text-transparent">
+          <span className="frost-text">
             {t("h1Highlight")}
           </span>
           <br />
@@ -56,22 +67,8 @@ export default async function Hero() {
           </a>
         </div>
 
-        {/* Stats */}
-        <div className="flex flex-wrap gap-8 md:gap-12 mt-16 pt-8 border-t border-white/[0.08]">
-          {stats.map(({ num, label }) => (
-            <div key={label}>
-              <div
-                className="font-black text-sky-200 leading-none text-4xl"
-                style={{ fontFamily: "var(--font-outfit), sans-serif" }}
-              >
-                {num}
-              </div>
-              <div className="text-white/45 text-xs uppercase tracking-wide mt-1">
-                {label}
-              </div>
-            </div>
-          ))}
-        </div>
+        {/* Stats with animated reveal */}
+        <StatCounter stats={stats} />
       </div>
     </section>
   );

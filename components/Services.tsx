@@ -45,7 +45,7 @@ export default async function Services() {
               className="group bg-white rounded-2xl p-8 border border-sky-500/10 shadow-sm hover:-translate-y-1 hover:shadow-[0_16px_40px_rgba(14,165,233,0.12)] hover:border-sky-500/30 transition-all duration-200 relative overflow-hidden"
             >
               <div className="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-sky-500 to-sky-200 opacity-0 group-hover:opacity-100 transition-opacity" />
-              <div className="w-[52px] h-[52px] bg-gradient-to-br from-sky-100 to-sky-200 rounded-[14px] flex items-center justify-center text-2xl mb-5">
+              <div className="w-[52px] h-[52px] bg-gradient-to-br from-sky-100 to-sky-200 rounded-[14px] flex items-center justify-center text-2xl mb-5 cold-mist">
                 {SERVICE_ICONS[key]}
               </div>
               <h3

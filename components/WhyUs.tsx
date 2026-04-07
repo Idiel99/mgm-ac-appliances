@@ -32,7 +32,7 @@ export default async function WhyUs() {
           {WHY_KEYS.map((key) => (
             <div
               key={key}
-              className="bg-white/[0.12] border border-white/20 rounded-2xl p-8 backdrop-blur-md text-center"
+              className="bg-white/[0.12] border border-white/20 rounded-2xl p-8 backdrop-blur-md text-center cryo-glow"
             >
               <div className="text-4xl mb-4">{WHY_ICONS[key]}</div>
               <h3

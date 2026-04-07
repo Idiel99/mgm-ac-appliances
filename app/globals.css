@@ -73,3 +73,152 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1 !important;
   transform: none !important;
 }
+
+/* ── AC-THEMED ANIMATIONS ── */
+
+/* Frost shimmer — sweeping cold light across text */
+@keyframes frost-shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+.frost-text {
+  background: linear-gradient(
+    90deg,
+    #0EA5E9 0%,
+    #BAE6FD 20%,
+    #E0F2FE 35%,
+    #FFFFFF 50%,
+    #E0F2FE 65%,
+    #BAE6FD 80%,
+    #0EA5E9 100%
+  );
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: frost-shimmer 4s ease-in-out infinite;
+}
+
+/* Floating ice particles */
+@keyframes ice-float {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 0;
+  }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% {
+    transform: translateY(-100vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.ice-particle {
+  position: absolute;
+  width: var(--size, 6px);
+  height: var(--size, 6px);
+  background: radial-gradient(circle, rgba(186, 230, 253, 0.8), rgba(14, 165, 233, 0.2));
+  border-radius: 50%;
+  pointer-events: none;
+  animation: ice-float var(--duration, 12s) var(--delay, 0s) linear infinite;
+  bottom: -20px;
+  left: var(--x, 50%);
+  filter: blur(1px);
+  box-shadow: 0 0 6px rgba(186, 230, 253, 0.4);
+}
+
+/* Cold mist rising from icons */
+@keyframes mist-rise {
+  0% {
+    transform: translateY(0) scaleX(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateY(-12px) scaleX(1.8);
+    opacity: 0.3;
+  }
+  100% {
+    transform: translateY(-24px) scaleX(2.4);
+    opacity: 0;
+  }
+}
+
+.cold-mist {
+  position: relative;
+}
+
+.cold-mist::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 10px;
+  background: radial-gradient(ellipse, rgba(186, 230, 253, 0.7), transparent);
+  border-radius: 50%;
+  opacity: 0;
+  pointer-events: none;
+  filter: blur(3px);
+}
+
+.group:hover .cold-mist::after {
+  animation: mist-rise 1.2s ease-out forwards;
+}
+
+/* Breathing blue glow on glass cards */
+@keyframes cryo-breathe {
+  0%, 100% {
+    box-shadow: 0 0 12px rgba(14, 165, 233, 0.08), inset 0 0 12px rgba(186, 230, 253, 0.04);
+  }
+  50% {
+    box-shadow: 0 0 28px rgba(14, 165, 233, 0.2), inset 0 0 20px rgba(186, 230, 253, 0.08);
+  }
+}
+
+.cryo-glow {
+  animation: cryo-breathe 3.5s ease-in-out infinite;
+}
+
+/* Airflow lines in hero */
+@keyframes airflow {
+  0% {
+    transform: translateX(-100%) scaleY(0.5);
+    opacity: 0;
+  }
+  30% {
+    opacity: 0.15;
+    transform: translateX(-20%) scaleY(1);
+  }
+  70% {
+    opacity: 0.15;
+    transform: translateX(20%) scaleY(1);
+  }
+  100% {
+    transform: translateX(100%) scaleY(0.5);
+    opacity: 0;
+  }
+}
+
+.airflow-line {
+  position: absolute;
+  height: 1px;
+  width: 40%;
+  background: linear-gradient(90deg, transparent, rgba(186, 230, 253, 0.3), transparent);
+  pointer-events: none;
+  animation: airflow var(--duration, 8s) var(--delay, 0s) ease-in-out infinite;
+}
+
+/* Stat number count-up flash */
+@keyframes stat-flash {
+  0% { opacity: 0; transform: translateY(12px); filter: blur(4px); }
+  60% { filter: blur(0); }
+  100% { opacity: 1; transform: translateY(0); filter: blur(0); }
+}
+
+.stat-reveal {
+  animation: stat-flash 0.8s ease-out forwards;
+  animation-delay: var(--delay, 0s);
+  opacity: 0;
+}
