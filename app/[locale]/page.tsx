@@ -19,12 +19,18 @@ export default async function Home({
     <main>
       <Navbar />
       <Hero />
-      <Services />
-      <WhyUs />
-      <ScrollReveal animation="fade-up">
+      <ScrollReveal animation="fade-right">
+        <Services />
+      </ScrollReveal>
+      <ScrollReveal animation="fade-left">
+        <WhyUs />
+      </ScrollReveal>
+      <ScrollReveal animation="zoom-in">
         <Contact />
       </ScrollReveal>
-      <Footer />
+      <ScrollReveal animation="fade-up">
+        <Footer />
+      </ScrollReveal>
     </main>
   );
 }

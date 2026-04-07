@@ -28,7 +28,7 @@ export default async function WhyUs() {
           {t("title")}
         </h2>
 
-        <ScrollReveal animation="zoom-in" staggerChildren staggerInterval={150} className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <ScrollReveal animation="fade-right" staggerChildren staggerInterval={180} className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {WHY_KEYS.map((key) => (
             <div
               key={key}

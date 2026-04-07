@@ -38,7 +38,7 @@ export default async function Services() {
           {t("subtitle")}
         </p>
 
-        <ScrollReveal animation="fade-up" staggerChildren staggerInterval={120} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <ScrollReveal animation="fade-left" staggerChildren staggerInterval={120} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {SERVICE_KEYS.map((key) => (
             <div
               key={key}
