@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "callNow": "Call Now",
+    "langEn": "EN",
+    "langEs": "ES"
+  },
+  "hero": {
+    "badge": "South Florida's Trusted AC Experts",
+    "h1Line1": "Stay",
+    "h1Highlight": "Cool",
+    "h1Line2": "All Year Long",
+    "body": "Family-owned AC services across South Florida. Installation, repair, maintenance, and emergency support — in English & Spanish.",
+    "ctaCall": "Call for a Free Quote",
+    "ctaForm": "Send a Message",
+    "stat1Number": "10+",
+    "stat1Label": "Years of Experience",
+    "stat2Number": "500+",
+    "stat2Label": "Happy Customers",
+    "stat3Number": "24/7",
+    "stat3Label": "Emergency Service"
+  },
+  "services": {
+    "label": "What We Do",
+    "title": "Complete AC Solutions",
+    "subtitle": "From new installations to emergency repairs, we handle every aspect of your air conditioning needs.",
+    "installation": {
+      "title": "Installation",
+      "desc": "New AC unit installation for homes and businesses, sized and configured for maximum efficiency."
+    },
+    "repair": {
+      "title": "Repair",
+      "desc": "Fast diagnosis and repair of any AC issue — we get your system running again quickly."
+    },
+    "maintenance": {
+      "title": "Maintenance",
+      "desc": "Scheduled tune-ups and annual plans to keep your system running at peak performance year-round."
+    },
+    "commercial": {
+      "title": "Commercial",
+      "desc": "Full-scale commercial HVAC solutions for offices, retail, and industrial spaces across South Florida."
+    },
+    "residential": {
+      "title": "Residential",
+      "desc": "Personalized home comfort solutions with energy-efficient systems tailored to your home."
+    },
+    "emergency": {
+      "title": "Emergency Service",
+      "desc": "AC broke down at midnight? We're available 24/7 for urgent repairs when you need us most."
+    }
+  },
+  "whyUs": {
+    "label": "Why Choose Us",
+    "title": "We're Your Neighbors, Not Just Your Technicians",
+    "family": {
+      "title": "Family-Owned",
+      "desc": "A real South Florida family committed to honest pricing and lasting relationships — not corporate quotas."
+    },
+    "licensed": {
+      "title": "Licensed & Insured",
+      "desc": "Fully licensed, bonded, and insured. You can trust our technicians in your home or business."
+    },
+    "bilingual": {
+      "title": "Bilingual Service",
+      "desc": "We serve you in both English and Spanish — because communication is everything when it comes to your comfort."
+    }
+  },
+  "contact": {
+    "label": "Get in Touch",
+    "title": "Ready to Stay Cool?",
+    "body": "Call us directly or fill out the form and we'll get back to you within the hour during business hours.",
+    "phoneEnLabel": "English Line",
+    "phoneEsLabel": "Spanish Line",
+    "emailLabel": "Email",
+    "formTitle": "Get a Free Quote",
+    "nameLabel": "Name",
+    "namePlaceholder": "John Smith",
+    "phoneLabel": "Phone",
+    "phonePlaceholder": "(786) 000-0000",
+    "emailFormLabel": "Email",
+    "emailPlaceholder": "you@email.com",
+    "serviceLabel": "Service Needed",
+    "serviceInstallation": "Installation",
+    "serviceRepair": "Repair",
+    "serviceMaintenance": "Maintenance",
+    "serviceEmergency": "Emergency",
+    "serviceOther": "Other",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Describe your AC issue or what you need...",
+    "submit": "Send Message →",
+    "submitting": "Sending...",
+    "successMessage": "Message sent! We'll get back to you shortly.",
+    "errorMessage": "Something went wrong. Please call us directly."
+  },
+  "footer": {
+    "copyright": "© 2025 MGM A/C Appliances. All rights reserved."
+  },
+  "metadata": {
+    "title": "MGM A/C Appliances — AC Services in South Florida",
+    "description": "Family-owned AC installation, repair, and maintenance across South Florida. Available 24/7. Call (786) 352-0084."
+  },
+  "shared": {
+    "phoneEn": "(786) 352-0084",
+    "phoneEnRaw": "7863520084",
+    "phoneEs": "(305) 720-8273",
+    "phoneEsRaw": "3057208273",
+    "email": "sales@mgm-ac-appliances.com"
+  }
+}

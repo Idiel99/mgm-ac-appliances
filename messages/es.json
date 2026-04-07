@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "services": "Servicios",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "callNow": "Llamar",
+    "langEn": "EN",
+    "langEs": "ES"
+  },
+  "hero": {
+    "badge": "Los Expertos en A/C de South Florida",
+    "h1Line1": "Mantente",
+    "h1Highlight": "Fresco",
+    "h1Line2": "Todo el Año",
+    "body": "Servicios de aire acondicionado familiares en todo South Florida. Instalación, reparación, mantenimiento y servicio de emergencia — en inglés y español.",
+    "ctaCall": "Llama para un Presupuesto Gratis",
+    "ctaForm": "Enviar un Mensaje",
+    "stat1Number": "10+",
+    "stat1Label": "Años de Experiencia",
+    "stat2Number": "500+",
+    "stat2Label": "Clientes Satisfechos",
+    "stat3Number": "24/7",
+    "stat3Label": "Servicio de Emergencia"
+  },
+  "services": {
+    "label": "Qué Hacemos",
+    "title": "Soluciones Completas de A/C",
+    "subtitle": "Desde nuevas instalaciones hasta reparaciones de emergencia, manejamos todos los aspectos de sus necesidades de aire acondicionado.",
+    "installation": {
+      "title": "Instalación",
+      "desc": "Instalación de nuevas unidades de A/C para hogares y empresas, dimensionadas y configuradas para máxima eficiencia."
+    },
+    "repair": {
+      "title": "Reparación",
+      "desc": "Diagnóstico y reparación rápida de cualquier problema de A/C — ponemos su sistema en marcha nuevamente."
+    },
+    "maintenance": {
+      "title": "Mantenimiento",
+      "desc": "Ajustes programados y planes anuales para mantener su sistema funcionando a máximo rendimiento todo el año."
+    },
+    "commercial": {
+      "title": "Comercial",
+      "desc": "Soluciones completas de HVAC comercial para oficinas, comercios y espacios industriales en todo South Florida."
+    },
+    "residential": {
+      "title": "Residencial",
+      "desc": "Soluciones de confort personalizadas para el hogar con sistemas de alta eficiencia adaptados a su vivienda."
+    },
+    "emergency": {
+      "title": "Servicio de Emergencia",
+      "desc": "¿El A/C se rompió a medianoche? Estamos disponibles 24/7 para reparaciones urgentes cuando más nos necesita."
+    }
+  },
+  "whyUs": {
+    "label": "Por Qué Elegirnos",
+    "title": "Somos Sus Vecinos, No Solo Sus Técnicos",
+    "family": {
+      "title": "Empresa Familiar",
+      "desc": "Una familia real de South Florida comprometida con precios honestos y relaciones duraderas — no cuotas corporativas."
+    },
+    "licensed": {
+      "title": "Licenciados y Asegurados",
+      "desc": "Totalmente licenciados, fiados y asegurados. Puede confiar en nuestros técnicos en su hogar o negocio."
+    },
+    "bilingual": {
+      "title": "Servicio Bilingüe",
+      "desc": "Lo atendemos en inglés y español — porque la comunicación lo es todo cuando se trata de su confort."
+    }
+  },
+  "contact": {
+    "label": "Contáctenos",
+    "title": "¿Listo para Mantenerse Fresco?",
+    "body": "Llámenos directamente o complete el formulario y nos pondremos en contacto dentro de la hora durante el horario laboral.",
+    "phoneEnLabel": "Línea en Inglés",
+    "phoneEsLabel": "Línea en Español",
+    "emailLabel": "Correo Electrónico",
+    "formTitle": "Obtenga un Presupuesto Gratis",
+    "nameLabel": "Nombre",
+    "namePlaceholder": "Juan García",
+    "phoneLabel": "Teléfono",
+    "phonePlaceholder": "(786) 000-0000",
+    "emailFormLabel": "Correo Electrónico",
+    "emailPlaceholder": "usted@correo.com",
+    "serviceLabel": "Servicio Necesario",
+    "serviceInstallation": "Instalación",
+    "serviceRepair": "Reparación",
+    "serviceMaintenance": "Mantenimiento",
+    "serviceEmergency": "Emergencia",
+    "serviceOther": "Otro",
+    "messageLabel": "Mensaje",
+    "messagePlaceholder": "Describa su problema de A/C o lo que necesita...",
+    "submit": "Enviar Mensaje →",
+    "submitting": "Enviando...",
+    "successMessage": "¡Mensaje enviado! Nos pondremos en contacto pronto.",
+    "errorMessage": "Algo salió mal. Por favor llámenos directamente."
+  },
+  "footer": {
+    "copyright": "© 2025 MGM A/C Appliances. Todos los derechos reservados."
+  },
+  "metadata": {
+    "title": "MGM A/C Appliances — Servicios de A/C en South Florida",
+    "description": "Instalación, reparación y mantenimiento de aire acondicionado familiar en todo South Florida. Disponibles 24/7. Llame al (305) 720-8273."
+  },
+  "shared": {
+    "phoneEn": "(786) 352-0084",
+    "phoneEnRaw": "7863520084",
+    "phoneEs": "(305) 720-8273",
+    "phoneEsRaw": "3057208273",
+    "email": "sales@mgm-ac-appliances.com"
+  }
+}
