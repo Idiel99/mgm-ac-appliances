@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/idiel/Desktop/MGM/**)",
+      "Bash(npx create-next-app@latest mgm-ac-site --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --use-npm)",
+      "Bash(cp -r mgm-ac-site/* \"Site/\")",
+      "Bash(cp -r mgm-ac-site/.* \"Site/\")",
+      "Bash(cp \"C:/Users/idiel/Desktop/MGM/mgm-ac-site/package.json\" \"C:/Users/idiel/Desktop/MGM/Site/\")",
+      "Bash(cp \"C:/Users/idiel/Desktop/MGM/mgm-ac-site/package-lock.json\" \"C:/Users/idiel/Desktop/MGM/Site/\")",
+      "Bash(cp \"C:/Users/idiel/Desktop/MGM/mgm-ac-site/tsconfig.json\" \"C:/Users/idiel/Desktop/MGM/Site/\")",
+      "Bash(cp \"C:/Users/idiel/Desktop/MGM/mgm-ac-site/postcss.config.mjs\" \"C:/Users/idiel/Desktop/MGM/Site/\")",
+      "Bash(cp -r \"C:/Users/idiel/Desktop/MGM/mgm-ac-site/public\" \"C:/Users/idiel/Desktop/MGM/Site/\")",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/en)",
+      "Bash(npx next:*)",
+      "Bash(curl -s http://localhost:3456/en)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3456/en)",
+      "Bash(curl -s http://localhost:3456/es)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" auth login --with-token)",
+      "Bash(npm uninstall:*)"
+    ]
+  }
+}

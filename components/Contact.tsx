@@ -3,12 +3,9 @@
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 
-type FormState = "idle" | "submitting" | "success" | "error";
-
 export default function Contact() {
   const t = useTranslations("contact");
   const shared = useTranslations("shared");
-  const [state, setState] = useState<FormState>("idle");
   const [form, setForm] = useState({
     name: "",
     phone: "",
@@ -25,30 +22,17 @@ export default function Contact() {
     setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setState("submitting");
-    try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
-      });
-      if (res.ok) {
-        setState("success");
-        setForm({
-          name: "",
-          phone: "",
-          email: "",
-          service: "Installation",
-          message: "",
-        });
-      } else {
-        setState("error");
-      }
-    } catch {
-      setState("error");
-    }
+    const subject = encodeURIComponent(`${t("emailSubject")} — ${form.service}`);
+    const body = encodeURIComponent(
+      `${t("nameLabel")}: ${form.name}\n` +
+      `${t("phoneLabel")}: ${form.phone || "N/A"}\n` +
+      `${t("emailFormLabel")}: ${form.email}\n` +
+      `${t("serviceLabel")}: ${form.service}\n\n` +
+      `${t("messageLabel")}:\n${form.message}`
+    );
+    window.location.href = `mailto:${shared("email")}?subject=${subject}&body=${body}`;
   };
 
   const inputClass =
@@ -193,23 +177,11 @@ export default function Contact() {
               />
             </div>
 
-            {state === "success" && (
-              <p className="text-green-600 text-sm mb-4 font-medium">
-                {t("successMessage")}
-              </p>
-            )}
-            {state === "error" && (
-              <p className="text-red-600 text-sm mb-4 font-medium">
-                {t("errorMessage")}
-              </p>
-            )}
-
             <button
               type="submit"
-              disabled={state === "submitting"}
-              className="w-full bg-gradient-to-r from-sky-500 to-sky-700 text-white font-bold py-4 rounded-xl shadow-[0_4px_20px_rgba(14,165,233,0.3)] hover:shadow-[0_8px_28px_rgba(14,165,233,0.4)] hover:-translate-y-px transition-all disabled:opacity-60 disabled:cursor-not-allowed cursor-pointer"
+              className="w-full bg-gradient-to-r from-sky-500 to-sky-700 text-white font-bold py-4 rounded-xl shadow-[0_4px_20px_rgba(14,165,233,0.3)] hover:shadow-[0_8px_28px_rgba(14,165,233,0.4)] hover:-translate-y-px transition-all cursor-pointer"
             >
-              {state === "submitting" ? t("submitting") : t("submit")}
+              {t("submit")}
             </button>
           </form>
         </div>

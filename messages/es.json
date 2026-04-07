@@ -90,9 +90,7 @@
     "messageLabel": "Mensaje",
     "messagePlaceholder": "Describa su problema de A/C o lo que necesita...",
     "submit": "Enviar Mensaje →",
-    "submitting": "Enviando...",
-    "successMessage": "¡Mensaje enviado! Nos pondremos en contacto pronto.",
-    "errorMessage": "Algo salió mal. Por favor llámenos directamente."
+    "emailSubject": "Nueva Solicitud de Presupuesto"
   },
   "footer": {
     "copyright": "© 2025 MGM A/C Appliances. Todos los derechos reservados."

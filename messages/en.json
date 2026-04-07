@@ -90,9 +90,7 @@
     "messageLabel": "Message",
     "messagePlaceholder": "Describe your AC issue or what you need...",
     "submit": "Send Message →",
-    "submitting": "Sending...",
-    "successMessage": "Message sent! We'll get back to you shortly.",
-    "errorMessage": "Something went wrong. Please call us directly."
+    "emailSubject": "New Quote Request"
   },
   "footer": {
     "copyright": "© 2025 MGM A/C Appliances. All rights reserved."
