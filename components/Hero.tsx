@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import IceParticles from "./IceParticles";
 import StatCounter from "./StatCounter";
+import Logo from "./Logo";
 
 export default async function Hero() {
   const t = await getTranslations("hero");
@@ -28,23 +29,32 @@ export default async function Hero() {
       <IceParticles />
 
       <div className="relative z-10 max-w-6xl mx-auto w-full">
-        {/* Badge */}
-        <div className="inline-flex items-center gap-2 bg-sky-500/15 border border-sky-500/30 text-sky-200 text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-widest mb-6">
-          ❄️ {t("badge")}
-        </div>
+        <div className="flex items-start gap-6 md:gap-8 mb-2">
+          {/* Logo icon */}
+          <div className="hidden sm:block flex-shrink-0 mt-2">
+            <Logo size={90} className="md:w-[110px] md:h-[110px]" />
+          </div>
 
-        {/* Headline */}
-        <h1
-          className="font-black text-white leading-[1.05] tracking-[-2px] mb-6"
-          style={{ fontSize: "clamp(2.8rem, 6vw, 5rem)", fontFamily: "var(--font-outfit), sans-serif" }}
-        >
-          {t("h1Line1")}{" "}
-          <span className="frost-text">
-            {t("h1Highlight")}
-          </span>
-          <br />
-          {t("h1Line2")}
-        </h1>
+          <div>
+            {/* Badge */}
+            <div className="inline-flex items-center gap-2 bg-sky-500/15 border border-sky-500/30 text-sky-200 text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-widest mb-6">
+              ❄️ {t("badge")}
+            </div>
+
+            {/* Headline */}
+            <h1
+              className="font-black text-white leading-[1.05] tracking-[-2px] mb-6"
+              style={{ fontSize: "clamp(2.8rem, 6vw, 5rem)", fontFamily: "var(--font-outfit), sans-serif" }}
+            >
+              {t("h1Line1")}{" "}
+              <span className="frost-text">
+                {t("h1Highlight")}
+              </span>
+              <br />
+              {t("h1Line2")}
+            </h1>
+          </div>
+        </div>
 
         {/* Body */}
         <p className="text-white/65 text-lg leading-relaxed max-w-xl mb-10">

@@ -5,7 +5,14 @@
     "contact": "Contacto",
     "callNow": "Llamar",
     "langEn": "EN",
-    "langEs": "ES"
+    "langEs": "ES",
+    "serviceAreas": "Áreas de Servicio",
+    "financing": "Financiamiento",
+    "blog": "Blog",
+    "home": "Inicio",
+    "coupons": "Cupones",
+    "privacy": "Política de Privacidad",
+    "warranty": "Garantía"
   },
   "hero": {
     "badge": "Los Expertos en A/C de South Florida",
@@ -22,34 +29,158 @@
     "stat3Number": "24/7",
     "stat3Label": "Servicio de Emergencia"
   },
+  "offers": {
+    "label": "Ofertas Especiales",
+    "title": "Promociones Actuales",
+    "offer1": {
+      "title": "Presupuesto Gratis",
+      "desc": "Obtenga una cotización sin compromiso en cualquier servicio de A/C — instalación, reparación o mantenimiento.",
+      "badge": "GRATIS"
+    },
+    "offer2": {
+      "title": "10% de Descuento en Primer Servicio",
+      "desc": "Clientes nuevos reciben 10% de descuento en su primera visita de reparación o mantenimiento.",
+      "badge": "10% DESC"
+    },
+    "offer3": {
+      "title": "Ajuste de A/C por $49",
+      "desc": "Mantenga su sistema funcionando al máximo con nuestro especial de ajuste de temporada.",
+      "badge": "$49"
+    },
+    "cta": "Llame para Canjear"
+  },
   "services": {
     "label": "Qué Hacemos",
     "title": "Soluciones Completas de A/C",
     "subtitle": "Desde nuevas instalaciones hasta reparaciones de emergencia, manejamos todos los aspectos de sus necesidades de aire acondicionado.",
+    "viewAll": "Ver Todos los Servicios",
     "installation": {
       "title": "Instalación",
-      "desc": "Instalación de nuevas unidades de A/C para hogares y empresas, dimensionadas y configuradas para máxima eficiencia."
+      "desc": "Instalación de nuevas unidades de A/C para hogares y empresas, dimensionadas y configuradas para máxima eficiencia.",
+      "longDesc": "Ya sea que esté construyendo un nuevo hogar, renovando o reemplazando un sistema viejo, MGM A/C Appliances ofrece servicios expertos de instalación de A/C en todo South Florida. Le ayudamos a elegir el sistema adecuado para su espacio, presupuesto y objetivos de eficiencia.",
+      "features": ["Cálculo de carga adecuado para su espacio", "Recomendaciones de sistemas eficientes", "Instalación profesional por técnicos licenciados", "Prueba y calibración completa del sistema", "Registro de garantía del fabricante"],
+      "signs": ["Su sistema actual tiene más de 15 años", "Reparaciones frecuentes y costosas", "Enfriamiento desigual en su hogar", "Facturas de energía en aumento a pesar del mantenimiento", "Su sistema usa refrigerante R-22 (en proceso de eliminación)"]
     },
     "repair": {
       "title": "Reparación",
-      "desc": "Diagnóstico y reparación rápida de cualquier problema de A/C — ponemos su sistema en marcha nuevamente."
+      "desc": "Diagnóstico y reparación rápida de cualquier problema de A/C — ponemos su sistema en marcha nuevamente.",
+      "longDesc": "Cuando su A/C se descompone en el calor de South Florida, necesita un servicio de reparación rápido y confiable. MGM A/C Appliances ofrece servicio de reparación el mismo día con precios honestos y por adelantado. Nuestros técnicos licenciados diagnostican y reparan todas las marcas y modelos.",
+      "features": ["Servicio de reparación de emergencia el mismo día", "Todas las marcas y modelos principales", "Diagnóstico honesto — reparamos lo que está roto, nada más", "Precios por adelantado antes de comenzar", "Garantía de 90 días en todas las reparaciones"],
+      "signs": ["El A/C sopla aire caliente", "Ruidos extraños de la unidad", "Olores inusuales cuando el sistema funciona", "Agua goteando alrededor de la unidad", "El sistema se enciende y apaga frecuentemente"]
     },
     "maintenance": {
       "title": "Mantenimiento",
-      "desc": "Ajustes programados y planes anuales para mantener su sistema funcionando a máximo rendimiento todo el año."
+      "desc": "Ajustes programados y planes anuales para mantener su sistema funcionando a máximo rendimiento todo el año.",
+      "longDesc": "El mantenimiento regular es la clave para un sistema de A/C duradero y eficiente — especialmente en el clima exigente de South Florida. MGM A/C Appliances ofrece planes de mantenimiento completos que detectan problemas antes de que se conviertan en reparaciones costosas.",
+      "features": ["Inspección y limpieza completa del sistema", "Verificación y recarga de niveles de refrigerante", "Ajuste de conexiones eléctricas", "Calibración del termostato", "Reemplazo de filtro y verificación de flujo de aire"],
+      "signs": ["No ha tenido un ajuste en más de un año", "Sus facturas de energía están subiendo", "El sistema tarda más en enfriar su hogar", "Escucha ruidos menores que no estaban antes", "Acumulación de polvo alrededor de las rejillas"]
     },
     "commercial": {
       "title": "Comercial",
-      "desc": "Soluciones completas de HVAC comercial para oficinas, comercios y espacios industriales en todo South Florida."
+      "desc": "Soluciones completas de HVAC comercial para oficinas, comercios y espacios industriales en todo South Florida.",
+      "longDesc": "Mantenga su negocio cómodo y sus empleados productivos con los servicios de HVAC comercial de MGM A/C Appliances. Atendemos oficinas, tiendas, restaurantes, almacenes e instalaciones industriales en todo South Florida.",
+      "features": ["Diseño e instalación de sistemas comerciales", "Contratos de mantenimiento preventivo", "Servicio de reparación de emergencia para negocios", "Auditorías de eficiencia energética", "Soluciones de control climático multi-zona"],
+      "signs": ["Temperaturas inconsistentes en su edificio", "Quejas de empleados o clientes sobre el confort", "Facturas de energía comercial demasiado altas", "Su sistema tiene dificultades en los meses de verano", "Expansión del edificio requiere mejoras de HVAC"]
+    },
+    "emergency": {
+      "title": "Servicio de Emergencia",
+      "desc": "¿El A/C se rompió a medianoche? Estamos disponibles 24/7 para reparaciones urgentes cuando más nos necesita.",
+      "longDesc": "El calor de South Florida no espera el horario laboral — y nosotros tampoco. MGM A/C Appliances ofrece servicio de reparación de A/C de emergencia 24/7. Cuando su sistema falla inesperadamente, llámenos a cualquier hora del día o la noche.",
+      "features": ["Disponible 24 horas al día, 7 días a la semana", "Tiempos de respuesta rápidos en todo South Florida", "Sin cargos sorpresa fuera de horario", "Vehículos de servicio completamente equipados", "Técnicos de emergencia licenciados y asegurados"],
+      "signs": ["Fallo completo del sistema — sin enfriamiento", "A/C haciendo ruidos fuertes o peligrosos", "Olor a quemado proveniente de la unidad", "Agua inundando desde el sistema", "Problemas eléctricos relacionados con su HVAC"]
     },
     "residential": {
       "title": "Residencial",
       "desc": "Soluciones de confort personalizadas para el hogar con sistemas de alta eficiencia adaptados a su vivienda."
     },
-    "emergency": {
-      "title": "Servicio de Emergencia",
-      "desc": "¿El A/C se rompió a medianoche? Estamos disponibles 24/7 para reparaciones urgentes cuando más nos necesita."
-    }
+    "whyChoose": "¿Por Qué Elegir MGM?",
+    "whyChooseDesc": "Licenciados, asegurados y de propiedad familiar — tratamos cada trabajo como si fuera nuestra propia casa.",
+    "featuresTitle": "Qué Incluye",
+    "signsTitle": "Señales de Que Necesita Este Servicio",
+    "ctaTitle": "¿Listo para Empezar?",
+    "ctaDesc": "Llámenos hoy para un presupuesto gratis. Servimos todo South Florida.",
+    "ctaButton": "Llame para Presupuesto Gratis"
+  },
+  "testimonials": {
+    "label": "Lo Que Dicen Nuestros Clientes",
+    "title": "Confianza de los Propietarios de South Florida",
+    "googleCta": "Déjanos una Reseña en Google",
+    "reviews": [
+      {
+        "name": "Maria G.",
+        "date": "Marzo 2026",
+        "rating": 5,
+        "text": "MGM instaló nuestro nuevo sistema de A/C y no podríamos estar más contentos. El equipo fue profesional, puntual y explicó todo claramente en español. ¡Nuestra casa nunca ha estado más fresca!"
+      },
+      {
+        "name": "Robert T.",
+        "date": "Febrero 2026",
+        "rating": 5,
+        "text": "Llamé a MGM para una reparación de emergencia un sábado por la noche. Llegaron en menos de una hora y arreglaron el problema rápidamente. Precios justos y gran servicio."
+      },
+      {
+        "name": "Ana L.",
+        "date": "Enero 2026",
+        "rating": 5,
+        "text": "Hemos usado MGM para mantenimiento durante dos años. Siempre son puntuales, minuciosos y honestos. La mejor empresa de A/C en Miami — verdaderamente familiar y se nota."
+      },
+      {
+        "name": "James K.",
+        "date": "Marzo 2026",
+        "rating": 5,
+        "text": "Gran experiencia de principio a fin. El presupuesto fue preciso, la instalación fue limpia, y limpiaron después de sí mismos. Altamente recomendado."
+      },
+      {
+        "name": "Carlos M.",
+        "date": "Diciembre 2025",
+        "rating": 5,
+        "text": "Finalmente encontré una empresa de A/C que habla mi idioma — literalmente. El servicio bilingüe hizo todo el proceso mucho más fácil. Excelente trabajo en nuestra unidad comercial."
+      },
+      {
+        "name": "Jennifer P.",
+        "date": "Febrero 2026",
+        "rating": 5,
+        "text": "MGM reemplazó nuestra unidad de 20 años y nuestra factura eléctrica bajó un 30%. Recomendaron el sistema del tamaño correcto y no intentaron vendernos algo innecesario. Negocio familiar honesto."
+      }
+    ]
+  },
+  "faq": {
+    "label": "Preguntas Frecuentes",
+    "title": "Preguntas Frecuentes",
+    "items": [
+      {
+        "q": "¿Con qué frecuencia debo dar servicio a mi A/C en South Florida?",
+        "a": "Recomendamos al menos dos veces al año — una antes del verano y otra antes del invierno. El calor y la humedad de South Florida hacen que su A/C trabaje más que en la mayoría de los lugares, por lo que el mantenimiento regular previene averías y mantiene bajas sus facturas de energía."
+      },
+      {
+        "q": "¿Cuánto tiempo toma una instalación típica de A/C?",
+        "a": "La mayoría de las instalaciones residenciales se completan en un día (4-8 horas). Las instalaciones comerciales pueden tomar más tiempo según el tamaño del sistema. Le daremos un cronograma preciso durante su presupuesto gratuito."
+      },
+      {
+        "q": "¿Ofrecen financiamiento para nuevos sistemas de A/C?",
+        "a": "¡Sí! Entendemos que un nuevo sistema de A/C es una inversión significativa. Ofrecemos opciones de financiamiento flexibles para ayudarle a obtener el confort que necesita sin afectar su presupuesto. Llámenos para más detalles."
+      },
+      {
+        "q": "¿Con qué marcas trabajan?",
+        "a": "Damos servicio e instalamos todas las marcas principales incluyendo Carrier, Trane, Lennox, Rheem, Goodman, Daikin y más. Le ayudaremos a elegir la mejor marca y modelo para sus necesidades y presupuesto."
+      },
+      {
+        "q": "¿Ofrecen servicio en inglés y español?",
+        "a": "¡Absolutamente! Nuestro equipo es completamente bilingüe. Tenemos líneas telefónicas dedicadas en inglés y español para asegurarnos de que pueda comunicarse cómodamente en su idioma preferido."
+      },
+      {
+        "q": "¿Qué debo hacer si mi A/C deja de funcionar en medio de la noche?",
+        "a": "¡Llámenos! Ofrecemos servicio de reparación de emergencia 24/7. Nuestros técnicos están disponibles día y noche, fines de semana y feriados. No hay cargos sorpresa fuera de horario."
+      },
+      {
+        "q": "¿Cómo sé si necesito una reparación o un reemplazo completo?",
+        "a": "Generalmente, si su sistema tiene más de 15 años y necesita reparaciones frecuentes, el reemplazo suele ser más económico. Si es más nuevo y la reparación es sencilla, lo repararemos. Siempre damos consejos honestos — nunca presionaremos un reemplazo que no necesite."
+      },
+      {
+        "q": "¿Qué áreas atienden?",
+        "a": "Atendemos todo South Florida incluyendo Miami, Hialeah, Homestead, Coral Gables, Doral, Kendall y áreas circundantes en el Condado de Miami-Dade."
+      }
+    ]
   },
   "whyUs": {
     "label": "Por Qué Elegirnos",
@@ -65,7 +196,229 @@
     "bilingual": {
       "title": "Servicio Bilingüe",
       "desc": "Lo atendemos en inglés y español — porque la comunicación lo es todo cuando se trata de su confort."
+    },
+    "license": "Licencia FL #XXXXX"
+  },
+  "serviceArea": {
+    "label": "Dónde Trabajamos",
+    "title": "Sirviendo Todo South Florida",
+    "subtitle": "MGM A/C Appliances sirve con orgullo hogares y negocios en el Condado de Miami-Dade y áreas circundantes.",
+    "cta": "¿No ve su área? ¡Llámenos — quizás podamos ayudarle!",
+    "cities": {
+      "miami": {
+        "name": "Miami",
+        "desc": "Servicios completos de A/C para los diversos vecindarios de Miami — desde Downtown y Brickell hasta Little Havana y Wynwood.",
+        "longDesc": "Como el corazón de South Florida, Miami exige aire acondicionado confiable. Con temperaturas promedio de verano en los 90 grados y humedad que puede sentirse aún más caliente, su sistema de A/C trabaja horas extras. MGM A/C Appliances ha estado sirviendo a propietarios y negocios de Miami con servicios expertos de instalación, reparación y mantenimiento.",
+        "neighborhoods": ["Downtown Miami", "Brickell", "Little Havana", "Wynwood", "Westchester", "Flagami", "Allapattah"]
+      },
+      "hialeah": {
+        "name": "Hialeah",
+        "desc": "Reparación e instalación de A/C de confianza en Hialeah y Hialeah Gardens. Servicio rápido y bilingüe.",
+        "longDesc": "Hialeah es una de las ciudades más densamente pobladas de Florida, y cuando el A/C se daña, necesita servicio rápido. MGM A/C Appliances proporciona servicio de reparación el mismo día en todo Hialeah y Hialeah Gardens. Nuestro equipo bilingüe está listo para ayudar.",
+        "neighborhoods": ["Hialeah", "Hialeah Gardens", "Palm Springs North", "Miami Lakes"]
+      },
+      "homestead": {
+        "name": "Homestead",
+        "desc": "Servicio confiable de A/C en Homestead y Florida City. Entendemos las necesidades únicas de South Dade.",
+        "longDesc": "Homestead y Florida City están en la punta sur del Condado de Miami-Dade, donde el calor puede ser implacable. MGM A/C Appliances sirve toda el área de South Dade con instalación, reparación y mantenimiento profesional de A/C.",
+        "neighborhoods": ["Homestead", "Florida City", "Leisure City", "Naranja"]
+      },
+      "coralGables": {
+        "name": "Coral Gables",
+        "desc": "Servicios premium de A/C para las casas históricas y residencias modernas de Coral Gables.",
+        "longDesc": "Coral Gables es conocido por sus hermosas casas históricas y calles arboladas. MGM A/C Appliances tiene experiencia trabajando con propiedades históricas y modernas de Coral Gables, asegurando que su hogar se mantenga cómodo.",
+        "neighborhoods": ["Coral Gables", "South Miami", "Coconut Grove", "Pinecrest"]
+      },
+      "doral": {
+        "name": "Doral",
+        "desc": "Expertos en A/C comercial y residencial en Doral. Sirviendo a la creciente comunidad empresarial.",
+        "longDesc": "Doral es una de las ciudades de más rápido crecimiento en South Florida. MGM A/C Appliances sirve tanto a clientes comerciales como residenciales en Doral, desde parques de oficinas hasta hogares unifamiliares.",
+        "neighborhoods": ["Doral", "Sweetwater", "Fontainebleau", "Medley"]
+      },
+      "kendall": {
+        "name": "Kendall",
+        "desc": "Su empresa de A/C del vecindario en Kendall. Respuesta rápida, precios honestos, servicio bilingüe.",
+        "longDesc": "Kendall es una de las comunidades residenciales más grandes de Miami-Dade. MGM A/C Appliances proporciona servicio de A/C rápido y asequible en toda el área de Kendall.",
+        "neighborhoods": ["Kendall", "The Hammocks", "Country Walk", "Richmond Heights", "Dadeland"]
+      }
     }
+  },
+  "about": {
+    "label": "Nosotros",
+    "title": "Conozca MGM A/C Appliances",
+    "subtitle": "Una empresa familiar construida sobre servicio honesto y raíces en South Florida.",
+    "story": {
+      "title": "Nuestra Historia",
+      "p1": "MGM A/C Appliances fue fundada con una misión simple: proporcionar a las familias de South Florida un servicio de A/C honesto y confiable a precios justos. Como empresa familiar, entendemos que el confort de su hogar no es solo una llamada de servicio — es personal.",
+      "p2": "Con más de una década de experiencia sirviendo al Condado de Miami-Dade, hemos construido nuestra reputación un cliente satisfecho a la vez. No tenemos cuotas corporativas ni vendedores presionando actualizaciones innecesarias.",
+      "p3": "Estamos orgullosos de ser una de las pocas empresas de A/C completamente bilingües de South Florida, ofreciendo líneas telefónicas dedicadas en inglés y español."
+    },
+    "values": {
+      "title": "Lo Que Representamos",
+      "honesty": {
+        "title": "Precios Honestos",
+        "desc": "Sin cargos ocultos ni sorpresas. Le damos un presupuesto claro antes de cualquier trabajo."
+      },
+      "quality": {
+        "title": "Trabajo de Calidad",
+        "desc": "Cada trabajo se hace bien la primera vez. Usamos repuestos de calidad y respaldamos nuestro trabajo."
+      },
+      "community": {
+        "title": "Comunidad Primero",
+        "desc": "Vivimos donde trabajamos. Nuestros clientes son nuestros vecinos, y los tratamos así."
+      },
+      "bilingual": {
+        "title": "Siempre Bilingüe",
+        "desc": "Servicio completo en inglés y español. Sin necesidad de intérpretes — todo nuestro equipo habla ambos idiomas."
+      }
+    },
+    "stats": {
+      "years": "10+",
+      "yearsLabel": "Años Sirviendo South Florida",
+      "customers": "500+",
+      "customersLabel": "Clientes Satisfechos",
+      "available": "24/7",
+      "availableLabel": "Disponibilidad de Emergencia",
+      "languages": "2",
+      "languagesLabel": "Idiomas Hablados"
+    }
+  },
+  "financing": {
+    "label": "Financiamiento",
+    "title": "Opciones Flexibles de Financiamiento",
+    "subtitle": "Un nuevo sistema de A/C es una inversión importante. Lo hacemos accesible.",
+    "body": "Entendemos que reemplazar o instalar un nuevo sistema de A/C puede ser un gasto significativo. Por eso MGM A/C Appliances ofrece opciones flexibles de financiamiento para ayudarle a obtener el confort que necesita sin afectar su presupuesto.",
+    "benefits": {
+      "title": "¿Por Qué Financiar Con Nosotros?",
+      "b1": "Tasas competitivas con crédito aprobado",
+      "b2": "Opciones de pago mensual bajo",
+      "b3": "Proceso de solicitud rápido y fácil",
+      "b4": "Sin penalidades por pago anticipado",
+      "b5": "Múltiples opciones de plan para su presupuesto"
+    },
+    "cta": "Llámenos hoy para discutir opciones de financiamiento para su nuevo sistema de A/C.",
+    "ctaButton": "Llame para Financiamiento"
+  },
+  "warranty": {
+    "label": "Garantía",
+    "title": "Nuestra Garantía",
+    "subtitle": "Respaldamos cada trabajo que hacemos.",
+    "body": "En MGM A/C Appliances, la calidad no es solo una promesa — está respaldada por nuestra garantía. Queremos que tenga completa tranquilidad cuando nos elija para sus necesidades de A/C.",
+    "laborTitle": "Garantía de Mano de Obra",
+    "laborDesc": "Todo el trabajo de instalación y reparación viene con garantía de mano de obra. Si algo no está bien, regresaremos y lo corregiremos — sin costo adicional.",
+    "partsTitle": "Garantía de Repuestos",
+    "partsDesc": "Usamos repuestos de calidad de fabricantes de confianza, todos respaldados por garantías del fabricante. Manejamos todos los reclamos de garantía en su nombre.",
+    "satisfactionTitle": "Garantía de Satisfacción",
+    "satisfactionDesc": "Su satisfacción es nuestra prioridad. Si no está contento con nuestro trabajo, avísenos y trabajaremos con usted para corregirlo.",
+    "cta": "¿Tiene preguntas sobre garantía? Llámenos en cualquier momento.",
+    "ctaButton": "Llámenos"
+  },
+  "coupons": {
+    "label": "Ofertas Especiales",
+    "title": "Cupones y Ofertas Actuales",
+    "subtitle": "Ahorre en su próximo servicio de A/C con estas ofertas exclusivas.",
+    "printCta": "Imprimir Este Cupón",
+    "redeemNote": "Presente el cupón al momento del servicio. No se puede combinar con otras ofertas. Llame para detalles.",
+    "coupon1": {
+      "title": "Presupuesto Gratis de A/C",
+      "desc": "Obtenga una cotización sin compromiso en cualquier instalación o reemplazo de A/C.",
+      "badge": "GRATIS",
+      "expires": "Sin vencimiento"
+    },
+    "coupon2": {
+      "title": "10% de Descuento en Primer Servicio",
+      "desc": "Clientes nuevos reciben 10% de descuento en su primera visita de reparación o mantenimiento.",
+      "badge": "10% DESC",
+      "expires": "Oferta por tiempo limitado"
+    },
+    "coupon3": {
+      "title": "Ajuste de Temporada por $49",
+      "desc": "Inspección completa, limpieza y ajuste del sistema de A/C para mantener su sistema eficiente.",
+      "badge": "$49",
+      "expires": "Oferta de temporada"
+    }
+  },
+  "blog": {
+    "label": "Consejos de Expertos",
+    "title": "Consejos y Guías de A/C",
+    "subtitle": "Guías útiles para propietarios de South Florida para mantener sus hogares frescos y cómodos.",
+    "readMore": "Leer Más",
+    "backToBlog": "Volver a Todos los Artículos",
+    "posts": {
+      "maintenance-tips": {
+        "title": "5 Consejos de Mantenimiento de A/C Que Todo Propietario de South Florida Debe Saber",
+        "excerpt": "Mantenga su A/C funcionando eficientemente y evite averías costosas con estos consejos esenciales para el clima de South Florida.",
+        "date": "15 de Marzo, 2026",
+        "content": [
+          "Vivir en South Florida significa que su A/C trabaja más que en casi cualquier otro lugar del país. Con temperaturas que regularmente alcanzan los 90 grados y niveles de humedad que pueden sentirse aún más calientes, su sistema de aire acondicionado es el electrodoméstico más importante de su hogar.",
+          "**1. Cambie Su Filtro de Aire Cada 30-60 Días** — En el ambiente húmedo y polvoriento de South Florida, los filtros de aire se obstruyen más rápido. Un filtro sucio obliga a su sistema a trabajar más, aumentando las facturas de energía y reduciendo su vida útil.",
+          "**2. Mantenga Su Unidad Exterior Despejada** — Su unidad condensadora necesita al menos 2 pies de espacio libre en todos los lados para un flujo de aire adecuado. Recorte arbustos y retire escombros mensualmente.",
+          "**3. Programe Mantenimiento Profesional Dos Veces al Año** — Un técnico licenciado verificará niveles de refrigerante, limpiará serpentines, ajustará conexiones eléctricas y detectará problemas pequeños antes de que se agranden.",
+          "**4. Monitoree la Configuración de Su Termostato** — Configurar su termostato a 78°F cuando está en casa puede ahorrarle hasta 10% en costos de enfriamiento.",
+          "**5. Esté Atento a Señales de Advertencia** — Ruidos inusuales, enfriamiento desigual, facturas más altas o agua alrededor de la unidad son señales de que algo puede estar mal."
+        ]
+      },
+      "when-to-replace": {
+        "title": "¿Cuándo Debe Reemplazar Su A/C? 7 Señales de Que Es Hora",
+        "excerpt": "¿No está seguro si su A/C necesita reparación o reemplazo completo? Aquí están las señales reveladoras.",
+        "date": "28 de Febrero, 2026",
+        "content": [
+          "Decidir si reparar o reemplazar su sistema de A/C es una de las decisiones de mantenimiento del hogar más importantes.",
+          "**1. Su Sistema Tiene Más de 15 Años** — La vida útil promedio de una unidad de A/C en South Florida es de 10-15 años.",
+          "**2. Los Costos de Reparación Se Acumulan** — Si una reparación cuesta más del 50% del precio de un sistema nuevo, el reemplazo suele ser la inversión más inteligente.",
+          "**3. Sus Facturas de Energía Siguen Subiendo** — Los sistemas modernos pueden ser 30-50% más eficientes que unidades de hace 10-15 años.",
+          "**4. Su Sistema Usa Refrigerante R-22** — El R-22 ha sido eliminado gradualmente. Si su sistema lo usa, el reemplazo es inevitable.",
+          "**5. Enfriamiento Desigual** — Si algunas habitaciones están demasiado frías mientras otras están calientes, su sistema puede no ser capaz de acondicionar su espacio adecuadamente.",
+          "**6. Humedad Excesiva** — Si su hogar se siente húmedo con el A/C funcionando, el sistema puede necesitar reemplazo.",
+          "**7. Averías Frecuentes** — Si llama para reparaciones más de dos veces al año, es señal de que su sistema está cerca del final de su vida útil."
+        ]
+      },
+      "miami-climate-hvac": {
+        "title": "Cómo el Clima de Miami Afecta Su Sistema de HVAC",
+        "excerpt": "Entender cómo el clima único de South Florida impacta su A/C le ayuda a tomar decisiones más inteligentes.",
+        "date": "20 de Enero, 2026",
+        "content": [
+          "El clima tropical de Miami es un paraíso para las personas pero castigador para los sistemas de HVAC.",
+          "**El Factor del Calor** — Miami promedia 248 días al año por encima de 80°F. Su A/C funciona casi todo el año.",
+          "**La Humedad: El Enemigo Oculto** — Los niveles de humedad de South Florida regularmente exceden el 70%. Su A/C no solo enfría el aire — también lo deshumidifica.",
+          "**Corrosión por Aire Salado** — Si vive cerca de la costa, el aire salado puede corroer los componentes metálicos de su unidad exterior.",
+          "**Impacto de la Temporada de Huracanes** — La temporada de huracanes de Miami trae escombros, sobretensiones eléctricas e inundaciones que pueden dañar el equipo de HVAC.",
+          "**Moho y Calidad del Aire Interior** — La combinación de calor y humedad hace de South Florida un punto caliente para el crecimiento de moho. Su sistema de A/C juega un papel crítico en el control de la humedad interior.",
+          "**Lo Que Puede Hacer** — La mejor defensa es el mantenimiento proactivo. Programe ajustes profesionales dos veces al año y cambie los filtros mensualmente."
+        ]
+      }
+    }
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: Abril 2026",
+    "intro": "MGM A/C Appliances (\"nosotros\", \"nos\", \"nuestro\") está comprometido con proteger su privacidad. Esta Política de Privacidad explica cómo recopilamos, usamos y protegemos su información cuando visita nuestro sitio web.",
+    "sections": [
+      {
+        "title": "Información Que Recopilamos",
+        "body": "Podemos recopilar información personal que usted proporciona voluntariamente cuando nos contacta a través de nuestro sitio web, incluyendo su nombre, número de teléfono, correo electrónico y detalles sobre sus necesidades de servicio de A/C."
+      },
+      {
+        "title": "Cómo Usamos Su Información",
+        "body": "Usamos la información que recopilamos para responder a sus consultas, proporcionar servicios de A/C, enviarle cotizaciones y comunicarnos con usted sobre sus necesidades de servicio. No vendemos su información personal a terceros."
+      },
+      {
+        "title": "Seguridad de la Información",
+        "body": "Implementamos medidas de seguridad apropiadas para proteger su información personal. Sin embargo, ningún método de transmisión por Internet es 100% seguro."
+      },
+      {
+        "title": "Cookies",
+        "body": "Nuestro sitio web puede usar cookies para mejorar su experiencia de navegación. Puede configurar su navegador para rechazar cookies, pero algunas funciones del sitio pueden no funcionar correctamente."
+      },
+      {
+        "title": "Enlaces a Terceros",
+        "body": "Nuestro sitio web puede contener enlaces a sitios web de terceros. No somos responsables de las prácticas de privacidad de estos sitios externos."
+      },
+      {
+        "title": "Contáctenos",
+        "body": "Si tiene preguntas sobre esta Política de Privacidad, contáctenos a sales@mgm-ac-appliances.com o llame al (305) 720-8273."
+      }
+    ]
   },
   "contact": {
     "label": "Contáctenos",
@@ -93,7 +446,19 @@
     "emailSubject": "Nueva Solicitud de Presupuesto"
   },
   "footer": {
-    "copyright": "© 2025 MGM A/C Appliances. Todos los derechos reservados."
+    "copyright": "© 2025 MGM A/C Appliances. Todos los derechos reservados.",
+    "license": "Licencia FL #XXXXX",
+    "quickLinks": "Enlaces Rápidos",
+    "servicesTitle": "Servicios",
+    "connectTitle": "Conectar",
+    "description": "Servicios de A/C familiares en todo South Florida. Instalación, reparación, mantenimiento y emergencia — en inglés y español.",
+    "address": "Sirviendo el Condado de Miami-Dade, South Florida"
+  },
+  "breadcrumb": {
+    "home": "Inicio"
+  },
+  "pageHeader": {
+    "callCta": "Llame para Presupuesto Gratis"
   },
   "metadata": {
     "title": "MGM A/C Appliances — Servicios de A/C en South Florida",

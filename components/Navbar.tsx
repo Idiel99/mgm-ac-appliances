@@ -18,10 +18,14 @@ export default function Navbar() {
     router.push(newPath);
   };
 
+  const isHome = pathname === `/${currentLocale}` || pathname === `/${currentLocale}/`;
+
   const navLinks = [
-    { href: "#services", label: t("services") },
-    { href: "#why-us", label: t("about") },
-    { href: "#contact", label: t("contact") },
+    { href: isHome ? "#services" : `/${currentLocale}/services`, label: t("services") },
+    { href: `/${currentLocale}/about`, label: t("about") },
+    { href: `/${currentLocale}/service-areas`, label: t("serviceAreas") },
+    { href: `/${currentLocale}/blog`, label: t("blog") },
+    { href: isHome ? "#contact" : `/${currentLocale}/#contact`, label: t("contact") },
   ];
 
   return (
@@ -37,15 +41,24 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Links */}
-        <ul className="hidden md:flex gap-8 list-none">
+        <ul className="hidden md:flex gap-6 list-none">
           {navLinks.map((link) => (
             <li key={link.href}>
-              <a
-                href={link.href}
-                className="text-white/75 hover:text-sky-200 text-sm font-medium transition-colors"
-              >
-                {link.label}
-              </a>
+              {link.href.startsWith("#") ? (
+                <a
+                  href={link.href}
+                  className="text-white/75 hover:text-sky-200 text-sm font-medium transition-colors"
+                >
+                  {link.label}
+                </a>
+              ) : (
+                <Link
+                  href={link.href}
+                  className="text-white/75 hover:text-sky-200 text-sm font-medium transition-colors"
+                >
+                  {link.label}
+                </Link>
+              )}
             </li>
           ))}
         </ul>
@@ -101,13 +114,23 @@ export default function Navbar() {
           <ul className="flex flex-col gap-4 list-none mb-4">
             {navLinks.map((link) => (
               <li key={link.href}>
-                <a
-                  href={link.href}
-                  onClick={() => setMenuOpen(false)}
-                  className="text-white/80 text-base font-medium"
-                >
-                  {link.label}
-                </a>
+                {link.href.startsWith("#") ? (
+                  <a
+                    href={link.href}
+                    onClick={() => setMenuOpen(false)}
+                    className="text-white/80 text-base font-medium"
+                  >
+                    {link.label}
+                  </a>
+                ) : (
+                  <Link
+                    href={link.href}
+                    onClick={() => setMenuOpen(false)}
+                    className="text-white/80 text-base font-medium"
+                  >
+                    {link.label}
+                  </Link>
+                )}
               </li>
             ))}
           </ul>

@@ -5,7 +5,14 @@
     "contact": "Contact",
     "callNow": "Call Now",
     "langEn": "EN",
-    "langEs": "ES"
+    "langEs": "ES",
+    "serviceAreas": "Service Areas",
+    "financing": "Financing",
+    "blog": "Blog",
+    "home": "Home",
+    "coupons": "Coupons",
+    "privacy": "Privacy Policy",
+    "warranty": "Warranty"
   },
   "hero": {
     "badge": "South Florida's Trusted AC Experts",
@@ -22,34 +29,158 @@
     "stat3Number": "24/7",
     "stat3Label": "Emergency Service"
   },
+  "offers": {
+    "label": "Special Offers",
+    "title": "Current Deals",
+    "offer1": {
+      "title": "Free Estimate",
+      "desc": "Get a no-obligation quote on any AC service — installation, repair, or maintenance.",
+      "badge": "FREE"
+    },
+    "offer2": {
+      "title": "10% Off First Service",
+      "desc": "New customers receive 10% off their first repair or maintenance visit.",
+      "badge": "10% OFF"
+    },
+    "offer3": {
+      "title": "$49 AC Tune-Up",
+      "desc": "Keep your system running at peak efficiency with our seasonal tune-up special.",
+      "badge": "$49"
+    },
+    "cta": "Call to Redeem"
+  },
   "services": {
     "label": "What We Do",
     "title": "Complete AC Solutions",
     "subtitle": "From new installations to emergency repairs, we handle every aspect of your air conditioning needs.",
+    "viewAll": "View All Services",
     "installation": {
       "title": "Installation",
-      "desc": "New AC unit installation for homes and businesses, sized and configured for maximum efficiency."
+      "desc": "New AC unit installation for homes and businesses, sized and configured for maximum efficiency.",
+      "longDesc": "Whether you're building a new home, renovating, or replacing an aging system, MGM A/C Appliances provides expert AC installation services throughout South Florida. We help you choose the right system for your space, budget, and efficiency goals.",
+      "features": ["Proper load calculation for your space", "Energy-efficient system recommendations", "Professional installation by licensed technicians", "Full system testing and calibration", "Manufacturer warranty registration"],
+      "signs": ["Your current system is over 15 years old", "Frequent and costly repairs", "Uneven cooling throughout your home", "Rising energy bills despite regular maintenance", "Your system uses R-22 refrigerant (being phased out)"]
     },
     "repair": {
       "title": "Repair",
-      "desc": "Fast diagnosis and repair of any AC issue — we get your system running again quickly."
+      "desc": "Fast diagnosis and repair of any AC issue — we get your system running again quickly.",
+      "longDesc": "When your AC breaks down in the South Florida heat, you need fast, reliable repair service. MGM A/C Appliances offers same-day repair service with honest, upfront pricing. Our licensed technicians diagnose and fix all makes and models.",
+      "features": ["Same-day emergency repair service", "All major brands and models serviced", "Honest diagnosis — we fix what's broken, nothing more", "Upfront pricing before work begins", "90-day warranty on all repairs"],
+      "signs": ["AC is blowing warm air", "Strange noises from the unit", "Unusual odors when the system runs", "Water leaking around the unit", "System frequently cycling on and off"]
     },
     "maintenance": {
       "title": "Maintenance",
-      "desc": "Scheduled tune-ups and annual plans to keep your system running at peak performance year-round."
+      "desc": "Scheduled tune-ups and annual plans to keep your system running at peak performance year-round.",
+      "longDesc": "Regular maintenance is the key to a long-lasting, efficient AC system — especially in South Florida's demanding climate. MGM A/C Appliances offers comprehensive maintenance plans that catch problems before they become expensive repairs.",
+      "features": ["Complete system inspection and cleaning", "Refrigerant level check and top-off", "Electrical connection tightening", "Thermostat calibration", "Filter replacement and airflow check"],
+      "signs": ["You haven't had a tune-up in over a year", "Your energy bills are creeping up", "The system takes longer to cool your home", "You hear minor noises that weren't there before", "Dust buildup around vents and registers"]
     },
     "commercial": {
       "title": "Commercial",
-      "desc": "Full-scale commercial HVAC solutions for offices, retail, and industrial spaces across South Florida."
+      "desc": "Full-scale commercial HVAC solutions for offices, retail, and industrial spaces across South Florida.",
+      "longDesc": "Keep your business comfortable and your employees productive with MGM A/C Appliances commercial HVAC services. We serve offices, retail stores, restaurants, warehouses, and industrial facilities throughout South Florida.",
+      "features": ["Commercial system design and installation", "Preventive maintenance contracts", "Emergency repair service for businesses", "Energy efficiency audits", "Multi-zone climate control solutions"],
+      "signs": ["Inconsistent temperatures across your building", "Employee or customer complaints about comfort", "Commercial energy bills are too high", "Your system struggles during peak summer months", "Building expansion requiring HVAC upgrades"]
+    },
+    "emergency": {
+      "title": "Emergency Service",
+      "desc": "AC broke down at midnight? We're available 24/7 for urgent repairs when you need us most.",
+      "longDesc": "South Florida heat doesn't wait for business hours — and neither do we. MGM A/C Appliances provides 24/7 emergency AC repair service. When your system goes down unexpectedly, call us anytime day or night.",
+      "features": ["Available 24 hours a day, 7 days a week", "Fast response times across South Florida", "No after-hours surprise fees", "Fully stocked service vehicles", "Licensed and insured emergency technicians"],
+      "signs": ["Complete system failure — no cooling at all", "AC making loud or dangerous-sounding noises", "Burning smell coming from the unit", "Water flooding from the system", "Electrical issues related to your HVAC"]
     },
     "residential": {
       "title": "Residential",
       "desc": "Personalized home comfort solutions with energy-efficient systems tailored to your home."
     },
-    "emergency": {
-      "title": "Emergency Service",
-      "desc": "AC broke down at midnight? We're available 24/7 for urgent repairs when you need us most."
-    }
+    "whyChoose": "Why Choose MGM",
+    "whyChooseDesc": "Licensed, insured, and family-owned — we treat every job like it's our own home.",
+    "featuresTitle": "What's Included",
+    "signsTitle": "Signs You Need This Service",
+    "ctaTitle": "Ready to Get Started?",
+    "ctaDesc": "Call us today for a free estimate. We serve all of South Florida.",
+    "ctaButton": "Call for Free Estimate"
+  },
+  "testimonials": {
+    "label": "What Our Customers Say",
+    "title": "Trusted by South Florida Homeowners",
+    "googleCta": "Review Us on Google",
+    "reviews": [
+      {
+        "name": "Maria G.",
+        "date": "March 2026",
+        "rating": 5,
+        "text": "MGM installed our new AC system and we couldn't be happier. The team was professional, on time, and explained everything clearly in Spanish. Our house has never been cooler!"
+      },
+      {
+        "name": "Robert T.",
+        "date": "February 2026",
+        "rating": 5,
+        "text": "Called MGM for an emergency repair on a Saturday night. They showed up within an hour and fixed the problem quickly. Fair pricing and great service."
+      },
+      {
+        "name": "Ana L.",
+        "date": "January 2026",
+        "rating": 5,
+        "text": "We've been using MGM for maintenance for two years. They're always punctual, thorough, and honest. Best AC company in Miami — truly family-owned and it shows."
+      },
+      {
+        "name": "James K.",
+        "date": "March 2026",
+        "rating": 5,
+        "text": "Great experience from start to finish. The estimate was accurate, the installation was clean, and they cleaned up after themselves. Highly recommend."
+      },
+      {
+        "name": "Carlos M.",
+        "date": "December 2025",
+        "rating": 5,
+        "text": "Finally found an AC company that speaks my language — literally. Bilingual service made the whole process so much easier. Excellent work on our commercial unit."
+      },
+      {
+        "name": "Jennifer P.",
+        "date": "February 2026",
+        "rating": 5,
+        "text": "MGM replaced our 20-year-old unit and our electric bill dropped by 30%. They recommended the right size system and didn't try to upsell us. Honest family business."
+      }
+    ]
+  },
+  "faq": {
+    "label": "Common Questions",
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "How often should I service my AC in South Florida?",
+        "a": "We recommend at least twice a year — once before summer and once before winter. South Florida's heat and humidity make your AC work harder than in most places, so regular maintenance prevents breakdowns and keeps your energy bills low."
+      },
+      {
+        "q": "How long does a typical AC installation take?",
+        "a": "Most residential installations are completed in one day (4-8 hours). Commercial installations may take longer depending on the size of the system. We'll give you an accurate timeline during your free estimate."
+      },
+      {
+        "q": "Do you offer financing for new AC systems?",
+        "a": "Yes! We understand that a new AC system is a significant investment. We offer flexible financing options to help you get the comfort you need without breaking the bank. Call us for details."
+      },
+      {
+        "q": "What brands do you work with?",
+        "a": "We service and install all major brands including Carrier, Trane, Lennox, Rheem, Goodman, Daikin, and more. We'll help you choose the best brand and model for your needs and budget."
+      },
+      {
+        "q": "Do you provide service in both English and Spanish?",
+        "a": "Absolutely! Our team is fully bilingual. We have dedicated English and Spanish phone lines to make sure you can communicate comfortably in your preferred language."
+      },
+      {
+        "q": "What should I do if my AC stops working in the middle of the night?",
+        "a": "Call us! We offer 24/7 emergency repair service. Our technicians are available day and night, weekends and holidays. There are no after-hours surprise fees."
+      },
+      {
+        "q": "How do I know if I need a repair or a full replacement?",
+        "a": "Generally, if your system is over 15 years old and needs frequent repairs, replacement is often more cost-effective. If it's newer and the repair is straightforward, we'll fix it. We always give you honest advice — we'll never push a replacement you don't need."
+      },
+      {
+        "q": "What areas do you serve?",
+        "a": "We serve all of South Florida including Miami, Hialeah, Homestead, Coral Gables, Doral, Kendall, and surrounding areas in Miami-Dade County."
+      }
+    ]
   },
   "whyUs": {
     "label": "Why Choose Us",
@@ -65,7 +196,229 @@
     "bilingual": {
       "title": "Bilingual Service",
       "desc": "We serve you in both English and Spanish — because communication is everything when it comes to your comfort."
+    },
+    "license": "FL License #XXXXX"
+  },
+  "serviceArea": {
+    "label": "Where We Work",
+    "title": "Serving All of South Florida",
+    "subtitle": "MGM A/C Appliances proudly serves homes and businesses across Miami-Dade County and surrounding areas.",
+    "cta": "Don't see your area? Call us — we may still be able to help!",
+    "cities": {
+      "miami": {
+        "name": "Miami",
+        "desc": "Comprehensive AC services for Miami's diverse neighborhoods — from Downtown and Brickell to Little Havana and Wynwood. We keep Miami cool year-round.",
+        "longDesc": "As the heart of South Florida, Miami demands reliable air conditioning. With average summer temperatures in the 90s and humidity that can make it feel even hotter, your AC system works overtime. MGM A/C Appliances has been serving Miami homeowners and businesses with expert installation, repair, and maintenance services. Whether you're in a high-rise condo in Brickell, a family home in Westchester, or a restaurant in Little Havana — we've got you covered.",
+        "neighborhoods": ["Downtown Miami", "Brickell", "Little Havana", "Wynwood", "Westchester", "Flagami", "Allapattah"]
+      },
+      "hialeah": {
+        "name": "Hialeah",
+        "desc": "Trusted AC repair and installation in Hialeah and Hialeah Gardens. Fast, bilingual service your family can count on.",
+        "longDesc": "Hialeah is one of the most densely populated cities in Florida, and when the AC goes out, you need fast service. MGM A/C Appliances provides same-day repair service throughout Hialeah and Hialeah Gardens. Our bilingual team is ready to help — most of our Hialeah customers prefer Spanish, and we're happy to serve you in your preferred language.",
+        "neighborhoods": ["Hialeah", "Hialeah Gardens", "Palm Springs North", "Miami Lakes"]
+      },
+      "homestead": {
+        "name": "Homestead",
+        "desc": "Reliable AC service in Homestead and Florida City. We understand the unique needs of South Dade homes.",
+        "longDesc": "Homestead and Florida City sit at the southern tip of Miami-Dade County, where the heat can be relentless. Many homes in this area are newer construction, but the demanding South Florida climate means your AC still needs regular attention. MGM A/C Appliances serves the entire South Dade area with professional AC installation, repair, and maintenance.",
+        "neighborhoods": ["Homestead", "Florida City", "Leisure City", "Naranja"]
+      },
+      "coralGables": {
+        "name": "Coral Gables",
+        "desc": "Premium AC services for Coral Gables' historic homes and modern residences. Licensed and trusted.",
+        "longDesc": "Coral Gables is known for its beautiful historic homes and tree-lined streets. Many of these older homes have unique HVAC challenges — from ductwork in tight spaces to systems that need to work with the home's architectural character. MGM A/C Appliances has experience working with both historic and modern Coral Gables properties, ensuring your home stays comfortable without compromising its beauty.",
+        "neighborhoods": ["Coral Gables", "South Miami", "Coconut Grove", "Pinecrest"]
+      },
+      "doral": {
+        "name": "Doral",
+        "desc": "Commercial and residential AC experts in Doral. Serving the city's growing business community.",
+        "longDesc": "Doral is one of South Florida's fastest-growing cities, with a thriving business community and expanding residential areas. MGM A/C Appliances serves both commercial and residential customers in Doral, from office parks and retail centers to single-family homes and apartments. Our commercial HVAC expertise makes us the right choice for Doral businesses.",
+        "neighborhoods": ["Doral", "Sweetwater", "Fontainebleau", "Medley"]
+      },
+      "kendall": {
+        "name": "Kendall",
+        "desc": "Your neighborhood AC company in Kendall. Fast response, honest pricing, bilingual service.",
+        "longDesc": "Kendall is one of Miami-Dade's largest residential communities, and reliable AC is a must. With summer temperatures regularly hitting the 90s and humidity that can make it feel like 100+, you need an AC company you can trust. MGM A/C Appliances provides fast, affordable AC service throughout the Kendall area, from The Falls to Dadeland.",
+        "neighborhoods": ["Kendall", "The Hammocks", "Country Walk", "Richmond Heights", "Dadeland"]
+      }
     }
+  },
+  "about": {
+    "label": "About Us",
+    "title": "Meet MGM A/C Appliances",
+    "subtitle": "A family-owned business built on honest service and South Florida roots.",
+    "story": {
+      "title": "Our Story",
+      "p1": "MGM A/C Appliances was founded with a simple mission: provide South Florida families with honest, reliable AC service at fair prices. As a family-owned and operated business, we understand that your home comfort isn't just a service call — it's personal.",
+      "p2": "With over a decade of experience serving Miami-Dade County, we've built our reputation one happy customer at a time. We don't have corporate quotas or salespeople pushing unnecessary upgrades. When you call MGM, you get a licensed technician who treats your home like their own.",
+      "p3": "We're proud to be one of South Florida's few fully bilingual AC companies, offering dedicated English and Spanish phone lines. Because when your AC breaks down in the middle of a Miami summer, the last thing you need is a language barrier."
+    },
+    "values": {
+      "title": "What We Stand For",
+      "honesty": {
+        "title": "Honest Pricing",
+        "desc": "No hidden fees, no surprise charges. We give you a clear estimate before any work begins."
+      },
+      "quality": {
+        "title": "Quality Work",
+        "desc": "Every job is done right the first time. We use quality parts and stand behind our work."
+      },
+      "community": {
+        "title": "Community First",
+        "desc": "We live where we work. Our customers are our neighbors, and we treat them that way."
+      },
+      "bilingual": {
+        "title": "Bilingual Always",
+        "desc": "Full service in English and Spanish. No interpreters needed — our whole team speaks both."
+      }
+    },
+    "stats": {
+      "years": "10+",
+      "yearsLabel": "Years Serving South Florida",
+      "customers": "500+",
+      "customersLabel": "Happy Customers",
+      "available": "24/7",
+      "availableLabel": "Emergency Availability",
+      "languages": "2",
+      "languagesLabel": "Languages Spoken"
+    }
+  },
+  "financing": {
+    "label": "Financing",
+    "title": "Flexible Financing Options",
+    "subtitle": "A new AC system is a major investment. We make it affordable.",
+    "body": "We understand that replacing or installing a new AC system can be a significant expense. That's why MGM A/C Appliances offers flexible financing options to help you get the comfort you need without straining your budget.",
+    "benefits": {
+      "title": "Why Finance With Us",
+      "b1": "Competitive rates with approved credit",
+      "b2": "Low monthly payment options",
+      "b3": "Quick and easy application process",
+      "b4": "No prepayment penalties",
+      "b5": "Multiple plan options to fit your budget"
+    },
+    "cta": "Call us today to discuss financing options for your new AC system.",
+    "ctaButton": "Call to Discuss Financing"
+  },
+  "warranty": {
+    "label": "Warranty",
+    "title": "Our Warranty & Guarantee",
+    "subtitle": "We stand behind every job we do.",
+    "body": "At MGM A/C Appliances, quality isn't just a promise — it's backed by our warranty. We want you to have complete peace of mind when you choose us for your AC needs.",
+    "laborTitle": "Labor Warranty",
+    "laborDesc": "All installation and repair work comes with a labor warranty. If something isn't right, we'll come back and make it right — at no additional cost.",
+    "partsTitle": "Parts Warranty",
+    "partsDesc": "We use quality parts from trusted manufacturers, all backed by manufacturer warranties. We handle all warranty claims on your behalf.",
+    "satisfactionTitle": "Satisfaction Guarantee",
+    "satisfactionDesc": "Your satisfaction is our top priority. If you're not happy with our work, let us know and we'll work with you to make it right.",
+    "cta": "Have warranty questions? Call us anytime.",
+    "ctaButton": "Call Us"
+  },
+  "coupons": {
+    "label": "Special Offers",
+    "title": "Current Coupons & Deals",
+    "subtitle": "Save on your next AC service with these exclusive offers.",
+    "printCta": "Print This Coupon",
+    "redeemNote": "Present coupon at time of service. Cannot be combined with other offers. Call for details.",
+    "coupon1": {
+      "title": "Free AC Estimate",
+      "desc": "Get a no-obligation quote on any AC installation or replacement.",
+      "badge": "FREE",
+      "expires": "No expiration"
+    },
+    "coupon2": {
+      "title": "10% Off First Service",
+      "desc": "New customers receive 10% off their first repair or maintenance visit.",
+      "badge": "10% OFF",
+      "expires": "Limited time offer"
+    },
+    "coupon3": {
+      "title": "$49 Seasonal Tune-Up",
+      "desc": "Complete AC system inspection, cleaning, and tune-up to keep your system efficient.",
+      "badge": "$49",
+      "expires": "Seasonal offer"
+    }
+  },
+  "blog": {
+    "label": "Expert Tips",
+    "title": "AC Tips & Advice",
+    "subtitle": "Helpful guides for South Florida homeowners to keep their homes cool and comfortable.",
+    "readMore": "Read More",
+    "backToBlog": "Back to All Articles",
+    "posts": {
+      "maintenance-tips": {
+        "title": "5 AC Maintenance Tips Every South Florida Homeowner Should Know",
+        "excerpt": "Keep your AC running efficiently and avoid costly breakdowns with these essential maintenance tips for the South Florida climate.",
+        "date": "March 15, 2026",
+        "content": [
+          "Living in South Florida means your AC works harder than almost anywhere else in the country. With temperatures regularly hitting the 90s and humidity levels that can make it feel even hotter, your air conditioning system is your most important home appliance. Here are five essential maintenance tips to keep it running smoothly.",
+          "**1. Change Your Air Filter Every 30-60 Days** — In South Florida's dusty, humid environment, air filters clog faster than in other climates. A dirty filter forces your system to work harder, increasing energy bills and reducing its lifespan. Set a monthly reminder to check your filter.",
+          "**2. Keep Your Outdoor Unit Clear** — Your condenser unit needs at least 2 feet of clearance on all sides for proper airflow. Trim back any bushes, vines, or debris that might be blocking it. In South Florida, tropical plants grow fast — check this monthly.",
+          "**3. Schedule Professional Maintenance Twice a Year** — While some maintenance tasks you can do yourself, a professional tune-up twice a year is essential. A licensed technician will check refrigerant levels, clean coils, tighten electrical connections, and catch small problems before they become big ones.",
+          "**4. Monitor Your Thermostat Settings** — Setting your thermostat to 78°F when you're home and slightly higher when you're away can save you up to 10% on cooling costs. Consider a programmable thermostat if you don't already have one.",
+          "**5. Watch for Warning Signs** — Unusual noises, uneven cooling, higher-than-normal energy bills, or water around the unit are all signs that something may be wrong. Catching issues early saves money and prevents emergency breakdowns."
+        ]
+      },
+      "when-to-replace": {
+        "title": "When Should You Replace Your AC? 7 Signs It's Time",
+        "excerpt": "Not sure if your AC needs a repair or a full replacement? Here are the telltale signs that it's time for a new system.",
+        "date": "February 28, 2026",
+        "content": [
+          "Deciding whether to repair or replace your AC system is one of the biggest home maintenance decisions you'll face. Here are seven signs that it might be time for a new system.",
+          "**1. Your System Is Over 15 Years Old** — The average lifespan of an AC unit in South Florida is 10-15 years. If your system is approaching or past this age, it's likely becoming less efficient and more prone to breakdowns.",
+          "**2. Repair Costs Are Adding Up** — A good rule of thumb: if a repair costs more than 50% of the price of a new system, replacement is usually the smarter investment.",
+          "**3. Your Energy Bills Keep Rising** — If your energy bills are climbing despite no changes in usage, your aging AC system may be losing efficiency. Modern systems can be 30-50% more efficient than units from 10-15 years ago.",
+          "**4. Your System Uses R-22 Refrigerant** — R-22 (Freon) has been phased out due to environmental regulations. If your system uses it, replacement is inevitable — and the sooner you switch, the sooner you start saving.",
+          "**5. Uneven Cooling Throughout Your Home** — If some rooms are too cold while others are too warm, your system may no longer be capable of properly conditioning your space.",
+          "**6. Excessive Humidity Inside** — Your AC should moderate humidity as well as temperature. If your home feels muggy even with the AC running, the system may need replacement.",
+          "**7. Frequent Breakdowns** — If you're calling for repairs more than twice a year, it's a sign that your system is nearing the end of its useful life. A new system will give you reliability and peace of mind."
+        ]
+      },
+      "miami-climate-hvac": {
+        "title": "How Miami's Climate Affects Your HVAC System",
+        "excerpt": "Understanding how South Florida's unique climate impacts your AC helps you make smarter maintenance and replacement decisions.",
+        "date": "January 20, 2026",
+        "content": [
+          "Miami's tropical climate is paradise for people but punishing for HVAC systems. Understanding how our unique weather conditions affect your AC helps you maintain it properly and make informed decisions about repairs and replacements.",
+          "**The Heat Factor** — Miami averages 248 days per year above 80°F. Your AC runs almost year-round, which means more wear and tear than systems in northern climates. This constant operation is why maintenance is so important here.",
+          "**Humidity: The Hidden Enemy** — South Florida's humidity levels regularly exceed 70%. Your AC doesn't just cool the air — it also dehumidifies it. This double duty puts extra strain on the system and can lead to issues like frozen coils and mold growth if not properly maintained.",
+          "**Salt Air Corrosion** — If you live near the coast, salt air can corrode your outdoor AC unit's metal components. Condenser coils, fan blades, and housing all suffer from saltwater exposure. Regular cleaning and anti-corrosion treatments can extend your unit's life.",
+          "**Hurricane Season Impact** — Miami's hurricane season (June through November) brings debris, power surges, and flooding — all of which can damage HVAC equipment. After any major storm, have your system inspected before turning it back on.",
+          "**Mold and Indoor Air Quality** — The combination of heat and humidity makes South Florida a hotspot for mold growth. Your AC system plays a critical role in controlling indoor humidity and maintaining air quality. A well-maintained system keeps mold at bay; a neglected one can actually spread it.",
+          "**What You Can Do** — The best defense against Miami's climate is proactive maintenance. Schedule professional tune-ups twice a year, change filters monthly, keep the outdoor unit clear, and address any issues immediately. A well-maintained system in South Florida can last 12-15 years; a neglected one may fail in 7-8."
+        ]
+      }
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: April 2026",
+    "intro": "MGM A/C Appliances (\"we\", \"us\", \"our\") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you visit our website.",
+    "sections": [
+      {
+        "title": "Information We Collect",
+        "body": "We may collect personal information that you voluntarily provide when you contact us through our website, including your name, phone number, email address, and details about your AC service needs."
+      },
+      {
+        "title": "How We Use Your Information",
+        "body": "We use the information we collect to respond to your inquiries, provide AC services, send you quotes, and communicate with you about your service needs. We do not sell your personal information to third parties."
+      },
+      {
+        "title": "Information Security",
+        "body": "We implement appropriate security measures to protect your personal information. However, no method of transmission over the Internet is 100% secure, and we cannot guarantee absolute security."
+      },
+      {
+        "title": "Cookies",
+        "body": "Our website may use cookies to enhance your browsing experience. You can set your browser to refuse cookies, but some features of the website may not function properly."
+      },
+      {
+        "title": "Third-Party Links",
+        "body": "Our website may contain links to third-party websites. We are not responsible for the privacy practices of these external sites."
+      },
+      {
+        "title": "Contact Us",
+        "body": "If you have questions about this Privacy Policy, please contact us at sales@mgm-ac-appliances.com or call (786) 352-0084."
+      }
+    ]
   },
   "contact": {
     "label": "Get in Touch",
@@ -93,7 +446,19 @@
     "emailSubject": "New Quote Request"
   },
   "footer": {
-    "copyright": "© 2025 MGM A/C Appliances. All rights reserved."
+    "copyright": "© 2025 MGM A/C Appliances. All rights reserved.",
+    "license": "FL License #XXXXX",
+    "quickLinks": "Quick Links",
+    "servicesTitle": "Services",
+    "connectTitle": "Connect",
+    "description": "Family-owned AC services across South Florida. Installation, repair, maintenance, and emergency support — in English & Spanish.",
+    "address": "Serving Miami-Dade County, South Florida"
+  },
+  "breadcrumb": {
+    "home": "Home"
+  },
+  "pageHeader": {
+    "callCta": "Call for Free Estimate"
   },
   "metadata": {
     "title": "MGM A/C Appliances — AC Services in South Florida",
