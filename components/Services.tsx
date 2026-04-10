@@ -1,4 +1,5 @@
-import { getTranslations } from "next-intl/server";
+import { getTranslations, getLocale } from "next-intl/server";
+import Link from "next/link";
 import ScrollReveal from "./ScrollReveal";
 
 const SERVICE_KEYS = [
@@ -9,6 +10,8 @@ const SERVICE_KEYS = [
   "residential",
   "emergency",
 ] as const;
+
+const LINKABLE_SERVICES = new Set(["installation", "repair", "maintenance", "commercial", "residential", "emergency"]);
 
 const SERVICE_ICONS: Record<string, string> = {
   installation: "🏗️",
@@ -21,6 +24,7 @@ const SERVICE_ICONS: Record<string, string> = {
 
 export default async function Services() {
   const t = await getTranslations("services");
+  const locale = await getLocale();
 
   return (
     <section id="services" className="bg-sky-50 py-24 px-4 md:px-8">
@@ -39,26 +43,36 @@ export default async function Services() {
         </p>
 
         <ScrollReveal animation="fade-left" staggerChildren staggerInterval={120} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {SERVICE_KEYS.map((key) => (
-            <div
-              key={key}
-              className="group bg-white rounded-2xl p-8 border border-sky-500/10 shadow-sm hover:-translate-y-1 hover:shadow-[0_16px_40px_rgba(14,165,233,0.12)] hover:border-sky-500/30 transition-all duration-200 relative overflow-hidden"
-            >
-              <div className="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-sky-500 to-sky-200 opacity-0 group-hover:opacity-100 transition-opacity" />
-              <div className="w-[52px] h-[52px] bg-gradient-to-br from-sky-100 to-sky-200 rounded-[14px] flex items-center justify-center text-2xl mb-5 cold-mist">
-                {SERVICE_ICONS[key]}
+          {SERVICE_KEYS.map((key) => {
+            const cardClass = "group bg-white rounded-2xl p-8 border border-sky-500/10 shadow-sm hover:-translate-y-1 hover:shadow-[0_16px_40px_rgba(14,165,233,0.12)] hover:border-sky-500/30 transition-all duration-200 relative overflow-hidden";
+            const content = (
+              <>
+                <div className="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-sky-500 to-sky-200 opacity-0 group-hover:opacity-100 transition-opacity" />
+                <div className="w-[52px] h-[52px] bg-gradient-to-br from-sky-100 to-sky-200 rounded-[14px] flex items-center justify-center text-2xl mb-5 cold-mist">
+                  {SERVICE_ICONS[key]}
+                </div>
+                <h3
+                  className="font-bold text-slate-900 text-lg mb-2"
+                  style={{ fontFamily: "var(--font-outfit), sans-serif" }}
+                >
+                  {t(`${key}.title`)}
+                </h3>
+                <p className="text-slate-600 text-sm leading-relaxed">
+                  {t(`${key}.desc`)}
+                </p>
+              </>
+            );
+
+            return LINKABLE_SERVICES.has(key) ? (
+              <Link key={key} href={`/${locale}/services/${key}`} className={cardClass}>
+                {content}
+              </Link>
+            ) : (
+              <div key={key} className={cardClass}>
+                {content}
               </div>
-              <h3
-                className="font-bold text-slate-900 text-lg mb-2"
-                style={{ fontFamily: "var(--font-outfit), sans-serif" }}
-              >
-                {t(`${key}.title`)}
-              </h3>
-              <p className="text-slate-600 text-sm leading-relaxed">
-                {t(`${key}.desc`)}
-              </p>
-            </div>
-          ))}
+            );
+          })}
         </ScrollReveal>
       </div>
     </section>

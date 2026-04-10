@@ -91,7 +91,10 @@
     },
     "residential": {
       "title": "Residencial",
-      "desc": "Soluciones de confort personalizadas para el hogar con sistemas de alta eficiencia adaptados a su vivienda."
+      "desc": "Soluciones de confort personalizadas para el hogar con sistemas de alta eficiencia adaptados a su vivienda.",
+      "longDesc": "Su hogar es su refugio, y un aire acondicionado confiable es esencial para mantenerlo cómodo — especialmente en South Florida. MGM A/C Appliances se especializa en soluciones de HVAC residencial adaptadas al tamaño, diseño y necesidades de enfriamiento de su hogar. Desde casas unifamiliares hasta condominios y townhouses, brindamos servicio personalizado que mantiene a su familia fresca y sus facturas de energía bajas.",
+      "features": ["Diseño e instalación de sistemas de enfriamiento para toda la casa", "Actualizaciones y reemplazos de alta eficiencia energética", "Inspección y sellado de ductos", "Instalación y configuración de termostatos inteligentes", "Evaluaciones de calidad del aire interior"],
+      "signs": ["Habitaciones que nunca se enfrían uniformemente", "Su sistema tiene más de 10 años", "Facturas de energía en aumento a pesar del uso normal", "Polvo frecuente o mala calidad del aire interior", "Su hogar fue renovado o ampliado recientemente"]
     },
     "whyChoose": "¿Por Qué Elegir MGM?",
     "whyChooseDesc": "Licenciados, asegurados y de propiedad familiar — tratamos cada trabajo como si fuera nuestra propia casa.",
@@ -202,14 +205,15 @@
   "serviceArea": {
     "label": "Dónde Trabajamos",
     "title": "Sirviendo Todo South Florida",
-    "subtitle": "MGM A/C Appliances sirve con orgullo hogares y negocios en el Condado de Miami-Dade y áreas circundantes.",
+    "subtitle": "MGM A/C Appliances sirve con orgullo hogares y negocios desde los Cayos de Florida hasta West Palm Beach y hasta Naples y Fort Myers.",
+    "learnMore": "Ver Más",
     "cta": "¿No ve su área? ¡Llámenos — quizás podamos ayudarle!",
     "cities": {
       "miami": {
         "name": "Miami",
         "desc": "Servicios completos de A/C para los diversos vecindarios de Miami — desde Downtown y Brickell hasta Little Havana y Wynwood.",
         "longDesc": "Como el corazón de South Florida, Miami exige aire acondicionado confiable. Con temperaturas promedio de verano en los 90 grados y humedad que puede sentirse aún más caliente, su sistema de A/C trabaja horas extras. MGM A/C Appliances ha estado sirviendo a propietarios y negocios de Miami con servicios expertos de instalación, reparación y mantenimiento.",
-        "neighborhoods": ["Downtown Miami", "Brickell", "Little Havana", "Wynwood", "Westchester", "Flagami", "Allapattah"]
+        "neighborhoods": ["Downtown Miami", "Brickell", "Little Havana", "Wynwood", "Westchester", "Flagami", "Allapattah", "Coconut Grove", "Overtown", "Liberty City"]
       },
       "hialeah": {
         "name": "Hialeah",
@@ -240,6 +244,66 @@
         "desc": "Su empresa de A/C del vecindario en Kendall. Respuesta rápida, precios honestos, servicio bilingüe.",
         "longDesc": "Kendall es una de las comunidades residenciales más grandes de Miami-Dade. MGM A/C Appliances proporciona servicio de A/C rápido y asequible en toda el área de Kendall.",
         "neighborhoods": ["Kendall", "The Hammocks", "Country Walk", "Richmond Heights", "Dadeland"]
+      },
+      "miamiBeach": {
+        "name": "Miami Beach",
+        "desc": "Servicios expertos de A/C para condominios, hoteles y casas frente al mar en Miami Beach.",
+        "longDesc": "La ubicación frente al mar de Miami Beach significa que su sistema de A/C enfrenta desafíos únicos — corrosión por aire salado, alta humedad y operación casi constante. Ya sea que esté en un edificio alto en South Beach, un condominio en Mid-Beach o una casa familiar en North Beach, MGM A/C Appliances entiende las necesidades específicas de HVAC de la vida en una isla barrera.",
+        "neighborhoods": ["South Beach", "Mid-Beach", "North Beach", "Surfside", "Bal Harbour", "Bay Harbor Islands", "Indian Creek", "Fisher Island"]
+      },
+      "miamiGardens": {
+        "name": "Miami Gardens",
+        "desc": "Reparación e instalación confiable de A/C para las familias de Miami Gardens. Servicio el mismo día.",
+        "longDesc": "Miami Gardens es una de las ciudades más grandes del Condado de Miami-Dade, y sus residentes merecen un servicio de A/C rápido y confiable. MGM A/C Appliances proporciona reparación el mismo día, instalación profesional y mantenimiento preventivo en todo Miami Gardens y comunidades circundantes.",
+        "neighborhoods": ["Miami Gardens", "Opa-locka", "Carol City", "Norland", "North Miami Beach"]
+      },
+      "aventura": {
+        "name": "Aventura",
+        "desc": "Servicios premium de A/C para los condominios de lujo y comunidades residenciales de Aventura.",
+        "longDesc": "Aventura es hogar de algunas de las torres residenciales más prestigiosas de South Florida. MGM A/C Appliances sirve la mezcla única de condominios de gran altura, casas adosadas y espacios comerciales de Aventura con soluciones expertas de HVAC.",
+        "neighborhoods": ["Aventura", "Sunny Isles Beach", "Golden Beach", "Hallandale Beach", "North Miami"]
+      },
+      "theKeys": {
+        "name": "Florida Keys",
+        "desc": "Servicios de A/C para los Cayos de Florida — de Key Largo a Key West. Mantenemos el paraíso fresco.",
+        "longDesc": "El clima tropical de los Cayos de Florida y el aire salado crean algunas de las condiciones más exigentes para sistemas de HVAC en todo el país. Con calor durante todo el año, humedad extrema y exposición constante a la sal, su A/C necesita atención especializada. MGM A/C Appliances sirve toda la cadena de islas.",
+        "neighborhoods": ["Key Largo", "Islamorada", "Marathon", "Big Pine Key", "Key West", "Tavernier", "Key Colony Beach"]
+      },
+      "fortLauderdale": {
+        "name": "Fort Lauderdale",
+        "desc": "Soluciones completas de A/C para hogares y negocios de Fort Lauderdale. Los expertos de confianza del Condado de Broward.",
+        "longDesc": "La mezcla de propiedades frente al agua, condominios urbanos y vecindarios suburbanos de Fort Lauderdale presentan desafíos únicos de enfriamiento. MGM A/C Appliances lleva nuestro servicio confiable de South Florida al norte, al Condado de Broward, proporcionando los mismos precios honestos y soporte bilingüe.",
+        "neighborhoods": ["Downtown Fort Lauderdale", "Las Olas", "Victoria Park", "Wilton Manors", "Oakland Park", "Lauderhill", "Plantation", "Davie"]
+      },
+      "hollywood": {
+        "name": "Hollywood",
+        "desc": "Reparación, instalación y mantenimiento confiable de A/C en Hollywood y comunidades de Broward.",
+        "longDesc": "Hollywood se encuentra en la intersección de los condados de Miami-Dade y Broward, y MGM A/C Appliances se enorgullece de servir a esta vibrante comunidad. Desde los condominios frente a la playa de Hollywood Beach hasta los hogares familiares de Pembroke Pines y Miramar, proporcionamos servicios completos de A/C.",
+        "neighborhoods": ["Hollywood", "Hollywood Beach", "Pembroke Pines", "Miramar", "Cooper City", "Weston", "Southwest Ranches"]
+      },
+      "bocaraton": {
+        "name": "Boca Raton",
+        "desc": "Servicios premium de A/C para hogares y negocios de Boca Raton. Sur del Condado de Palm Beach cubierto.",
+        "longDesc": "Las comunidades exclusivas y los distritos comerciales en crecimiento de Boca Raton exigen un servicio de A/C confiable y de alta calidad. MGM A/C Appliances extiende nuestra experiencia de South Florida a Boca Raton y las comunidades circundantes del Condado de Palm Beach.",
+        "neighborhoods": ["Boca Raton", "Deerfield Beach", "Delray Beach", "Boynton Beach", "Lake Worth", "Pompano Beach"]
+      },
+      "westPalmBeach": {
+        "name": "West Palm Beach",
+        "desc": "Servicios profesionales de A/C para West Palm Beach y el norte del Condado de Palm Beach.",
+        "longDesc": "West Palm Beach y las comunidades circundantes del Condado de Palm Beach experimentan el mismo calor implacable de South Florida. MGM A/C Appliances ahora sirve toda el área del Condado de Palm Beach con el mismo compromiso de precios honestos, servicio experto y soporte bilingüe.",
+        "neighborhoods": ["West Palm Beach", "Palm Beach Gardens", "Jupiter", "Royal Palm Beach", "Wellington", "Riviera Beach", "Palm Beach"]
+      },
+      "naples": {
+        "name": "Naples",
+        "desc": "Servicios expertos de A/C en la Costa del Golfo de Florida. El socio confiable de HVAC de Naples y el Condado de Collier.",
+        "longDesc": "Naples y el área del Condado de Collier disfrutan de una hermosa vida en la Costa del Golfo — pero el calor y la humedad del suroeste de Florida son igual de exigentes. MGM A/C Appliances lleva nuestro modelo de servicio probado a Naples, Marco Island y las comunidades circundantes.",
+        "neighborhoods": ["Naples", "Marco Island", "Golden Gate", "Immokalee", "Ave Maria", "North Naples", "Pelican Bay"]
+      },
+      "fortMyers": {
+        "name": "Fort Myers",
+        "desc": "Servicios confiables de A/C en Fort Myers y el Condado de Lee. De Cape Coral a Bonita Springs, lo tenemos cubierto.",
+        "longDesc": "Fort Myers y el Condado de Lee están entre las regiones de más rápido crecimiento del suroeste de Florida. MGM A/C Appliances sirve toda el área del Condado de Lee con instalación, reparación y mantenimiento profesional de HVAC.",
+        "neighborhoods": ["Fort Myers", "Cape Coral", "Bonita Springs", "Estero", "Lehigh Acres", "Fort Myers Beach", "Sanibel Island"]
       }
     }
   },
@@ -247,6 +311,8 @@
     "label": "Nosotros",
     "title": "Conozca MGM A/C Appliances",
     "subtitle": "Una empresa familiar construida sobre servicio honesto y raíces en South Florida.",
+    "storyHeading": "Nuestra Historia",
+    "valuesHeading": "Lo Que Representamos",
     "story": {
       "title": "Nuestra Historia",
       "p1": "MGM A/C Appliances fue fundada con una misión simple: proporcionar a las familias de South Florida un servicio de A/C honesto y confiable a precios justos. Como empresa familiar, entendemos que el confort de su hogar no es solo una llamada de servicio — es personal.",
@@ -279,6 +345,10 @@
       "customersLabel": "Clientes Satisfechos",
       "available": "24/7",
       "availableLabel": "Disponibilidad de Emergencia",
+      "services": "1,000+",
+      "servicesLabel": "Llamadas de Servicio Completadas",
+      "satisfaction": "99%",
+      "satisfactionLabel": "Satisfacción del Cliente",
       "languages": "2",
       "languagesLabel": "Idiomas Hablados"
     }
@@ -296,7 +366,10 @@
       "b4": "Sin penalidades por pago anticipado",
       "b5": "Múltiples opciones de plan para su presupuesto"
     },
+    "benefitsHeading": "¿Por Qué Financiar Con Nosotros?",
     "cta": "Llámenos hoy para discutir opciones de financiamiento para su nuevo sistema de A/C.",
+    "ctaTitle": "Hagámoslo Accesible",
+    "ctaDesc": "Llámenos hoy para discutir opciones de financiamiento para su nuevo sistema de A/C.",
     "ctaButton": "Llame para Financiamiento"
   },
   "warranty": {
@@ -304,6 +377,22 @@
     "title": "Nuestra Garantía",
     "subtitle": "Respaldamos cada trabajo que hacemos.",
     "body": "En MGM A/C Appliances, la calidad no es solo una promesa — está respaldada por nuestra garantía. Queremos que tenga completa tranquilidad cuando nos elija para sus necesidades de A/C.",
+    "types": {
+      "labor": {
+        "title": "Garantía de Mano de Obra",
+        "desc": "Todo el trabajo de instalación y reparación viene con garantía de mano de obra. Si algo no está bien, regresaremos y lo corregiremos — sin costo adicional."
+      },
+      "parts": {
+        "title": "Garantía de Repuestos",
+        "desc": "Usamos repuestos de calidad de fabricantes de confianza, todos respaldados por garantías del fabricante. Manejamos todos los reclamos de garantía en su nombre."
+      },
+      "satisfaction": {
+        "title": "Garantía de Satisfacción",
+        "desc": "Su satisfacción es nuestra prioridad. Si no está contento con nuestro trabajo, avísenos y trabajaremos con usted para corregirlo."
+      }
+    },
+    "noteHeading": "Información Importante de Garantía",
+    "noteBody": "Los términos de garantía pueden variar según el tipo de servicio y equipo. Contáctenos para detalles completos de garantía específicos a su instalación o reparación. Siempre estamos felices de responder preguntas.",
     "laborTitle": "Garantía de Mano de Obra",
     "laborDesc": "Todo el trabajo de instalación y reparación viene con garantía de mano de obra. Si algo no está bien, regresaremos y lo corregiremos — sin costo adicional.",
     "partsTitle": "Garantía de Repuestos",
@@ -318,7 +407,29 @@
     "title": "Cupones y Ofertas Actuales",
     "subtitle": "Ahorre en su próximo servicio de A/C con estas ofertas exclusivas.",
     "printCta": "Imprimir Este Cupón",
+    "printNote": "Presente el cupón al momento del servicio. No se puede combinar con otras ofertas. Llame para detalles.",
+    "printButton": "Imprimir Este Cupón",
     "redeemNote": "Presente el cupón al momento del servicio. No se puede combinar con otras ofertas. Llame para detalles.",
+    "cards": {
+      "c1": {
+        "badge": "GRATIS",
+        "title": "Presupuesto Gratis de A/C",
+        "desc": "Obtenga una cotización sin compromiso en cualquier instalación o reemplazo de A/C.",
+        "expires": "Sin vencimiento"
+      },
+      "c2": {
+        "badge": "10% DESC",
+        "title": "10% de Descuento en Primer Servicio",
+        "desc": "Clientes nuevos reciben 10% de descuento en su primera visita de reparación o mantenimiento.",
+        "expires": "Oferta por tiempo limitado"
+      },
+      "c3": {
+        "badge": "$49",
+        "title": "Ajuste de Temporada por $49",
+        "desc": "Inspección completa, limpieza y ajuste del sistema de A/C para mantener su sistema eficiente.",
+        "expires": "Oferta de temporada"
+      }
+    },
     "coupon1": {
       "title": "Presupuesto Gratis de A/C",
       "desc": "Obtenga una cotización sin compromiso en cualquier instalación o reemplazo de A/C.",

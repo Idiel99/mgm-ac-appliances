@@ -5,7 +5,12 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 
-const CITY_IDS = ["miami", "hialeah", "homestead", "coralGables", "doral", "kendall"];
+const CITY_IDS = [
+  "miami", "miamiBeach", "hialeah", "miamiGardens", "aventura",
+  "coralGables", "doral", "kendall", "homestead", "theKeys",
+  "fortLauderdale", "hollywood", "bocaraton", "westPalmBeach",
+  "naples", "fortMyers",
+];
 
 export function generateStaticParams() {
   const locales = ["en", "es"];
@@ -29,7 +34,8 @@ export default async function CityDetailPage({
 
   const neighborhoods: string[] = [];
   for (let i = 0; i < 10; i++) {
-    try { neighborhoods.push(t(`cities.${cityId}.neighborhoods.${i}`)); } catch { break; }
+    if (!t.has(`cities.${cityId}.neighborhoods.${i}`)) break;
+    neighborhoods.push(t(`cities.${cityId}.neighborhoods.${i}`));
   }
 
   return (

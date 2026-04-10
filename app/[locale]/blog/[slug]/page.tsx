@@ -29,11 +29,8 @@ export default async function BlogPostPage({
 
   const contentParagraphs: string[] = [];
   for (let i = 0; i < 10; i++) {
-    try {
-      contentParagraphs.push(t(`posts.${slug}.content.${i}`));
-    } catch {
-      break;
-    }
+    if (!t.has(`posts.${slug}.content.${i}`)) break;
+    contentParagraphs.push(t(`posts.${slug}.content.${i}`));
   }
 
   return (

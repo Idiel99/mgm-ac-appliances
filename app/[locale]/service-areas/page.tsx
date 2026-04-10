@@ -4,14 +4,25 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
+import ServiceAreaMapLoader from "@/components/ServiceAreaMapLoader";
 
 const CITIES = [
   { id: "miami" },
+  { id: "miamiBeach" },
   { id: "hialeah" },
-  { id: "homestead" },
+  { id: "miamiGardens" },
+  { id: "aventura" },
   { id: "coralGables" },
   { id: "doral" },
   { id: "kendall" },
+  { id: "homestead" },
+  { id: "theKeys" },
+  { id: "fortLauderdale" },
+  { id: "hollywood" },
+  { id: "bocaraton" },
+  { id: "westPalmBeach" },
+  { id: "naples" },
+  { id: "fortMyers" },
 ] as const;
 
 export function generateStaticParams() {
@@ -31,18 +42,7 @@ export default async function ServiceAreasPage({ params }: { params: Promise<{ l
       {/* Map */}
       <section className="bg-slate-50 py-12 px-4 md:px-8">
         <div className="max-w-6xl mx-auto">
-          <div className="rounded-2xl overflow-hidden shadow-lg border border-slate-200">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d229615.0!2d-80.35!3d25.77!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b0a20ec8c111%3A0xff96f271ddad4f65!2sMiami%2C+FL!5e0!3m2!1sen!2sus!4v1"
-              width="100%"
-              height="400"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="MGM A/C Appliances Service Area — Miami-Dade County"
-            />
-          </div>
+          <ServiceAreaMapLoader />
         </div>
       </section>
 
@@ -60,7 +60,7 @@ export default async function ServiceAreasPage({ params }: { params: Promise<{ l
               </h3>
               <p className="text-slate-600 text-sm leading-relaxed">{t(`cities.${id}.desc`)}</p>
               <span className="inline-block mt-4 text-sky-500 font-semibold text-sm group-hover:text-sky-700 transition-colors">
-                Learn More &rarr;
+                {t("learnMore")} &rarr;
               </span>
             </Link>
           ))}

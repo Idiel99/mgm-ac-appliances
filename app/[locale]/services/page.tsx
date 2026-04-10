@@ -10,6 +10,7 @@ const SERVICES = [
   { id: "repair", icon: "\uD83D\uDD27" },
   { id: "maintenance", icon: "\uD83D\uDEE1\uFE0F" },
   { id: "commercial", icon: "\uD83C\uDFE2" },
+  { id: "residential", icon: "\uD83C\uDFE0" },
   { id: "emergency", icon: "\uD83D\uDEA8" },
 ] as const;
 

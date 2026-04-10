@@ -6,6 +6,7 @@ export default async function Footer() {
   const nav = await getTranslations("nav");
   const shared = await getTranslations("shared");
   const whyUs = await getTranslations("whyUs");
+  const svc = await getTranslations("services");
 
   return (
     <footer className="bg-slate-900 border-t border-sky-500/15 pt-16 pb-8 px-4 md:px-8">
@@ -78,31 +79,13 @@ export default async function Footer() {
               {t("servicesTitle")}
             </h4>
             <ul className="space-y-2.5 list-none">
-              <li>
-                <Link href="/en/services/installation" className="text-white/50 hover:text-sky-200 text-sm transition-colors">
-                  Installation
-                </Link>
-              </li>
-              <li>
-                <Link href="/en/services/repair" className="text-white/50 hover:text-sky-200 text-sm transition-colors">
-                  Repair
-                </Link>
-              </li>
-              <li>
-                <Link href="/en/services/maintenance" className="text-white/50 hover:text-sky-200 text-sm transition-colors">
-                  Maintenance
-                </Link>
-              </li>
-              <li>
-                <Link href="/en/services/commercial" className="text-white/50 hover:text-sky-200 text-sm transition-colors">
-                  Commercial
-                </Link>
-              </li>
-              <li>
-                <Link href="/en/services/emergency" className="text-white/50 hover:text-sky-200 text-sm transition-colors">
-                  Emergency
-                </Link>
-              </li>
+              {(["installation", "repair", "maintenance", "commercial", "emergency"] as const).map((id) => (
+                <li key={id}>
+                  <Link href={`/en/services/${id}`} className="text-white/50 hover:text-sky-200 text-sm transition-colors">
+                    {svc(`${id}.title`)}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 

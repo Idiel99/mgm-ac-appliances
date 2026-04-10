@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 
-const SERVICE_IDS = ["installation", "repair", "maintenance", "commercial", "emergency"];
+const SERVICE_IDS = ["installation", "repair", "maintenance", "commercial", "residential", "emergency"];
 
 export function generateStaticParams() {
   const locales = ["en", "es"];
@@ -29,12 +29,14 @@ export default async function ServiceDetailPage({
 
   const features: string[] = [];
   for (let i = 0; i < 5; i++) {
-    try { features.push(t(`${serviceId}.features.${i}`)); } catch { break; }
+    if (!t.has(`${serviceId}.features.${i}`)) break;
+    features.push(t(`${serviceId}.features.${i}`));
   }
 
   const signs: string[] = [];
   for (let i = 0; i < 5; i++) {
-    try { signs.push(t(`${serviceId}.signs.${i}`)); } catch { break; }
+    if (!t.has(`${serviceId}.signs.${i}`)) break;
+    signs.push(t(`${serviceId}.signs.${i}`));
   }
 
   return (
@@ -63,7 +65,7 @@ export default async function ServiceDetailPage({
               <ul className="space-y-3">
                 {features.map((f, i) => (
                   <li key={i} className="flex items-start gap-3">
-                    <span className="text-sky-500 mt-0.5">&check;</span>
+                    <span className="text-sky-500 mt-0.5">&#x2713;</span>
                     <span className="text-slate-600 text-sm">{f}</span>
                   </li>
                 ))}
@@ -78,7 +80,7 @@ export default async function ServiceDetailPage({
               <ul className="space-y-3">
                 {signs.map((s, i) => (
                   <li key={i} className="flex items-start gap-3">
-                    <span className="text-amber-500 mt-0.5">&warning;</span>
+                    <span className="text-amber-500 mt-0.5">&#x26A0;</span>
                     <span className="text-slate-600 text-sm">{s}</span>
                   </li>
                 ))}
