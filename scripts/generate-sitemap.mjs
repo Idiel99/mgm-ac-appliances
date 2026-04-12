@@ -13,6 +13,7 @@ const STATIC_PAGES = [
   "/coupons",
   "/blog",
   "/privacy",
+  "/team",
 ];
 
 const SERVICE_IDS = [
@@ -29,7 +30,12 @@ const CITY_IDS = [
 
 const BLOG_SLUGS = [
   "maintenance-tips", "when-to-replace", "miami-climate-hvac",
+  "what-is-the-5000-rule", "ac-repair-cost-miami", "ac-not-working-what-to-check", "repair-vs-replace-ac",
+  "new-ac-cost-florida", "best-ac-temperature-florida", "hurricane-season-ac-prep-miami", "central-ac-vs-mini-split-florida",
+  "why-ac-struggles-july-august", "lower-fpl-bill-summer", "ac-duct-cleaning-miami", "what-seer-rating-2026",
 ];
+
+const MEMBER_IDS = ["member1", "member2", "member3"];
 
 function buildPaths() {
   const paths = [];
@@ -45,6 +51,18 @@ function buildPaths() {
   }
   for (const slug of BLOG_SLUGS) {
     paths.push({ path: `/blog/${slug}`, priority: "0.6", changefreq: "monthly" });
+  }
+  for (const id of MEMBER_IDS) {
+    paths.push({ path: `/team/${id}`, priority: "0.6", changefreq: "monthly" });
+  }
+
+  const COMBO_SERVICES = ["installation", "repair", "maintenance"];
+  const COMBO_CITIES = ["miami", "miamiBeach", "hialeah", "coralGables", "doral"];
+
+  for (const svc of COMBO_SERVICES) {
+    for (const city of COMBO_CITIES) {
+      paths.push({ path: `/services/${svc}/${city}`, priority: "0.7", changefreq: "monthly" });
+    }
   }
 
   return paths;

@@ -7,7 +7,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 
-const POSTS = ["maintenance-tips", "when-to-replace", "miami-climate-hvac"] as const;
+const POSTS = ["maintenance-tips", "when-to-replace", "miami-climate-hvac", "what-is-the-5000-rule", "ac-repair-cost-miami", "ac-not-working-what-to-check", "repair-vs-replace-ac", "new-ac-cost-florida", "best-ac-temperature-florida", "hurricane-season-ac-prep-miami", "central-ac-vs-mini-split-florida", "why-ac-struggles-july-august", "lower-fpl-bill-summer", "ac-duct-cleaning-miami", "what-seer-rating-2026"] as const;
 
 export function generateStaticParams() {
   return [{ locale: "en" }, { locale: "es" }];

@@ -17,7 +17,10 @@ export default function Breadcrumb() {
       </Link>
       {segments.map((segment, i) => {
         const href = `/${locale}/${segments.slice(0, i + 1).join("/")}`;
-        const label = segment.replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+        // Use translation if the key exists, otherwise fall back to slug formatting
+        const label = t.has(segment)
+          ? t(segment as Parameters<typeof t>[0])
+          : segment.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
         const isLast = i === segments.length - 1;
         return (
           <span key={href} className="flex items-center gap-2">

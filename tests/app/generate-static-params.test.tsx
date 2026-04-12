@@ -76,16 +76,16 @@ describe("generateStaticParams — dynamic pages", () => {
     }
   });
 
-  it("blog/[slug] returns 6 entries (3 slugs x 2 locales)", async () => {
+  it("blog/[slug] returns 30 entries (15 slugs x 2 locales)", async () => {
     const mod = await import("@/app/[locale]/blog/[slug]/page");
     const params = mod.generateStaticParams();
-    expect(params.length).toBe(6);
+    expect(params.length).toBe(30);
 
     const locales = [...new Set(params.map((p: any) => p.locale))];
     expect(locales).toEqual(expect.arrayContaining(["en", "es"]));
 
     const slugs = [...new Set(params.map((p: any) => p.slug))];
-    expect(slugs.length).toBe(3);
+    expect(slugs.length).toBe(15);
 
     for (const locale of ["en", "es"]) {
       for (const slug of slugs) {

@@ -44,6 +44,11 @@ export default async function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href={`/${locale}/team`} className="text-white/50 hover:text-sky-200 text-sm transition-colors">
+                  {nav("team")}
+                </Link>
+              </li>
+              <li>
                 <Link href={`/${locale}/service-areas`} className="text-white/50 hover:text-sky-200 text-sm transition-colors">
                   {nav("serviceAreas")}
                 </Link>

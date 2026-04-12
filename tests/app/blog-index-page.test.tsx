@@ -34,10 +34,10 @@ describe.each(["en", "es"])("BlogPage (%s)", (locale) => {
     expect(screen.getByTestId("footer")).toBeTruthy();
   });
 
-  it("shows 3 post cards", async () => {
+  it("shows 15 post cards", async () => {
     const { container } = await renderPage();
     const links = container.querySelectorAll("a.group");
-    expect(links.length).toBe(3);
+    expect(links.length).toBe(15);
   });
 
   it("links have correct locale prefix", async () => {

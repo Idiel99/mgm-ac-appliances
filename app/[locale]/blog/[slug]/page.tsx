@@ -9,7 +9,7 @@ import PageHeader from "@/components/PageHeader";
 import { generatePageMetadata, SITE_NAME, SITE_URL } from "@/lib/seo";
 import JsonLd from "@/components/JsonLd";
 
-const SLUGS = ["maintenance-tips", "when-to-replace", "miami-climate-hvac"];
+const SLUGS = ["maintenance-tips", "when-to-replace", "miami-climate-hvac", "what-is-the-5000-rule", "ac-repair-cost-miami", "ac-not-working-what-to-check", "repair-vs-replace-ac", "new-ac-cost-florida", "best-ac-temperature-florida", "hurricane-season-ac-prep-miami", "central-ac-vs-mini-split-florida", "why-ac-struggles-july-august", "lower-fpl-bill-summer", "ac-duct-cleaning-miami", "what-seer-rating-2026"];
 
 export function generateStaticParams() {
   const locales = ["en", "es"];

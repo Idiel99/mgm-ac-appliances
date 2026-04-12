@@ -12,7 +12,8 @@
     "home": "Inicio",
     "coupons": "Cupones",
     "privacy": "Política de Privacidad",
-    "warranty": "Garantía"
+    "warranty": "Garantía",
+    "team": "Nuestro Equipo"
   },
   "hero": {
     "badge": "Los Expertos en A/C de South Florida",
@@ -169,7 +170,8 @@
     "signsTitle": "Señales de Que Necesita Este Servicio",
     "ctaTitle": "¿Listo para Empezar?",
     "ctaDesc": "Llámenos hoy para un presupuesto gratis. Servimos todo South Florida.",
-    "ctaButton": "Llame para Presupuesto Gratis"
+    "ctaButton": "Llame para Presupuesto Gratis",
+    "areasWeServe": "Áreas que Servimos"
   },
   "testimonials": {
     "label": "Lo Que Dicen Nuestros Clientes",
@@ -275,6 +277,10 @@
     "subtitle": "MGM A/C Appliances sirve con orgullo hogares y negocios desde los Cayos de Florida hasta West Palm Beach y hasta Naples y Fort Myers.",
     "learnMore": "Ver Más",
     "cta": "¿No ve su área? ¡Llámenos — quizás podamos ayudarle!",
+    "localChallengesTitle": "Desafíos Locales del A/C",
+    "housingTitle": "Vivienda y HVAC en",
+    "localTipTitle": "Consejo Profesional",
+    "testimonialTitle": "Lo Que Dicen Nuestros Clientes",
     "cities": {
       "miami": {
         "name": "Miami",
@@ -291,7 +297,21 @@
           "Coconut Grove",
           "Overtown",
           "Liberty City"
-        ]
+        ],
+        "housingInfo": "Las viviendas de Miami son una mezcla de casas de mampostería de antes de 1960 en vecindarios como Flagami y Westchester, modernos condominios de vidrio y acero en Brickell y Downtown, y todo lo que hay entre medio. Las casas más antiguas frecuentemente tienen sistemas de ductos sobredimensionados con fugas significativas, mientras que los edificios altos dependen de sistemas de agua helada o unidades de fan coil individuales. Gran parte del parque de viviendas unifamiliares fue construido sin considerar el aire acondicionado central, lo que significa que los ductos fueron instalados posteriormente a través de closets y espacios de ático.",
+        "climateChallenge": "Miami tiene un clima subtropical húmedo con índices de calor promedio en verano que superan los 100°F, ejerciendo una presión extraordinaria en los equipos de A/C que funcionan prácticamente sin parar de abril a octubre. La contaminación del tráfico — especialmente cerca de I-95 y SR-836 — satura los filtros de aire más rápido que en cualquier otra ciudad de South Florida, requiriendo a veces cambios mensuales en lugar de trimestrales. El efecto de isla de calor urbana significa que las noches de Miami raramente bajan de 80°F, sin dar a los sistemas un período de recuperación nocturna.",
+        "commonIssues": [
+          "Filtros de aire obstruidos por contaminación urbana y polvo de construcción — revisar mensualmente",
+          "Fugas de refrigerante en mini-splits antiguos y sistemas divididos más viejos en casas anteriores a 1980",
+          "Bloqueos en la línea de drenaje causados por operación constante en alta humedad y crecimiento de algas",
+          "Corrosión de unidades de fan coil en condominios de gran altura debido a la humedad concentrada"
+        ],
+        "localTip": "Los hogares de Miami que usan el A/C las 24 horas deben programar mantenimiento dos veces al año — una antes del verano en abril y otra después de la temporada de huracanes en noviembre — para detectar problemas de refrigerante, limpiar bobinas y purgar las líneas de drenaje antes de que los pequeños problemas se conviertan en costosas averías.",
+        "testimonial": {
+          "text": "Nuestra unidad de A/C en Brickell dejó de enfriar en pleno julio. MGM tuvo un técnico aquí en dos horas y nos dejó funcionando el mismo día. ¡Servicio increíble en el calor de Miami!",
+          "name": "Carlos M.",
+          "date": "2026"
+        }
       },
       "hialeah": {
         "name": "Hialeah",
@@ -302,7 +322,21 @@
           "Hialeah Gardens",
           "Palm Springs North",
           "Miami Lakes"
-        ]
+        ],
+        "housingInfo": "Hialeah está dominada por casas de bloque de concreto construidas entre los años 60 y 80, la mayoría con sistemas de aire acondicionado originales que han sido reparados y parcheados a lo largo de las décadas en lugar de ser reemplazados. Muchas residencias tienen sistemas de refrigerante R-22 más antiguos que son cada vez más difíciles y costosos de mantener ahora que el R-22 ha sido eliminado gradualmente. Los espacios de ático en estas casas de techo plano e inclinado bajo atrapan enormes cargas de calor, obligando a los sistemas de A/C a combatir temperaturas superiores a 130°F en el espacio plenum.",
+        "climateChallenge": "La ubicación interior de Hialeah significa que no hay brisa marina que modere las temperaturas, y el tejido urbano denso de la ciudad — con una cubierta arbórea mínima — crea un severo efecto de isla de calor. Las casas construidas en los años 60 y 70 frecuentemente carecen de aislamiento adecuado, lo que significa que el sistema de A/C debe compensar el bajo rendimiento del envolvente del edificio. Los paneles eléctricos anticuados en casas más viejas tienen dificultades para manejar unidades modernas de alta eficiencia, a veces requiriendo actualizaciones del panel antes de nuevas instalaciones de A/C.",
+        "commonIssues": [
+          "Sistemas de refrigerante R-22 que son costosos de reparar y necesitan urgentemente reemplazo con unidades R-410A",
+          "Sistemas de ductos subdimensionados o mal emparejados en casas de los años 60-80 causando puntos calientes y fríos",
+          "Compresores que se sobrecalientan debido a la mala ventilación del ático en casas de bloque de concreto con techo plano",
+          "Problemas de capacidad del panel eléctrico que impiden la actualización a sistemas de mayor eficiencia"
+        ],
+        "localTip": "Si su hogar en Hialeah todavía tiene un sistema R-22, planifique su reemplazo ahora — los precios del refrigerante R-22 se han quintuplicado desde la eliminación gradual y una sola recarga puede costar más que los ahorros de energía del primer año de un sistema nuevo. Ofrecemos consultas bilingües para ayudarle a elegir el reemplazo correcto.",
+        "testimonial": {
+          "text": "MGM me ayudó a reemplazar mi viejo sistema de R-22 con uno nuevo y eficiente. Me explicaron todo en español y el precio fue muy justo. El A/C nuevo enfría mucho mejor y mi factura de electricidad bajó bastante.",
+          "name": "Maria G.",
+          "date": "2026"
+        }
       },
       "homestead": {
         "name": "Homestead",
@@ -313,7 +347,21 @@
           "Florida City",
           "Leisure City",
           "Naranja"
-        ]
+        ],
+        "housingInfo": "Homestead y las comunidades agrícolas circundantes representan uno de los mercados más económicamente diversos del sur de Florida, con viviendas que van desde modestas casas de bloque de concreto construidas en los años 50-70 hasta desarrollos más nuevos para compradores de primera vivienda. El área fue el epicentro del Huracán Andrew en 1992, y gran parte del parque de viviendas anterior a Andrew fue destruido y reconstruido bajo códigos de construcción más estrictos post-Andrew, aunque varían mucho en calidad de aislamiento.",
+        "climateChallenge": "Homestead está ubicada más al sur que cualquier otro municipio importante de South Florida, lo que significa veranos más largos y calurosos con temperaturas que regularmente alcanzan los 95-100°F e índices de calor que superan los 110°F en julio y agosto. Los alrededores agrícolas introducen desafíos únicos de calidad del aire — químicos de fumigación de cultivos, polvo de granja y polen de las tierras de cultivo pueden saturar los filtros en días durante la temporada de crecimiento. La distancia de los centros de servicio y la base de clientes conscientes del presupuesto significa que los problemas que podrían detectarse temprano en áreas más ricas a menudo no se atienden hasta que los sistemas fallan completamente.",
+        "commonIssues": [
+          "Saturación rápida de filtros de aire por polvo agrícola y polen durante las temporadas de cultivo y cosecha",
+          "Fallas del compresor por carga de calor extrema — temperaturas exteriores superiores a 95°F reducen drásticamente la eficiencia",
+          "Daños en ductos por huracanes que nunca fueron correctamente inspeccionados o reparados después de tormentas importantes",
+          "Fugas de refrigerante en sistemas envejecidos que funcionan más allá de su vida útil de diseño debido al reemplazo diferido"
+        ],
+        "localTip": "Los propietarios de Homestead cerca de áreas agrícolas deben usar filtros MERV-8 o superiores y revisarlos cada 2-3 semanas durante la temporada de cosecha — el polvo de granja y las partículas orgánicas pueden bloquear completamente un filtro estándar en semanas, causando que el sistema se congele y falle justo cuando más lo necesita.",
+        "testimonial": {
+          "text": "Mi A/C se averió el día más caluroso del año y MGM vino a Homestead el mismo día. Tenían los repuestos en el camión y lo arreglaron en menos de dos horas. Precios muy justos también — aprecié que no intentaron venderme más de lo necesario.",
+          "name": "James T.",
+          "date": "2026"
+        }
       },
       "coralGables": {
         "name": "Coral Gables",
@@ -324,7 +372,21 @@
           "South Miami",
           "Coconut Grove",
           "Pinecrest"
-        ]
+        ],
+        "housingInfo": "Coral Gables alberga algunas de las viviendas más arquitectónicamente significativas de Miami-Dade — fincas de estilo Renacimiento Mediterráneo de los años 20 y 30 diseñadas por George Merrick, con gruesas paredes de piedra coral, techos de teja de barril y plantas de piso que nunca fueron diseñadas con aire acondicionado central en mente. Las instalaciones de ductos adaptadas en estas casas frecuentemente corren a través de closets, bajo los pisos o en sofitos añadidos para preservar los techos históricos. La estricta Junta de Preservación Histórica supervisa las renovaciones y puede limitar cómo se instala o exhibe el equipo de HVAC.",
+        "climateChallenge": "El hermoso dosel de árboles maduros de Coral Gables — uno de los más densos de Miami — proporciona sombra a las casas y reduce las cargas de enfriamiento, pero los escombros caídos y las raíces pueden dañar los condensadores exteriores y las líneas de drenaje. La construcción de piedra coral que da nombre a la ciudad ofrece excelente masa térmica pero hace que el enrutamiento de nuevos ductos sea extremadamente difícil y costoso. Muchas casas históricas usan mini-splits sin ductos de pared alta como la solución menos invasiva, aunque deben ocultarse discretamente para satisfacer las directrices del HOA y de preservación.",
+        "commonIssues": [
+          "Desafíos de enrutamiento de ductos en casas históricas de piedra coral que requieren soluciones de instalación creativas",
+          "Escombros de árboles bloqueando las bobinas del condensador y el flujo de aire de la unidad exterior en propiedades con mucho paisajismo",
+          "Requisitos de permisos de la Junta de Preservación Histórica que ralentizan las aprobaciones de reemplazo de equipos",
+          "Restricciones de colocación de mini-splits sin ductos impuestas por el HOA y las directrices de preservación histórica"
+        ],
+        "localTip": "En las casas históricas de Coral Gables, un sistema de mini-split multizona sin ductos es frecuentemente la mejor solución — solo requiere un pequeño orificio en la pared para las líneas de refrigerante, preserva sus techos y molduras históricas, y califica para reembolsos de eficiencia energética mientras ofrece un enfriamiento mucho mejor que las unidades de ventana.",
+        "testimonial": {
+          "text": "Nuestra casa mediterránea de 1928 tenía antiguas unidades de ventana en cada habitación. MGM diseñó un hermoso sistema de mini-split multizona que se oculta detrás de rejillas de época. La Junta de Preservación lo aprobó y finalmente estamos cómodos en cada habitación.",
+          "name": "Patricia H.",
+          "date": "2026"
+        }
       },
       "doral": {
         "name": "Doral",
@@ -335,7 +397,21 @@
           "Sweetwater",
           "Fontainebleau",
           "Medley"
-        ]
+        ],
+        "housingInfo": "Doral es una de las ciudades más nuevas y de más rápido crecimiento de Miami-Dade, con parque habitacional principalmente de los años 2000 hasta el presente — modernos townhomes, comunidades cerradas y desarrollos de uso mixto cerca del Doral Golf Resort. La comunidad venezolana, colombiana y latinoamericana en general que define a Doral tiende hacia una construcción más nueva y bien mantenida. Muchas casas en Doral cuentan con modernos sistemas de alta eficiencia con tecnología de velocidad variable y termostatos inteligentes, aunque el corredor comercial a lo largo de NW 36th y 41st Streets tiene un inventario significativo de unidades de paquete en azotea.",
+        "climateChallenge": "La ubicación de Doral cerca del Aeropuerto Internacional de Miami y las principales instalaciones de logística de carga significa niveles elevados de material particulado en el aire, acelerando la obstrucción de filtros y aumentando la frecuencia de limpieza de bobinas necesaria. El auge de la construcción residencial rápida también ha producido algunas instalaciones donde el equipo fue dimensionado para una venta rápida en lugar de un rendimiento óptimo — sistemas sobredimensionados que ciclan corto y no deshumidifican adecuadamente. El terreno plano interior de Doral concentra el calor sin moderación oceánica.",
+        "commonIssues": [
+          "Sistemas sobredimensionados en casas nuevas que ciclan corto y dejan aire húmedo aunque se alcance la temperatura objetivo",
+          "Fallas de unidades de paquete en azotea en el concurrido corredor de NW 36th Street",
+          "Saturación excesiva de filtros de aire por material particulado del aeropuerto y el corredor de carga",
+          "Problemas de conectividad del termostato inteligente en casas con sistemas complejos de automatización del hogar"
+        ],
+        "localTip": "Si su hogar en Doral se siente fresco pero todavía húmedo, su sistema puede estar sobredimensionado — un A/C demasiado grande enfría el aire rápidamente pero no funciona lo suficiente como para eliminar la humedad. Podemos realizar un cálculo de carga Manual J para confirmar el tamaño correcto y, si es necesario, instalar un deshumidificador para todo el hogar.",
+        "testimonial": {
+          "text": "Nuestro sistema nuevo se instaló muy rápido pero la casa siempre se sentía húmeda. MGM identificó que el equipo era demasiado grande para nuestra casa y nos instalaron un deshumidificador. Ahora el ambiente es perfecto.",
+          "name": "Alejandro V.",
+          "date": "2026"
+        }
       },
       "kendall": {
         "name": "Kendall",
@@ -347,7 +423,21 @@
           "Country Walk",
           "Richmond Heights",
           "Dadeland"
-        ]
+        ],
+        "housingInfo": "Kendall es el suburbio más extenso de South Florida — grandes casas unifamiliares en amplios lotes, muchas construidas entre los años 70 y 90, con planos de piso que superan los 2,500 pies cuadrados y requieren una capacidad de A/C sustancial. Las corridas de ductos en las casas de Kendall están entre las más largas de Miami-Dade, extendiéndose desde un manejador de aire ubicado centralmente hasta las habitaciones en los extremos opuestos de la casa, creando desequilibrios de presión y variación de temperatura. La mezcla de casas estilo rancho y de dos pisos significa que los sistemas de zona única y multizona son comunes.",
+        "climateChallenge": "El enorme tamaño de las casas de Kendall significa que los sistemas subdimensionados son un problema frecuente — una unidad de 3 toneladas que es suficiente para una casa de 1,500 pies cuadrados en Hialeah puede ser dramáticamente insuficiente para un rancho de Kendall de 3,000 pies cuadrados. Las corridas largas de ductos acumulan fugas significativas con el tiempo, y muchas casas de Kendall tienen ductos que nunca han sido probados bajo presión o sellados desde la instalación original. La distancia de la costa significa que no hay brisa marina que modere las temperaturas durante los meses más calurosos.",
+        "commonIssues": [
+          "Desequilibrio de temperatura entre habitaciones debido a corridas largas de ductos y problemas de distribución de presión",
+          "Equipo subdimensionado que lucha por enfriar plantas grandes durante el pico de calor del verano",
+          "Fugas de ductos en sistemas de ductos flexibles envejecidos que nunca han sido probados bajo presión o sellados",
+          "Fallas del sistema de zonas en casas de dos pisos donde el piso de arriba siempre está más caliente que el de abajo"
+        ],
+        "localTip": "Los propietarios de Kendall con plantas grandes deben solicitar una evaluación de equilibrio de flujo de aire junto con cualquier llamada de servicio — usamos manómetros digitales para medir la presión estática en cada registro, lo que revela exactamente qué habitaciones están siendo privadas de flujo de aire y si su sistema realmente entrega su capacidad nominal en toda la casa.",
+        "testimonial": {
+          "text": "Nuestra habitación principal al final de la casa siempre estaba 5 grados más caliente que la sala. MGM descubrió dos secciones de ductos desconectadas en el ático y una rejilla de retorno restringida. Ahora cada habitación se siente igual — ¡qué diferencia!",
+          "name": "Robert K.",
+          "date": "2026"
+        }
       },
       "miamiBeach": {
         "name": "Miami Beach",
@@ -362,7 +452,21 @@
           "Bay Harbor Islands",
           "Indian Creek",
           "Fisher Island"
-        ]
+        ],
+        "housingInfo": "Las viviendas de Miami Beach abarcan joyas Art Deco de los años 30 y 40 — muchas convertidas en boutique hoteles o residencias multi-unidad — y modernos edificios de lujo a lo largo de Collins Avenue y South Beach. Los edificios históricos frecuentemente tienen unidades PTAC instaladas a través de paredes exteriores, mientras que los rascacielos más nuevos usan sistemas centrales de agua helada. Los ductos son raros en edificios de preguerra; la mayoría dependen de soluciones sin ductos o de unidades de ventana que son particularmente vulnerables a las condiciones costeras.",
+        "climateChallenge": "La corrosión por aire salado es la mayor amenaza de A/C en Miami Beach — la brisa oceánica deposita cristales de sal en las bobinas del condensador en meses, corroyendo las aletas de aluminio y las líneas de cobre a una tasa acelerada en comparación con ubicaciones en el interior. Combinado con inundaciones periódicas por mareas altas y marejadas ciclónicas, los condensadores de A/C exteriores en unidades de planta baja enfrentan intrusión de humedad que destruye los componentes eléctricos. La implacable humedad costera también significa que las líneas de drenaje se obstruyen cada 4-6 semanas en lugar del intervalo estándar de 3 meses.",
+        "commonIssues": [
+          "Corrosión acelerada de bobinas del condensador por aire marino cargado de sal — las aletas se deterioran 2-3 veces más rápido que en el interior",
+          "Fallas de unidades PTAC en edificios Art Deco debido a la exposición constante al ambiente marino",
+          "Componentes eléctricos dañados por inundaciones en unidades condensadoras de planta baja después de mareas altas o tormentas",
+          "Desbordamiento de la bandeja de drenaje en sistemas de condensado abrumados por los extremos niveles de humedad costera"
+        ],
+        "localTip": "En Miami Beach, aplique un spray de recubrimiento para bobinas del condensador cada temporada y enjuague la unidad exterior con agua dulce mensualmente — este simple hábito puede duplicar la vida útil de su equipo al neutralizar la acumulación de sal antes de que corroa las aletas.",
+        "testimonial": {
+          "text": "Vivir en Ocean Drive significa que mi A/C sufre mucho por el aire salado. MGM puso un recubrimiento protector en mi condensador y ahora obtengo ajustes anuales en lugar de reemplazar unidades cada dos años. Valió cada centavo.",
+          "name": "Sofia R.",
+          "date": "2026"
+        }
       },
       "miamiGardens": {
         "name": "Miami Gardens",
@@ -374,7 +478,21 @@
           "Carol City",
           "Norland",
           "North Miami Beach"
-        ]
+        ],
+        "housingInfo": "Miami Gardens es principalmente un vecindario suburbano unifamiliar con casas construidas predominantemente entre los años 90 y principios de los 2000, lo que le da un parque habitacional relativamente moderno en comparación con municipios más antiguos de Miami-Dade. Muchas casas cuentan con plantas de 3-4 habitaciones con 2,000-2,500 pies cuadrados que requieren sistemas de 3-5 toneladas. La construcción CBS del área retiene bien el calor, pero muchos propietarios han aplazado el sellado de ductos y las mejoras de aislamiento desde la instalación original.",
+        "climateChallenge": "Miami Gardens absorbió daños significativos por huracanes de múltiples tormentas, y muchos sistemas de ductos fueron reparados temporalmente después del daño de la tormenta en lugar de ser adecuadamente reemplazados — creando sistemas con fugas que silenciosamente desperdician del 20 al 30% del aire acondicionado. El terreno plano del área y su ubicación propensa a tormentas significa que las unidades exteriores necesitan elevación adecuada y anclaje para huracanes que muchas instalaciones más antiguas no tienen. Las cargas de calor del verano aquí son intensas dada la falta de brisa costera y la densidad suburbana.",
+        "commonIssues": [
+          "Ductos dañados por huracanes con reparaciones temporales que causan pérdida significativa de aire acondicionado",
+          "Condensadores exteriores mal anclados vulnerables a daños por viento durante la temporada de tormentas",
+          "Manejadores de aire de los años 90 que se están deteriorando con forro de aislamiento que se degrada y bandejas de drenaje agrietadas",
+          "Fallas de comunicación del termostato en sistemas más antiguos incompatibles con actualizaciones de termostatos inteligentes"
+        ],
+        "localTip": "Antes de la temporada de huracanes, haga que anclen y eleven profesionalmente su condensador exterior si está sobre una base a nivel del suelo — las directrices de FEMA recomiendan al menos 12 pulgadas de elevación en esta zona propensa a inundaciones, y el anclaje adecuado puede prevenir el reemplazo de un condensador de $4,000 después de una tormenta.",
+        "testimonial": {
+          "text": "Después del último huracán, nuestros ductos de A/C eran un desastre. MGM hizo una inspección completa de ductos y encontró tres lugares donde el aire frío se escapaba hacia el ático. Los arreglaron todos en una visita — ¡la casa finalmente se enfría uniformemente ahora!",
+          "name": "Darnell W.",
+          "date": "2026"
+        }
       },
       "aventura": {
         "name": "Aventura",
@@ -386,7 +504,21 @@
           "Golden Beach",
           "Hallandale Beach",
           "North Miami"
-        ]
+        ],
+        "housingInfo": "Aventura está definida por sus lujosas torres residenciales — edificios como Williams Island, Porto Vita y el complejo Turnberry — más el campus comercial del Aventura Mall. La mayoría de las unidades residenciales son atendidas por sistemas centrales de agua helada gestionados por ingenieros del edificio, con unidades de fan coil individuales en cada unidad que son responsabilidad de los residentes. Las casas unifamiliares de lujo en el área cuentan con sistemas premium de marcas como Trane, Lennox y Carrier con tecnología de velocidad variable avanzada.",
+        "climateChallenge": "La vida en rascacielos crea desafíos únicos de HVAC: las unidades de fan coil en unidades de condominio individuales dependen de que la planta central de agua helada del edificio funcione correctamente, lo que significa que los residentes pueden experimentar problemas de enfriamiento causados por problemas a nivel del edificio que requieren coordinación con la administración del HOA. El aire salado de la Vía Intracostera afecta el equipo de HVAC exterior en balcones y azoteas. Las expectativas de una clientela exigente significan que las llamadas de servicio requieren respuesta el mismo día y profesionalismo de primer nivel.",
+        "commonIssues": [
+          "Fallas de válvulas de unidades de fan coil que requieren coordinación con la administración del edificio para el cierre del agua helada",
+          "Fallas de termostatos o controles en sistemas premium integrados de automatización del hogar",
+          "Bloqueos de drenaje de condensado que causan daños por agua en unidades de rascacielos — crítico abordarlos de inmediato",
+          "Corrosión por sal en unidades de paquete en azotea y condensadores de mini-split montados en balcón"
+        ],
+        "localTip": "Los propietarios de condominios en Aventura deben saber si su edificio usa un sistema de agua helada o sistemas divididos independientes — si es agua helada, su responsabilidad se limita a la unidad de fan coil y el termostato dentro de su unidad, mientras que el edificio se encarga de todo lo demás. Saber esto antes de llamar para servicio ahorra tiempo y dinero.",
+        "testimonial": {
+          "text": "Nuestra unidad del penthouse había estado corriendo cálida durante semanas. MGM diagnosticó una válvula de fan coil fallida y coordinó directamente con nuestro ingeniero del edificio para el cierre del agua. Profesional, eficiente, y sabían exactamente cómo funcionan los sistemas de rascacielos.",
+          "name": "Jennifer L.",
+          "date": "2026"
+        }
       },
       "theKeys": {
         "name": "Florida Keys",
@@ -400,7 +532,21 @@
           "Key West",
           "Tavernier",
           "Key Colony Beach"
-        ]
+        ],
+        "housingInfo": "Los Cayos de Florida presentan el entorno de HVAC más extremo en los Estados Unidos continentales — prácticamente cada estructura está a menos de un cuarto de milla del agua salada, y la geografía insular significa que no hay escape del ambiente marino. Las viviendas van desde cabañas de la Vieja Florida elevadas sobre pilotes hasta construcción moderna de concreto diseñada para sobrevivir huracanes de Categoría 4. Muchas propiedades son alquileres vacacionales con gestión remota, lo que requiere sistemas confiables y de bajo mantenimiento que no necesiten atención constante cuando los propietarios están ausentes.",
+        "climateChallenge": "La corrosión por sal en los Cayos no solo está acelerada — es agresiva más allá de lo que los técnicos del continente encuentran típicamente. Las aletas de las bobinas del condensador pueden estar completamente corroídas en 18-24 meses sin tratamiento protector, un cronograma que tomaría 5-7 años en una ubicación interior. El acceso limitado de contratistas en los Cayos — particularmente debajo de Key Largo — significa que las llamadas de servicio de emergencia implican un viaje significativo, haciendo que el mantenimiento preventivo sea aún más crítico. La humedad en los Cayos se mantiene en 70-80% durante todo el año, sin estación seca.",
+        "commonIssues": [
+          "Corrosión extrema por sal que destruye las bobinas del condensador en 18-24 meses sin recubrimientos protectores",
+          "Fallas de A/C en propiedades remotas descubiertas solo cuando llegan los huéspedes, requiriendo respuesta urgente de emergencia",
+          "Daños por humedad en componentes eléctricos y aislamiento por humedad relativa del 70-80% durante todo el año",
+          "Daños por viento en equipos exteriores durante la temporada de huracanes con capacidad de servicio local limitada"
+        ],
+        "localTip": "Los propietarios en los Cayos — especialmente los propietarios de alquileres vacacionales ausentes — deben instalar un termostato inteligente con monitoreo remoto y alertas conectadas por WiFi: si el sistema deja de enfriar, lo sabrán en horas en lugar de cuando llegue un huésped. Combinado con mantenimiento profesional anual y recubrimiento de bobinas, esta es la mejor inversión que puede hacer en su sistema de A/C en los Cayos.",
+        "testimonial": {
+          "text": "Tenemos un alquiler vacacional en Islamorada y encontrar servicio confiable de A/C siempre fue una pesadilla. MGM ahora hace mantenimiento anual e instaló un termostato inteligente que nos alerta si algo sale mal. Nuestros huéspedes no han tenido ni una queja de A/C desde entonces.",
+          "name": "Tom and Linda B.",
+          "date": "2026"
+        }
       },
       "fortLauderdale": {
         "name": "Fort Lauderdale",
@@ -415,7 +561,21 @@
           "Lauderhill",
           "Plantation",
           "Davie"
-        ]
+        ],
+        "housingInfo": "El parque habitacional de Fort Lauderdale es increíblemente variado — desde casas de bloque de concreto de los años 50-60 en vecindarios como Tarpon River y Riverside Park hasta lujosas fincas frente al canal en Harbor Beach y Las Olas Isles, más modernos condominios de mediana altura en los corredores de Victoria Park y Flagler Village. Las propiedades frente al canal enfrentan desafíos similares de corrosión por aire salado como Miami Beach debido al agua salada de marea en el sistema Intracoastal. El próspero mercado de alquiler vacacional de la ciudad significa que muchas propiedades se administran de forma remota, aumentando el valor de los programas de mantenimiento preventivo.",
+        "climateChallenge": "El sistema de canales de 165 millas de Fort Lauderdale significa que una parte sustancial de las propiedades residenciales están en o cerca del agua salada de marea, extendiendo las preocupaciones de corrosión costera bien hacia el interior. El área recibe un intenso turismo de primavera y verano que sobrecarga los sistemas de HVAC comerciales en propiedades de hospitalidad más allá de sus cargas de diseño normales. La mezcla de construcción antigua y nueva significa que los técnicos deben estar cómodos trabajando en todo, desde unidades de paquete de 40 años hasta sistemas de flujo de refrigerante variable de última generación.",
+        "commonIssues": [
+          "Corrosión por canal de agua salada que afecta condensadores en propiedades que parecen estar en el interior pero dan a canales de marea",
+          "Sobrecarga del sistema de HVAC comercial durante la temporada turística pico en hoteles y lugares de entretenimiento",
+          "Ductos envejecidos en casas de bloque de concreto de los años 50-60 que requieren soluciones de reemplazo modernas",
+          "Fallas de A/C en alquileres vacacionales que requieren respuesta de emergencia prioritaria para proteger los ingresos por alquiler"
+        ],
+        "localTip": "Los propietarios de propiedades frente al canal en Fort Lauderdale a menudo se sorprenden de que su dirección en el interior todavía cause corrosión acelerada del A/C — el agua salada de marea en los canales se evapora y el aire cargado de sal afecta los condensadores igual que la exposición frente al mar. Solicite una evaluación de corrosión cuando programe su próximo servicio para determinar si los recubrimientos protectores son apropiados para su ubicación.",
+        "testimonial": {
+          "text": "Pensé que solo las propiedades frente a la playa tenían que preocuparse por el aire salado, pero MGM me mostró que mi condensador de condominio al lado del canal ya mostraba corrosión después de solo tres años. Lo recubrieron y ahora estoy en un plan de mantenimiento anual. Gran equipo.",
+          "name": "Michelle D.",
+          "date": "2026"
+        }
       },
       "hollywood": {
         "name": "Hollywood",
@@ -429,7 +589,21 @@
           "Cooper City",
           "Weston",
           "Southwest Ranches"
-        ]
+        ],
+        "housingInfo": "Hollywood ofrece una historia de dos ciudades dentro de sus fronteras: el corredor de la playa y el Broadwalk bordeado de condominios de baja altura de los años 50-70 y moteles, y las comunidades más nuevas del interior como los desarrollos de Emerald Hills y Monterra con casas más grandes y modernas. Las propiedades frente a la playa frecuentemente tienen envejecidas unidades PTAC o de ventana que superaron su vida útil, mientras que las casas suburbanas del interior cuentan con sistemas divididos estándar que van desde bien mantenidos hasta gravemente descuidados.",
+        "climateChallenge": "Las propiedades frente a la playa de Hollywood enfrentan los mismos desafíos de corrosión por aire salado costero que Miami Beach y Fort Lauderdale, mientras que las áreas del interior experimentan el calor y la humedad completos de South Florida sin la moderación oceánica. La mezcla de edades y tipos de propiedades de la ciudad requiere técnicos que puedan dar servicio tanto a equipos vintage como modernos. Los picos estacionales de población de los snowbirds y turistas de playa en invierno y primavera pueden crear aumentos en la demanda de servicio que ponen a prueba la capacidad de los contratistas locales.",
+        "commonIssues": [
+          "Unidades PTAC envejecidas en condominios frente a la playa que operan muy por encima de su vida útil de diseño sin planes de reemplazo",
+          "Corrosión en unidades condensadoras en propiedades frente a la playa dentro de la zona costera de una milla",
+          "Desajustes de capacidad en casas más antiguas del interior donde las unidades de ventana fueron reemplazadas por sistemas divididos subdimensionados",
+          "Aumentos de demanda estacionales que crean largos tiempos de espera — el mantenimiento previo a la temporada previene llamadas de emergencia"
+        ],
+        "localTip": "Los propietarios de condominios frente a la playa de Hollywood con unidades PTAC deben inspeccionar el conjunto de persianas exteriores cada año — la corrosión por aire salado frecuentemente ataca el alojamiento metálico y los canales de drenaje antes de que el sistema de refrigerante en sí falle, y un reemplazo de persiana de $200 puede prevenir un reemplazo completo de PTAC de $1,500.",
+        "testimonial": {
+          "text": "MGM reemplazó nuestra envejecida unidad PTAC del condominio de playa rápidamente y limpiamente. Tuvieron cuidado de no dañar las paredes y la nueva unidad es silenciosa comparada con la anterior. Muy satisfecho con el servicio en Hollywood.",
+          "name": "Frank S.",
+          "date": "2026"
+        }
       },
       "bocaraton": {
         "name": "Boca Raton",
@@ -442,7 +616,21 @@
           "Boynton Beach",
           "Lake Worth",
           "Pompano Beach"
-        ]
+        ],
+        "housingInfo": "Boca Raton es una de las comunidades más prósperas del Condado de Palm Beach, con un parque habitacional que va desde amplias casas tipo finca en comunidades de golf cerradas como Broken Sound y St. Andrews hasta lujosas torres frente al mar y bien equipadas casas de tamaño mediano en toda la ciudad. Muchas propiedades de Boca Raton cuentan con sistemas de HVAC premium de Trane, Lennox y Carrier con zonificación, compresores de velocidad variable y sofisticadas soluciones de calidad del aire que incluyen filtración HEPA y purificadores de aire UV. Las grandes fincas frecuentemente requieren múltiples sistemas y configuraciones de zonificación complejas.",
+        "climateChallenge": "La base de propietarios pudientes de Boca Raton típicamente tiene expectativas más altas de comodidad interior, calidad del aire y confiabilidad del sistema que los mercados promedio — las quejas de comodidad que podrían tolerarse en otros lugares son inaceptables aquí. Las grandes fincas con amplias plantas abiertas, techos catedrales y paredes de vidrio de pared a pared presentan importantes desafíos de carga de enfriamiento que requieren cálculos de carga Manual J precisos para especificar correctamente. Los campos de golf y los paisajes maduros son hermosos pero introducen escombros orgánicos, polen y salpicaduras del sistema de riego que afectan el equipo exterior.",
+        "commonIssues": [
+          "Fallas del sistema de zonas en grandes casas multizona que causan desequilibrios de comodidad entre áreas",
+          "Fallas del compresor inversor de alta velocidad variable de alta gama que requieren diagnóstico avanzado y piezas especializadas",
+          "Mantenimiento del sistema de calidad del aire — reemplazo de bombillas UV, servicio de filtros HEPA en instalaciones premium",
+          "Depósitos minerales en bobinas del condensador por salpicaduras del sistema de riego del campo de golf que requieren limpieza profesional"
+        ],
+        "localTip": "Los propietarios de Boca Raton con sistemas de velocidad variable premium deben asegurarse de que su técnico de servicio tenga certificación de fábrica para su marca específica — la certificación Trane Comfort Specialist, Lennox Premier Dealer o Carrier Factory Authorized significa que el técnico tiene capacitación específica de marca para diagnosticar fallas de accionamiento inversor que los técnicos generales de HVAC pueden diagnosticar incorrectamente como fallas del compresor.",
+        "testimonial": {
+          "text": "Tenemos un sistema Trane de cinco zonas en nuestra finca de Boca Raton y el tablero de zonas seguía arrojando fallas. MGM envió un técnico certificado por Trane que diagnosticó un actuador de damper de bypass fallido en menos de una hora. Excelente conocimiento técnico.",
+          "name": "Richard and Barbara A.",
+          "date": "2026"
+        }
       },
       "westPalmBeach": {
         "name": "West Palm Beach",
@@ -456,7 +644,21 @@
           "Wellington",
           "Riviera Beach",
           "Palm Beach"
-        ]
+        ],
+        "housingInfo": "West Palm Beach ha experimentado una revitalización significativa, particularmente en los corredores del centro de Clematis Street y Rosemary Square, donde los edificios comerciales históricos se están convirtiendo en lofts residenciales y desarrollos de uso mixto. La ciudad más amplia abarca vecindarios diversos desde el histórico El Cid y Flamingo Park — con encantadoras casas de los años 20-40 que están siendo cuidadosamente renovadas — hasta desarrollos suburbanos más nuevos al oeste de Military Trail. La ola de renovaciones trae desafíos de A/C similares a Coral Gables: adaptar HVAC moderno a edificios diseñados antes de que existiera el aire acondicionado central.",
+        "climateChallenge": "West Palm Beach se encuentra en el borde norte de la zona subtropical de South Florida, lo que significa que el clima es ligeramente menos extremo que Miami pero aún demanda operación de A/C durante todo el año. La revitalización del centro en curso crea una compleja mezcla de infraestructura antigua y nueva — los edificios que se están renovando pueden tener servicio eléctrico inadecuado para HVAC moderno, y las consideraciones de preservación histórica pueden limitar las opciones de colocación de equipos. La proximidad al Lago Worth y a la Vía Intracostera introduce riesgo moderado de corrosión costera para los vecindarios del este.",
+        "commonIssues": [
+          "Inadecuación del servicio eléctrico en edificios más antiguos del centro que se están convirtiendo en ocupación residencial",
+          "Desafíos de integración de ductos en casas históricas que se están renovando con sistemas modernos",
+          "Corrosión por proximidad a la Vía Intracostera en vecindarios del este cerca de Lake Worth",
+          "Coordinación de permisos e inspecciones para el reemplazo de A/C en vecindarios designados como históricos"
+        ],
+        "localTip": "Los propietarios de West Palm Beach que renuevan propiedades históricas deben presupuestar una evaluación del panel eléctrico junto con cualquier actualización de HVAC — las casas construidas antes de 1960 pueden tener paneles de servicio de 60 o 100 amperios que no pueden soportar un sistema moderno de alta eficiencia sin una actualización, y descubrir esto después de que el equipo está pedido causa costosos retrasos.",
+        "testimonial": {
+          "text": "Estábamos renovando nuestra casa de El Cid de los años 30 y necesitábamos una solución creativa de A/C que no requiriera demoler nuestros techos de yeso originales. MGM diseñó un sistema sin ductos que funcionó perfectamente y el inspector lo aprobó en la primera visita.",
+          "name": "Andrea C.",
+          "date": "2026"
+        }
       },
       "naples": {
         "name": "Naples",
@@ -470,7 +672,21 @@
           "Ave Maria",
           "North Naples",
           "Pelican Bay"
-        ]
+        ],
+        "housingInfo": "Naples es uno de los mercados más prósperos de Florida, con un parque habitacional definido por lujosas casas unifamiliares y condominios de alta gama a lo largo de la costa del Golfo de México y en comunidades de planificación maestra como Pelican Bay, Grey Oaks y Mediterra. Muchas propiedades son segundas residencias o residencias estacionales para snowbirds que las ocupan de octubre a abril y las dejan vacías o ligeramente ocupadas en verano. La calidad de construcción es generalmente excelente, con casas más nuevas que cuentan con envolventes de alto rendimiento, pero las expectativas de lujo exigen sistemas de HVAC de marca premium y servicio meticuloso.",
+        "climateChallenge": "La ubicación en la Costa del Golfo de Naples expone las propiedades al aire salado desde el oeste, y la concentración de rascacielos de lujo a lo largo del Gulf Shore Boulevard coloca el equipo en uno de los entornos más corrosivos de Florida. El patrón de demanda estacional de los snowbirds crea dos picos de servicio: el inicio de otoño cuando los propietarios regresan y encuentran sus sistemas inactivos del verano en mal estado, y el mantenimiento de cierre de primavera antes de que los propietarios se vayan. La temporada de vacantes del verano es particularmente dañina — los sistemas dejados funcionando en modo de reserva en casas vacías desarrollan crecimiento biológico en bandejas de drenaje y bobinas.",
+        "commonIssues": [
+          "Fallas de inicio estacional cuando los snowbirds regresan en otoño para encontrar sistemas inactivos del verano que fallan",
+          "Crecimiento biológico en bandejas de drenaje y bobinas del evaporador durante los períodos de vacancia del verano",
+          "Corrosión por aire salado del Golfo en equipos de azotea y balcón de rascacielos de lujo",
+          "Brechas en el monitoreo remoto de propiedades — los segundos propietarios necesitan notificaciones inteligentes del sistema"
+        ],
+        "localTip": "Los propietarios de segundas residencias en Naples deben tener sus sistemas en un programa de vigilancia de verano — podemos configurar su termostato a un modo ocupado de 78-80°F durante el verano vacante, lo que mantiene el sistema funcionando lo suficiente como para deshumidificar la casa y prevenir el moho mientras ahorra energía, versus el error común de apagar el A/C completamente y regresar a una casa mohosa.",
+        "testimonial": {
+          "text": "Venimos de Michigan cada invierno y siempre temíamos encontrar sorpresas de A/C cuando llegábamos. MGM ahora hace una inspección de inicio previo a la llegada cada octubre y la casa siempre está perfecta cuando llegamos. La mejor inversión que hemos hecho en nuestra casa de Naples.",
+          "name": "Harold and Dorothy M.",
+          "date": "2026"
+        }
       },
       "fortMyers": {
         "name": "Fort Myers",
@@ -484,12 +700,27 @@
           "Lehigh Acres",
           "Fort Myers Beach",
           "Sanibel Island"
-        ]
+        ],
+        "housingInfo": "Fort Myers es una de las áreas metropolitanas de más rápido crecimiento del suroeste de Florida, con nueva construcción residencial que se expande rápidamente hacia comunidades como Gateway, Estero y el corredor Treeline. El parque habitacional está extremadamente bifurcado: casas nuevas en desarrollos planificados con sistemas modernos y correctamente dimensionados en un extremo, y construcción más antigua anterior al Huracán Ian de los años 70-90 con mantenimiento diferido y daños por huracán en el otro. El Huracán Ian en 2022 causó daños catastróficos en todo el Condado de Lee, y el proceso de recuperación y reconstrucción todavía continúa en toda el área.",
+        "climateChallenge": "El impacto del Huracán Ian en Fort Myers no puede subestimarse — miles de sistemas de HVAC fueron destruidos o dañados por la marejada ciclónica y los vientos de más de 150 mph, y el proceso de recuperación ha tensado la disponibilidad de contratistas y las cadenas de suministro de piezas durante años después. El explosivo crecimiento de nueva construcción también ha producido algunos problemas de control de calidad con instalaciones apresuradas que priorizaron el ahorro de costos del constructor sobre el rendimiento a largo plazo. El clima subtropical es similar a Miami pero con una temporada de lluvias notablemente más pronunciada que impulsa la humedad a extremos de junio a septiembre.",
+        "commonIssues": [
+          "Daños del Huracán Ian — intrusión de agua de marejada ciclónica en componentes eléctricos del condensador en zonas de inundación",
+          "Problemas de calidad de instalación en nueva construcción — instalaciones apresuradas con carga de refrigerante o flujo de aire inadecuados",
+          "Escasez de disponibilidad de contratistas post-Ian que crea largos tiempos de espera para reparaciones y reemplazo",
+          "La humedad extrema de la temporada de lluvias impulsa el crecimiento biológico en sistemas que no recibieron mantenimiento adecuado post-tormenta"
+        ],
+        "localTip": "Los propietarios de Fort Myers que tuvieron cualquier intrusión de agua durante el Huracán Ian deben hacer que todo su sistema de HVAC — incluyendo ductos, manejador de aire y componentes eléctricos — sea inspeccionado profesionalmente incluso si el sistema parece estar funcionando, porque el aislamiento dañado por agua y los componentes eléctricos pueden causar incendios o crecimiento biológico que solo aparece meses después del evento de inundación.",
+        "testimonial": {
+          "text": "Después del Huracán Ian, nuestra unidad de A/C parecía estar bien pero seguía disparando el interruptor. MGM encontró daños por agua en el tablero de control que eventualmente habrían causado un incendio. Lo reemplazaron rápidamente y también encontraron que nuestros ductos estaban comprometidos. Verdaderos profesionales.",
+          "name": "Nancy and Bill P.",
+          "date": "2026"
+        }
       }
     },
     "neighborhoodsTitle": "Vecindarios que Servimos",
     "cityCtaTitle": "Servicio de A/C — Llame Hoy",
-    "cityCtaButton": "Llame para Presupuesto Gratis"
+    "cityCtaButton": "Llame para Presupuesto Gratis",
+    "servicesInCity": "Nuestros Servicios en {city}"
   },
   "about": {
     "label": "Nosotros",
@@ -669,6 +900,214 @@
           "**Moho y Calidad del Aire Interior** — La combinación de calor y humedad hace de South Florida un punto caliente para el crecimiento de moho. Su sistema de A/C juega un papel crítico en el control de la humedad interior.",
           "**Lo Que Puede Hacer** — La mejor defensa es el mantenimiento proactivo. Programe ajustes profesionales dos veces al año y cambie los filtros mensualmente."
         ]
+      },
+      "what-is-the-5000-rule": {
+        "title": "¿Qué es la Regla de los $5,000 para Aire Acondicionado?",
+        "date": "8 de Abril, 2026",
+        "excerpt": "La regla de los $5,000 es la forma más rápida de decidir si reparar o reemplazar su aire acondicionado — y en el calor de Miami, importa más que nunca.",
+        "content": [
+          "**La regla de los $5,000 es sencilla: multiplique la edad de su unidad de aire acondicionado por el costo de la reparación. Si ese número supera los $5,000, es hora de reemplazar la unidad en vez de repararla.** Esta regla práctica ha sido usada por profesionales de HVAC durante décadas, y es especialmente útil para los propietarios de Miami donde los sistemas de aire acondicionado trabajan más intensamente — y se desgastan más rápido — que en casi cualquier otro lugar del país.",
+          "Así funciona la matemática con ejemplos reales de Miami. Supongamos que tiene una **unidad de 10 años** y el técnico le cotiza **$600 para reemplazar el capacitor del compresor y limpiar los serpentines**. Multiplique 10 × $600 = $6,000. Eso supera los $5,000, lo que significa que el reemplazo es probablemente la decisión financieramente más inteligente. Por otro lado, si tiene una **unidad de 5 años** y necesita un **reemplazo de contactor de $400**, la matemática es 5 × $400 = $2,000 — muy por debajo de $5,000, así que la reparación tiene sentido.",
+          "¿Por qué Miami cambia el cálculo? En la mayor parte de los Estados Unidos, un sistema central de aire acondicionado dura **15–20 años**. Aquí en South Florida, la vida útil realista es de **10–15 años** — a veces menos. Su sistema funciona entre 8 y 10 meses al año, enfrentando temperaturas en los 90°F, humedad por encima del 70% y aire salado si vive cerca de la costa en vecindarios como Miami Beach, Key Biscayne o Coconut Grove. Ese funcionamiento constante se acumula rápidamente.",
+          "**Las reparaciones de aire acondicionado más costosas** son las que más probablemente activarán la regla de los $5,000. El reemplazo del compresor en Miami típicamente cuesta entre **$1,500–$2,500** dependiendo del tamaño y la marca de la unidad. El reemplazo del serpentín evaporador cuesta entre **$1,000–$2,000**. Una reparación de fuga de refrigerante que también requiere recargar el sistema puede costar entre **$600–$1,200**. En una unidad de 12 años, cualquiera de estas reparaciones lo empujará bien por encima del umbral de $5,000.",
+          "Hay una consideración secundaria que muchos propietarios pasan por alto: **el tipo de refrigerante**. Si su sistema fue instalado antes del año 2010, es probable que use refrigerante R-22 (Freon), que ha sido eliminado gradualmente bajo las regulaciones de la EPA. El R-22 ahora cuesta entre $100–$150 por libra en el mercado abierto — y una recarga típica requiere 2–5 libras. Un sistema R-22 que falla en Doral o Kendall no solo es costoso de reparar; cada reparación es un parche temporal en un sistema que eventualmente deberá reemplazar de todas formas.",
+          "La regla de los $5,000 también le ayuda a evitar la **\"trampa de las reparaciones\"** — el ciclo de arreglar una cosa solo para que otra se rompa dos meses después. Una vez que un sistema supera los 12 años en South Florida, los componentes comienzan a fallar en cadena. El capacitor falla, luego el contactor, luego el motor del ventilador. Cada reparación individualmente puede parecer razonable, pero se suman rápidamente, y usted sigue operando una unidad antigua e ineficiente que dispara su factura de FPL cada mes.",
+          "**La eficiencia energética es una parte oculta de la ecuación.** Un sistema más antiguo puede estar calificado con 10–13 SEER (Relación de Eficiencia Energética Estacional), mientras que un sistema nuevo tiene 16–20+ SEER. En Miami, donde su aire acondicionado funciona casi todo el año, actualizar a una unidad de mayor SEER puede reducir sus costos de enfriamiento entre un **20–40%**. Con las tarifas de FPL promediando alrededor de $0.13–$0.15 por kWh, esos ahorros son reales.",
+          "Dicho esto, la regla de los $5,000 no es absoluta. **El contexto importa.** Si su unidad tiene 9 años pero ha recibido un mantenimiento excepcional con servicio dos veces al año, y la reparación necesaria es una solución sencilla y puntual, puede valer la pena reparar incluso si la matemática está cerca. Por el contrario, si su unidad tiene 8 años pero ha tenido tres reparaciones mayores en dos años, el reemplazo puede ser prudente aunque la fórmula diga que repare.",
+          "**Cuándo reemplazar siempre independientemente de la regla:** si el sistema todavía usa Freon R-22; si ha estado inundando su hogar debido a problemas persistentes con la línea de drenaje; si está causando problemas de moho por deshumidificación insuficiente; o si sus facturas de FPL han subido un 25% o más en los últimos dos veranos sin explicación.",
+          "La conclusión para los propietarios de Miami: la regla de los $5,000 es su punto de partida, no su respuesta final. Úsela para enmarcar la conversación con su técnico, considere el tipo de refrigerante y el historial de mantenimiento de su unidad, y evalúe los ahorros de energía de un nuevo sistema de alta eficiencia.",
+          "**¿Listo para saber si vale la pena reparar su aire acondicionado?** MGM A/C Appliances ofrece estimados gratuitos para propietarios de South Florida. Nuestros técnicos le darán una evaluación honesta — sin ventas forzadas, solo los hechos. Llámenos al **(786) 352-0084** y le ayudaremos a tomar la decisión más inteligente para su hogar y su presupuesto."
+        ]
+      },
+      "ac-repair-cost-miami": {
+        "title": "¿Cuánto Cuesta la Reparación de Aire Acondicionado en Miami? (Guía de Precios 2026)",
+        "date": "10 de Abril, 2026",
+        "excerpt": "Las reparaciones de aire acondicionado en Miami van desde $150 por un capacitor hasta $2,500 por un compresor — esto es lo que puede esperar pagar en 2026.",
+        "content": [
+          "**Los costos de reparación de aire acondicionado en Miami en 2026 típicamente oscilan entre $150 y $2,500 dependiendo de la pieza y la complejidad del trabajo.** Los propietarios de Miami pagan aproximadamente un 10–20% más que el promedio nacional por reparaciones de HVAC — un reflejo de la demanda durante todo el año, el costo de vida local y el hecho de que los sistemas de South Florida trabajan más que las unidades en casi cualquier otro lugar del país. Aquí tiene un desglose completo de lo que puede esperar pagar.",
+          "**Tarifa de diagnóstico: $75–$150.** La mayoría de las empresas de HVAC de buena reputación en Miami cobran una tarifa de diagnóstico o de visita para venir, evaluar el sistema e identificar el problema. En MGM A/C Appliances, nuestra tarifa de diagnóstico se aplica al costo de la reparación si procede con nosotros. Tenga cuidado con las empresas que ofrecen \"diagnósticos gratuitos\" y luego inflan dramáticamente el estimado de reparación.",
+          "**Reemplazo de capacitor: $150–$400.** El capacitor es el componente de aire acondicionado que se reemplaza con más frecuencia en South Florida. Es una pequeña pieza cilíndrica que ayuda a arrancar y hacer funcionar los motores del compresor y del ventilador. El calor de Miami hace que los capacitores fallen con mucha más frecuencia que en climas más fríos — muchos propietarios de South Florida reemplazan uno cada 3–5 años. La pieza en sí es económica ($15–$50), así que la mayor parte del costo es mano de obra.",
+          "**Reemplazo de contactor: $150–$350.** El contactor es un interruptor de relé eléctrico que controla la energía al compresor y al ventilador del condensador. Al igual que los capacitores, los contactores se desgastan más rápido en climas calurosos y son una reparación rutinaria en Miami. Típicamente es un trabajo de 30–45 minutos para un técnico experimentado.",
+          "**Recarga de refrigerante: $200–$600.** Si su sistema tiene poco refrigerante, no enfriará correctamente. Una recarga implica verificar si hay fugas, repararlas si se encuentran, y agregar el refrigerante correcto. El costo varía significativamente según el **tipo de refrigerante** que use su sistema. Los sistemas que usan el moderno **R-410A** son menos costosos de reparar. Los sistemas que todavía funcionan con el **R-22 Freon** eliminado gradualmente pueden costar $400–$800 o más solo por el refrigerante, ya que el R-22 ahora cuesta $100–$150 por libra.",
+          "**Reemplazo del motor del ventilador: $300–$700.** Hay dos motores de ventilador en un sistema de aire acondicionado dividido típico — el motor del soplador (interior, mueve el aire sobre el serpentín evaporador) y el motor del ventilador del condensador (exterior, extrae aire sobre el serpentín condensador). El aire salado en los vecindarios costeros de Miami como Surfside, Bay Harbor Islands y Miami Beach es particularmente dañino para los motores de ventilador exteriores.",
+          "**Reemplazo del compresor: $1,500–$2,500.** El compresor es el corazón de su sistema de aire acondicionado — y el componente más costoso de reemplazar. Si el compresor falla en una unidad de más de 10 años, casi siempre tiene más sentido reemplazar todo el sistema en lugar de solo el compresor. Para unidades más nuevas bajo garantía, el reemplazo del compresor vale la pena.",
+          "**Reemplazo del serpentín evaporador: $1,000–$2,000.** El serpentín evaporador está dentro de su manejador de aire y es donde ocurre el intercambio de calor real. En el ambiente húmedo de Miami, los serpentines evaporadores son propensos a desarrollar moho y corrosión — particularmente en hogares cerca de la costa. Un serpentín evaporador con fugas o corroído es una reparación significativa que, en una unidad más antigua, a menudo inclina la balanza hacia el reemplazo total.",
+          "**Reemplazo de la tarjeta de circuito: $400–$800.** Los sistemas de aire acondicionado modernos son controlados por tarjetas de circuito que gestionan cada aspecto del funcionamiento. Los rayos — comunes en South Florida durante la temporada de tormentas de junio a noviembre — son una causa principal de fallas en las tarjetas de circuito en hogares del área de Miami. Un protector de sobretensión en su desconectador de A/C es una inversión que vale la pena de $50–$100.",
+          "**¿Qué hace que los precios de reparación de A/C en Miami sean más altos que el promedio nacional?** Primero, la demanda durante todo el año significa que los técnicos están ocupados y las tarifas de mano de obra lo reflejan. Segundo, el enorme número de sistemas de A/C por cápita crea una demanda sostenida. Tercero, los efectos corrosivos de la humedad y el aire salado significan que las piezas se desgastan más rápido.",
+          "**El servicio de emergencia y fuera de horario** puede agregar $100–$200 a cualquier factura de reparación en la mayoría de las empresas. En MGM A/C Appliances, no cobramos extra por llamadas de servicio fuera de horario o los fines de semana — nuestro precio es nuestro precio, de día o de noche. También proporcionamos **estimados gratuitos** para que sepa el costo total antes de que comencemos cualquier trabajo.",
+          "Para precios exactos en su situación específica, llame a MGM A/C Appliances al **(786) 352-0084**. Servimos todo el Condado Miami-Dade incluyendo Hialeah, Doral, Kendall, Coral Gables y más — con precios transparentes, sin cargos sorpresa y servicio bilingüe en inglés y español."
+        ]
+      },
+      "ac-not-working-what-to-check": {
+        "title": "¿El Aire Acondicionado No Funciona? 7 Cosas que Revisar Antes de Llamar a un Técnico",
+        "date": "5 de Abril, 2026",
+        "excerpt": "Antes de llamar para reparar su aire acondicionado en Miami, revise estas 7 cosas — muchos A/C 'dañados' solo necesitan un reinicio del termostato o limpiar el drenaje.",
+        "content": [
+          "**Cuando su aire acondicionado deja de funcionar en Miami, no entre en pánico — y no llame inmediatamente a un técnico.** Una cantidad sorprendente de \"averías\" de aire acondicionado en hogares de South Florida son causadas por problemas simples que puede resolver en minutos sin pagar una tarifa de visita de servicio. Primero siga esta lista de verificación. Si ninguna de estas opciones soluciona el problema, entonces es hora de llamar a los profesionales.",
+          "**1. Revise la Configuración de Su Termostato.** Suena obvio, pero es lo primero que revisará cualquier técnico. Asegúrese de que el termostato esté configurado en **\"Frío\" (Cool)** y no en \"Calor\" o \"Solo ventilador\", que la temperatura establecida sea más baja que la temperatura actual del cuarto, y que esté configurado en **\"Automático\" (Auto)** y no en \"Encendido\" (On). Si su termostato funciona con baterías, intente cambiarlas. En apartamentos loft de Wynwood y en hogares más antiguos de Coral Gables, vemos termostatos accidentalmente cambiados a \"Calor\" después de que el servicio de limpieza o los visitantes ajustan la configuración.",
+          "**2. Inspeccione Su Filtro de Aire.** Un filtro de aire gravemente obstruido es la **causa número uno de problemas de A/C en South Florida**. La combinación de alta humedad, polvo exterior, polen y pelo de mascotas de Miami obstruye los filtros más rápido que en climas secos. Un filtro bloqueado restringe el flujo de aire tan severamente que el sistema no puede enfriar correctamente, puede causar que el serpentín evaporador se congele y puede provocar que el sistema se apague completamente por seguridad. Saque su filtro — si no puede ver la luz a través de él, reemplácelo de inmediato. Los filtros deben cambiarse cada **30–60 días** en South Florida, no cada 90 días como suele sugerir el empaque.",
+          "**3. Revise Su Disyuntor.** Vaya a su panel eléctrico y busque el disyuntor etiquetado como \"A/C\", \"Manejador de aire\" o \"Condensador\". La mayoría de los hogares tienen dos disyuntores separados para el sistema de A/C — uno para el manejador de aire interior y otro para la unidad exterior. Un disyuntor disparado estará en la posición intermedia en lugar de completamente en \"On\" o completamente en \"Off\". Reinícielo cambiándolo completamente a \"Off\" y luego de vuelta a \"On\". Si el disyuntor vuelve a dispararse inmediatamente, **no siga reiniciándolo** — eso indica un problema eléctrico serio que necesita atención profesional. Las frecuentes tormentas de verano de Miami son una causa común de disyuntores de A/C disparados.",
+          "**4. Limpie la Línea de Drenaje del Condensado.** Este es un problema exclusivo de Miami. Su sistema de A/C elimina la humedad del aire mientras lo enfría — en South Florida, eso puede ser **5–20 galones de agua por día** durante los húmedos meses de verano. Esa agua se drena a través de un tubo de PVC llamado línea de drenaje del condensado. En el cálido y húmedo clima de Miami, las algas y el moho crecen dentro de ese tubo y pueden crear una obstrucción completa en pocos meses. Cuando el drenaje se obstruye, el agua se acumula en la bandeja de drenaje, activa un interruptor flotador que apaga el sistema, o se desborda hacia su techo o paredes. Vierta una taza de vinagre blanco destilado en el puerto de acceso mensualmente para prevenir obstrucciones.",
+          "**5. Inspeccione la Unidad Exterior.** Salga afuera y mire su unidad condensadora. ¿El ventilador está girando cuando el sistema está funcionando? ¿Hay hielo visible formándose en las líneas de refrigerante o los serpentines? ¿Está la unidad rodeada de vegetación excesiva? En el exuberante entorno paisajístico de Miami — particularmente en vecindarios como Pinecrest, South Miami y Los Redlands — las plantas crecen rápido y pueden bloquear el flujo de aire al condensador en una temporada. Despeje cualquier escombro y asegure al menos **2 pies de espacio libre** en todos los lados. Si ve hielo en los serpentines, apague el sistema y deje que se descongele (funcione solo el ventilador durante 1–2 horas) antes de reiniciar.",
+          "**6. Revise Todas Sus Rejillas de Ventilación.** Camine por su hogar y asegúrese de que cada rejilla de suministro y retorno esté abierta y sin obstrucciones. Muebles empujados contra las rejillas, amortiguadores de ventilación cerrados y escombros en las rejillas de retorno de aire son culpables comunes. En particular, asegúrese de que nadie haya cerrado múltiples rejillas para \"redirigir\" el flujo de aire — los sistemas modernos de A/C están diseñados para mover un volumen específico de aire.",
+          "**7. Revise Su Cuenta de FPL por Apagones.** FPL (Florida Power & Light) sirve la mayor parte de Miami-Dade y el Condado Broward. Antes de asumir que su A/C está dañado, revise rápidamente el mapa de apagones de FPL en fpl.com o la aplicación de FPL para ver si hay un corte de energía afectando su área. Los apagones parciales — donde tiene algo de energía pero no voltaje completo — son particularmente complicados porque las luces pueden funcionar mientras los electrodomésticos de 240 voltios como su A/C no.",
+          "**Si ha revisado los siete elementos y el A/C sigue sin funcionar**, es hora de llamar a un profesional. Algunos problemas — fugas de refrigerante, fallas eléctricas, compresores averiados — son genuinamente peligrosos de intentar usted mismo y requieren técnicos licenciados con el equipo adecuado.",
+          "MGM A/C Appliances proporciona **servicio de emergencia de A/C las 24 horas** en todo el Condado Miami-Dade sin recargo por horario fuera de horas. Si su sistema no está enfriando y no puede encontrar la causa, llámenos al **(786) 352-0084**. Nuestros técnicos bilingües diagnosticarán el problema rápidamente y le darán un precio transparente antes de comenzar cualquier trabajo."
+        ]
+      },
+      "repair-vs-replace-ac": {
+        "title": "¿Reparar o Reemplazar su Aire Acondicionado? El Desglose Completo de Costos",
+        "date": "12 de Abril, 2026",
+        "excerpt": "¿Reparar o reemplazar su aire acondicionado? Para los propietarios de Miami, la respuesta depende de la edad, el tipo de refrigerante y los ahorros de energía — aquí está el desglose completo.",
+        "content": [
+          "**Para la mayoría de los propietarios de Miami, la decisión de reparar o reemplazar se reduce a tres factores: la edad de la unidad, el costo de la reparación y el tipo de refrigerante que usa el sistema.** Analice correctamente los tres y la respuesta es casi siempre clara. Aquí tiene todo lo que necesita saber para tomar la decisión financieramente inteligente para su hogar en South Florida.",
+          "**Cuándo Reparar Su Aire Acondicionado.** La reparación tiene sentido cuando la unidad tiene **menos de 10 años**, el costo de reparación es **menos de $1,000**, es la **primera reparación mayor** que ha necesitado el sistema, y el sistema todavía usa el **refrigerante R-410A** actualmente soportado. Las unidades jóvenes y bien mantenidas en Doral, Kendall y los vecindarios del oeste de Miami-Dade pueden tener muchos buenos años por delante incluso después de una reparación significativa.",
+          "**Cuándo Reemplazar Su Aire Acondicionado.** El reemplazo es la opción más inteligente cuando la unidad tiene **más de 15 años**, el costo de reparación supera el **50% del costo de un sistema nuevo**, el sistema funciona con **R-22 Freon** (que ha sido eliminado federalmente), o ha tenido **múltiples reparaciones mayores** en los últimos dos años. En South Florida específicamente, cualquier sistema de más de 12 años que requiera un reemplazo de compresor o serpentín evaporador casi siempre justifica el reemplazo en lugar de la reparación.",
+          "**El Factor R-22.** Si su sistema fue instalado antes del año 2010, hay una buena probabilidad de que use refrigerante R-22. La producción de R-22 fue prohibida en los Estados Unidos a principios de 2020 bajo la Ley de Aire Limpio, y los suministros restantes se han estado agotando desde entonces. A partir de 2026, el R-22 cuesta **$100–$150 por libra** en el mercado de material recuperado — y una recarga típica requiere 2–5 libras. Repararlo solo es financieramente razonable si la reparación es menor y la unidad está en excelentes condiciones.",
+          "**El Costo de la Reparación: $200–$2,500.** Las reparaciones comunes de A/C en Miami varían ampliamente: un reemplazo de capacitor puede costar $150–$400, mientras que un reemplazo completo del compresor puede llegar a $1,500–$2,500. Como regla general, cualquier reparación individual que cueste más de $1,500 en una unidad de más de 10 años merece seria consideración de reemplazo.",
+          "**El Costo del Reemplazo: $4,000–$12,000.** Un nuevo sistema central de A/C en South Florida típicamente cuesta **$4,000–$7,000** para un sistema residencial estándar de 3–4 toneladas incluyendo equipo e instalación. Hogares más grandes (4,000+ sq ft) en Coral Gables, Coconut Grove o Pinecrest pueden costar **$8,000–$12,000** para un sistema de alta eficiencia correctamente dimensionado.",
+          "**El Cálculo de Ahorros SEER.** Aquí es donde el reemplazo a menudo se paga solo más rápido de lo que la gente espera. **SEER** (Relación de Eficiencia Energética Estacional) mide qué tan eficientemente un sistema de A/C convierte la electricidad en enfriamiento. Los sistemas más antiguos instalados hace 10–15 años típicamente están calificados con **10–13 SEER**. Los nuevos sistemas instalados hoy deben cumplir un mínimo de **15 SEER2** bajo los estándares federales actuales, y muchas unidades modernas alcanzan **18–22 SEER** o más. Eso se traduce en una **reducción del 20–40% en los costos de enfriamiento**.",
+          "En Miami, donde su A/C funciona 8–10 meses al año, esos ahorros son significativos. Un hogar típico de 1,500 sq ft con un antiguo sistema de 10 SEER podría gastar **$2,400–$3,000 al año** en costos de enfriamiento de FPL. Actualizar a una unidad de 20 SEER podría reducir eso a **$1,400–$1,800** — ahorrando $600–$1,200 anualmente. A lo largo de una vida útil del sistema de 10 años, eso es **$6,000–$12,000 en ahorros de energía**.",
+          "**El Financiamiento Hace el Reemplazo Más Accesible.** Muchos propietarios de Miami dudan en reemplazar debido al costo inicial, pero las **opciones de financiamiento para A/C** lo hacen manejable. MGM A/C Appliances trabaja con socios financieros para ofrecer planes de pago flexibles — algunos con períodos promocionales de cero interés. Un sistema de $6,000 financiado a $150/mes a menudo es comparable a lo que gastaría en reparaciones continuas más las facturas de FPL más altas de una unidad antigua e ineficiente.",
+          "**Un Marco Práctico de Decisión.** Hágase estas cuatro preguntas: (1) ¿Tiene la unidad más de 15 años? (2) ¿El costo de reparación supera $1,000? (3) ¿El sistema usa refrigerante R-22? (4) ¿Ha habido dos o más reparaciones mayores en los últimos 24 meses? Si responde **sí a dos o más**, el reemplazo es casi con certeza la elección correcta. Si solo responde sí a una, la regla de los $5,000 puede ayudarle a decidir.",
+          "La movida más inteligente es obtener una opinión profesional antes de comprometerse de cualquier manera. En MGM A/C Appliances, proporcionamos **estimados gratuitos** y recomendaciones honestas — le diremos exactamente qué necesita su sistema y le daremos los números reales tanto de reparación como de reemplazo para que pueda tomar una decisión informada. Llámenos al **(786) 352-0084** para programar su evaluación gratuita en cualquier parte del Condado Miami-Dade, Broward y más allá."
+        ]
+      },
+      "new-ac-cost-florida": {
+        "title": "¿Cuánto Cuesta un Aire Acondicionado Nuevo en Florida? (Guía 2026)",
+        "date": "5 de Abril, 2026",
+        "excerpt": "Conozca los precios reales de sistemas de aire acondicionado nuevos en South Florida — desde unidades de 2 toneladas hasta sistemas de 5 toneladas — y los factores clave que afectan el costo total de instalación.",
+        "content": [
+          "Un aire acondicionado nuevo en Florida típicamente cuesta entre $3,500 y $12,000 instalado, dependiendo del tamaño de su hogar, la marca que elija y el estado de sus ductos existentes. Aquí tiene un desglose completo de qué esperar al presupuestar un sistema nuevo en South Florida.",
+          "**Precio Según el Tamaño del Sistema** — El factor más importante en el costo del aire acondicionado es el tamaño (tonelaje) de la unidad que necesita su hogar. Para un hogar de aproximadamente 1,000 pies cuadrados, un **sistema de 2 toneladas** típicamente cuesta $3,500–$6,000 instalado. Un **sistema de 2.5 toneladas** para aproximadamente 1,250 pies cuadrados cuesta $4,000–$7,000. Una **unidad de 3 toneladas** para hasta 1,500 pies cuadrados oscila entre $4,500–$8,000. Los hogares más grandes que necesitan un **sistema de 4 toneladas** (alrededor de 2,000 sq ft) deben presupuestar $5,500–$10,000, mientras que un **sistema de 5 toneladas** para 2,500+ pies cuadrados puede costar $6,500–$12,000. Estos son precios totales incluyendo equipo, mano de obra y el permiso requerido de Miami-Dade.",
+          "**Clasificación SEER: Eficiencia vs. Costo Inicial** — La clasificación **SEER (Relación de Eficiencia Energética Estacional)** mide qué tan eficientemente una unidad usa la electricidad. Mayor SEER significa facturas de FPL mensuales más bajas, pero mayor costo inicial. El mínimo de Florida es SEER 15 para sistemas nuevos. Un sistema SEER 16–18 cuesta aproximadamente $500–$1,500 más que un modelo base pero puede reducir sus costos de enfriamiento un 10–20% por año. En Miami, donde el aire acondicionado funciona casi 12 meses al año, pagar más por eficiencia da resultados más rápido que en los estados del norte.",
+          "**Comparación de Marcas** — La elección de marca impacta significativamente el precio. **Carrier y Trane** son marcas premium con un 15–25% por encima del promedio. **Lennox** es igualmente premium con sólidas clasificaciones de eficiencia. **Rheem y York** están en el rango medio, ofreciendo excelente valor. **Goodman** es la opción económica, popular para alquileres y segundas residencias. Todas las marcas que instalamos vienen con al menos 5 años de garantía en piezas, y las garantías de 10 años son estándar en compresores.",
+          "**Requisitos Específicos de Florida Que Aumentan el Costo** — El Condado Miami-Dade requiere un permiso para cada instalación de aire acondicionado — espere agregar $150–$400 al total. Florida también exige **correas de huracán en las unidades condensadoras exteriores**. En áreas costeras como Miami Beach, Aventura y Key Largo, recomendamos unidades con **recubrimientos resistentes al aerosol salino** — cuestan aproximadamente $300–$600 más pero extienden dramáticamente la vida de la unidad contra nuestro corrosivo aire marino.",
+          "**Ductos: El Factor de Costo Oculto** — Si su hogar tiene ductos existentes en buenas condiciones, la instalación es sencilla. Si los ductos son viejos, tienen fugas o están mal dimensionados, las reparaciones o el reemplazo pueden agregar $1,000–$4,000 a su proyecto. En el húmedo clima de South Florida, los ductos con fugas no solo desperdician energía — pueden jalar el aire húmedo del ático a su espacio habitable, aumentando tanto su factura de FPL como el riesgo de moho.",
+          "**El Caso de ROI para Actualizar** — Muchos propietarios dudan ante una inversión de $7,000–$9,000. Considere esto: si actualmente paga $220/mes en su factura de FPL y un nuevo sistema de alta SEER correctamente dimensionado reduce eso en $80–$100/mes, está ahorrando $960–$1,200 por año. A esa tasa, un sistema de $7,000 se paga solo en 6–7 años — y los sistemas modernos duran 15+ años con el mantenimiento adecuado.",
+          "**El Financiamiento Lo Hace Manejable** — Ofrecemos opciones de financiamiento flexibles para que no tenga que agotar sus ahorros por un sistema nuevo. Muchos de nuestros clientes optan por financiamiento sin intereses por 12 meses o planes de pago mensual bajos. Un sistema de $7,500 financiado a 60 meses es aproximadamente $140/mes — a menudo menos que los ahorros de energía que verá en su factura de FPL.",
+          "**Qué Incluye la Instalación** — Una instalación adecuada de A/C por un contratista licenciado incluye: remoción y disposición de su unidad vieja, instalación del equipo nuevo, carga de refrigerante, configuración o reemplazo del termostato, prueba y calibración del sistema, presentación del permiso y registro de la garantía del fabricante. Tenga cuidado con las cotizaciones inusualmente bajas — los contratistas sin licencia a menudo omiten el permiso y lo dejan sin protección de garantía.",
+          "¿Listo para saber exactamente cuánto costaría un sistema de aire acondicionado nuevo para su hogar en South Florida? Llame a MGM A/C Appliances al **(786) 352-0084)** para un estimado gratuito sin compromiso. Servimos todo el Condado Miami-Dade y Broward, y le daremos respuestas directas — sin presión, sin sorpresas."
+        ]
+      },
+      "best-ac-temperature-florida": {
+        "title": "La Mejor Temperatura del Aire Acondicionado para el Verano en Florida",
+        "date": "8 de Abril, 2026",
+        "excerpt": "Encuentre la temperatura ideal del termostato para los veranos de South Florida que lo mantiene cómodo mientras reduce su factura de FPL $30–50 por mes.",
+        "content": [
+          "La mejor temperatura para el aire acondicionado en un hogar de Florida es **78°F cuando está en casa** y **85°F cuando está fuera**, según el Departamento de Energía de los EE.UU. En el calor y la humedad extremos de South Florida, mantenerse cerca de estas temperaturas — combinado con algunos hábitos inteligentes — puede reducir su factura de FPL de verano en $30–$50 por mes sin sacrificar la comodidad.",
+          "**Por Qué 78°F Funciona en South Florida** — La mayoría de los residentes de South Florida encuentran que 76–78°F se siente genuinamente cómodo en interiores cuando se combina con ventiladores de techo. Los ventiladores crean un efecto de enfriamiento que hace que 78°F se sienta como 74°F, permitiéndole subir el termostato sin notar la diferencia. Cada grado por debajo de 78°F aumenta sus costos de enfriamiento entre un **3–5%**. Eso significa que configurar su termostato a 72°F en lugar de 78°F agrega aproximadamente un 18–30% a su factura de enfriamiento — una cantidad significativa cuando la factura promedio de FPL en Miami oscila entre $180–$250 por mes en verano.",
+          "**La Ventaja del Termostato Programable** — Un termostato programable o inteligente es una de las mejores inversiones que puede hacer un propietario de South Florida. Al subir automáticamente la temperatura a 85°F mientras está en el trabajo y enfriar de nuevo antes de que llegue a casa, puede ahorrar **10–15% anualmente** en costos de enfriamiento. Los termostatos inteligentes como el Nest o Ecobee también aprenden su horario, monitorean la humedad exterior y se pueden controlar desde su teléfono. Un buen termostato inteligente cuesta $150–$250 instalado y típicamente se paga solo en una temporada de enfriamiento.",
+          "**El Control de Humedad Es tan Importante Como la Temperatura** — La humedad relativa promedio de Miami es de aproximadamente 75% — una de las más altas de cualquier ciudad importante de los EE.UU. Su sistema de A/C no solo enfría el aire; elimina la humedad. Es por eso que **siempre configurar su ventilador en \"Auto\" en lugar de \"On\"** es crítico en South Florida. Cuando el ventilador funciona continuamente (modo \"On\"), recircula la humedad que ha goteado del serpentín evaporador de vuelta a su espacio habitable, aumentando la humedad interior.",
+          "**El Mito de \"Configurarlo a 65°F para Enfriar Más Rápido\"** — Uno de los errores más comunes del termostato que vemos en clientes de Miami, Hialeah y Kendall: configurar la temperatura a 62°F o 65°F para \"enfriar la casa más rápido\". Esto no funciona. Su A/C funciona a la misma velocidad independientemente del punto de ajuste — configurarlo más bajo solo significa que funciona más tiempo y no se detiene hasta que alcanza esa temperatura, desperdiciando energía.",
+          "**Gestión del Sol de la Tarde** — En Miami, el sol de la tarde en las ventanas orientadas al oeste es brutal de aproximadamente 2–6 PM. Cerrar persianas o cortinas opacas en las ventanas orientadas al oeste y al sur durante estas horas puede reducir la carga de calor en su A/C en un 10–15%. Este simple hábito no cuesta nada y hace una diferencia medible — especialmente en hogares de Coral Gables, Coconut Grove y Pinecrest con ventanas grandes.",
+          "**Estrategias de Ventiladores de Techo** — Los ventiladores de techo deben girar **en sentido antihorario en verano** para crear una corriente descendente y brisa refrescante. Solo deben funcionar cuando alguien está en la habitación — los ventiladores enfrían a las personas, no a las habitaciones. Cuando use ventiladores de techo, típicamente puede subir su termostato 4°F y sentirse igual de fresco, ahorrando aproximadamente un 12–20% en costos de enfriamiento.",
+          "**Configuración de Humedad en Su Termostato** — Muchos termostatos modernos tienen una **configuración dedicada de control de humedad**. En South Florida, recomendamos mantener la humedad relativa interior entre **50–60%**. Por debajo del 50% puede causar piel seca y contracción de la madera; por encima del 60% fomenta el crecimiento de moho y hace que cualquier temperatura se sienta más caliente.",
+          "**Números Reales: Lo Que Ahorran Estos Consejos** — El hogar promedio de Miami gastando $220/mes en FPL en verano puede reducirlo de manera realista a $170–$190/mes configurando el termostato a 78°F en lugar de 74°F (~$22 de ahorro), usando un termostato programable (~$15), cambiando el ventilador a \"auto\" (~$8) y gestionando la luz solar de la tarde (~$10). Eso son $35–$55 por mes, o $175–$275 durante una temporada de enfriamiento de 5 meses.",
+          "¿Quiere asesoramiento personalizado para optimizar la eficiencia de su sistema de A/C este verano? Llame a MGM A/C Appliances al **(786) 352-0084)**. Podemos evaluar su configuración actual, verificar la calibración de su termostato y asegurarnos de que su sistema funcione a máximo rendimiento para que cada grado cuente."
+        ]
+      },
+      "hurricane-season-ac-prep-miami": {
+        "title": "Cómo Preparar su Aire Acondicionado para la Temporada de Huracanes en Miami (Guía 2026)",
+        "date": "10 de Abril, 2026",
+        "excerpt": "Proteja su sistema de aire acondicionado antes, durante y después de un huracán con esta guía específica de Miami que cubre la preparación previa, los procedimientos durante la tormenta y el arranque seguro después.",
+        "content": [
+          "La temporada de huracanes en Miami va del **1 de junio al 30 de noviembre** — seis meses en los que su sistema de aire acondicionado enfrenta sus mayores riesgos. Desde daños por sobretensión cuando regresa la energía hasta inundaciones que destruyen unidades exteriores, los problemas de A/C relacionados con huracanes son una de las llamadas de servicio más comunes que recibimos cada otoño. Aquí está exactamente cómo proteger su sistema antes, durante y después de una tormenta.",
+          "**Antes de la Temporada: Programe un Mantenimiento** — El mejor momento para preparar su A/C para la temporada de huracanes es en mayo, antes de que comience la temporada. Una visita de mantenimiento profesional asegura que su sistema esté funcionando eficientemente y que cualquier problema existente — un capacitor que falla, refrigerante bajo, un contactor corroído — se repare antes de que tenga que lidiar con ellos en el calor de 95°F después de una tormenta. También pida a su técnico que inspeccione y limpie a fondo la unidad condensadora exterior.",
+          "**Asegure Su Unidad Exterior** — El código de construcción de Florida requiere **correas de huracán en todos los condensadores exteriores de A/C**. El Huracán Andrew (1992) destruyó miles de unidades no aseguradas en Miami-Dade. Si su condensador no está asegurado con correas, o si las correas están oxidadas y comprometidas, hágalas reemplazar antes de junio. También despeje cualquier vegetación dentro de **2 pies de la unidad** — en un huracán, las ramas y las palmas se convierten en proyectiles.",
+          "**Documente Su Sistema para el Seguro** — Antes de la temporada de huracanes, fotografíe su sistema de A/C — tanto el manejador de aire interior como el condensador exterior. Registre el **número de modelo, número de serie y fecha de instalación** y guarde esta información en un lugar seguro. Los reemplazos de A/C después de huracanes son comunes después de tormentas como Irma (2017) e Ian (2022), y la documentación adecuada acelera dramáticamente las reclamaciones de seguro.",
+          "**Instale o Verifique Su Protector de Sobretensión** — Las sobretensiones eléctricas cuando se restablece la electricidad después de una tormenta son una causa principal de fallas en el compresor de A/C. Un protector de sobretensión para toda la casa instalado en su panel eléctrico, o un **protector de sobretensión dedicado para HVAC** conectado directamente a su desconectador de A/C, puede proteger un compresor de $3,000–$5,000. Típicamente cuesta $150–$300 instalado y puede salvar todo su sistema.",
+          "**Durante la Tormenta: Apáguelo Completamente** — Cuando un huracán es inminente, **apague su A/C en el termostato Y en el disyuntor**. No confíe solo en el termostato — quiere que el sistema esté completamente sin energía para que cuando la energía fluctúe durante la tormenta, no haya camino para que la electricidad dañe su compresor, capacitor o tablero de control. Antes de perder energía, pre-enfríe su hogar a aproximadamente 72°F para darse un margen de tiempo.",
+          "**Después de la Tormenta: No Se Apresure a Encenderlo** — El error más común que vemos después de huracanes en Miami, Homestead y los Cayos: los propietarios inmediatamente activan el disyuntor tan pronto como regresa la energía, sin inspeccionar el sistema primero. Antes de reiniciar, salga afuera e inspeccione visualmente su condensador. Busque escombros dentro o alrededor de la unidad, verifique si hay **líneas de refrigerante dobladas o aplastadas**, busque agua estancada o daños por inundaciones. Si la unidad estuvo sumergida — incluso parcialmente — **no la encienda**. Un compresor inundado requiere inspección profesional antes de operar.",
+          "**Inspección Profesional Post-Tormenta** — Después de cualquier tormenta importante, recomendamos una verificación profesional del sistema antes de encender su A/C. Un técnico verificará la carga de refrigerante, inspeccionará los componentes eléctricos en busca de daños por humedad, limpiará el serpentín de cualquier escombro incrustado y verificará que el sistema opere dentro de los parámetros normales.",
+          "**Tenga Cuidado con las Estafas Post-Huracán** — Después de cada tormenta importante, contratistas sin licencia inundan las áreas afectadas ofreciendo reparaciones y reemplazos de A/C a precios sospechosamente bajos. Siempre verifique la licencia de un contratista en **myfloridalicense.com** antes de permitir cualquier trabajo en su sistema. El trabajo sin licencia puede anular la garantía de su equipo y dejarlo con un sistema que falla nuevamente semanas después.",
+          "Ya sea que necesite un mantenimiento antes de la temporada, una consulta de protección contra tormentas o servicio de emergencia después de un huracán, MGM A/C Appliances está disponible para los propietarios del Condado Miami-Dade durante todo el año. Llámenos al **(786) 352-0084)** — estamos disponibles 24/7 para emergencias relacionadas con tormentas y contamos con licencia completa para todo el trabajo de A/C en Miami-Dade."
+        ]
+      },
+      "central-ac-vs-mini-split-florida": {
+        "title": "Aire Acondicionado Central vs. Mini-Split: ¿Cuál es Mejor para Hogares en South Florida?",
+        "date": "12 de Abril, 2026",
+        "excerpt": "¿Decidiendo entre aire central y un mini-split en South Florida? Esta guía cubre costos, ventajas y desventajas, y cuál sistema gana para hogares, condominios y propiedades antiguas de Miami.",
+        "content": [
+          "Para los propietarios de South Florida que deciden entre **aire acondicionado central y un sistema mini-split**, la respuesta correcta depende de la antigüedad de su hogar, su distribución y si ya tiene ductos. Ambos sistemas pueden mantenerlo fresco en el intenso calor de Miami, pero sirven mejor a diferentes tipos de hogares. Aquí tiene una comparación completa para ayudarle a elegir.",
+          "**Aire Central: Ventajas** — El aire acondicionado central sobresale en el **enfriamiento de toda la casa a través de un solo sistema**. Si su hogar ya tiene ductos en buenas condiciones, un sistema central proporciona comodidad invisible y sin interrupciones — sin unidades montadas en la pared, sin equipo visible en sus espacios habitables. Los sistemas centrales son ideales para hogares más grandes de más de 2,000 pies cuadrados donde un enfoque de zona única tiene sentido. Los sistemas centrales modernos a SEER 16–18 son muy eficientes y se pueden combinar con amortiguadores de zonificación para control cuarto por cuarto.",
+          "**Aire Central: Desventajas** — El mayor inconveniente del aire acondicionado central es su dependencia de los ductos. Las fugas en los ductos — extremadamente comunes en el parque de viviendas más antiguo de South Florida — desperdician **20–30% de su aire acondicionado** antes de que llegue siquiera a su espacio habitable. En nuestro húmedo clima, los ductos con fugas también jalan el aire húmedo del ático a su hogar, aumentando la humedad y creando condiciones ideales para el moho. Reemplazar o sellar los ductos agrega $1,000–$4,000 a los costos de instalación.",
+          "**Mini-Split: Ventajas** — Los mini-splits sin ductos brillan en situaciones donde el A/C central no es práctico. Sin necesidad de **ductos**, son perfectos para hogares de Miami más antiguos (anteriores a 1980) que nunca se construyeron con aire central, conversiones de garajes, adiciones al hogar y patios cerrados. Los mini-splits ofrecen **verdadero control por zonas** — cada unidad interior opera de forma independiente, por lo que solo enfría las habitaciones ocupadas. Típicamente alcanzan **clasificaciones SEER de 20–30+**, haciéndolos significativamente más eficientes que la mayoría de los sistemas centrales.",
+          "**Mini-Split: Desventajas** — El principal inconveniente es la estética — las unidades interiores montadas en la pared son visibles y no se adaptan a todas las decoraciones. Para plantas de piso muy grandes y abiertas, un mini-split de zona única puede tener dificultades para distribuir el aire uniformemente. Los sistemas multi-zona con 4–5 unidades interiores también pueden volverse costosos en comparación con un sistema central bien mantenido.",
+          "**Factores Específicos de South Florida** — El parque de viviendas de Miami hace esta elección particularmente matizada. **Los hogares anteriores a 1980** en vecindarios como La Pequeña Habana, Flagami y el oeste de Hialeah típicamente se construyeron sin ductos centrales. Para estos hogares, los mini-splits son a menudo la solución más práctica y rentable. **Las propiedades históricas en Coral Gables** presentan otro caso de uso común: instalar ductos en hogares con cielos rasos de yeso originales y pisos de madera dura requeriría una renovación destructiva. Los mini-splits se pueden instalar con un impacto mínimo en el carácter original del hogar.",
+          "**Condominios y Torres de Gran Altura** — Muchos **condominios en Brickell y Miami Beach** usan **unidades PTAC** (los sistemas de manguito de pared comunes en hoteles). Estos se pueden reemplazar con un mini-split de conducto delgado o tipo cassette para una eficiencia dramáticamente mejor, operación más silenciosa y control de temperatura mejorado. Algunos edificios permiten instalaciones completas de mini-split; otros tienen restricciones — verifique con su asociación de condominios antes de proceder.",
+          "**Conversiones de Garajes y Adiciones** — En el floreciente mercado de remodelación de South Florida, los garajes convertidos y las adiciones al hogar en áreas como Kendall, Doral y Pembroke Pines son candidatos principales para mini-splits. Extender los ductos centrales a un nuevo espacio es a menudo impráctico o requiere aumentar el tamaño de todo el sistema central. Un mini-split de zona única maneja el nuevo espacio de forma independiente y eficiente, típicamente por $3,000–$5,000 instalado.",
+          "**Comparación de Costos** — Para una instalación completa en el hogar: **aire central con ductos existentes** cuesta $4,000–$12,000 dependiendo del tamaño y la marca. Un **mini-split de zona única** para una habitación o un hogar más pequeño cuesta $3,000–$5,000. Un **mini-split multi-zona** que sirve 3–5 áreas cuesta $5,000–$15,000 dependiendo del número de unidades interiores y el tamaño del compresor exterior. Para un hogar sin ductos que necesita enfriamiento de toda la casa, un mini-split multi-zona es a menudo competitivo en costo con el aire central incluyendo ductos nuevos.",
+          "¿No está seguro de qué sistema es el adecuado para su hogar en South Florida? MGM A/C Appliances proporciona consultas gratuitas en el hogar para evaluar su espacio y recomendar la mejor solución para su presupuesto y metas de comodidad. Llame al **(786) 352-0084)** — nuestro equipo bilingüe está listo para ayudarle en inglés o español."
+        ]
+      },
+      "why-ac-struggles-july-august": {
+        "title": "Por Qué su Aire Acondicionado Falla en Julio y Agosto (Y Qué Hacer)",
+        "date": "5 de Abril, 2026",
+        "excerpt": "El índice de calor en Miami durante julio y agosto alcanza regularmente 105-115°F. Si su aire acondicionado no puede mantenerse al día, aquí le explicamos por qué — y cuándo debe preocuparse de verdad.",
+        "content": [
+          "Si su aire acondicionado parece tener dificultades durante los meses de verano más intensos en Miami, no es su imaginación — pero es posible que no esté dañado. En julio y agosto, el índice de calor en Miami alcanza regularmente 105-115°F con humedad que oscila entre 70-80%. La mayoría de los sistemas residenciales de aire acondicionado están diseñados para una **diferencia de 20°F** entre las temperaturas exteriores e interiores. Cuando hace 97°F afuera, incluso un sistema que funciona perfectamente solo puede enfriar su hogar hasta aproximadamente 77°F. Esa diferencia es física, no una falla del equipo.",
+          "**Por Qué Julio y Agosto Son Especialmente Difíciles** — Durante el verano máximo, su aire acondicionado puede funcionar 12-16 horas al día, casi sin parar. Esta demanda incesante expone cada punto débil del sistema. El refrigerante pierde eficiencia a temperaturas ambientales extremas, el compresor trabaja más duro y los componentes eléctricos experimentan mayor estrés. Si su sistema tenía rendimiento marginal en primavera, mostrará señales obvias de dificultad en agosto.",
+          "**Los Ductos en Áticos Calientes** — Muchos hogares en Miami tienen ductos que pasan por áticos que pueden alcanzar 140-160°F en una tarde de julio. Incluso los ductos bien aislados pierden capacidad de enfriamiento en esas condiciones. Esta es una de las razones más pasadas por alto de por qué una habitación en el segundo piso o con ductos centrales en el ático se siente más caliente que la configuración del termostato.",
+          "**Los Serpentines Sucios Son el Mayor Problema del Verano** — Un serpentín evaporador o condensador sucio puede reducir la capacidad de enfriamiento de su sistema hasta en un 30%. En invierno o primavera, una reducción del 30% puede pasar desapercibida. En julio, significa la diferencia entre un cómodo 74°F y un sofocante 80°F. Si se saltó el mantenimiento de primavera, sus serpentines pueden ser el problema.",
+          "**Lo Que Puede Hacer Ahora Mismo** — Primero, cambie su filtro de aire — un filtro obstruido es la solución de bricolaje número uno. A continuación, mantenga las persianas y cortinas cerradas en las ventanas orientadas al sur y al oeste después del mediodía; la ganancia solar a través del vidrio es enorme en verano. Use ventiladores de techo para crear un efecto de enfriamiento por viento (hacen que 78°F se sienta como 74°F). Evite usar el horno durante el día — puede elevar la temperatura interior 2-4°F y obligar al aire acondicionado a trabajar aún más.",
+          "**Configuraciones Inteligentes del Termostato para el Verano Máximo** — No configure su termostato por debajo de 72°F. Paradójicamente, bajarlo más puede causar que el serpentín evaporador se congele, deteniendo completamente el flujo de aire y dejando su hogar más caliente que antes. El punto óptimo para el verano en Miami es 74-76°F cuando está en casa. Use un termostato programable o inteligente para subirlo a 80°F mientras está fuera y comenzar a pre-enfriar 30 minutos antes de regresar.",
+          "**¿Cuándo Debe Preocuparse Realmente?** — La dificultad normal de verano es comprensible. Pero estas señales indican un problema real que necesita un técnico: hielo formándose en los serpentines o líneas de refrigerante; aire cálido soplando de las rejillas en lugar de aire frío; su sistema funcionando sin parar pero sin llegar a 5°F de la temperatura configurada; agua acumulándose alrededor de la unidad interior; o ruidos extraños como crujidos, chasquidos o chirridos.",
+          "**La Solución Real es el Mantenimiento Preventivo** — El mejor momento para revisar su aire acondicionado para el verano es marzo o abril — antes de que llegue el calor. Un mantenimiento de primavera incluye limpiar los serpentines, verificar los niveles de refrigerante, probar los componentes eléctricos e inspeccionar los ductos. Para julio, los técnicos tienen agenda llena y el servicio de emergencia cuesta más. No espere hasta estar sudando a las 11 PM un martes para llamar.",
+          "**Complemente Su Sistema de Forma Inteligente** — Si su hogar tiene una unidad central que sirve múltiples zonas, considere unidades portátiles o mini-splits para habitaciones que consistentemente están más calientes. Los dormitorios especialmente se benefician del enfriamiento suplementario por la noche, reduciendo la carga en su sistema central y mejorando la calidad del sueño.",
+          "Si su aire acondicionado no está manteniendo el paso este verano, o si quiere adelantarse al calor antes de que alcance su punto máximo, llame a MGM A/C Appliances al **(786) 352-0084)**. Servimos a Miami, Hialeah, Doral, Kendall, Coral Gables y todo South Florida — en inglés y español. Asegurémonos de que su sistema esté listo antes de que lleguen los días más difíciles."
+        ]
+      },
+      "lower-fpl-bill-summer": {
+        "title": "Cómo Reducir su Factura de FPL Este Verano (Consejos de Aire Acondicionado en Miami)",
+        "date": "8 de Abril, 2026",
+        "excerpt": "Las facturas de FPL en Miami pueden llegar a $200-300/mes en verano, con el aire acondicionado representando el 60-70% del total. Estos consejos clasificados pueden reducir su factura $50-150 al mes.",
+        "content": [
+          "La factura promedio de FPL de un propietario en Miami sube a $200-300 por mes en verano, y su aire acondicionado es responsable del 60-70% de ese total. La buena noticia: hay pasos concretos y probados que puede tomar ahora mismo para reducir ese número. Aquí están los cambios más impactantes, clasificados por cuánto dinero realmente ahorran.",
+          "**1. Suba Su Termostato a 78°F** — Esta es la palanca más grande que puede mover. Cada grado por debajo de 78°F cuesta aproximadamente 6-8% más energía. Pasar de 72°F a 78°F puede ahorrarle $15-30 por mes sin sacrificar la comodidad — especialmente si lo combina con ventiladores de techo, que hacen que 78°F se sienta como 74°F. El propio FPL recomienda 78°F como la configuración óptima de enfriamiento para South Florida.",
+          "**2. Cambie Su Filtro de Aire Mensualmente** — Un filtro sucio y obstruido hace que su aire acondicionado trabaje 10-15% más duro para mover la misma cantidad de aire. Eso se traduce directamente en una factura de FPL más alta. En el ambiente de polvo, humedad y polen durante todo el año de Miami, un cambio mensual del filtro no es opcional — es el mantenimiento más barato que puede hacer, típicamente $5-15 por filtro.",
+          "**3. Selle las Fugas en Sus Ductos** — Estudios de hogares en South Florida muestran consistentemente que el 20-30% del aire enfriado se escapa a través de ductos con fugas antes de llegar a su espacio habitable. Está pagándole a FPL para enfriar su ático. Una evaluación profesional de sellado e insulación de ductos puede recuperar esa eficiencia perdida. Esto es especialmente importante en hogares construidos antes del año 2000.",
+          "**4. Instale Ventiladores de Techo en Cada Habitación** — Los ventiladores de techo no enfrían las habitaciones — enfrían a las personas al mover el aire sobre la piel. Pero ese efecto de enfriamiento por viento significa que puede usar su aire acondicionado a 78°F en lugar de 73°F y sentirse igual de cómodo. El costo de energía de un ventilador de techo es aproximadamente 1-2 centavos por hora vs. 15-40 centavos por hora del aire acondicionado. Las matemáticas son convincentes.",
+          "**5. Bloquee la Ganancia Solar** — Las ventanas orientadas al sur y al oeste en Miami son calentadores solares directos por la tarde. Cerrar persianas, cortinas o parasoles en estas ventanas después del mediodía puede reducir significativamente la ganancia de calor interior. Las cortinas opacas en los dormitorios pueden reducir las necesidades de enfriamiento nocturno. Si desea una solución más permanente, la película solar para ventanas bloquea el 50-70% del calor solar.",
+          "**6. Actualice a un Termostato Inteligente** — Un termostato inteligente ($150-300 instalado) aprende su horario y se ajusta automáticamente, asegurando que no esté enfriando una casa vacía. La mayoría de los hogares ahorran $50-100+ por año, recuperando el costo en una a tres temporadas de verano. **FPL actualmente ofrece reembolsos** en termostatos inteligentes calificados — consulte el sitio web de FPL o pregúntenos para más detalles.",
+          "**7. Programe un Mantenimiento del Aire Acondicionado** — Una visita de mantenimiento profesional incluye limpiar los serpentines del condensador y evaporador — los serpentines sucios obligan al sistema a funcionar en ciclos más largos, desperdiciando energía. La limpieza de serpentines por sí sola generalmente mejora la eficiencia en 5-10%, lo que en una factura de FPL de $250 ahorra $12-25 por mes. El mantenimiento se paga solo rápidamente.",
+          "**8. Evalúe la Insulación de Su Ático** — Muchos hogares en Miami construidos antes de 1990 tienen insulación de ático inadecuada. El calor se irradia a través de un techo mal aislado directamente hacia su espacio habitable, haciendo que su aire acondicionado luche cuesta arriba todo el día. Agregar insulación R-30 o R-38 a su ático es una de las mejoras del hogar con mayor retorno de inversión que puede hacer en South Florida.",
+          "**9. Considere los Programas On Call y Facturación por Presupuesto de FPL, Luego Evalúe un Sistema de Alta Eficiencia SEER** — El programa On Call de FPL permite a FPL apagar brevemente su aire acondicionado durante períodos de alta demanda a cambio de créditos en la factura. La facturación por presupuesto distribuye su costo anual de energía en 12 pagos iguales, para que no le llegue una factura brutal de agosto. Ambos son gratuitos para inscribirse. Si su aire acondicionado tiene más de 12 años, probablemente esté clasificado con 10-12 SEER. Un nuevo sistema de 16+ SEER puede reducir los costos de enfriamiento en 30-40%. Llame a MGM A/C Appliances al **(786) 352-0084)** para una evaluación gratuita de eficiencia y estimación de dimensionamiento."
+        ]
+      },
+      "ac-duct-cleaning-miami": {
+        "title": "Señales de que los Ductos de su Aire Acondicionado Necesitan Limpieza en Miami",
+        "date": "10 de Abril, 2026",
+        "excerpt": "La humedad durante todo el año en Miami hace que la limpieza de ductos sea más crítica aquí que en casi cualquier otro lugar del país. Conozca las señales de advertencia y qué implica una limpieza legítima.",
+        "content": [
+          "En Miami, sus ductos de aire enfrentan condiciones diferentes a casi cualquier otro lugar del país. La combinación de humedad durante todo el año superior al 70%, calor tropical, operación de aire acondicionado sin parar, y la implacable actividad biológica de South Florida — polen, esporas de moho, insectos — significa que su sistema de ductos necesita atención con más frecuencia que el promedio nacional. Aquí le mostramos cómo saber cuándo es el momento, y qué esperar de una limpieza real.",
+          "**Moho Visible Alrededor de las Rejillas** — Esta es la señal de advertencia más urgente. Si ve manchas oscuras, crecimiento borroso o decoloración alrededor de sus rejillas de suministro o retorno de aire, el moho casi con certeza se ha establecido dentro del sistema de ductos. En la humedad de Miami, el moho puede extenderse rápidamente a través de los ductos y afectar la calidad del aire interior en todo el hogar. No lo enmascare — trátelo.",
+          "**Olor a Humedad o Rancio Cuando Funciona el Aire Acondicionado** — Un olor a humedad que aparece o se intensifica cuando se enciende su aire acondicionado es una señal clásica de crecimiento microbiano dentro de los ductos o el manejador de aire. El sistema está esencialmente soplando aire contaminado hacia su espacio habitable. En vecindarios como Hialeah, Doral y Kendall donde los hogares más antiguos son comunes, este es un problema frecuentemente reportado.",
+          "**Acumulación Excesiva de Polvo en las Cubiertas de las Rejillas** — Cierta acumulación de polvo es normal. Pero si las cubiertas de sus rejillas están visiblemente cubiertas de pelusa gris a los pocos días de limpiarlas, sus ductos albergan escombros significativos que se están soplando continuamente hacia sus habitaciones. Esto es especialmente común después de renovaciones del hogar, que generan polvo de construcción que se infiltra en todo el sistema de ductos.",
+          "**Empeoramiento de los Síntomas de Alergia o Asma en Interiores** — Si los miembros de la familia notan que sus síntomas de alergia son consistentemente peores en casa que al aire libre — y peores cuando funciona el aire acondicionado — el sistema de ductos es un probable contribuyente. South Florida tiene polen durante todo el año (no hay un invierno real que lo elimine), y los ductos pueden acumular polen, caspa de mascotas y esporas de moho con el tiempo.",
+          "**Flujo de Aire Desigual Entre Habitaciones** — Si un dormitorio recibe un fuerte flujo de aire frío mientras que otro apenas siente movimiento de aire, el problema puede ser un ducto parcialmente bloqueado, ductos flexibles colapsados, o acumulación significativa de escombros en una unión. La limpieza de ductos combinada con una inspección de ductos puede identificar y resolver estos desequilibrios de flujo de aire.",
+          "**Por Qué Miami Es Diferente** — En climas con inviernos fríos, el aire exterior periódicamente elimina los contaminantes biológicos y reduce el crecimiento de moho impulsado por la humedad. Miami no tiene tal reinicio estacional. Sus ductos operan en un ambiente cálido y húmedo los 365 días del año. La condensación puede formarse dentro de los ductos cuando el aire de suministro frío encuentra el aire caliente del ático, creando humedad que alimenta el moho. La constante actividad de construcción en Miami también introduce cantidades inusuales de polvo de concreto y paneles de yeso en los hogares.",
+          "**Lo Que Implica una Limpieza Legítima de Ductos** — Una limpieza adecuada de ductos no es un trabajo de 30 minutos. Espere que tome 3-5 horas para un hogar promedio en Miami. El proceso incluye: una inspección visual exhaustiva con cámara o sonda; crear presión de aire negativa dentro del sistema de ductos para capturar los escombros sueltos; agitación mecánica con cepillo para desprender la acumulación de las paredes de los ductos; aspirado HEPA de todos los escombros; tratamiento sanitizante si hay moho; y sellado de cualquier fuga identificada. El costo de una limpieza adecuada en Miami oscila entre $300-700 dependiendo del tamaño del hogar y la complejidad de los ductos.",
+          "**Cuidado con el Señuelo de '$99 para Toda la Casa'** — Si ve anuncios de limpieza de ductos para toda la casa por $79-99, tenga precaución. Estas ofertas típicamente implican un soplado muy básico sin agitación de cepillo, a menudo seguido de ventas de alta presión para tratamientos que cuestan $500-1,500. Una limpieza de ductos legítima y exhaustiva cuesta más porque requiere tiempo real, equipo adecuado y técnicos capacitados.",
+          "**¿Con Qué Frecuencia Debe Limpiar los Ductos en Miami?** — La pauta general es cada 3-5 años para un hogar típico. Pero considere limpiar antes si tiene: mascotas que pierden pelo; miembros del hogar con alergias o asma; recientemente completó una renovación del hogar; descubrió moho visible; se mudó a un hogar donde no conoce el historial de mantenimiento; o notó alguna de las señales de advertencia anteriores. Para nuevos propietarios en Miami, una inspección de ductos debe estar en la lista de verificación al mudarse. Llame a MGM A/C Appliances al **(786) 352-0084)** — servimos a todo Miami-Dade y el Condado de Broward y podemos evaluar si sus ductos necesitan limpieza o solo una buena inspección."
+        ]
+      },
+      "what-seer-rating-2026": {
+        "title": "¿Qué Clasificación SEER Debe Buscar en 2026? Guía para Compradores en Florida",
+        "date": "12 de Abril, 2026",
+        "excerpt": "El mínimo de eficiencia de aire acondicionado en Florida ahora es 15 SEER. Pero con la temporada de enfriamiento de 10 meses de Miami, invertir en un sistema de mayor clasificación se recupera más rápido de lo que piensa.",
+        "content": [
+          "**SEER** significa Relación de Eficiencia Energética Estacional — mide qué tan eficientemente un aire acondicionado convierte electricidad en enfriamiento durante toda una temporada. Cuanto mayor sea el número SEER, más enfriamiento obtiene por dólar de electricidad. A partir de 2023, Florida y todos los estados del sur están obligados por ley federal a instalar un mínimo de **15 SEER** en equipos nuevos. Comprender lo que eso significa — y si conviene ir más alto — es una de las decisiones más importantes que tomará al comprar un nuevo sistema de aire acondicionado.",
+          "**La Actualización SEER2** — También puede ver clasificaciones etiquetadas como SEER2 en equipos más nuevos. Este es un estándar de medición ligeramente revisado introducido en 2023 que prueba los sistemas bajo condiciones que reflejan con más precisión la instalación en el mundo real. Los números SEER2 son ligeramente más bajos que los números SEER antiguos para el mismo equipo — una unidad de 15 SEER2 es aproximadamente equivalente a 15.5-16 SEER bajo la escala anterior. Al comparar cotizaciones, asegúrese de comparar el mismo sistema de clasificación.",
+          "**Los Cuatro Niveles de Eficiencia para Compradores en Miami** — Así es como pensar en las opciones: los sistemas de **15 SEER (mínimo legal)** cuestan $3,500-6,000 instalados y cumplen el requisito del código, pero no ofrecen margen de eficiencia por encima del mínimo. Son apropiados para presupuestos ajustados, propiedades de alquiler, o hogares que se venderán en un futuro próximo. Los sistemas de **16-17 SEER** a $5,000-8,000 son el punto óptimo para la mayoría de los propietarios en Miami — significativamente más eficientes sin el precio premium de los sistemas de primer nivel. Las unidades de **18-20 SEER** en el rango de $7,000-10,000 tienen sentido para hogares grandes, ocupación durante todo el día, o propietarios enfocados en ahorros de energía a largo plazo. Los sistemas de **20+ SEER de velocidad variable** a $9,000-14,000 representan el nivel superior — son más silenciosos, más precisos y dramáticamente mejores en la deshumidificación.",
+          "**Por Qué un SEER Más Alto Se Recupera Más Rápido en Miami** — En Chicago o Boston, un aire acondicionado funciona 3-4 meses por año. En Miami, funciona 9-10 meses. Esa diferencia cambia completamente el cálculo de recuperación de una inversión en SEER más alto. Un propietario en Minneapolis podría esperar 10-12 años para recuperar el costo premium de una unidad de 17 SEER vs. 15 SEER. Un propietario en Miami que usa el sistema casi todo el año podría recuperar ese mismo premium en 3-5 años — y luego ahorrar dinero cada año después.",
+          "**Velocidad Variable vs. Etapa Única** — La mayoría de los sistemas de aire acondicionado de presupuesto y gama media son de etapa única: funcionan al 100% de capacidad o están apagados. Los compresores de velocidad variable (accionados por inversor) pueden funcionar al 30%, 60%, 80% — lo que sea necesario para mantener la temperatura exacta configurada. El resultado es una comodidad más consistente, ruido dramáticamente más bajo y deshumidificación superior. En Miami, donde el control de humedad es casi tan importante como el control de temperatura, los sistemas de velocidad variable ofrecen una mejora real en la calidad de vida — especialmente en dormitorios principales y plantas abiertas.",
+          "**Deshumidificación: El Beneficio de Miami** — Esto merece su propia mención. Los sistemas de etapa única eliminan la humedad en ciclos de ráfaga — soplan aire frío, luego se apagan. Los sistemas de velocidad variable funcionan más tiempo a menor capacidad, lo que elimina significativamente más humedad del aire. Los propietarios en Miami que se actualizan a velocidad variable a menudo dicen que su hogar se siente más fresco a 78°F de lo que solía estar a 74°F con el sistema anterior. Ese es el efecto de deshumidificación, y no es sutil.",
+          "**Incentivos de ENERGY STAR y FPL** — Los sistemas de aire acondicionado certificados por ENERGY STAR (típicamente 15+ SEER2 con características calificadas) pueden ser elegibles para créditos fiscales federales bajo la Ley de Reducción de la Inflación — hasta $600 para sistemas centrales de aire acondicionado calificados. FPL también ofrece reembolsos periódicos en equipos de alta eficiencia a través de su programa de reembolsos. Estos incentivos pueden compensar significativamente el precio premium de un sistema de 16 o 17 SEER, mejorando aún más el período de recuperación.",
+          "**No Ignore el Dimensionamiento Adecuado** — Un sistema de 20 SEER que no está correctamente dimensionado para su hogar tendrá un rendimiento inferior a una unidad de 16 SEER correctamente dimensionada. Un sistema sobredimensionado hace ciclos cortos (se enciende y apaga con demasiada frecuencia), no deshumidifica adecuadamente y desgasta los componentes más rápido. Un sistema subdimensionado funciona sin parar y nunca alcanza del todo la temperatura configurada. El dimensionamiento correcto — basado en un cálculo de carga Manual J que tiene en cuenta los metros cuadrados de su hogar, la insulación, el área de ventanas y la orientación — es innegociable.",
+          "**Un Marco Práctico de Decisión** — Si está reemplazando un sistema fallido con un presupuesto ajustado: 15 SEER lo pone de vuelta en cumplimiento y enfriamiento rápidamente. Si está haciendo un reemplazo planificado con 3+ años restantes en el hogar: 16-17 SEER casi siempre vale el modesto costo de actualización. Si planea quedarse en el hogar 7+ años o tiene facturas de energía altas: 18-20 SEER o un sistema de velocidad variable probablemente se pagará solo con los ahorros de energía. Si la comodidad y la deshumidificación son prioridades: la velocidad variable vale cada dólar en el clima de Miami.",
+          "Llame a MGM A/C Appliances al **(786) 352-0084)** para una estimación gratuita de dimensionamiento en el hogar y consulta de eficiencia. Calcularemos el tamaño correcto del sistema para su hogar específico, le explicaremos las opciones SEER que tienen sentido financiero para su situación y le proporcionaremos cotizaciones transparentes sin presión. Servimos a Miami, Coral Gables, Doral, Kendall, Hialeah, Homestead y todo South Florida — en inglés y español."
+        ]
       }
     }
   },
@@ -737,8 +1176,41 @@
     "description": "Servicios de A/C familiares en todo South Florida. Instalación, reparación, mantenimiento y emergencia — en inglés y español.",
     "address": "Sirviendo el Condado de Miami-Dade, South Florida"
   },
+  "serviceCity": {
+    "metaTitle": "{service} en {city}, FL | MGM A/C Appliances",
+    "metaDesc": "Servicios profesionales de {service} en {city}, FL. Empresa familiar, licenciada y asegurada. Llame a MGM A/C Appliances para un presupuesto gratis.",
+    "pageTitle": "{service} en {city}",
+    "pageSubtitle": "Servicio experto de A/C para propietarios y negocios en {city} — rápido, confiable y asequible.",
+    "genericIntro": "MGM A/C Appliances ofrece servicios profesionales de {service} en {city} y sus alrededores. Nuestros técnicos licenciados brindan un servicio confiable y accesible para propiedades residenciales y comerciales.",
+    "genericWhyChoose": "Cuando necesite {service} en {city}, puede contar con MGM A/C Appliances. Somos una empresa familiar comprometida con precios honestos, trabajo de calidad y tiempos de respuesta rápidos.",
+    "whyChooseTitle": "¿Por qué elegir MGM A/C en {city}?",
+    "whatWeOfferTitle": "Qué Incluye",
+    "allServicesLink": "Todos los Servicios de {service}",
+    "allServicesDesc": "Ver detalles completos, características y precios de este servicio.",
+    "allCityLink": "Todos los Servicios de A/C en {city}",
+    "allCityDesc": "Explore todos los servicios de A/C que ofrecemos en {city}.",
+    "ctaTitle": "¿Listo para {service} en {city}?",
+    "ctaDesc": "Llámenos hoy para un presupuesto gratis. Respuesta rápida, precios honestos.",
+    "ctaButton": "Llame para Presupuesto Gratis",
+    "content": {}
+  },
   "breadcrumb": {
-    "home": "Inicio"
+    "home": "Inicio",
+    "about": "Nosotros",
+    "services": "Servicios",
+    "service-areas": "Áreas de Servicio",
+    "financing": "Financiamiento",
+    "warranty": "Garantía",
+    "coupons": "Cupones",
+    "blog": "Blog",
+    "privacy": "Privacidad",
+    "team": "Nuestro Equipo",
+    "installation": "Instalación",
+    "repair": "Reparación",
+    "maintenance": "Mantenimiento",
+    "commercial": "Comercial",
+    "residential": "Residencial",
+    "emergency": "Emergencia"
   },
   "pageHeader": {
     "callCta": "Llame para Presupuesto Gratis"
@@ -803,6 +1275,10 @@
     "emergency": {
       "title": "Reparación de Emergencia de Aire Acondicionado 24/7 en Miami | MGM A/C",
       "description": "Reparación de emergencia de aire acondicionado en South Florida — día o noche. Sin cargos adicionales. Llame al (305) 720-8273."
+    },
+    "team": {
+      "title": "Conozca a Nuestro Equipo — MGM A/C Appliances",
+      "description": "Conozca al equipo dedicado detrás de MGM A/C Appliances. Servicio familiar y bilingüe de aire acondicionado en South Florida."
     }
   },
   "shared": {
@@ -811,5 +1287,123 @@
     "phoneEs": "(305) 720-8273",
     "phoneEsRaw": "3057208273",
     "email": "sales@mgm-ac-appliances.com"
+  },
+  "team": {
+    "label": "Nuestro Equipo",
+    "title": "Conozca al Equipo",
+    "subtitle": "Las personas detrás de MGM A/C Appliances — dedicados a mantener fresco a South Florida.",
+    "backToTeam": "Volver al Equipo",
+    "specialtiesTitle": "Especialidades",
+    "members": {
+      "member1": {
+        "name": "Miembro del Equipo 1",
+        "role": "Título del Puesto",
+        "bio": "Una breve biografía irá aquí. Este miembro del equipo está dedicado a brindar un excelente servicio de A/C a los propietarios y negocios de South Florida.",
+        "longBio": "Una biografía más detallada irá aquí. Este miembro del equipo aporta años de experiencia en la industria HVAC, sirviendo a la comunidad de Miami y South Florida con un servicio honesto y confiable. Están comprometidos a garantizar que cada cliente reciba un trabajo de alta calidad a un precio justo.",
+        "specialties": ["Especialidad 1", "Especialidad 2", "Especialidad 3"],
+        "quote": "Nuestros clientes son nuestros vecinos — tratamos cada hogar como el nuestro."
+      },
+      "member2": {
+        "name": "Miembro del Equipo 2",
+        "role": "Título del Puesto",
+        "bio": "Una breve biografía irá aquí. Este miembro del equipo está dedicado a brindar un excelente servicio de A/C a los propietarios y negocios de South Florida.",
+        "longBio": "Una biografía más detallada irá aquí. Este miembro del equipo aporta años de experiencia en la industria HVAC, sirviendo a la comunidad de Miami y South Florida con un servicio honesto y confiable. Están comprometidos a garantizar que cada cliente reciba un trabajo de alta calidad a un precio justo.",
+        "specialties": ["Especialidad 1", "Especialidad 2", "Especialidad 3"],
+        "quote": "Creemos en hacer el trabajo bien desde la primera vez, siempre."
+      },
+      "member3": {
+        "name": "Miembro del Equipo 3",
+        "role": "Título del Puesto",
+        "bio": "Una breve biografía irá aquí. Este miembro del equipo está dedicado a brindar un excelente servicio de A/C a los propietarios y negocios de South Florida.",
+        "longBio": "Una biografía más detallada irá aquí. Este miembro del equipo aporta años de experiencia en la industria HVAC, sirviendo a la comunidad de Miami y South Florida con un servicio honesto y confiable. Están comprometidos a garantizar que cada cliente reciba un trabajo de alta calidad a un precio justo.",
+        "specialties": ["Especialidad 1", "Especialidad 2", "Especialidad 3"],
+        "quote": "Trabajo de calidad y precios honestos — esa es la forma de MGM."
+      }
+    }
+  },
+  "error": {
+    "title": "Algo salió mal",
+    "description": "Lo sentimos — ocurrió un error inesperado. Por favor intente de nuevo o contáctenos para obtener ayuda.",
+    "retry": "Intentar de Nuevo",
+    "goHome": "Ir al Inicio"
+  },
+  "serviceCity": {
+    "metaTitle": "{service} en {city}, FL | MGM A/C Appliances",
+    "metaDesc": "Servicio profesional de {service} en {city}, FL. Licenciados, asegurados, bilingüismo garantizado. Servicio el mismo día. Llame al (786) 352-0084.",
+    "pageTitle": "{service} en {city}",
+    "pageSubtitle": "Servicios profesionales de {service} para hogares y negocios en {city}, FL. Licenciados, asegurados y disponibles las 24 horas.",
+    "genericIntro": "¿Busca un servicio confiable de {service} en {city}? MGM A/C Appliances ofrece servicios de HVAC profesionales y licenciados en toda la zona de {city} y áreas cercanas. Nuestros técnicos bilingüses brindan un trabajo honesto y de alta calidad a precios competitivos, respaldado por nuestra garantía de satisfacción.",
+    "genericWhyChoose": "Al elegir MGM A/C Appliances para {service} en {city}, está eligiendo un negocio familiar que trata su hogar como propio. Ofrecemos precios transparentes, servicio el mismo día y disponibilidad de emergencia las 24 horas. Nuestros técnicos están completamente licenciados, asegurados y tienen experiencia con los desafíos climáticos únicos de {city}.",
+    "whyChooseTitle": "¿Por qué elegirnos en {city}?",
+    "whatWeOfferTitle": "Lo Que Ofrecemos",
+    "allServicesLink": "Todos los servicios de {service} →",
+    "allServicesDesc": "Conozca más sobre nuestra oferta completa de servicios.",
+    "allCityLink": "Todos los servicios en {city} →",
+    "allCityDesc": "Vea todo lo que ofrecemos en {city} y zonas cercanas.",
+    "ctaTitle": "¿Necesita {service} en {city}?",
+    "ctaDesc": "Llame ahora para un presupuesto gratuito. Servicio disponible el mismo día.",
+    "ctaButton": "Llame para Presupuesto Gratis",
+    "content": {
+      "repair.miami": {
+        "intro": "El calor durante todo el año en Miami significa que su aire acondicionado nunca descansa — y cuando falla, necesita una reparación rápida y confiable de un equipo que conoce la ciudad de adentro hacia afuera. MGM A/C Appliances ha estado proporcionando reparación experta de aire acondicionado en toda Miami, desde Brickell hasta La Pequeña Habana y Wynwood. Llegamos rápido, diagnosticamos con honestidad y lo arreglamos bien desde la primera vez.",
+        "whyChoose": "El denso entorno urbano de Miami, la humedad costera y el envejecimiento del parque de viviendas crean desafíos únicos de HVAC. Nuestros técnicos entienden las necesidades específicas de los hogares de Miami — desde apartamentos de antes de la guerra en South Beach hasta modernos rascacielos en el Downtown. Tenemos piezas para todas las marcas principales y ofrecemos reparación de emergencia el mismo día sin cargos adicionales por horas nocturnas."
+      },
+      "repair.miamiBeach": {
+        "intro": "El aire marino es el principal enemigo de los sistemas de aire acondicionado en Miami Beach. La exposición costera constante corroe los serpentines del condensador, las conexiones eléctricas y las carcasas de las unidades exteriores más rápido que en cualquier otro lugar del sur de Florida. MGM A/C Appliances se especializa en diagnosticar y reparar daños por aire marino en hogares y condominios de Miami Beach.",
+        "whyChoose": "La combinación única en Miami Beach de corrosión por aire marino, edificios históricos Art Decó y condominios de gran altura requiere conocimientos especializados de HVAC. Regularmente damos servicio a unidades PTAC en torres frente al mar, reparamos sistemas sin conductos en edificios históricos y aplicamos tratamientos anticorrosivos para prolongar la vida útil de su unidad exterior."
+      },
+      "repair.hialeah": {
+        "intro": "En Hialeah, entendemos que necesitas un servicio de reparación de aire acondicionado rápido, confiable y en tu idioma. MGM A/C Appliances ofrece servicio completamente bilingüe — nuestros técnicos hablan español e inglés con fluidez. Reparamos todas las marcas y modelos con precios honestos y transparentes.",
+        "whyChoose": "Las casas de Hialeah fueron construidas principalmente entre los años 60 y 80, lo que significa que muchos sistemas están envejeciendo y los conductos pueden necesitar atención. Entendemos los desafíos específicos de estas casas antiguas — desde unidades sobredimensionadas que ciclan con frecuencia hasta aislamiento de conductos deteriorado. Nuestro equipo bilingüe se asegura de que comprenda cada paso de la reparación."
+      },
+      "repair.coralGables": {
+        "intro": "Las hermosas casas históricas de Coral Gables merecen un servicio de HVAC que respete su integridad arquitectónica. Muchas casas de The Gables fueron construidas entre las décadas de 1920 y 1950 y presentan desafíos únicos — construcción original sin conductos, estrictos códigos de renovación y arquitectura de estilo mediterráneo que requiere soluciones creativas de aire acondicionado.",
+        "whyChoose": "Nos especializamos en trabajar dentro de los estrictos códigos de construcción de Coral Gables y los requisitos de preservación histórica. Ya sea que necesite una reparación en una casa de la época Merrick o una actualización del sistema en un vecindario más nuevo, nuestros técnicos abordan cada trabajo con el cuidado que estas casas merecen."
+      },
+      "repair.doral": {
+        "intro": "La rápidamente creciente comunidad de familias y negocios de Doral necesita una reparación de aire acondicionado en la que puedan confiar. Con muchas casas y espacios comerciales construidos en los años 2000 y 2010, los sistemas de Doral están llegando a la edad en que el mantenimiento y la reparación se vuelven críticos. MGM A/C Appliances es el socio de reparación de confianza para residentes y negocios de Doral.",
+        "whyChoose": "La construcción más nueva de Doral significa que la mayoría de las casas tienen sistemas centrales de aire acondicionado modernos — pero incluso los sistemas más nuevos necesitan reparación experta cuando fallan. Tenemos experiencia con las marcas instaladas comúnmente en los desarrollos de Doral (Carrier, Trane, Lennox) y llevamos piezas para resolver la mayoría de los problemas en una sola visita."
+      },
+      "installation.miami": {
+        "intro": "Instalar un nuevo sistema de aire acondicionado en Miami es una de las inversiones más importantes que hará para su hogar. Con temperaturas que regularmente superan los 90°F y humedad por encima del 70%, su aire acondicionado funciona de 8 a 10 meses al año — lo que hace que el dimensionamiento adecuado, la instalación y la eficiencia sean críticos. MGM A/C Appliances ofrece instalación experta con estimados gratuitos en el hogar.",
+        "whyChoose": "No solo instalamos unidades de aire acondicionado — diseñamos sistemas de confort adaptados al clima extremo de Miami. Eso significa un dimensionamiento adecuado (ni muy grande ni muy pequeño), modelos de alta eficiencia SEER que ahorran en las facturas de FPL, e instalación profesional con tensores para huracanes y protección contra sobretensiones incluidos."
+      },
+      "installation.miamiBeach": {
+        "intro": "La instalación de aire acondicionado en Miami Beach requiere experiencia especializada. Entre la corrosión por aire marino, los requisitos de la HOA y la mezcla de estructuras históricas y modernas, necesita un instalador que conozca la playa. MGM A/C Appliances ha instalado sistemas en todo, desde apartamentos Art Decó hasta lujosos áticos de gran altura.",
+        "whyChoose": "Para las instalaciones en Miami Beach, recomendamos equipos con clasificación costera con revestimientos anticorrosivos, unidades exteriores elevadas en áreas propensas a inundaciones y sistemas mini-split para edificios sin conductos existentes. Manejamos el papeleo de aprobación de la HOA y trabajamos dentro de los requisitos de ordenanzas de ruido."
+      },
+      "installation.hialeah": {
+        "intro": "¿Necesita instalar un nuevo aire acondicionado en Hialeah? MGM A/C Appliances ofrece instalación profesional con presupuestos gratis y opciones de financiamiento. Nuestro equipo bilingüe le guiará en cada paso — desde elegir el sistema correcto hasta la instalación completa.",
+        "whyChoose": "Muchas casas de Hialeah fueron construidas hace décadas con sistemas más antiguos y menos eficientes. Actualizar a una unidad moderna de alta eficiencia SEER puede reducir su factura de FPL en un 30-40%. Le ayudamos a elegir el tamaño y la marca correctos para su hogar y presupuesto, con opciones de financiamiento para que un sistema nuevo sea accesible."
+      },
+      "installation.coralGables": {
+        "intro": "Instalar aire acondicionado en una casa de Coral Gables a menudo significa trabajar con restricciones arquitectónicas únicas. Muchas de las casas más hermosas de The Gables fueron construidas antes de que existiera el aire acondicionado central, lo que requiere soluciones creativas que preserven el carácter del hogar mientras ofrecen confort moderno.",
+        "whyChoose": "Nos especializamos en instalaciones de mini-split sin conductos para casas históricas de Coral Gables donde los conductos tradicionales no son factibles. Para casas más nuevas, instalamos sistemas centrales de alta eficiencia con diseños de conductos adecuados. Todas las instalaciones cumplen con los estrictos códigos de construcción de Coral Gables."
+      },
+      "installation.doral": {
+        "intro": "Las modernas casas de Doral y el creciente distrito comercial necesitan instalaciones de aire acondicionado diseñadas para la eficiencia y la confiabilidad. Ya sea que esté reemplazando un sistema antiguo en una casa establecida o equipando un nuevo espacio comercial, MGM A/C Appliances ofrece instalación profesional con garantías líder en la industria.",
+        "whyChoose": "Las casas más nuevas de Doral a menudo tienen sistemas de conductos bien diseñados, lo que hace que las instalaciones de reemplazo sean más sencillas. Le ayudamos a actualizar a un sistema de alta eficiencia SEER que maximiza los ahorros en su factura de FPL mientras mantiene a su familia cómoda durante todo el año."
+      },
+      "maintenance.miami": {
+        "intro": "En Miami, el mantenimiento del aire acondicionado no es opcional — es esencial. Su sistema funciona casi todo el año en algunas de las condiciones más exigentes del país. El mantenimiento regular previene averías, extiende la vida útil de su sistema en 5 a 7 años y mantiene las facturas de energía bajo control. MGM A/C Appliances ofrece planes de mantenimiento completos para hogares y negocios de Miami.",
+        "whyChoose": "Nuestras visitas de mantenimiento en Miami incluyen una inspección completa de 20 puntos: limpieza de serpentines, verificación de refrigerante, ajuste eléctrico, limpieza de la línea de drenaje, reemplazo de filtro y más. Recomendamos el servicio dos veces al año — una vez antes del verano y otra antes de las fiestas — para detectar problemas antes de que se conviertan en emergencias."
+      },
+      "maintenance.miamiBeach": {
+        "intro": "El mantenimiento del aire acondicionado en Miami Beach debe realizarse con mayor frecuencia que en cualquier otro lugar del sur de Florida. La combinación de aire marino, humedad y operación durante todo el año acelera el desgaste de cada componente. El mantenimiento profesional regular es la única manera de proteger su inversión y evitar costosas reparaciones de emergencia.",
+        "whyChoose": "Nuestros planes de mantenimiento en Miami Beach incluyen tratamiento anticorrosivo para las unidades exteriores, limpieza de la línea de condensación (crítico en ambientes de alta humedad) e inspección de serpentines para detectar acumulación de sal. Recomendamos mantenimiento trimestral para propiedades frente al mar debido a la corrosión acelerada."
+      },
+      "maintenance.hialeah": {
+        "intro": "El mantenimiento regular del aire acondicionado es la mejor manera de evitar reparaciones costosas y mantener su factura de FPL baja. En Hialeah, donde muchos sistemas tienen 10-20 años, el mantenimiento preventivo es especialmente importante. MGM A/C Appliances ofrece planes de mantenimiento accesibles con servicio completamente bilingüe.",
+        "whyChoose": "Nuestro programa de mantenimiento en Hialeah está diseñado para los sistemas envejecidos que son comunes en el área. Verificamos el deterioro de los conductos, realizamos pruebas de fugas de refrigerante, limpiamos los serpentines y nos aseguramos de que su sistema funcione con la máxima eficiencia. Nuestros técnicos bilingüses explican todo claramente para que sepa exactamente lo que necesita su sistema."
+      },
+      "maintenance.coralGables": {
+        "intro": "El mantenimiento de los sistemas de aire acondicionado en las casas históricas de Coral Gables requiere conocimientos especializados. Los conductos antiguos, las configuraciones únicas del sistema y la necesidad de preservar la integridad arquitectónica son factores importantes en el mantenimiento adecuado. MGM A/C Appliances trata cada hogar de Coral Gables con el cuidado que merece.",
+        "whyChoose": "Para las casas de Coral Gables, prestamos especial atención al estado de los conductos, el tamaño de los filtros para sistemas más antiguos y las trayectorias de drenaje que pueden seguir la construcción original. Nuestros técnicos tienen experiencia tanto con sistemas centrales modernos como con configuraciones más antiguas que se encuentran en The Gables."
+      },
+      "maintenance.doral": {
+        "intro": "Las modernas casas de Doral merecen un mantenimiento que mantenga sus sistemas de aire acondicionado funcionando como nuevos. Incluso los sistemas más nuevos necesitan servicio profesional anual para mantener la cobertura de garantía, prevenir la pérdida de eficiencia y detectar pequeños problemas antes de que se conviertan en problemas costosos.",
+        "whyChoose": "Nuestro plan de mantenimiento en Doral cubre todos los elementos esenciales: calibración del termostato, limpieza de serpentines, optimización del refrigerante, inspección eléctrica y reemplazo de filtros. Para clientes comerciales en el distrito empresarial de Doral, ofrecemos horarios de mantenimiento personalizados que minimizan las interrupciones."
+      }
+    }
   }
 }

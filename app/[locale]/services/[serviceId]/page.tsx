@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
+import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
@@ -47,6 +48,7 @@ export default async function ServiceDetailPage({
 
   const t = await getTranslations("services");
   const shared = await getTranslations("shared");
+  const areaT = await getTranslations("serviceArea");
 
   const features: string[] = [];
   for (let i = 0; i < 5; i++) {
@@ -86,6 +88,7 @@ export default async function ServiceDetailPage({
         title={t(`${serviceId}.title`)}
         subtitle={t(`${serviceId}.desc`)}
         showCta
+        path={`/services/${serviceId}`}
       />
 
       {/* Long description */}
@@ -142,6 +145,26 @@ export default async function ServiceDetailPage({
           >
             {t("ctaButton")}
           </a>
+        </div>
+      </section>
+
+      {/* Areas We Serve */}
+      <section className="bg-sky-50 py-16 px-4 md:px-8">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="font-bold text-slate-900 text-xl mb-6" style={{ fontFamily: "var(--font-outfit), sans-serif" }}>
+            {t("areasWeServe")}
+          </h2>
+          <div className="flex flex-wrap gap-2">
+            {["miami", "miamiBeach", "hialeah", "coralGables", "doral", "kendall", "homestead", "fortLauderdale"].map((cityId) => (
+              <Link
+                key={cityId}
+                href={`/${locale}/service-areas/${cityId}`}
+                className="bg-white text-sky-700 text-sm font-medium px-4 py-2 rounded-full border border-sky-200 hover:bg-sky-100 transition-colors"
+              >
+                {areaT(`cities.${cityId}.name`)}
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 

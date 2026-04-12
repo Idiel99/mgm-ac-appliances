@@ -12,7 +12,8 @@
     "home": "Home",
     "coupons": "Coupons",
     "privacy": "Privacy Policy",
-    "warranty": "Warranty"
+    "warranty": "Warranty",
+    "team": "Our Team"
   },
   "hero": {
     "badge": "South Florida's Trusted AC Experts",
@@ -169,7 +170,8 @@
     "signsTitle": "Signs You Need This Service",
     "ctaTitle": "Ready to Get Started?",
     "ctaDesc": "Call us today for a free estimate. We serve all of South Florida.",
-    "ctaButton": "Call for Free Estimate"
+    "ctaButton": "Call for Free Estimate",
+    "areasWeServe": "Areas We Serve"
   },
   "testimonials": {
     "label": "What Our Customers Say",
@@ -275,6 +277,10 @@
     "subtitle": "MGM A/C Appliances proudly serves homes and businesses from the Florida Keys to West Palm Beach and across to Naples and Fort Myers.",
     "learnMore": "Learn More",
     "cta": "Don't see your area? Call us — we may still be able to help!",
+    "localChallengesTitle": "Local AC Challenges",
+    "housingTitle": "Housing & HVAC in",
+    "localTipTitle": "Pro Tip",
+    "testimonialTitle": "What Our Customers Say",
     "cities": {
       "miami": {
         "name": "Miami",
@@ -291,7 +297,21 @@
           "Coconut Grove",
           "Overtown",
           "Liberty City"
-        ]
+        ],
+        "housingInfo": "Miami housing is a mix of pre-1960s masonry homes in neighborhoods like Flagami and Westchester, modern glass-and-steel high-rise condos in Brickell and Downtown, and everything in between. Older homes often have oversized duct systems that leak significantly, while high-rises rely on chilled-water systems or individual fan coil units. A large portion of the single-family stock was built without central AC in mind, meaning ductwork was retrofitted through closets and attic spaces.",
+        "climateChallenge": "Miami sits in a humid subtropical climate with average summer heat indices exceeding 100°F, putting extraordinary strain on AC equipment that runs virtually nonstop from April through October. Traffic pollution — especially near I-95 and SR-836 — loads air filters faster than in any other South Florida city, sometimes requiring monthly filter changes instead of quarterly. The urban heat island effect means Miami nights rarely cool below 80°F, leaving systems with no overnight recovery period.",
+        "commonIssues": [
+          "Clogged air filters from urban pollution and construction dust — check monthly",
+          "Refrigerant leaks in aging mini-splits and older split systems in pre-1980 homes",
+          "Drain line blockages caused by constant high-humidity operation and algae growth",
+          "Fan coil unit corrosion in high-rise condos due to concentrated humidity and limited ventilation"
+        ],
+        "localTip": "Miami homes running AC 24/7 should schedule bi-annual maintenance — once before summer in April and once after hurricane season in November — to catch refrigerant issues, clean coils, and flush drain lines before small problems become expensive breakdowns.",
+        "testimonial": {
+          "text": "Our Brickell condo AC unit stopped cooling in the middle of July. MGM had a tech out within two hours and had us up and running the same day. Incredible service in the Miami heat!",
+          "name": "Carlos M.",
+          "date": "2026"
+        }
       },
       "hialeah": {
         "name": "Hialeah",
@@ -302,7 +322,21 @@
           "Hialeah Gardens",
           "Palm Springs North",
           "Miami Lakes"
-        ]
+        ],
+        "housingInfo": "Hialeah is dominated by concrete block homes built in the 1960s through the 1980s, most with original central air systems that have been repaired and patched over the decades rather than replaced. Many residences run older R-22 refrigerant systems that are increasingly difficult and expensive to service now that R-22 is phased out. Attic spaces in these flat-roofed and low-pitched homes trap enormous heat loads, forcing AC systems to fight temperatures above 130°F in the plenum.",
+        "climateChallenge": "Hialeah's inland location means no ocean breeze to moderate temperatures, and the city's dense urban fabric — with minimal tree canopy — creates a severe heat island effect. Homes built in the 1960s and 70s often lack proper insulation, meaning the AC system must compensate for poor building envelope performance. Aging electrical panels in older homes struggle to handle modern high-efficiency units, sometimes requiring panel upgrades before new AC installations.",
+        "commonIssues": [
+          "R-22 refrigerant systems that are costly to repair and urgently need replacement with R-410A units",
+          "Undersized or improperly matched duct systems in 1960s-1980s homes causing hot and cold spots",
+          "Overheating compressors due to poor attic ventilation in flat-roofed concrete block homes",
+          "Electrical panel capacity issues preventing upgrade to higher-efficiency systems"
+        ],
+        "localTip": "If your Hialeah home still has an R-22 system, plan your replacement now — R-22 refrigerant prices have quintupled since the phase-out and a single recharge can cost more than a new system's first year of energy savings. We offer bilingual consultations to help you choose the right replacement.",
+        "testimonial": {
+          "text": "MGM me ayudó a reemplazar mi viejo sistema de R-22 con uno nuevo y eficiente. Me explicaron todo en español y el precio fue muy justo. El A/C nuevo enfría mucho mejor y mi factura de electricidad bajó bastante.",
+          "name": "Maria G.",
+          "date": "2026"
+        }
       },
       "homestead": {
         "name": "Homestead",
@@ -313,7 +347,21 @@
           "Florida City",
           "Leisure City",
           "Naranja"
-        ]
+        ],
+        "housingInfo": "Homestead and the surrounding agricultural communities represent one of South Florida's most economically diverse markets, with housing ranging from modest concrete block homes built in the 1950s-1970s to newer developments catering to first-time homebuyers. The area was ground zero for Hurricane Andrew in 1992, and much of the pre-Andrew housing stock was either destroyed and rebuilt or significantly damaged — meaning many homes were reconstructed under stricter post-Andrew building codes with better structural integrity but vary widely in insulation quality.",
+        "climateChallenge": "Homestead sits further south than any other major South Florida municipality, meaning longer, hotter summers with temperatures that regularly reach 95-100°F and heat indices exceeding 110°F in July and August. The agricultural surroundings introduce unique air quality challenges — crop dusting chemicals, farm dust, and pollen from the farmlands can saturate filters in days during growing season. The area's distance from service centers and budget-conscious customer base means issues that might be caught early in wealthier areas often go unaddressed until systems fail completely.",
+        "commonIssues": [
+          "Rapid air filter saturation from agricultural dust and pollen during growing and harvest seasons",
+          "Compressor failures from extreme heat loading — outdoor temperatures above 95°F dramatically reduce efficiency",
+          "Post-hurricane ductwork damage that was never properly inspected or repaired after major storms",
+          "Refrigerant leaks in aging systems running beyond their design life due to deferred replacement"
+        ],
+        "localTip": "Homestead homeowners near agricultural areas should use MERV-8 or higher filters and check them every 2-3 weeks during harvest season — farm dust and organic particles can completely block a standard filter in weeks, causing the system to freeze up and fail right when you need it most.",
+        "testimonial": {
+          "text": "My AC went out on the hottest day of the year and MGM came out to Homestead same day. They had parts on the truck and fixed it in under two hours. Very fair pricing too — I appreciated that they didn't try to oversell me.",
+          "name": "James T.",
+          "date": "2026"
+        }
       },
       "coralGables": {
         "name": "Coral Gables",
@@ -324,7 +372,21 @@
           "South Miami",
           "Coconut Grove",
           "Pinecrest"
-        ]
+        ],
+        "housingInfo": "Coral Gables is home to some of Miami-Dade's most architecturally significant housing — Mediterranean Revival estates from the 1920s and 1930s designed by George Merrick, with thick coral rock walls, barrel tile roofs, and floor plans that were never designed with central air conditioning in mind. Retrofit duct installations in these homes often run through closets, under floors, or in added soffits to preserve historic ceilings. The City's strict Historic Preservation Board oversees renovations and can limit how HVAC equipment is installed or displayed.",
+        "climateChallenge": "Coral Gables' beautiful mature tree canopy — one of Miami's densest — shades homes and reduces cooling loads, but falling debris and roots can damage outdoor condensers and drain lines. The coral rock construction that gives the city its name provides excellent thermal mass but makes routing new ductwork extremely challenging and expensive. Many historic homes use high-wall ductless mini-splits as the least invasive solution, though these must be tastefully concealed to satisfy HOA and preservation guidelines.",
+        "commonIssues": [
+          "Ductwork routing challenges in historic coral rock homes requiring creative installation solutions",
+          "Tree debris blocking condenser coils and outdoor unit airflow in heavily landscaped properties",
+          "Historic Preservation Board permit requirements slowing equipment replacement approvals",
+          "Ductless mini-split placement restrictions imposed by HOA and historic preservation guidelines"
+        ],
+        "localTip": "In Coral Gables historic homes, a ductless multi-zone mini-split system is often the best solution — it requires only a small hole through the wall for refrigerant lines, preserves your historic ceilings and trim, and qualifies for energy efficiency rebates while delivering far better cooling than window units.",
+        "testimonial": {
+          "text": "Our 1928 Mediterranean home had ancient window units in every room. MGM designed a beautiful multi-zone mini-split system that hides behind period-appropriate grilles. The Preservation Board approved it and we're finally comfortable in every room.",
+          "name": "Patricia H.",
+          "date": "2026"
+        }
       },
       "doral": {
         "name": "Doral",
@@ -335,7 +397,21 @@
           "Sweetwater",
           "Fontainebleau",
           "Medley"
-        ]
+        ],
+        "housingInfo": "Doral is one of Miami-Dade's newest and fastest-growing cities, with housing stock primarily from the 2000s through the present — modern townhomes, gated communities, and mixed-use developments near the Doral Golf Resort. The Venezuelan, Colombian, and broader Latin American community that defines Doral tends toward well-maintained, newer construction. Many homes in Doral feature modern high-efficiency systems with variable-speed technology and smart thermostats, though the commercial corridor along NW 36th and 41st Streets has significant rooftop package unit inventory.",
+        "climateChallenge": "Doral's location near Miami International Airport and major freight logistics facilities means elevated particulate matter in the air, accelerating filter clogging and increasing the frequency of coil cleaning needed. The rapid residential construction boom has also produced some installations where equipment was sized for quick sale rather than optimal performance — oversized systems that short-cycle and fail to dehumidify properly. Doral's flat inland terrain concentrates heat with no ocean moderation.",
+        "commonIssues": [
+          "Oversized systems in newer homes that short-cycle and leave humid air even when temperature setpoint is met",
+          "Commercial rooftop package unit failures on the busy NW 36th Street corridor",
+          "Air filter over-saturation from airport and freight corridor particulate matter",
+          "Smart thermostat connectivity issues in homes with complex home automation systems"
+        ],
+        "localTip": "If your Doral home feels cool but still humid, your system may be oversized — an AC that's too large cools the air quickly but doesn't run long enough to remove moisture. We can perform a Manual J load calculation to confirm the right size and, if needed, install a whole-home dehumidifier to solve the comfort issue without replacing the entire system.",
+        "testimonial": {
+          "text": "Nuestro sistema nuevo se instaló muy rápido pero la casa siempre se sentía húmeda. MGM identificó que el equipo era demasiado grande para nuestra casa y nos instalaron un deshumidificador. Ahora el ambiente es perfecto.",
+          "name": "Alejandro V.",
+          "date": "2026"
+        }
       },
       "kendall": {
         "name": "Kendall",
@@ -347,7 +423,21 @@
           "Country Walk",
           "Richmond Heights",
           "Dadeland"
-        ]
+        ],
+        "housingInfo": "Kendall is sprawling suburban South Florida at its most expansive — large single-family homes on generous lots, many built from the 1970s through the 1990s, with floor plans exceeding 2,500 square feet that require substantial AC capacity. Duct runs in Kendall homes are among the longest in Miami-Dade, stretching from a centrally-located air handler to bedrooms at opposite ends of the home, creating pressure imbalances and temperature variation. The area's mix of ranch-style and two-story homes means both single-zone and multi-zone systems are common.",
+        "climateChallenge": "The sheer size of Kendall homes means undersized systems are a frequent problem — a 3-ton unit that's sufficient for a 1,500 sq ft home in Hialeah may be dramatically insufficient for a 3,000 sq ft Kendall ranch. Long duct runs accumulate significant leakage over time, and many Kendall homes have ductwork that's never been pressure-tested or sealed since original installation. The distance from the coast means no salt air issues but also no sea breeze to moderate temperatures during the hottest months.",
+        "commonIssues": [
+          "Temperature imbalance between rooms due to long duct runs and pressure distribution issues",
+          "Undersized equipment struggling to cool large floor plans during peak summer heat",
+          "Duct leakage in aging flex duct systems that have never been pressure-tested or sealed",
+          "Zoning system failures in two-story homes where upstairs always stays warmer than downstairs"
+        ],
+        "localTip": "Kendall homeowners with large floor plans should request an airflow balancing assessment along with any service call — we use digital manometers to measure static pressure at each register, which reveals exactly which rooms are being starved of airflow and whether your system is truly delivering its rated capacity throughout the house.",
+        "testimonial": {
+          "text": "Our master bedroom at the end of the house was always 5 degrees warmer than the living room. MGM discovered two disconnected duct sections in the attic and a restricted return grille. Now every room feels the same — what a difference!",
+          "name": "Robert K.",
+          "date": "2026"
+        }
       },
       "miamiBeach": {
         "name": "Miami Beach",
@@ -362,7 +452,21 @@
           "Bay Harbor Islands",
           "Indian Creek",
           "Fisher Island"
-        ]
+        ],
+        "housingInfo": "Miami Beach housing spans Art Deco gems from the 1930s-1940s — many converted to boutique hotels or multi-unit residences — and modern luxury towers along Collins Avenue and South Beach. Historic buildings frequently have PTAC units installed through exterior walls, while newer high-rises use central chilled-water systems. Ductwork is rare in pre-war buildings; most rely on ductless or window-unit solutions that are particularly vulnerable to coastal conditions.",
+        "climateChallenge": "Salt air corrosion is the single greatest AC threat in Miami Beach — the ocean breeze deposits salt crystals on condenser coils within months, eating through aluminum fins and copper lines at an accelerated rate compared to inland locations. Combined with periodic flooding from king tides and storm surge, exterior AC condensers on ground-level units face moisture intrusion that destroys electrical components. The relentless coastal humidity also means drain lines clog every 4-6 weeks rather than the standard 3-month interval.",
+        "commonIssues": [
+          "Accelerated condenser coil corrosion from salt-laden ocean air — fins deteriorate 2-3x faster than inland",
+          "PTAC unit failures in Art Deco buildings due to constant marine environment exposure",
+          "Flood-damaged electrical components in ground-floor condenser units after king tides or storms",
+          "Drain pan overflow in condensate systems overwhelmed by extreme coastal humidity levels"
+        ],
+        "localTip": "In Miami Beach, apply a condenser coil coating spray every season and rinse the outdoor unit with fresh water monthly — this simple habit can double the lifespan of your equipment by neutralizing salt buildup before it corrodes the fins.",
+        "testimonial": {
+          "text": "Living on Ocean Drive means my AC takes a beating from the salt air. MGM put a protective coating on my condenser and now I get yearly tune-ups instead of replacing units every two years. Worth every penny.",
+          "name": "Sofia R.",
+          "date": "2026"
+        }
       },
       "miamiGardens": {
         "name": "Miami Gardens",
@@ -374,7 +478,21 @@
           "Carol City",
           "Norland",
           "North Miami Beach"
-        ]
+        ],
+        "housingInfo": "Miami Gardens is primarily a suburban single-family neighborhood with homes built predominantly from the 1990s through the early 2000s, giving it a relatively modern housing stock compared to older Miami-Dade municipalities. Many homes feature 3-4 bedroom floor plans with 2,000-2,500 square feet requiring 3-5 ton systems. The area's CBS construction holds heat well, but many homeowners have deferred duct sealing and insulation upgrades since the original installation.",
+        "climateChallenge": "Miami Gardens absorbed significant hurricane damage from multiple storms, and many duct systems were temporarily repaired after storm damage rather than properly replaced — creating systems with leaks that silently waste 20-30% of conditioned air. The area's flat terrain and storm-prone location means outdoor units need proper elevation and hurricane strapping that many older installations lack. Summer heat loads here are intense given the lack of coastal breeze and the suburban density.",
+        "commonIssues": [
+          "Hurricane-damaged ductwork with temporary repairs causing significant conditioned air loss",
+          "Improperly strapped outdoor condensers vulnerable to wind damage during storm season",
+          "Aging 1990s air handlers with deteriorating insulation lining and cracked drain pans",
+          "Thermostat communication failures in older systems incompatible with smart thermostat upgrades"
+        ],
+        "localTip": "Before hurricane season, have your outdoor condenser professionally strapped and elevated if it sits on a ground pad — FEMA guidelines recommend at least 12 inches of elevation in this flood-prone zone, and proper strapping can prevent a $4,000 condenser replacement after a storm.",
+        "testimonial": {
+          "text": "After the last hurricane, our AC ductwork was a mess. MGM did a full duct inspection and found three spots where cool air was leaking into the attic. Fixed them all in one visit — our house finally gets cool evenly now.",
+          "name": "Darnell W.",
+          "date": "2026"
+        }
       },
       "aventura": {
         "name": "Aventura",
@@ -386,7 +504,21 @@
           "Golden Beach",
           "Hallandale Beach",
           "North Miami"
-        ]
+        ],
+        "housingInfo": "Aventura is defined by its luxury residential towers — buildings like Williams Island, Porto Vita, and the Turnberry complex — plus the Aventura Mall commercial campus. Most residential units are served by central chilled-water systems managed by building engineers, with individual fan coil units in each unit that residents are responsible for maintaining. High-end single-family homes in the area feature premium systems from brands like Trane, Lennox, and Carrier with advanced variable-speed technology.",
+        "climateChallenge": "High-rise living creates unique HVAC challenges: fan coil units in individual condo units depend on the building's central chilled-water plant operating correctly, meaning residents can experience cooling problems caused by building-level issues that require coordination with HOA management. Salt air from the Intracoastal Waterway affects outdoor HVAC equipment on balconies and rooftops. Demanding clientele expectations mean service calls require same-day response and white-glove professionalism.",
+        "commonIssues": [
+          "Fan coil unit valve failures requiring coordination with building management for chilled-water shutoff",
+          "Thermostat or controls failures in premium smart home integrated systems",
+          "Condensate drain blockages causing water damage in high-rise units — critical to address immediately",
+          "Salt corrosion on rooftop package units and balcony-mounted mini-split condensers"
+        ],
+        "localTip": "Aventura condo owners should know whether their building uses a chilled-water system or independent split systems — if it's chilled water, your responsibility is limited to the fan coil unit and thermostat inside your unit, while the building handles everything else. Knowing this before calling for service saves time and money.",
+        "testimonial": {
+          "text": "Our penthouse unit had been running warm for weeks. MGM diagnosed a failing fan coil valve and coordinated directly with our building engineer for the water shutoff. Professional, efficient, and they knew exactly how high-rise systems work.",
+          "name": "Jennifer L.",
+          "date": "2026"
+        }
       },
       "theKeys": {
         "name": "Florida Keys",
@@ -400,7 +532,21 @@
           "Key West",
           "Tavernier",
           "Key Colony Beach"
-        ]
+        ],
+        "housingInfo": "The Florida Keys present the most extreme HVAC environment in the continental United States — virtually every structure sits within a quarter mile of saltwater, and the island geography means there is no escape from the marine environment. Housing ranges from Old Florida fishing cottages elevated on pilings to modern concrete construction designed to survive Category 4 hurricanes. Many properties are vacation rentals with remote management, requiring reliable, low-maintenance systems that don't need constant attention when owners are absent.",
+        "climateChallenge": "Salt corrosion in the Keys is not just accelerated — it's aggressive beyond what mainland technicians typically encounter. Condenser coil fins can be completely corroded through within 18-24 months without protective treatment, a timeline that would take 5-7 years in an inland location. The limited contractor access in the Keys — particularly below Key Largo — means emergency service calls involve significant travel, making preventive maintenance even more critical. Humidity in the Keys stays at 70-80% year-round, with no dry season.",
+        "commonIssues": [
+          "Extreme salt corrosion destroying condenser coils within 18-24 months without protective coatings",
+          "Remote property AC failures discovered only when guests arrive, requiring urgent emergency response",
+          "Humidity damage to electrical components and insulation from year-round 70-80% relative humidity",
+          "Wind damage to outdoor equipment during hurricane season with limited local service capacity"
+        ],
+        "localTip": "Keys property owners — especially absentee vacation rental owners — should install a smart thermostat with remote monitoring and WiFi-connected alerts: if the system stops cooling, you'll know within hours rather than when a guest checks in. Paired with annual professional maintenance and coil coating, this is the best investment you can make in your Keys AC system.",
+        "testimonial": {
+          "text": "We own a vacation rental in Islamorada and finding reliable AC service was always a nightmare. MGM now does annual maintenance and installed a smart thermostat that alerts us if anything goes wrong. Our guests haven't had a single AC complaint since.",
+          "name": "Tom and Linda B.",
+          "date": "2026"
+        }
       },
       "fortLauderdale": {
         "name": "Fort Lauderdale",
@@ -415,7 +561,21 @@
           "Lauderhill",
           "Plantation",
           "Davie"
-        ]
+        ],
+        "housingInfo": "Fort Lauderdale's housing stock is incredibly varied — from 1950s-1960s concrete block homes in neighborhoods like Tarpon River and Riverside Park to luxury canal-front estates in Harbor Beach and Las Olas Isles, plus modern mid-rise condos in the Victoria Park and Flagler Village corridors. Canal-front properties face similar salt air challenges as Miami Beach due to tidal saltwater in the Intracoastal system. The city's booming vacation rental market means many properties are managed remotely, increasing the value of preventive maintenance programs.",
+        "climateChallenge": "Fort Lauderdale's 165-mile canal system means a substantial portion of residential properties sit on or near tidal saltwater, extending coastal corrosion concerns well inland. The area receives heavy spring break and summer tourism that strains commercial HVAC systems in hospitality properties beyond their normal design loads. The mix of old and new construction means technicians must be comfortable working on everything from 40-year-old package units to cutting-edge variable refrigerant flow systems in new hotel developments.",
+        "commonIssues": [
+          "Saltwater canal corrosion affecting condensers on properties that appear inland but face tidal canals",
+          "Commercial HVAC system overload during peak tourism season in hotels and entertainment venues",
+          "Aging ductwork in 1950s-1960s concrete block homes requiring modern replacement solutions",
+          "Vacation rental AC failures requiring priority emergency response to protect rental income"
+        ],
+        "localTip": "Fort Lauderdale canal-front property owners are often surprised that their inland address still causes accelerated AC corrosion — tidal salt water in the canals evaporates and the salt-laden air affects condensers just like oceanfront exposure. Request a corrosion assessment when scheduling your next service to find out if protective coatings are appropriate for your location.",
+        "testimonial": {
+          "text": "I thought only beachfront properties had to worry about salt air, but MGM showed me my canal-side condo condenser was already showing corrosion after just three years. They coated it and now I'm on an annual maintenance plan. Great team.",
+          "name": "Michelle D.",
+          "date": "2026"
+        }
       },
       "hollywood": {
         "name": "Hollywood",
@@ -429,7 +589,21 @@
           "Cooper City",
           "Weston",
           "Southwest Ranches"
-        ]
+        ],
+        "housingInfo": "Hollywood offers a tale of two cities within its borders: the beach and Broadwalk corridor lined with older 1950s-1970s low-rise condos and motels, and the newer inland communities like the Emerald Hills and Monterra developments with larger, more modern homes. The beachside properties frequently have aging PTAC or window units that are past their service life, while the inland suburban homes feature standard split systems that range from well-maintained to severely neglected. The Hollywood Circle downtown revitalization has brought new construction with modern HVAC to an otherwise older building stock.",
+        "climateChallenge": "Hollywood's beachside properties face the same coastal salt air corrosion challenges as Miami Beach and Fort Lauderdale, while the inland areas experience the full South Florida heat and humidity without the ocean moderation. The city's mix of property ages and types requires technicians who can service both vintage and modern equipment. Seasonal population spikes from snowbirds and beach tourists in winter and spring can create service demand surges that test local contractor capacity.",
+        "commonIssues": [
+          "Aging PTAC units in beachside condos operating well past their design life with no replacement plans",
+          "Corrosion on condenser units in beachside properties within the one-mile coastal zone",
+          "Capacity mismatches in older inland homes where window units were replaced with undersized split systems",
+          "Seasonal demand surges creating long wait times — pre-season maintenance prevents emergency calls"
+        ],
+        "localTip": "Hollywood beachside condo owners with PTAC units should inspect the exterior louver assembly every year — salt-air corrosion often attacks the metal housing and drainage channels before the refrigerant system itself fails, and a $200 louver replacement can prevent a $1,500 full PTAC replacement by stopping moisture intrusion early.",
+        "testimonial": {
+          "text": "MGM replaced our aging beach condo PTAC unit quickly and cleanly. They were careful not to damage the walls and the new unit is whisper-quiet compared to the old one. Very happy with the service in Hollywood.",
+          "name": "Frank S.",
+          "date": "2026"
+        }
       },
       "bocaraton": {
         "name": "Boca Raton",
@@ -442,7 +616,21 @@
           "Boynton Beach",
           "Lake Worth",
           "Pompano Beach"
-        ]
+        ],
+        "housingInfo": "Boca Raton is one of Palm Beach County's most affluent communities, with housing stock that ranges from expansive estate homes in gated golf communities like Broken Sound and St. Andrews to luxury oceanfront towers and well-appointed mid-size homes throughout the city. Many Boca Raton properties feature premium HVAC systems from Trane, Lennox, and Carrier with zoning, variable-speed compressors, and sophisticated air quality solutions including HEPA filtration and UV air purifiers. Large estate homes often require multiple systems and complex zoning configurations.",
+        "climateChallenge": "The affluent homeowner base in Boca Raton typically has higher expectations for indoor comfort, air quality, and system reliability than average markets — comfort complaints that might be tolerated elsewhere are unacceptable here. Large estate homes with expansive open floor plans, cathedral ceilings, and wall-to-wall glass present significant cooling load challenges that require precise Manual J load calculations to spec correctly. Golf course and mature landscape settings introduce organic debris, pollen, and irrigation system overspray that affects outdoor equipment.",
+        "commonIssues": [
+          "Zoning system failures in large multi-zone homes causing comfort imbalances between areas",
+          "High-end variable-speed inverter compressor faults requiring advanced diagnostics and specialized parts",
+          "Air quality system maintenance — UV bulb replacement, HEPA filter service in premium installations",
+          "Golf course irrigation overspray coating condenser coils with mineral deposits requiring professional cleaning"
+        ],
+        "localTip": "Boca Raton homeowners with premium variable-speed systems should ensure their service technician is factory-certified for their specific brand — Trane Comfort Specialist, Lennox Premier Dealer, or Carrier Factory Authorized certification means the technician has brand-specific training to diagnose inverter drive faults that general HVAC technicians may misdiagnose as compressor failures.",
+        "testimonial": {
+          "text": "We have a five-zone Trane system in our Boca Raton estate and the zoning board kept throwing faults. MGM sent a Trane-certified technician who diagnosed a failed bypass damper actuator in under an hour. Excellent technical knowledge.",
+          "name": "Richard and Barbara A.",
+          "date": "2026"
+        }
       },
       "westPalmBeach": {
         "name": "West Palm Beach",
@@ -456,7 +644,21 @@
           "Wellington",
           "Riviera Beach",
           "Palm Beach"
-        ]
+        ],
+        "housingInfo": "West Palm Beach has undergone significant revitalization, particularly in the downtown Clematis Street and Rosemary Square corridors, where historic commercial buildings are being converted to residential lofts and mixed-use developments. The broader city encompasses diverse neighborhoods from historic El Cid and Flamingo Park — with charming 1920s-1940s homes undergoing careful renovation — to newer suburban developments west of Military Trail. The renovation wave brings AC challenges similar to Coral Gables: adapting modern HVAC to buildings designed before central air conditioning existed.",
+        "climateChallenge": "West Palm Beach sits at the northern edge of South Florida's subtropical zone, meaning the climate is slightly less extreme than Miami but still demands year-round AC operation. The ongoing downtown revitalization creates a complex mix of old and new infrastructure — buildings being renovated may have inadequate electrical service for modern HVAC, and historic preservation considerations may limit equipment placement options. The proximity to Lake Worth and the Intracoastal Waterway introduces moderate coastal corrosion risk for eastern neighborhoods.",
+        "commonIssues": [
+          "Electrical service inadequacy in older downtown buildings being converted to residential occupancy",
+          "Ductwork integration challenges in historic homes being renovated with modern systems",
+          "Intracoastal proximity corrosion in eastern neighborhoods near Lake Worth",
+          "Permit and inspection coordination for AC replacement in historic designated neighborhoods"
+        ],
+        "localTip": "West Palm Beach homeowners renovating historic properties should budget for electrical panel assessment alongside any HVAC upgrade — homes built before 1960 may have 60-amp or 100-amp service panels that cannot support a modern high-efficiency system without an upgrade, and discovering this after equipment is ordered causes costly delays.",
+        "testimonial": {
+          "text": "We were renovating our 1930s El Cid home and needed a creative AC solution that wouldn't require demolishing our original plaster ceilings. MGM designed a ductless system that worked perfectly and the inspector approved it on the first visit.",
+          "name": "Andrea C.",
+          "date": "2026"
+        }
       },
       "naples": {
         "name": "Naples",
@@ -470,7 +672,21 @@
           "Ave Maria",
           "North Naples",
           "Pelican Bay"
-        ]
+        ],
+        "housingInfo": "Naples is one of Florida's most affluent markets, with a housing stock defined by luxury single-family homes and high-end condominiums along the Gulf of Mexico coastline and throughout master-planned communities like Pelican Bay, Grey Oaks, and Mediterra. Many properties are second homes or seasonal residences for snowbirds who occupy them from October through April and leave them vacant or lightly occupied in summer. The construction quality is generally excellent, with newer homes featuring high-performance building envelopes, but the luxury expectations demand premium-brand HVAC systems and meticulous service.",
+        "climateChallenge": "Naples' Gulf Coast location exposes properties to salt air from the west, and the concentration of luxury high-rises along Gulf Shore Boulevard places equipment in one of the most corrosive environments in Florida. The snowbird seasonal demand pattern creates two service spikes: fall startup when owners return and find their summer-idle systems in disrepair, and spring shutdown maintenance before owners depart. The summer vacant season is particularly damaging — systems left running on setback schedules in empty homes develop biological growth in drain pans and coils.",
+        "commonIssues": [
+          "Seasonal startup failures when snowbirds return in fall to find summer-idle systems failing",
+          "Biological growth in drain pans and evaporator coils during summer vacancy periods",
+          "Gulf-side salt air corrosion on luxury high-rise rooftop and balcony equipment",
+          "Remote property monitoring gaps — second homeowners need smart system notifications"
+        ],
+        "localTip": "Naples second homeowners should have their systems placed on a summer watchdog schedule — we can set your thermostat to a 78-80°F occupied mode during the vacant summer, which keeps the system running enough to dehumidify the home and prevent mold while saving energy, versus the common mistake of turning AC off entirely and returning to a musty, mold-damaged home.",
+        "testimonial": {
+          "text": "We come down from Michigan every winter and always dreaded finding AC surprises when we arrived. MGM now does a pre-arrival startup inspection each October and the house is always perfect when we get here. Best investment we've made in our Naples home.",
+          "name": "Harold and Dorothy M.",
+          "date": "2026"
+        }
       },
       "fortMyers": {
         "name": "Fort Myers",
@@ -484,12 +700,27 @@
           "Lehigh Acres",
           "Fort Myers Beach",
           "Sanibel Island"
-        ]
+        ],
+        "housingInfo": "Fort Myers is one of Southwest Florida's fastest-growing metro areas, with new residential construction expanding rapidly into communities like Gateway, Estero, and the Treeline corridor. The housing stock is extremely bifurcated: brand-new homes in planned developments with modern, correctly-sized systems on one end, and older pre-Hurricane Ian construction from the 1970s-1990s with deferred maintenance and hurricane damage on the other. Hurricane Ian in 2022 caused catastrophic damage across Lee County, and the recovery and rebuild process is still ongoing throughout the area.",
+        "climateChallenge": "Hurricane Ian's impact on Fort Myers cannot be overstated — thousands of HVAC systems were destroyed or damaged by the storm surge and 150+ mph winds, and the recovery process has strained contractor availability and parts supply chains for years afterward. The explosive new construction growth has also produced some quality-control issues with rushed installations that prioritized builder cost-cutting over long-term performance. The subtropical climate is similar to Miami but with a distinctly more pronounced wet season that drives humidity to extremes from June through September.",
+        "commonIssues": [
+          "Hurricane Ian damage — storm surge water intrusion in condenser electrical components in flood zones",
+          "New construction installation quality issues — rushed installs with improper refrigerant charge or airflow",
+          "Contractor availability shortages post-Ian creating extended wait times for repairs and replacement",
+          "Extreme wet season humidity driving biological growth in systems not properly maintained post-storm"
+        ],
+        "localTip": "Fort Myers homeowners who had any water intrusion during Hurricane Ian should have their entire HVAC system — including ductwork, air handler, and electrical components — professionally inspected even if the system appears to be running, because water-damaged insulation and electrical components can cause fires or biological growth that only shows up months after the flood event.",
+        "testimonial": {
+          "text": "After Hurricane Ian, our AC unit looked fine but kept tripping the breaker. MGM found water damage in the control board that would have eventually caused a fire. They replaced it quickly and also found our ductwork had been compromised. True professionals.",
+          "name": "Nancy and Bill P.",
+          "date": "2026"
+        }
       }
     },
     "neighborhoodsTitle": "Neighborhoods We Serve",
     "cityCtaTitle": "AC Service — Call Today",
-    "cityCtaButton": "Call for Free Estimate"
+    "cityCtaButton": "Call for Free Estimate",
+    "servicesInCity": "Our Services in {city}"
   },
   "about": {
     "label": "About Us",
@@ -669,6 +900,214 @@
           "**Mold and Indoor Air Quality** — The combination of heat and humidity makes South Florida a hotspot for mold growth. Your AC system plays a critical role in controlling indoor humidity and maintaining air quality. A well-maintained system keeps mold at bay; a neglected one can actually spread it.",
           "**What You Can Do** — The best defense against Miami's climate is proactive maintenance. Schedule professional tune-ups twice a year, change filters monthly, keep the outdoor unit clear, and address any issues immediately. A well-maintained system in South Florida can last 12-15 years; a neglected one may fail in 7-8."
         ]
+      },
+      "what-is-the-5000-rule": {
+        "title": "What Is the $5,000 AC Rule? A Miami Homeowner's Guide",
+        "date": "April 8, 2026",
+        "excerpt": "The $5,000 rule is the fastest way to decide whether to repair or replace your AC — and in Miami's heat, it matters more than ever.",
+        "content": [
+          "**The $5,000 rule is simple: multiply your AC unit's age by the cost of the repair. If that number exceeds $5,000, it's time to replace the unit rather than repair it.** This rule of thumb has been used by HVAC professionals for decades, and it's especially useful for Miami homeowners where AC systems work harder — and wear out faster — than almost anywhere else in the country.",
+          "Here's how the math works with real Miami examples. Suppose you have a **10-year-old unit** and the technician quotes you **$600 to replace the compressor capacitor and clean the coils**. Multiply 10 × $600 = $6,000. That exceeds $5,000, which means replacement is likely the smarter financial move. On the other hand, if you have a **5-year-old unit** and need a **$400 contactor replacement**, the math is 5 × $400 = $2,000 — well under $5,000, so repairing makes sense.",
+          "Why does Miami change the calculus? In most of the United States, a central AC system lasts **15–20 years**. Here in South Florida, the realistic lifespan is **10–15 years** — sometimes less. Your system runs 8 to 10 months out of the year, battling temperatures in the 90s, humidity above 70%, and salt air if you're anywhere near the coast in neighborhoods like Miami Beach, Key Biscayne, or Coconut Grove. That constant operation adds up fast.",
+          "**The most expensive AC repairs** are the ones most likely to trigger the $5,000 rule. Compressor replacement in Miami typically runs **$1,500–$2,500** depending on unit size and brand. Evaporator coil replacement costs **$1,000–$2,000**. A refrigerant leak repair that also requires recharging the system can run **$600–$1,200**. On a 12-year-old unit, any of these repairs will push you well over the $5,000 threshold.",
+          "There's a secondary consideration many homeowners overlook: **refrigerant type**. If your system was installed before 2010, it likely uses R-22 refrigerant (Freon), which has been phased out under EPA regulations. R-22 now costs $100–$150 per pound on the open market — and a typical recharge takes 2–5 pounds. An aging R-22 system failing in Doral or Kendall isn't just expensive to fix; every repair is a temporary patch on a system you'll be forced to replace eventually anyway.",
+          "The $5,000 rule also helps you avoid the **\"repair trap\"** — the cycle of fixing one thing only to have something else break two months later. Once a system crosses the 12-year mark in South Florida, components start failing in clusters. The capacitor goes, then the contactor, then the fan motor. Each repair individually might seem reasonable, but they add up quickly, and you're still running an inefficient old unit that's spiking your FPL bill every month.",
+          "**Energy efficiency is a hidden part of the equation.** An older system might be rated at 10–13 SEER (Seasonal Energy Efficiency Ratio), while a new system is 16–20+ SEER. In Miami, where your AC runs almost year-round, upgrading to a higher-SEER unit can reduce your cooling costs by **20–40%**. With FPL rates averaging around $0.13–$0.15 per kWh, those savings are real. On a typical 2,000 sq ft Miami home, a new efficient system can save $400–$800 per year in electricity alone.",
+          "That said, the $5,000 rule isn't absolute. **Context matters.** If your unit is 9 years old but has been exceptionally well-maintained with twice-yearly service, and the repair needed is a simple one-time fix, it may be worth repairing even if the math is close. Conversely, if your unit is 8 years old but has had three major repairs in two years, replacement might be wise even if the formula says repair.",
+          "**When to always replace regardless of the rule:** if the system still uses R-22 Freon; if it's been flooding your home due to persistent drain line issues that keep returning; if it's causing mold problems from insufficient dehumidification; or if your FPL bills have climbed 25% or more over the past two summers without explanation.",
+          "The bottom line for Miami homeowners: the $5,000 rule is your starting point, not your final answer. Use it to frame the conversation with your technician, factor in your unit's refrigerant type and maintenance history, and weigh the energy savings of a new high-efficiency system. In South Florida's demanding climate, the decision to replace a borderline unit often pays for itself faster than you'd expect.",
+          "**Ready to find out if your AC is worth repairing?** MGM A/C Appliances offers free estimates for South Florida homeowners. Our technicians will give you an honest assessment — no upselling, just the facts. Call us at **(786) 352-0084** and we'll help you make the smartest decision for your home and your budget."
+        ]
+      },
+      "ac-repair-cost-miami": {
+        "title": "How Much Does AC Repair Cost in Miami? (2026 Price Guide)",
+        "date": "April 10, 2026",
+        "excerpt": "AC repair costs in Miami range from $150 for a capacitor swap to $2,500 for a compressor — here's what you can expect to pay in 2026.",
+        "content": [
+          "**AC repair costs in Miami in 2026 typically range from $150 to $2,500 depending on the part and the complexity of the job.** Miami homeowners pay roughly 10–20% more than the national average for HVAC repairs — a reflection of year-round demand, the local cost of living, and the fact that South Florida systems work harder than units almost anywhere else in the country. Here's a complete breakdown of what you can expect to pay.",
+          "**Diagnostic Fee: $75–$150.** Most reputable HVAC companies in Miami charge a diagnostic or service call fee to come out, evaluate the system, and identify the problem. At MGM A/C Appliances, our diagnostic fee is applied toward the cost of the repair if you proceed with us. Be wary of companies that offer \"free diagnostics\" and then dramatically inflate the repair estimate.",
+          "**Capacitor Replacement: $150–$400.** The capacitor is the most commonly replaced AC component in South Florida. It's a small cylindrical part that helps start and run the compressor and fan motors. Miami's heat causes capacitors to fail far more frequently than in cooler climates — many South Florida homeowners replace one every 3–5 years. The part itself is inexpensive ($15–$50), so the bulk of the cost is labor.",
+          "**Contactor Replacement: $150–$350.** The contactor is an electrical relay switch that controls power to the compressor and condenser fan. Like capacitors, contactors wear out faster in hot climates and are a routine repair in Miami. This is typically a 30–45 minute job for an experienced technician.",
+          "**Refrigerant Recharge: $200–$600.** If your system is low on refrigerant, it won't cool properly. A recharge involves checking for leaks, repairing them if found, and adding the correct refrigerant. The cost varies significantly based on the **type of refrigerant** your system uses. Systems using the modern **R-410A** refrigerant are less expensive to service. Systems still running on the phased-out **R-22 Freon** can cost $400–$800 or more just for the refrigerant, since R-22 now runs $100–$150 per pound.",
+          "**Fan Motor Replacement: $300–$700.** There are two fan motors in a typical split AC system — the blower motor (inside, moves air over the evaporator coil) and the condenser fan motor (outside, draws air over the condenser coil). Salt air in coastal Miami neighborhoods like Surfside, Bay Harbor Islands, and Miami Beach is particularly hard on outdoor fan motors, corroding the bearings and windings over time.",
+          "**Compressor Replacement: $1,500–$2,500.** The compressor is the heart of your AC system — and the most expensive component to replace. If the compressor fails on a unit that's 10+ years old, it almost always makes more sense to replace the entire system rather than just the compressor (see our post on the $5,000 rule). For newer units under warranty, compressor replacement is worth pursuing.",
+          "**Evaporator Coil Replacement: $1,000–$2,000.** The evaporator coil sits inside your air handler and is where the actual heat exchange happens. In Miami's humid environment, evaporator coils are prone to developing mold and to corrosion — particularly in homes near the coast. A leaking or corroded evaporator coil is a significant repair that, on an older unit, often tips the scale toward full replacement.",
+          "**Circuit Board (Control Board) Replacement: $400–$800.** Modern AC systems are controlled by circuit boards that manage every aspect of operation. Lightning strikes — common in South Florida during the June–November storm season — are a leading cause of circuit board failures in Miami-area homes. A surge protector on your AC disconnect is a worthwhile $50–$100 investment to protect against this.",
+          "**What drives Miami AC repair prices higher than the national average?** First, year-round demand means technicians are busy and labor rates reflect that. Second, the sheer number of AC systems per capita — virtually every home and business runs AC 365 days a year — creates sustained demand. Third, the corrosive effects of humidity and salt air mean parts wear out faster, increasing the frequency of repairs.",
+          "**Emergency and after-hours service** can add $100–$200 to any repair bill at most companies. At MGM A/C Appliances, we don't charge extra for after-hours or weekend service calls — our price is our price, day or night. We also provide **free estimates** so you know the full cost before we start any work.",
+          "For accurate pricing on your specific situation, call MGM A/C Appliances at **(786) 352-0084**. We serve all of Miami-Dade County including Hialeah, Doral, Kendall, Coral Gables, and beyond — with upfront pricing, no surprise fees, and bilingual service in English and Spanish."
+        ]
+      },
+      "ac-not-working-what-to-check": {
+        "title": "AC Not Working? 7 Things to Check Before Calling a Technician",
+        "date": "April 5, 2026",
+        "excerpt": "Before you call for AC repair in Miami, run through these 7 checks — many \"broken\" ACs just need a thermostat reset or a cleared drain line.",
+        "content": [
+          "**When your AC stops working in Miami, don't panic — and don't immediately call a technician.** A surprising number of AC \"breakdowns\" in South Florida homes are caused by simple issues you can resolve in minutes without paying a service call fee. Work through this checklist first. If none of these fix the problem, then it's time to call in the pros.",
+          "**1. Check Your Thermostat Settings.** This sounds obvious, but it's the first thing any technician will check. Make sure the thermostat is set to **\"Cool\"** (not \"Heat\" or \"Fan Only\"), that the temperature setpoint is lower than the current room temperature, and that it's set to **\"Auto\"** not **\"On\"** (\"On\" runs the fan continuously even when the system isn't cooling). If your thermostat is battery-powered, try replacing the batteries. In Wynwood loft apartments and older Coral Gables homes especially, we see thermostats accidentally switched to \"Heat\" after housekeeping or guests adjust the settings.",
+          "**2. Inspect Your Air Filter.** A severely clogged air filter is the **number one cause of AC problems in South Florida**. Miami's combination of high humidity, outdoor dust, pollen, and pet hair (if applicable) clogs filters faster than in dry climates. A blocked filter restricts airflow so severely that the system can't cool properly, can cause the evaporator coil to freeze, and can trigger the system to shut down entirely on safety. Pull out your filter — if you can't see light through it, replace it immediately. Filters should be changed every **30–60 days** in South Florida, not every 90 days as the packaging often suggests.",
+          "**3. Check Your Circuit Breaker.** Go to your electrical panel and look for the breaker labeled \"AC,\" \"Air Handler,\" or \"Condenser.\" Most homes have two separate breakers for the AC system — one for the air handler inside and one for the outdoor unit. A tripped breaker will be in the middle position rather than fully \"On\" or fully \"Off.\" Reset it by switching it fully to \"Off\" and then back to \"On.\" If the breaker trips again immediately, **do not keep resetting it** — that indicates a serious electrical problem that needs professional attention. Miami's frequent summer thunderstorms are a common cause of tripped AC breakers.",
+          "**4. Clear Your Condensate Drain Line.** This is a uniquely Miami problem. Your AC system removes moisture from the air as it cools — in South Florida, that can be **5–20 gallons of water per day** during humid summer months. That water drains out through a PVC pipe called the condensate drain line. In Miami's warm, wet climate, algae and mold grow inside that pipe and can create a complete blockage within months. When the drain clogs, water backs up into the drain pan, triggers a float switch that shuts down the system, or overflows into your ceiling or walls. Locate the condensate drain line (usually a white PVC pipe exiting the air handler toward a drain or outside), and pour a cup of distilled white vinegar or a condensate drain treatment tablet into the access port monthly to prevent clogs. If you suspect it's already blocked, try using a wet/dry vacuum on the outdoor end of the pipe.",
+          "**5. Inspect the Outdoor Unit.** Head outside and look at your condenser unit. Is the fan spinning when the system is running? Is there visible ice forming on the refrigerant lines or coils? Is the unit surrounded by overgrown vegetation? In Miami's lush landscaping environment — particularly in neighborhoods like Pinecrest, South Miami, and the Redlands — plants grow fast and can block airflow to the condenser within a season. Clear any debris and ensure at least **2 feet of clearance** on all sides. If you see ice on the coils or refrigerant lines, turn the system off and let it thaw (run the fan only for 1–2 hours) before restarting — continuing to run a frozen system can destroy the compressor.",
+          "**6. Check All Your Vents.** Walk through your home and make sure every supply and return vent is open and unobstructed. Furniture pushed against vents, closed vent dampers, and debris in return air vents are all common culprits. In particular, check that no one has closed multiple vents to \"redirect\" airflow — modern AC systems are designed to move a specific volume of air, and closing too many vents creates back-pressure that stresses the system and can cause freezing or compressor damage.",
+          "**7. Check Your FPL Account for Outages.** FPL (Florida Power & Light) serves most of Miami-Dade and Broward County. Before assuming your AC is broken, quickly check the FPL outage map at fpl.com or the FPL app to see if there's a power outage affecting your area. Partial outages — where you have some power but not full voltage — are particularly tricky because lights may work while 240-volt appliances like your AC don't. If neighbors are also without power, the problem is FPL's, not your system.",
+          "**If you've checked all seven items and the AC is still not working**, it's time to call a professional. Some problems — refrigerant leaks, electrical faults, failed compressors — are genuinely dangerous to attempt yourself and require licensed technicians with proper equipment. Attempting a DIY refrigerant recharge, for example, is illegal without EPA certification and can cause serious injury.",
+          "MGM A/C Appliances provides **24/7 emergency AC service** across Miami-Dade County with no after-hours surcharge. If your system isn't cooling and you can't find the cause, call us at **(786) 352-0084**. Our bilingual technicians will diagnose the problem fast and give you an upfront price before any work begins."
+        ]
+      },
+      "repair-vs-replace-ac": {
+        "title": "Should You Repair or Replace Your AC? The Complete Cost Breakdown",
+        "date": "April 12, 2026",
+        "excerpt": "Repair or replace your AC? For Miami homeowners, the answer depends on age, refrigerant type, and energy savings — here's the full cost breakdown.",
+        "content": [
+          "**For most Miami homeowners, the repair-vs-replace decision comes down to three factors: the age of the unit, the cost of the repair, and the type of refrigerant the system uses.** Get all three right and the answer is almost always clear. Here's everything you need to know to make the financially smart choice for your South Florida home.",
+          "**When to Repair Your AC.** Repair makes sense when the unit is **under 10 years old**, the repair cost is **under $1,000**, it's the **first major repair** the system has needed, and the system still uses the currently supported **R-410A refrigerant**. Young, well-maintained systems in Doral, Kendall, and West Miami-Dade neighborhoods can have many good years left even after a significant repair. If your system is 6 years old and needs a $500 fan motor replacement, repair is clearly the right call.",
+          "**When to Replace Your AC.** Replacement is the smarter choice when the unit is **over 15 years old**, the repair cost exceeds **50% of the cost of a new system**, the system runs on **R-22 Freon** (which has been federally phased out), or you've had **multiple major repairs** in the past two years. In South Florida specifically, any system over 12 years old that requires a compressor or evaporator coil replacement almost always warrants replacement rather than repair.",
+          "**The R-22 Factor.** If your system was installed before 2010, there's a good chance it uses R-22 refrigerant. R-22 production was banned in the United States at the start of 2020 under the Clean Air Act, and remaining supplies have been dwindling ever since. As of 2026, R-22 costs **$100–$150 per pound** on the reclaimed market — and a typical recharge requires 2–5 pounds. That's $200–$750 just for refrigerant, before labor. More importantly, any R-22 system is on borrowed time. Repairing it is financially sound only if the repair is minor and the unit is otherwise in excellent condition.",
+          "**The Cost of Repair: $200–$2,500.** Common AC repairs in Miami range widely: a capacitor swap might run $150–$400, while a full compressor replacement can hit $1,500–$2,500. As a general rule, any single repair that costs more than $1,500 on a unit over 10 years old deserves serious consideration for replacement instead. (See our detailed repair cost guide for a full breakdown by part.)",
+          "**The Cost of Replacement: $4,000–$12,000.** A new central AC system in South Florida typically costs **$4,000–$7,000** for a standard 3–4 ton residential system including equipment and installation. Larger homes (4,000+ sq ft) in Coral Gables, Coconut Grove, or Pinecrest might run **$8,000–$12,000** for a properly sized high-efficiency system. Premium brands like Carrier, Trane, and Lennox are at the top of that range; Rheem, Goodman, and Daikin offer solid value in the middle.",
+          "**The SEER Savings Calculation.** This is where replacement often pays for itself faster than people expect. **SEER** (Seasonal Energy Efficiency Ratio) measures how efficiently an AC system converts electricity into cooling. Older systems installed 10–15 years ago are typically rated at **10–13 SEER**. New systems installed today must meet a minimum of **15 SEER2** under current federal standards, and many modern units hit **18–22 SEER** or higher. That translates to a **20–40% reduction in cooling costs**.",
+          "In Miami, where your AC runs 8–10 months per year, those savings are significant. A typical 1,500 sq ft home with an old 10 SEER system might spend **$2,400–$3,000 per year** on FPL cooling costs. Upgrading to a 20 SEER unit could drop that to **$1,400–$1,800** — saving $600–$1,200 annually. Over a 10-year system life, that's **$6,000–$12,000 in energy savings**, often more than the cost of the new system itself.",
+          "**Financing Makes Replacement More Accessible.** Many Miami homeowners hesitate to replace because of the upfront cost, but **AC financing options** make it manageable. MGM A/C Appliances works with financing partners to offer flexible payment plans — some with promotional zero-interest periods. A $6,000 system financed at $150/month is often comparable to what you'd spend on ongoing repairs plus the higher FPL bills from an inefficient old unit.",
+          "**A Practical Decision Framework.** Ask yourself these four questions: (1) Is the unit over 15 years old? (2) Does the repair cost exceed $1,000? (3) Does the system use R-22 refrigerant? (4) Have there been two or more major repairs in the past 24 months? If you answer **yes to two or more**, replacement is almost certainly the right choice. If you answer yes to just one, the $5,000 rule (multiply unit age by repair cost; replace if over $5,000) can help you decide.",
+          "The smartest move is to get a professional opinion before committing either way. At MGM A/C Appliances, we provide **free estimates** and honest recommendations — we'll tell you exactly what your system needs and give you the real numbers on both repair and replacement so you can make an informed decision. Call us at **(786) 352-0084** to schedule your free assessment anywhere in Miami-Dade County, Broward, or beyond."
+        ]
+      },
+      "new-ac-cost-florida": {
+        "title": "How Much Does a New AC Unit Cost in Florida? (2026 Guide)",
+        "date": "April 5, 2026",
+        "excerpt": "Get real price ranges for new AC systems in South Florida — from 2-ton units to 5-ton systems — plus the key factors that affect your total installation cost.",
+        "content": [
+          "A new AC unit in Florida typically costs between $3,500 and $12,000 installed, depending on the size of your home, the brand you choose, and the condition of your existing ductwork. Here's a complete breakdown of what to expect when budgeting for a new system in South Florida.",
+          "**Price by System Size** — The most important factor in AC cost is the size (tonnage) of the unit your home requires. For a home around 1,000 square feet, a **2-ton system** typically runs $3,500–$6,000 installed. A **2.5-ton system** for roughly 1,250 square feet costs $4,000–$7,000. A **3-ton unit** covering up to 1,500 square feet ranges from $4,500–$8,000. Larger homes needing a **4-ton system** (around 2,000 sq ft) should budget $5,500–$10,000, while a **5-ton system** for 2,500+ square feet can run $6,500–$12,000. These are all-in prices including equipment, labor, and the required Miami-Dade permit.",
+          "**SEER Rating: Efficiency vs. Upfront Cost** — The **SEER (Seasonal Energy Efficiency Ratio)** rating measures how efficiently a unit uses electricity. Higher SEER means lower monthly FPL bills, but higher upfront cost. Florida's minimum is SEER 15 for new systems. A SEER 16–18 system costs roughly $500–$1,500 more than a baseline model but can cut your cooling costs by 10–20% per year. In Miami, where AC runs nearly 12 months a year, paying more for efficiency pays off faster than in northern states.",
+          "**Brand Comparison** — Brand choice significantly impacts price. **Carrier and Trane** are premium brands running 15–25% above average — you're paying for exceptional reliability and dealer support. **Lennox** is similarly premium with strong efficiency ratings. **Rheem and York** land in the mid-range, offering excellent value. **Goodman** is the budget-friendly option, popular for rentals and second homes — reliable but with a shorter expected lifespan. All brands we install come with at least a 5-year parts warranty, and 10-year warranties are standard on compressors.",
+          "**Florida-Specific Requirements That Add Cost** — Miami-Dade County requires a permit for every AC installation — expect to add $150–$400 to your total. Florida also mandates **hurricane straps on outdoor condenser units**, which adds a small but non-negotiable cost. In coastal areas like Miami Beach, Aventura, and Key Largo, we recommend units with factory-applied **salt-spray coatings** on condenser coils — these cost about $300–$600 more but dramatically extend the unit's life against our corrosive ocean air.",
+          "**Ductwork: The Hidden Cost Factor** — If your home has existing ductwork in good condition, installation is straightforward. If the ducts are old, leaking, or incorrectly sized, repairs or replacement can add $1,000–$4,000 to your project. In South Florida's humid climate, leaky ducts not only waste energy — they can pull humid attic air into your living space, driving up both your FPL bill and the risk of mold. We always inspect ductwork before quoting a system replacement.",
+          "**The ROI Case for Upgrading** — Many homeowners hesitate at a $7,000–$9,000 investment. Consider this: if you're currently paying $220/month on your FPL bill and a new, properly-sized high-SEER system reduces that by $80–$100/month, you're saving $960–$1,200 per year. At that rate, a $7,000 system pays for itself in 6–7 years — and modern systems last 15+ years with proper maintenance. You also benefit from improved comfort, fewer breakdowns, and reduced repair bills.",
+          "**Financing Makes It Manageable** — We offer flexible financing options so you don't have to drain your savings for a new system. Many of our customers opt for 12-month no-interest financing or low monthly payment plans. A $7,500 system financed over 60 months is around $140/month — often less than the energy savings you'll see on your FPL bill. Ask us about current financing promotions when you call.",
+          "**What the Installation Includes** — A proper AC installation by a licensed contractor includes: removal and disposal of your old unit, new equipment installation, refrigerant charging, thermostat setup or replacement, system testing and calibration, permit filing, and manufacturer warranty registration. Beware of unusually low quotes — unlicensed contractors often skip the permit, use inferior refrigerant practices, and leave you with no warranty protection.",
+          "Ready to find out exactly what a new AC system would cost for your South Florida home? Call MGM A/C Appliances at **(786) 352-0084** for a free, no-obligation estimate. We serve all of Miami-Dade and Broward Counties, and we'll give you straight answers — no pressure, no surprises."
+        ]
+      },
+      "best-ac-temperature-florida": {
+        "title": "Best AC Temperature Setting for Florida Summers (Save Money & Stay Cool)",
+        "date": "April 8, 2026",
+        "excerpt": "Find the ideal thermostat setting for South Florida summers that keeps you comfortable while cutting your FPL bill by $30–50 per month.",
+        "content": [
+          "The best AC temperature setting for a Florida home is **78°F when you're home** and **85°F when you're away**, according to the U.S. Department of Energy. In South Florida's extreme humidity and heat, sticking close to these settings — combined with a few smart habits — can cut your summer FPL bill by $30–$50 per month without sacrificing comfort.",
+          "**Why 78°F Works in South Florida** — Most South Floridians find that 76–78°F feels genuinely comfortable indoors when paired with ceiling fans. The fans create a wind-chill effect that makes 78°F feel like 74°F, letting you raise the thermostat without noticing the difference. Every degree below 78°F increases your cooling costs by **3–5%**. That means setting your thermostat to 72°F instead of 78°F adds roughly 18–30% to your cooling bill — a significant amount when the average Miami FPL bill runs $180–$250 per month in summer.",
+          "**The Programmable Thermostat Advantage** — A programmable or smart thermostat is one of the best investments a South Florida homeowner can make. By automatically raising the temperature to 85°F while you're at work and cooling back down before you arrive home, you can save **10–15% annually** on cooling costs. Smart thermostats like the Nest or Ecobee also learn your schedule, monitor outdoor humidity, and can be controlled from your phone. A good smart thermostat costs $150–$250 installed and typically pays for itself in one cooling season.",
+          "**Humidity Control Is as Important as Temperature** — Miami's average relative humidity is around 75% — one of the highest of any major U.S. city. Your AC system doesn't just cool the air; it removes moisture. This is why **always setting your fan to \"Auto\" instead of \"On\"** is critical in South Florida. When the fan runs continuously (\"On\" mode), it recirculates moisture that has dripped off the evaporator coil back into your living space, raising indoor humidity. \"Auto\" mode only runs the fan when the compressor is actively cooling and dehumidifying.",
+          "**The \"Set It to 65°F to Cool Faster\" Myth** — One of the most common thermostat mistakes we see from customers across Miami, Hialeah, and Kendall: setting the temperature to 62°F or 65°F to \"cool the house faster.\" This doesn't work. Your AC runs at the same speed regardless of the setpoint — setting it lower just means it runs longer and doesn't stop until it hits that temperature, wasting energy. Set it to your target temperature and leave it there.",
+          "**Afternoon Sun Management** — In Miami, the afternoon sun on west-facing windows is brutal from about 2–6 PM. Closing blinds or blackout curtains on west and south-facing windows during these hours can reduce the heat load on your AC by 10–15%, directly translating to lower runtime and lower bills. This simple habit costs nothing and makes a measurable difference — especially in Coral Gables, Coconut Grove, and Pinecrest homes with large windows.",
+          "**Ceiling Fan Strategies** — Ceiling fans should run **counterclockwise in summer** to create a downdraft and cooling breeze. They should only run when someone is in the room — fans cool people, not rooms. Running fans in empty rooms wastes electricity. When using ceiling fans, you can typically raise your thermostat by 4°F and feel just as cool, saving roughly 12–20% on cooling costs.",
+          "**Humidity Setting on Your Thermostat** — Many modern thermostats have a dedicated **humidity control setting**. In South Florida, we recommend keeping indoor relative humidity between **50–60%**. Below 50% can cause dry skin and wood shrinkage; above 60% encourages mold growth and makes any temperature feel hotter. If your home regularly exceeds 60% humidity even with the AC running well, it may be time to have a technician check your system's dehumidification performance.",
+          "**Real Numbers: What These Tips Save** — The average Miami household spending $220/month on FPL in summer can realistically cut that to $170–$190/month by: setting the thermostat to 78°F instead of 74°F (saves ~$22), using a programmable thermostat (saves ~$15), switching the fan to \"auto\" (saves ~$8), and managing afternoon sunlight (saves ~$10). That's $35–$55 per month, or $175–$275 over a 5-month cooling season.",
+          "Want personalized advice on optimizing your AC system's efficiency this summer? Call MGM A/C Appliances at **(786) 352-0084**. We can evaluate your current setup, check your thermostat calibration, and make sure your system is running at peak performance so every degree counts."
+        ]
+      },
+      "hurricane-season-ac-prep-miami": {
+        "title": "How to Prepare Your AC for Hurricane Season in Miami (2026 Guide)",
+        "date": "April 10, 2026",
+        "excerpt": "Protect your AC system before, during, and after a hurricane with this Miami-specific guide covering pre-storm prep, storm procedures, and safe post-storm startup.",
+        "content": [
+          "Hurricane season in Miami runs from **June 1 through November 30** — six months when your AC system faces its greatest risks. From surge damage when power returns to flooding that destroys outdoor units, hurricane-related AC problems are one of the most common service calls we receive every fall. Here's exactly how to protect your system before, during, and after a storm.",
+          "**Before the Season: Schedule a Tune-Up** — The best time to prepare your AC for hurricane season is in May, before the season begins. A professional maintenance visit ensures your system is running efficiently and that any existing issues — a failing capacitor, low refrigerant, a corroded contactor — are fixed before you're dealing with them in 95°F heat after a storm. Ask your technician to inspect and clean the outdoor condenser unit thoroughly. A clean unit sheds debris better and restarts more reliably after a power outage.",
+          "**Secure Your Outdoor Unit** — Florida building code requires **hurricane straps on all outdoor AC condensers**. Hurricane Andrew (1992) destroyed thousands of unsecured units across Miami-Dade. If your condenser isn't strapped down, or if the straps are rusted and compromised, have them replaced before June. Also clear any vegetation within **2 feet of the unit** — in a hurricane, branches and palm fronds become projectiles that can destroy fins and refrigerant lines.",
+          "**Document Your System for Insurance** — Before hurricane season, photograph your AC system — both the indoor air handler and outdoor condenser. Record the **model number, serial number, and installation date** and store this information somewhere safe. Post-hurricane AC replacements are common after storms like Irma (2017) and Ian (2022), and proper documentation speeds up insurance claims dramatically.",
+          "**Install or Check Your Surge Protector** — Power surges when electricity is restored after a storm are a leading cause of AC compressor failure. A whole-house surge protector installed at your breaker panel, or a dedicated **HVAC surge protector** wired directly to your AC disconnect, can protect a $3,000–$5,000 compressor from a damaging voltage spike. This typically costs $150–$300 installed and can save your entire system.",
+          "**During the Storm: Turn It Off Completely** — When a hurricane is imminent, **turn your AC off at the thermostat AND at the breaker**. Do not rely on just the thermostat — you want the system completely de-energized so that when power surges or fluctuates during the storm, there's no path for electricity to damage your compressor, capacitor, or control board. Before losing power, pre-cool your home to around 72°F to give yourself a buffer — a well-insulated South Florida home can maintain comfortable temperatures for several hours after the AC shuts off.",
+          "**After the Storm: Don't Rush to Turn It On** — The most common mistake we see after hurricanes across Miami, Homestead, and the Keys: homeowners immediately flip the breaker as soon as power returns, without inspecting the system first. Before restarting, walk outside and visually inspect your condenser. Look for debris inside or around the unit, check for **bent or crushed refrigerant lines**, look for standing water or flood damage, and listen for anything that sounds loose or rattling. If the unit was submerged — even partially — **do not turn it on**. A flooded compressor requires professional inspection before operation.",
+          "**Post-Storm Professional Inspection** — After any major storm, we recommend a professional system check before running your AC. A technician will check refrigerant charge, inspect electrical components for moisture damage, clean the coil of any embedded debris, and verify the system is operating within normal parameters. Catching a small storm-related issue early prevents a much larger failure in the weeks that follow.",
+          "**Beware of Post-Hurricane AC Scams** — After every major storm, unlicensed contractors flood affected areas offering AC repairs and replacements at suspiciously low prices. Always verify a contractor's license at **myfloridalicense.com** before allowing any work on your system. Unlicensed work may void your equipment warranty, fail to pull required permits, and leave you with a system that fails again weeks later.",
+          "Whether you need a pre-season tune-up, a storm protection consultation, or emergency service after a hurricane, MGM A/C Appliances is here for Miami-Dade County homeowners year-round. Call us at **(786) 352-0084** — we're available 24/7 for storm-related emergencies and are fully licensed and permitted for all AC work in Miami-Dade."
+        ]
+      },
+      "central-ac-vs-mini-split-florida": {
+        "title": "Central AC vs. Mini-Split: Which Is Best for South Florida Homes?",
+        "date": "April 12, 2026",
+        "excerpt": "Choosing between central air and a mini-split in South Florida? This guide covers costs, pros and cons, and which system wins for Miami homes, condos, and older properties.",
+        "content": [
+          "For South Florida homeowners deciding between **central air conditioning and a mini-split system**, the right answer depends on your home's age, layout, and whether you already have ductwork. Both systems can keep you cool in Miami's intense heat, but they serve different homes best. Here's a complete comparison to help you choose.",
+          "**Central AC: Pros** — Central air conditioning excels at **whole-home cooling through a single system**. If your home already has ductwork in good condition, a central system provides seamless, invisible comfort — no wall-mounted units, no visible equipment in your living spaces. Central systems are ideal for larger homes over 2,000 square feet where a single-zone approach makes sense, and they integrate naturally with your existing air handler and duct infrastructure. Modern central systems at SEER 16–18 are highly efficient and can be paired with zoning dampers for room-by-room control.",
+          "**Central AC: Cons** — The biggest drawback of central AC is its dependence on ductwork. Duct leaks — extremely common in South Florida's older housing stock — waste **20–30% of your conditioned air** before it even reaches your living space. In our humid climate, leaky ducts also pull moist attic air into your home, raising humidity and creating ideal conditions for mold. Replacing or sealing ductwork adds $1,000–$4,000 to installation costs. For homes without existing ducts, installing a full central system from scratch can be prohibitively expensive and invasive.",
+          "**Mini-Split: Pros** — Ductless mini-splits shine in situations where central AC isn't practical. With **no ductwork required**, they're perfect for older Miami homes (pre-1980) that were never built with central air, garage conversions, home additions, and enclosed patios. Mini-splits offer **true zone control** — each indoor unit operates independently, so you only cool occupied rooms. They typically achieve **SEER ratings of 20–30+**, making them significantly more efficient than most central systems. They're also quieter, with the noisy compressor located outside.",
+          "**Mini-Split: Cons** — The main drawback is aesthetics — wall-mounted indoor units are visible and don't suit every décor. For very large, open floor plans, a single-zone mini-split may struggle to distribute air evenly across the space. Multi-zone systems with 4–5 indoor units can also become expensive compared to a well-maintained central system. Installation requires running refrigerant lines through walls, which some homeowners find disruptive — though far less so than installing ductwork.",
+          "**South Florida-Specific Factors** — Miami's housing stock makes this choice particularly nuanced. **Pre-1980s homes** in neighborhoods like Little Havana, Flagami, and West Hialeah were typically built without central ductwork. For these homes, mini-splits are often the most practical and cost-effective solution — no duct installation needed, no structural modifications, and the result is often more efficient than a central system. **Historic properties in Coral Gables** present another common use case: installing ductwork in homes with original plaster ceilings and hardwood floors would require destructive renovation. Mini-splits can be installed with minimal impact on the home's original character.",
+          "**Condos and High-Rise Units** — Many **Brickell and Miami Beach condos** use **PTAC units** (wall-sleeve systems common in hotels). These can be replaced with a slim-duct or cassette-style mini-split for dramatically better efficiency, quieter operation, and improved temperature control. Some buildings allow full mini-split installations; others have restrictions — check with your condo association before proceeding.",
+          "**Garage Conversions and Additions** — In South Florida's booming remodeling market, converted garages and home additions in areas like Kendall, Doral, and Pembroke Pines are prime mini-split candidates. Extending central ductwork to a new space is often impractical or requires upsizing the entire central system. A single-zone mini-split handles the new space independently and efficiently, typically for $3,000–$5,000 installed.",
+          "**Cost Comparison** — For a complete home installation: **central AC with existing ductwork** runs $4,000–$12,000 depending on size and brand. A **single-zone mini-split** for one room or a smaller home costs $3,000–$5,000. A **multi-zone mini-split** serving 3–5 areas costs $5,000–$15,000 depending on the number of indoor units and the size of the outdoor compressor. For a home without ductwork needing whole-home cooling, a multi-zone mini-split is often cost-competitive with central AC including new ductwork.",
+          "Not sure which system is right for your South Florida home? MGM A/C Appliances provides free in-home consultations to assess your space and recommend the best solution for your budget and comfort goals. Call **(786) 352-0084)** — our bilingual team is ready to help in English or Spanish."
+        ]
+      },
+      "why-ac-struggles-july-august": {
+        "title": "Why Your AC Struggles in July and August (And What to Do About It)",
+        "date": "April 5, 2026",
+        "excerpt": "Miami's July and August heat index regularly hits 105-115°F. If your AC can't quite keep up, here's why — and when you should actually be concerned.",
+        "content": [
+          "If your AC seems to struggle during Miami's peak summer months, you're not imagining it — but it may not be broken either. In July and August, Miami's heat index regularly reaches 105-115°F with humidity hovering between 70-80%. Most residential AC systems are engineered for a **20°F differential** between outdoor and indoor temperatures. When it's 97°F outside, even a perfectly functioning system can only be expected to cool your home to about 77°F. That gap is physics, not a malfunction.",
+          "**Why July and August Hit Different** — During peak summer, your AC may run 12-16 hours a day — nearly non-stop. This relentless demand exposes every weak point in the system. Refrigerant loses efficiency at extreme ambient temperatures, the compressor works harder, and electrical components experience more stress. If your system had marginal performance in spring, it will show obvious signs of struggle in August.",
+          "**Ductwork in Hot Attics** — Many Miami homes have ductwork running through attics that can reach 140-160°F on a July afternoon. Even well-insulated ducts lose cooling capacity in those conditions. This is one of the most overlooked reasons why a home on the second floor or with central attic ductwork feels warmer than the thermostat setting.",
+          "**Dirty Coils Are Summer's Biggest Villain** — A dirty evaporator or condenser coil can reduce your system's cooling capacity by up to 30%. In winter or spring, a 30% reduction might go unnoticed. In July, it means the difference between a comfortable 74°F and a sticky, frustrating 80°F. If you skipped your spring tune-up, your coils may be the culprit.",
+          "**What You Can Do Right Now** — First, change your air filter — a clogged filter is the number-one DIY fix. Next, keep blinds and curtains closed on south- and west-facing windows after noon; solar gain through glass is enormous in summer. Run ceiling fans to create a wind-chill effect (they make 78°F feel like 74°F). Avoid using the oven during the day — it can raise indoor temperatures by 2-4°F and force the AC to work even harder.",
+          "**Smart Thermostat Settings for Peak Summer** — Don't set your thermostat below 72°F. Counterintuitively, going lower can cause the evaporator coil to freeze over, completely stopping airflow and leaving your home hotter than before. The sweet spot for summer in Miami is 74-76°F when you're home. Use a programmable or smart thermostat to raise it to 80°F while you're away and start pre-cooling 30 minutes before you return.",
+          "**When Should You Actually Worry?** — Normal summer struggle is understandable. But these signs indicate a real problem that needs a technician: ice forming on the coils or refrigerant lines; warm air blowing from vents instead of cool air; your system running non-stop but failing to get within 5°F of the set temperature; water pooling around the indoor unit; or strange noises like grinding, clicking, or squealing.",
+          "**The Real Fix Is Preventive Maintenance** — The best time to service your AC for summer is March or April — before the heat sets in. A spring tune-up includes cleaning the coils, checking refrigerant levels, testing electrical components, and inspecting ductwork. By July, technicians are booked out, and emergency service costs more. Don't wait until you're sweating at 11 PM on a Tuesday to call.",
+          "**Supplement Your System Wisely** — If your home has one central unit serving multiple zones, consider portable units or mini-splits for rooms that consistently run hot. Bedrooms especially benefit from supplemental cooling at night, reducing the load on your central system and improving sleep quality.",
+          "If your AC isn't keeping up this summer, or if you want to get ahead of the heat before it peaks, call MGM A/C Appliances at **(786) 352-0084**. We serve Miami, Hialeah, Doral, Kendall, Coral Gables, and all of South Florida — in English and Spanish. Let's make sure your system is ready before the worst days arrive."
+        ]
+      },
+      "lower-fpl-bill-summer": {
+        "title": "How to Lower Your FPL Electric Bill This Summer (Miami AC Tips)",
+        "date": "April 8, 2026",
+        "excerpt": "Miami FPL bills can hit $200-300/month in summer, with AC accounting for 60-70% of the total. These ranked tips can cut your bill by $50-150 a month.",
+        "content": [
+          "The average Miami homeowner's FPL bill climbs to $200-300 per month in summer, and your air conditioner is responsible for 60-70% of that total. The good news: there are concrete, proven steps you can take right now to bring that number down. Here are the most impactful changes, ranked by how much money they actually save.",
+          "**1. Raise Your Thermostat to 78°F** — This is the single biggest lever you can pull. Every degree below 78°F costs approximately 6-8% more energy. Going from 72°F to 78°F can save $15-30 per month without sacrificing comfort — especially if you pair it with ceiling fans, which make 78°F feel like 74°F. FPL itself recommends 78°F as the optimal cooling setpoint for South Florida.",
+          "**2. Change Your Air Filter Monthly** — A dirty, clogged filter makes your AC work 10-15% harder to move the same amount of air. That translates directly to a higher FPL bill. In Miami's year-round dust, humidity, and pollen environment, a monthly filter change is not optional — it's the cheapest maintenance you can do, typically $5-15 per filter.",
+          "**3. Seal Your Duct Leaks** — Studies of South Florida homes consistently show that 20-30% of cooled air escapes through leaky ductwork before it ever reaches your living space. You're paying FPL to cool your attic. A professional duct seal and insulation assessment can recover that lost efficiency. This is especially important in homes built before 2000.",
+          "**4. Install Ceiling Fans in Every Room** — Ceiling fans don't cool rooms — they cool people by moving air across skin. But that wind-chill effect means you can run your AC at 78°F instead of 73°F and feel just as comfortable. The energy cost of a ceiling fan is roughly 1-2 cents per hour vs. 15-40 cents per hour for AC. The math is compelling.",
+          "**5. Block Solar Heat Gain** — South- and west-facing windows in Miami are direct solar heaters in the afternoon. Closing blinds, curtains, or solar shades on these windows after noon can reduce indoor heat gain significantly. Blackout curtains in bedrooms can cut nighttime cooling needs. If you want a more permanent solution, solar window film blocks 50-70% of solar heat.",
+          "**6. Upgrade to a Smart Thermostat** — A smart thermostat ($150-300 installed) learns your schedule and adjusts automatically, ensuring you're not cooling an empty house. Most households save $50-100+ per year, recovering the cost within one to three summer seasons. **FPL currently offers rebates** on qualifying smart thermostats — check FPL's website or ask us for details.",
+          "**7. Schedule an AC Tune-Up** — A professional maintenance visit includes cleaning the condenser and evaporator coils — dirty coils force the system to run longer cycles, wasting energy. Coil cleaning alone typically improves efficiency by 5-10%, which on a $250 FPL bill saves $12-25 per month. The tune-up pays for itself quickly.",
+          "**8. Evaluate Your Attic Insulation** — Many Miami homes built before 1990 have inadequate attic insulation. Heat radiates through a poorly insulated ceiling directly into your living space, making your AC fight an uphill battle all day. Adding R-30 or R-38 insulation to your attic is one of the highest-ROI home improvements you can make in South Florida.",
+          "**9. Consider FPL's On Call and Budget Billing Programs, Then Evaluate a High-SEER System** — FPL's On Call program lets FPL cycle your AC off briefly during peak demand periods in exchange for bill credits. Budget billing spreads your annual energy cost across 12 equal payments, so you don't get hit with a brutal August bill. Both are free to enroll. If your AC is more than 12 years old, it's likely rated at 10-12 SEER. A new 16+ SEER system can reduce cooling costs by 30-40%. For a Miami home running AC 10 months a year, the payback period on a high-efficiency system is typically 5-7 years — then you're saving money every summer after that. Call MGM A/C Appliances at **(786) 352-0084** for a free efficiency assessment and sizing estimate. We'll show you exactly how much a new system would save on your FPL bill."
+        ]
+      },
+      "ac-duct-cleaning-miami": {
+        "title": "Signs Your AC Ducts Need Cleaning (And Why It Matters in Miami)",
+        "date": "April 10, 2026",
+        "excerpt": "Miami's year-round humidity makes duct cleaning more critical here than almost anywhere else in the country. Learn the warning signs and what a legitimate cleaning involves.",
+        "content": [
+          "In Miami, your air ducts face conditions unlike almost anywhere else in the country. The combination of year-round humidity above 70%, tropical heat, non-stop AC operation, and South Florida's relentless biological activity — pollen, mold spores, insects — means your ductwork needs attention more often than the national average. Here's how to know when it's time, and what to expect from a real cleaning.",
+          "**Visible Mold Around Vents** — This is the most urgent warning sign. If you see dark staining, fuzzy growth, or discoloration around your supply or return air vents, mold has almost certainly established itself inside the duct system. In Miami's humidity, mold can spread quickly through ducts and affect your indoor air quality throughout the entire home. Don't mask it — address it.",
+          "**Musty or Stale Smell When the AC Runs** — A musty odor that appears or intensifies when your AC turns on is a classic sign of microbial growth inside the ducts or air handler. The system is essentially blowing contaminated air into your living space. In neighborhoods like Hialeah, Doral, and Kendall where older homes are common, this is a frequently reported issue.",
+          "**Heavy Dust Buildup on Vent Covers** — Some dust accumulation is normal. But if your vent covers are visibly coated in gray fuzz within days of wiping them down, your ducts are harboring significant debris that is continuously being blown into your rooms. This is especially common after home renovations, which generate construction dust that infiltrates the entire duct system.",
+          "**Worsening Allergy or Asthma Symptoms Indoors** — If family members notice that their allergy symptoms are consistently worse at home than outdoors — and worse when the AC runs — the duct system is a likely contributor. South Florida has year-round pollen (there's no real winter to kill it), and ducts can accumulate pollen, pet dander, and mold spores over time.",
+          "**Uneven Airflow Between Rooms** — If one bedroom gets strong, cold airflow while another barely feels any air movement, the issue may be a partially blocked duct, collapsed flexible ductwork, or significant debris accumulation at a junction. Duct cleaning combined with a duct inspection can identify and resolve these airflow imbalances.",
+          "**Why Miami Is Different** — In climates with cold winters, the outdoor air periodically kills off biological contaminants and reduces humidity-driven mold growth. Miami has no such seasonal reset. Your ducts operate in a warm, humid environment 365 days a year. Condensation can form inside ducts when cold supply air meets hot attic air, creating moisture that feeds mold. Miami's constant construction activity also introduces unusual amounts of concrete and drywall dust into homes.",
+          "**What a Legitimate Duct Cleaning Involves** — A proper duct cleaning is not a 30-minute job. Expect it to take 3-5 hours for an average Miami home. The process includes: a thorough visual inspection with a camera or scope; creating negative air pressure inside the duct system to capture loosened debris; mechanical brush agitation to dislodge buildup from duct walls; HEPA vacuuming of all debris; sanitizing treatment if mold is present; and sealing any identified leaks. The cost for a properly performed cleaning in Miami runs $300-700 depending on home size and duct complexity.",
+          "**Beware the '$99 Whole-House' Bait-and-Switch** — If you see advertisements for full-house duct cleaning for $79-99, be cautious. These offers typically involve a very basic blowout with no brush agitation, often followed by high-pressure upsells for treatments costing $500-1,500. A legitimate, thorough duct cleaning costs more because it takes real time, proper equipment, and trained technicians.",
+          "**How Often Should You Clean Miami Ducts?** — The general guideline is every 3-5 years for a typical home. But consider cleaning sooner if you have: pets that shed; household members with allergies or asthma; recently completed a home renovation; discovered visible mold; moved into a home where you don't know the maintenance history; or noticed any of the warning signs above. For new homeowners in Miami, a duct inspection should be on the move-in checklist. Call MGM A/C Appliances at **(786) 352-0084)** — we serve all of Miami-Dade and Broward County and can assess whether your ducts need cleaning or just a good inspection."
+        ]
+      },
+      "what-seer-rating-2026": {
+        "title": "What SEER Rating Should You Look For in 2026? A Florida Buyer's Guide",
+        "date": "April 12, 2026",
+        "excerpt": "Florida's minimum AC efficiency is now 15 SEER. But with Miami's 10-month cooling season, investing in a higher-rated system pays back faster than you might think.",
+        "content": [
+          "**SEER** stands for Seasonal Energy Efficiency Ratio — it measures how efficiently an air conditioner converts electricity into cooling over an entire season. The higher the SEER number, the more cooling you get per dollar of electricity. As of 2023, Florida and all southern states are required by federal law to install a minimum of **15 SEER** in new equipment. Understanding what that means — and whether to go higher — is one of the most important decisions you'll make when buying a new AC system.",
+          "**The SEER2 Update** — You may also see ratings labeled SEER2 on newer equipment. This is a slightly revised measurement standard introduced in 2023 that tests systems under conditions that more accurately reflect real-world installation. SEER2 numbers are slightly lower than old SEER numbers for the same equipment — a 15 SEER2 unit is roughly equivalent to a 15.5-16 SEER under the old scale. When comparing quotes, make sure you're comparing the same rating system.",
+          "**The Four Efficiency Tiers for Miami Buyers** — Here's how to think about the options: **15 SEER (minimum legal)** systems cost $3,500-6,000 installed and meet the code requirement, but offer no efficiency margin above the minimum. They're appropriate for tight budgets, rental properties, or homes that will be sold in the near future. **16-17 SEER** systems at $5,000-8,000 are the sweet spot for most Miami homeowners — meaningfully more efficient without the premium price of top-tier systems. **18-20 SEER** units in the $7,000-10,000 range make sense for large homes, all-day occupancy, or homeowners focused on long-term energy savings. **20+ SEER variable-speed** systems at $9,000-14,000 represent the top tier — they're quieter, more precise, and dramatically better at dehumidification.",
+          "**Why Higher SEER Pays Back Faster in Miami** — In Chicago or Boston, an AC runs 3-4 months per year. In Miami, it runs 9-10 months. That difference completely changes the payback math on a higher-SEER investment. A homeowner in Minneapolis might wait 10-12 years to recover the cost premium of a 17 SEER vs. 15 SEER unit. A Miami homeowner running the system nearly year-round might recover that same premium in 3-5 years — and then save money every year after.",
+          "**Variable Speed vs. Single Stage** — Most budget and mid-range AC systems are single-stage: they run at 100% capacity or they're off. Variable-speed (inverter-driven) compressors can run at 30%, 60%, 80% — whatever is needed to maintain the exact set temperature. The result is more consistent comfort, dramatically lower noise, and superior dehumidification. In Miami, where humidity control is nearly as important as temperature control, variable-speed systems offer a real quality-of-life upgrade — especially in master bedrooms and open floor plans.",
+          "**Dehumidification: The Miami Bonus** — This deserves its own mention. Single-stage systems remove humidity in burst cycles — they blast cold air, then shut off. Variable-speed systems run longer at lower capacity, which pulls significantly more moisture out of the air. Miami homeowners who upgrade to variable-speed often say their home feels cooler at 78°F than it used to at 74°F with the old system. That's the dehumidification effect, and it's not subtle.",
+          "**ENERGY STAR and FPL Incentives** — ENERGY STAR-certified AC systems (typically 15+ SEER2 with qualifying features) may be eligible for federal tax credits under the Inflation Reduction Act — up to $600 for qualifying central AC systems. FPL also offers periodic rebates on high-efficiency equipment through their rebate program. These incentives can meaningfully offset the price premium of a 16 or 17 SEER system, improving the payback timeline further.",
+          "**Don't Overlook Proper Sizing** — A 20 SEER system that is incorrectly sized for your home will underperform a properly sized 16 SEER unit. An oversized system short-cycles (turns on and off too frequently), fails to dehumidify adequately, and wears out components faster. An undersized system runs non-stop and never quite reaches the set temperature. Correct sizing — based on a Manual J load calculation accounting for your home's square footage, insulation, window area, and orientation — is non-negotiable.",
+          "**A Practical Decision Framework** — If you're replacing a failed system on a tight budget: 15 SEER gets you back in compliance and cooling quickly. If you're doing a planned replacement with 3+ years remaining in the home: 16-17 SEER is almost always worth the modest upgrade cost. If you plan to stay in the home 7+ years or have high energy bills: 18-20 SEER or a variable-speed system will likely pay for itself in energy savings. If comfort and dehumidification are priorities: variable speed is worth every dollar in Miami's climate.",
+          "Call MGM A/C Appliances at **(786) 352-0084** for a free in-home sizing estimate and efficiency consultation. We'll calculate the right system size for your specific home, walk you through the SEER options that make financial sense for your situation, and provide transparent quotes with no pressure. We serve Miami, Coral Gables, Doral, Kendall, Hialeah, Homestead, and all of South Florida — in English and Spanish."
+        ]
       }
     }
   },
@@ -737,8 +1176,41 @@
     "description": "Family-owned AC services across South Florida. Installation, repair, maintenance, and emergency support — in English & Spanish.",
     "address": "Serving Miami-Dade County, South Florida"
   },
+  "serviceCity": {
+    "metaTitle": "{service} in {city}, FL | MGM A/C Appliances",
+    "metaDesc": "Professional {service} services in {city}, FL. Family-owned, licensed, and insured. Call MGM A/C Appliances for a free estimate.",
+    "pageTitle": "{service} in {city}",
+    "pageSubtitle": "Expert AC service for {city} homeowners and businesses — fast, reliable, and affordable.",
+    "genericIntro": "MGM A/C Appliances provides professional {service} in {city} and surrounding areas. Our licensed technicians deliver reliable, affordable service for residential and commercial properties.",
+    "genericWhyChoose": "When you need {service} in {city}, you can count on MGM A/C Appliances. We're a family-owned business committed to honest pricing, quality work, and fast response times.",
+    "whyChooseTitle": "Why Choose MGM A/C in {city}?",
+    "whatWeOfferTitle": "What's Included",
+    "allServicesLink": "All {service} Services",
+    "allServicesDesc": "View full details, features, and pricing for this service.",
+    "allCityLink": "All AC Services in {city}",
+    "allCityDesc": "Explore every AC service we offer in {city}.",
+    "ctaTitle": "Ready for {service} in {city}?",
+    "ctaDesc": "Call us today for a free estimate. Fast response, honest pricing.",
+    "ctaButton": "Call for Free Estimate",
+    "content": {}
+  },
   "breadcrumb": {
-    "home": "Home"
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "service-areas": "Service Areas",
+    "financing": "Financing",
+    "warranty": "Warranty",
+    "coupons": "Coupons",
+    "blog": "Blog",
+    "privacy": "Privacy",
+    "team": "Our Team",
+    "installation": "Installation",
+    "repair": "Repair",
+    "maintenance": "Maintenance",
+    "commercial": "Commercial",
+    "residential": "Residential",
+    "emergency": "Emergency"
   },
   "pageHeader": {
     "callCta": "Call for Free Estimate"
@@ -803,6 +1275,10 @@
     "emergency": {
       "title": "24/7 Emergency AC Repair Miami | MGM A/C Appliances",
       "description": "Emergency AC repair in South Florida — day or night. No after-hours fees. Fast response times. Call (786) 352-0084 now."
+    },
+    "team": {
+      "title": "Meet Our Team — MGM A/C Appliances",
+      "description": "Meet the dedicated team behind MGM A/C Appliances. Family-owned, bilingual AC service in South Florida."
     }
   },
   "shared": {
@@ -811,5 +1287,123 @@
     "phoneEs": "(305) 720-8273",
     "phoneEsRaw": "3057208273",
     "email": "sales@mgm-ac-appliances.com"
+  },
+  "team": {
+    "label": "Our Team",
+    "title": "Meet the Team",
+    "subtitle": "The people behind MGM A/C Appliances — dedicated to keeping South Florida cool.",
+    "backToTeam": "Back to Team",
+    "specialtiesTitle": "Specialties",
+    "members": {
+      "member1": {
+        "name": "Team Member 1",
+        "role": "Position Title",
+        "bio": "A brief biography will go here. This team member is dedicated to providing excellent AC service to South Florida homeowners and businesses.",
+        "longBio": "A more detailed biography will go here. This team member brings years of experience in the HVAC industry, serving the Miami and South Florida community with honest, reliable service. They are committed to ensuring every customer receives top-quality work at a fair price.",
+        "specialties": ["Specialty 1", "Specialty 2", "Specialty 3"],
+        "quote": "Our customers are our neighbors — we treat every home like our own."
+      },
+      "member2": {
+        "name": "Team Member 2",
+        "role": "Position Title",
+        "bio": "A brief biography will go here. This team member is dedicated to providing excellent AC service to South Florida homeowners and businesses.",
+        "longBio": "A more detailed biography will go here. This team member brings years of experience in the HVAC industry, serving the Miami and South Florida community with honest, reliable service. They are committed to ensuring every customer receives top-quality work at a fair price.",
+        "specialties": ["Specialty 1", "Specialty 2", "Specialty 3"],
+        "quote": "We believe in doing the job right the first time, every time."
+      },
+      "member3": {
+        "name": "Team Member 3",
+        "role": "Position Title",
+        "bio": "A brief biography will go here. This team member is dedicated to providing excellent AC service to South Florida homeowners and businesses.",
+        "longBio": "A more detailed biography will go here. This team member brings years of experience in the HVAC industry, serving the Miami and South Florida community with honest, reliable service. They are committed to ensuring every customer receives top-quality work at a fair price.",
+        "specialties": ["Specialty 1", "Specialty 2", "Specialty 3"],
+        "quote": "Quality work and honest pricing — that's the MGM way."
+      }
+    }
+  },
+  "error": {
+    "title": "Something went wrong",
+    "description": "We're sorry — an unexpected error occurred. Please try again or contact us for help.",
+    "retry": "Try Again",
+    "goHome": "Go to Homepage"
+  },
+  "serviceCity": {
+    "metaTitle": "{service} in {city}, FL | MGM A/C Appliances",
+    "metaDesc": "Professional {service} in {city}, FL. Licensed, insured, bilingual. Same-day service available. Call (786) 352-0084.",
+    "pageTitle": "{service} in {city}",
+    "pageSubtitle": "Professional {service} services for homes and businesses in {city}, FL. Licensed, insured, and available 24/7.",
+    "genericIntro": "Looking for reliable {service} in {city}? MGM A/C Appliances provides professional, licensed HVAC services throughout {city} and the surrounding areas. Our bilingual technicians deliver honest, high-quality work at competitive prices \u2014 backed by our satisfaction guarantee.",
+    "genericWhyChoose": "When you choose MGM A/C Appliances for {service} in {city}, you\u2019re choosing a family-owned business that treats your home like our own. We offer upfront pricing, same-day service, and 24/7 emergency availability. Our technicians are fully licensed, insured, and experienced with the unique climate challenges of {city}.",
+    "whyChooseTitle": "Why Choose Us in {city}?",
+    "whatWeOfferTitle": "What We Offer",
+    "allServicesLink": "All {service} Services \u2192",
+    "allServicesDesc": "Learn more about our complete service offerings.",
+    "allCityLink": "All Services in {city} \u2192",
+    "allCityDesc": "See everything we offer in {city} and nearby areas.",
+    "ctaTitle": "Need {service} in {city}?",
+    "ctaDesc": "Call now for a free estimate. Same-day service available.",
+    "ctaButton": "Call for Free Estimate",
+    "content": {
+      "repair.miami": {
+        "intro": "Miami\u2019s year-round heat means your AC never gets a break \u2014 and when it fails, you need fast, reliable repair from a team that knows the city inside and out. MGM A/C Appliances has been providing expert AC repair across Miami, from Brickell to Little Havana to Wynwood. We arrive fast, diagnose honestly, and fix it right the first time.",
+        "whyChoose": "Miami\u2019s dense urban environment, coastal humidity, and aging building stock create unique HVAC challenges. Our technicians understand the specific needs of Miami homes \u2014 from pre-war apartments in South Beach to modern high-rises in Downtown. We carry parts for all major brands and offer same-day emergency repair with no after-hours fees."
+      },
+      "repair.miamiBeach": {
+        "intro": "Salt air is the number one enemy of AC systems in Miami Beach. The constant coastal exposure corrodes condenser coils, electrical connections, and outdoor unit housings faster than anywhere else in South Florida. MGM A/C Appliances specializes in diagnosing and repairing salt air damage for Miami Beach homes and condos.",
+        "whyChoose": "Miami Beach\u2019s unique combination of salt air corrosion, aging Art Deco buildings, and high-rise condos requires specialized HVAC knowledge. We regularly service PTAC units in beachfront towers, repair ductless systems in historic buildings, and apply anti-corrosion treatments to extend your outdoor unit\u2019s life."
+      },
+      "repair.hialeah": {
+        "intro": "En Hialeah, entendemos que necesitas un servicio de reparaci\u00f3n de aire acondicionado r\u00e1pido, confiable y en tu idioma. MGM A/C Appliances ofrece servicio completamente biling\u00fce \u2014 nuestros t\u00e9cnicos hablan espa\u00f1ol e ingl\u00e9s con fluidez. Reparamos todas las marcas y modelos con precios honestos y transparentes.",
+        "whyChoose": "Hialeah\u2019s homes were primarily built in the 1960s through 1980s, which means many systems are aging and ductwork may need attention. We understand the specific challenges of these older homes \u2014 from oversized units that short-cycle to deteriorating duct insulation. Our bilingual team makes sure you understand every step of the repair."
+      },
+      "repair.coralGables": {
+        "intro": "Coral Gables\u2019 beautiful historic homes deserve HVAC service that respects their architectural integrity. Many homes in The Gables were built in the 1920s-1950s and present unique challenges \u2014 original construction without ductwork, strict renovation codes, and Mediterranean-style architecture that requires creative AC solutions.",
+        "whyChoose": "We specialize in working within Coral Gables\u2019 strict building codes and historic preservation requirements. Whether you need a repair in a Merrick-era home or a modern system update in a newer neighborhood, our technicians approach every job with the care these homes deserve."
+      },
+      "repair.doral": {
+        "intro": "Doral\u2019s rapidly growing community of families and businesses needs AC repair they can count on. With many homes and commercial spaces built in the 2000s and 2010s, Doral\u2019s systems are reaching the age where maintenance and repair become critical. MGM A/C Appliances is the trusted repair partner for Doral residents and businesses alike.",
+        "whyChoose": "Doral\u2019s newer construction means most homes have modern central AC systems \u2014 but even newer systems need expert repair when they fail. We\u2019re experienced with the brands commonly installed in Doral developments (Carrier, Trane, Lennox) and carry parts to fix most issues in a single visit."
+      },
+      "installation.miami": {
+        "intro": "Installing a new AC system in Miami is one of the most important investments you\u2019ll make for your home. With temperatures regularly exceeding 90\u00b0F and humidity above 70%, your AC runs 8-10 months per year \u2014 making proper sizing, installation, and efficiency critical. MGM A/C Appliances provides expert installation with free in-home estimates.",
+        "whyChoose": "We don\u2019t just install AC units \u2014 we design comfort systems tailored to Miami\u2019s extreme climate. That means proper sizing (not too big, not too small), high-SEER models that save on FPL bills, and professional installation with hurricane straps and surge protection included."
+      },
+      "installation.miamiBeach": {
+        "intro": "AC installation in Miami Beach requires specialized expertise. Between salt air corrosion, building HOA requirements, and the mix of historic and modern structures, you need an installer who knows the Beach. MGM A/C Appliances has installed systems in everything from Art Deco apartments to luxury high-rise penthouses.",
+        "whyChoose": "For Miami Beach installations, we recommend coastal-rated equipment with anti-corrosion coatings, elevated outdoor units in flood-prone areas, and mini-split systems for buildings without existing ductwork. We handle HOA approval paperwork and work within noise ordinance requirements."
+      },
+      "installation.hialeah": {
+        "intro": "\u00bfNecesita instalar un nuevo aire acondicionado en Hialeah? MGM A/C Appliances ofrece instalaci\u00f3n profesional con presupuestos gratis y opciones de financiamiento. Nuestro equipo biling\u00fce le guiar\u00e1 en cada paso \u2014 desde elegir el sistema correcto hasta la instalaci\u00f3n completa.",
+        "whyChoose": "Many Hialeah homes were built decades ago with older, less efficient systems. Upgrading to a modern high-SEER unit can cut your FPL bill by 30-40%. We help you choose the right size and brand for your home and budget, with financing options to make a new system affordable."
+      },
+      "installation.coralGables": {
+        "intro": "Installing AC in a Coral Gables home often means working with unique architectural constraints. Many of The Gables\u2019 most beautiful homes were built before central air conditioning existed, requiring creative solutions that preserve the home\u2019s character while delivering modern comfort.",
+        "whyChoose": "We specialize in ductless mini-split installations for Coral Gables historic homes where traditional ductwork isn\u2019t feasible. For newer homes, we install high-efficiency central systems with properly designed duct layouts. All installations comply with Coral Gables\u2019 strict building codes."
+      },
+      "installation.doral": {
+        "intro": "Doral\u2019s modern homes and growing commercial district need AC installations built for efficiency and reliability. Whether you\u2019re replacing an aging system in an established home or outfitting a new commercial space, MGM A/C Appliances delivers professional installation with industry-leading warranties.",
+        "whyChoose": "Doral\u2019s newer homes often have well-designed duct systems, making replacement installations straightforward. We help you upgrade to a high-SEER system that maximizes savings on your FPL bill while keeping your family comfortable year-round."
+      },
+      "maintenance.miami": {
+        "intro": "In Miami, AC maintenance isn\u2019t optional \u2014 it\u2019s essential. Your system runs nearly year-round in some of the most demanding conditions in the country. Regular maintenance prevents breakdowns, extends your system\u2019s life by 5-7 years, and keeps energy bills in check. MGM A/C Appliances offers comprehensive maintenance plans for Miami homes and businesses.",
+        "whyChoose": "Our Miami maintenance visits include a complete 20-point inspection: coil cleaning, refrigerant check, electrical tightening, drain line clearing, filter replacement, and more. We recommend twice-yearly service \u2014 once before summer and once before the holidays \u2014 to catch problems before they become emergencies."
+      },
+      "maintenance.miamiBeach": {
+        "intro": "AC maintenance in Miami Beach should happen more frequently than anywhere else in South Florida. The combination of salt air, humidity, and year-round operation accelerates wear on every component. Regular professional maintenance is the only way to protect your investment and avoid costly emergency repairs.",
+        "whyChoose": "Our Miami Beach maintenance plans include anti-corrosion treatment for outdoor units, condensate drain cleaning (critical in high-humidity environments), and coil inspection for salt buildup. We recommend quarterly maintenance for beachfront properties due to accelerated corrosion."
+      },
+      "maintenance.hialeah": {
+        "intro": "El mantenimiento regular del aire acondicionado es la mejor manera de evitar reparaciones costosas y mantener su factura de FPL baja. En Hialeah, donde muchos sistemas tienen 10-20 a\u00f1os, el mantenimiento preventivo es especialmente importante. MGM A/C Appliances ofrece planes de mantenimiento accesibles con servicio completamente biling\u00fce.",
+        "whyChoose": "Our Hialeah maintenance program is designed for the aging systems common in the area. We check for duct deterioration, test for refrigerant leaks, clean coils, and ensure your system runs at peak efficiency. Our bilingual technicians explain everything clearly so you know exactly what your system needs."
+      },
+      "maintenance.coralGables": {
+        "intro": "Maintaining AC systems in Coral Gables\u2019 historic homes requires specialized knowledge. Older ductwork, unique system configurations, and the need to preserve architectural integrity all factor into proper maintenance. MGM A/C Appliances treats every Coral Gables home with the care it deserves.",
+        "whyChoose": "For Coral Gables homes, we pay special attention to ductwork condition, filter sizing for older systems, and drainage paths that may follow the original construction. Our technicians are experienced with both modern central systems and older configurations found in The Gables."
+      },
+      "maintenance.doral": {
+        "intro": "Doral\u2019s modern homes deserve maintenance that keeps their AC systems running like new. Even newer systems need annual professional service to maintain warranty coverage, prevent efficiency loss, and catch small issues before they become expensive problems.",
+        "whyChoose": "Our Doral maintenance plan covers all the essentials: thermostat calibration, coil cleaning, refrigerant optimization, electrical inspection, and filter replacement. For commercial clients in Doral\u2019s business district, we offer customized maintenance schedules that minimize disruption."
+      }
+    }
   }
 }
