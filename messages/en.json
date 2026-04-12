@@ -42,11 +42,6 @@
       "desc": "New customers receive 10% off their first repair or maintenance visit.",
       "badge": "10% OFF"
     },
-    "offer3": {
-      "title": "$49 AC Tune-Up",
-      "desc": "Keep your system running at peak efficiency with our seasonal tune-up special.",
-      "badge": "$49"
-    },
     "cta": "Call to Redeem"
   },
   "services": {
@@ -58,43 +53,115 @@
       "title": "Installation",
       "desc": "New AC unit installation for homes and businesses, sized and configured for maximum efficiency.",
       "longDesc": "Whether you're building a new home, renovating, or replacing an aging system, MGM A/C Appliances provides expert AC installation services throughout South Florida. We help you choose the right system for your space, budget, and efficiency goals.",
-      "features": ["Proper load calculation for your space", "Energy-efficient system recommendations", "Professional installation by licensed technicians", "Full system testing and calibration", "Manufacturer warranty registration"],
-      "signs": ["Your current system is over 15 years old", "Frequent and costly repairs", "Uneven cooling throughout your home", "Rising energy bills despite regular maintenance", "Your system uses R-22 refrigerant (being phased out)"]
+      "features": [
+        "Proper load calculation for your space",
+        "Energy-efficient system recommendations",
+        "Professional installation by licensed technicians",
+        "Full system testing and calibration",
+        "Manufacturer warranty registration"
+      ],
+      "signs": [
+        "Your current system is over 15 years old",
+        "Frequent and costly repairs",
+        "Uneven cooling throughout your home",
+        "Rising energy bills despite regular maintenance",
+        "Your system uses R-22 refrigerant (being phased out)"
+      ]
     },
     "repair": {
       "title": "Repair",
       "desc": "Fast diagnosis and repair of any AC issue — we get your system running again quickly.",
       "longDesc": "When your AC breaks down in the South Florida heat, you need fast, reliable repair service. MGM A/C Appliances offers same-day repair service with honest, upfront pricing. Our licensed technicians diagnose and fix all makes and models.",
-      "features": ["Same-day emergency repair service", "All major brands and models serviced", "Honest diagnosis — we fix what's broken, nothing more", "Upfront pricing before work begins", "90-day warranty on all repairs"],
-      "signs": ["AC is blowing warm air", "Strange noises from the unit", "Unusual odors when the system runs", "Water leaking around the unit", "System frequently cycling on and off"]
+      "features": [
+        "Same-day emergency repair service",
+        "All major brands and models serviced",
+        "Honest diagnosis — we fix what's broken, nothing more",
+        "Upfront pricing before work begins",
+        "90-day warranty on all repairs"
+      ],
+      "signs": [
+        "AC is blowing warm air",
+        "Strange noises from the unit",
+        "Unusual odors when the system runs",
+        "Water leaking around the unit",
+        "System frequently cycling on and off"
+      ]
     },
     "maintenance": {
       "title": "Maintenance",
       "desc": "Scheduled tune-ups and annual plans to keep your system running at peak performance year-round.",
       "longDesc": "Regular maintenance is the key to a long-lasting, efficient AC system — especially in South Florida's demanding climate. MGM A/C Appliances offers comprehensive maintenance plans that catch problems before they become expensive repairs.",
-      "features": ["Complete system inspection and cleaning", "Refrigerant level check and top-off", "Electrical connection tightening", "Thermostat calibration", "Filter replacement and airflow check"],
-      "signs": ["You haven't had a tune-up in over a year", "Your energy bills are creeping up", "The system takes longer to cool your home", "You hear minor noises that weren't there before", "Dust buildup around vents and registers"]
+      "features": [
+        "Complete system inspection and cleaning",
+        "Refrigerant level check and top-off",
+        "Electrical connection tightening",
+        "Thermostat calibration",
+        "Filter replacement and airflow check"
+      ],
+      "signs": [
+        "You haven't had a tune-up in over a year",
+        "Your energy bills are creeping up",
+        "The system takes longer to cool your home",
+        "You hear minor noises that weren't there before",
+        "Dust buildup around vents and registers"
+      ]
     },
     "commercial": {
       "title": "Commercial",
       "desc": "Full-scale commercial HVAC solutions for offices, retail, and industrial spaces across South Florida.",
       "longDesc": "Keep your business comfortable and your employees productive with MGM A/C Appliances commercial HVAC services. We serve offices, retail stores, restaurants, warehouses, and industrial facilities throughout South Florida.",
-      "features": ["Commercial system design and installation", "Preventive maintenance contracts", "Emergency repair service for businesses", "Energy efficiency audits", "Multi-zone climate control solutions"],
-      "signs": ["Inconsistent temperatures across your building", "Employee or customer complaints about comfort", "Commercial energy bills are too high", "Your system struggles during peak summer months", "Building expansion requiring HVAC upgrades"]
+      "features": [
+        "Commercial system design and installation",
+        "Preventive maintenance contracts",
+        "Emergency repair service for businesses",
+        "Energy efficiency audits",
+        "Multi-zone climate control solutions"
+      ],
+      "signs": [
+        "Inconsistent temperatures across your building",
+        "Employee or customer complaints about comfort",
+        "Commercial energy bills are too high",
+        "Your system struggles during peak summer months",
+        "Building expansion requiring HVAC upgrades"
+      ]
     },
     "emergency": {
       "title": "Emergency Service",
       "desc": "AC broke down at midnight? We're available 24/7 for urgent repairs when you need us most.",
       "longDesc": "South Florida heat doesn't wait for business hours — and neither do we. MGM A/C Appliances provides 24/7 emergency AC repair service. When your system goes down unexpectedly, call us anytime day or night.",
-      "features": ["Available 24 hours a day, 7 days a week", "Fast response times across South Florida", "No after-hours surprise fees", "Fully stocked service vehicles", "Licensed and insured emergency technicians"],
-      "signs": ["Complete system failure — no cooling at all", "AC making loud or dangerous-sounding noises", "Burning smell coming from the unit", "Water flooding from the system", "Electrical issues related to your HVAC"]
+      "features": [
+        "Available 24 hours a day, 7 days a week",
+        "Fast response times across South Florida",
+        "No after-hours surprise fees",
+        "Fully stocked service vehicles",
+        "Licensed and insured emergency technicians"
+      ],
+      "signs": [
+        "Complete system failure — no cooling at all",
+        "AC making loud or dangerous-sounding noises",
+        "Burning smell coming from the unit",
+        "Water flooding from the system",
+        "Electrical issues related to your HVAC"
+      ]
     },
     "residential": {
       "title": "Residential",
       "desc": "Personalized home comfort solutions with energy-efficient systems tailored to your home.",
       "longDesc": "Your home is your sanctuary, and reliable air conditioning is essential to keeping it comfortable — especially in South Florida. MGM A/C Appliances specializes in residential HVAC solutions tailored to your home's size, layout, and cooling needs. From single-family homes to condos and townhouses, we deliver personalized service that keeps your family cool and your energy bills low.",
-      "features": ["Whole-home cooling system design and installation", "Energy-efficient upgrades and replacements", "Ductwork inspection and sealing", "Smart thermostat installation and setup", "Indoor air quality assessments"],
-      "signs": ["Rooms that never seem to cool evenly", "Your system is over 10 years old", "Rising energy bills despite normal usage", "Frequent dust or poor air quality indoors", "Your home was recently renovated or expanded"]
+      "features": [
+        "Whole-home cooling system design and installation",
+        "Energy-efficient upgrades and replacements",
+        "Ductwork inspection and sealing",
+        "Smart thermostat installation and setup",
+        "Indoor air quality assessments"
+      ],
+      "signs": [
+        "Rooms that never seem to cool evenly",
+        "Your system is over 10 years old",
+        "Rising energy bills despite normal usage",
+        "Frequent dust or poor air quality indoors",
+        "Your home was recently renovated or expanded"
+      ]
     },
     "whyChoose": "Why Choose MGM",
     "whyChooseDesc": "Licensed, insured, and family-owned — we treat every job like it's our own home.",
@@ -213,99 +280,216 @@
         "name": "Miami",
         "desc": "Comprehensive AC services for Miami's diverse neighborhoods — from Downtown and Brickell to Little Havana and Wynwood. We keep Miami cool year-round.",
         "longDesc": "As the heart of South Florida, Miami demands reliable air conditioning. With average summer temperatures in the 90s and humidity that can make it feel even hotter, your AC system works overtime. MGM A/C Appliances has been serving Miami homeowners and businesses with expert installation, repair, and maintenance services. Whether you're in a high-rise condo in Brickell, a family home in Westchester, or a restaurant in Little Havana — we've got you covered.",
-        "neighborhoods": ["Downtown Miami", "Brickell", "Little Havana", "Wynwood", "Westchester", "Flagami", "Allapattah", "Coconut Grove", "Overtown", "Liberty City"]
+        "neighborhoods": [
+          "Downtown Miami",
+          "Brickell",
+          "Little Havana",
+          "Wynwood",
+          "Westchester",
+          "Flagami",
+          "Allapattah",
+          "Coconut Grove",
+          "Overtown",
+          "Liberty City"
+        ]
       },
       "hialeah": {
         "name": "Hialeah",
         "desc": "Trusted AC repair and installation in Hialeah and Hialeah Gardens. Fast, bilingual service your family can count on.",
         "longDesc": "Hialeah is one of the most densely populated cities in Florida, and when the AC goes out, you need fast service. MGM A/C Appliances provides same-day repair service throughout Hialeah and Hialeah Gardens. Our bilingual team is ready to help — most of our Hialeah customers prefer Spanish, and we're happy to serve you in your preferred language.",
-        "neighborhoods": ["Hialeah", "Hialeah Gardens", "Palm Springs North", "Miami Lakes"]
+        "neighborhoods": [
+          "Hialeah",
+          "Hialeah Gardens",
+          "Palm Springs North",
+          "Miami Lakes"
+        ]
       },
       "homestead": {
         "name": "Homestead",
         "desc": "Reliable AC service in Homestead and Florida City. We understand the unique needs of South Dade homes.",
         "longDesc": "Homestead and Florida City sit at the southern tip of Miami-Dade County, where the heat can be relentless. Many homes in this area are newer construction, but the demanding South Florida climate means your AC still needs regular attention. MGM A/C Appliances serves the entire South Dade area with professional AC installation, repair, and maintenance.",
-        "neighborhoods": ["Homestead", "Florida City", "Leisure City", "Naranja"]
+        "neighborhoods": [
+          "Homestead",
+          "Florida City",
+          "Leisure City",
+          "Naranja"
+        ]
       },
       "coralGables": {
         "name": "Coral Gables",
         "desc": "Premium AC services for Coral Gables' historic homes and modern residences. Licensed and trusted.",
         "longDesc": "Coral Gables is known for its beautiful historic homes and tree-lined streets. Many of these older homes have unique HVAC challenges — from ductwork in tight spaces to systems that need to work with the home's architectural character. MGM A/C Appliances has experience working with both historic and modern Coral Gables properties, ensuring your home stays comfortable without compromising its beauty.",
-        "neighborhoods": ["Coral Gables", "South Miami", "Coconut Grove", "Pinecrest"]
+        "neighborhoods": [
+          "Coral Gables",
+          "South Miami",
+          "Coconut Grove",
+          "Pinecrest"
+        ]
       },
       "doral": {
         "name": "Doral",
         "desc": "Commercial and residential AC experts in Doral. Serving the city's growing business community.",
         "longDesc": "Doral is one of South Florida's fastest-growing cities, with a thriving business community and expanding residential areas. MGM A/C Appliances serves both commercial and residential customers in Doral, from office parks and retail centers to single-family homes and apartments. Our commercial HVAC expertise makes us the right choice for Doral businesses.",
-        "neighborhoods": ["Doral", "Sweetwater", "Fontainebleau", "Medley"]
+        "neighborhoods": [
+          "Doral",
+          "Sweetwater",
+          "Fontainebleau",
+          "Medley"
+        ]
       },
       "kendall": {
         "name": "Kendall",
         "desc": "Your neighborhood AC company in Kendall. Fast response, honest pricing, bilingual service.",
         "longDesc": "Kendall is one of Miami-Dade's largest residential communities, and reliable AC is a must. With summer temperatures regularly hitting the 90s and humidity that can make it feel like 100+, you need an AC company you can trust. MGM A/C Appliances provides fast, affordable AC service throughout the Kendall area, from The Falls to Dadeland.",
-        "neighborhoods": ["Kendall", "The Hammocks", "Country Walk", "Richmond Heights", "Dadeland"]
+        "neighborhoods": [
+          "Kendall",
+          "The Hammocks",
+          "Country Walk",
+          "Richmond Heights",
+          "Dadeland"
+        ]
       },
       "miamiBeach": {
         "name": "Miami Beach",
         "desc": "Expert AC services for Miami Beach condos, hotels, and oceanfront homes. Salt air demands specialized care.",
         "longDesc": "Miami Beach's oceanfront location means your AC system faces unique challenges — salt air corrosion, high humidity, and near-constant operation. Whether you're in a South Beach high-rise, a Mid-Beach condo, or a North Beach family home, MGM A/C Appliances understands the specific HVAC needs of barrier island living. We provide corrosion-resistant solutions and regular maintenance plans designed for coastal environments.",
-        "neighborhoods": ["South Beach", "Mid-Beach", "North Beach", "Surfside", "Bal Harbour", "Bay Harbor Islands", "Indian Creek", "Fisher Island"]
+        "neighborhoods": [
+          "South Beach",
+          "Mid-Beach",
+          "North Beach",
+          "Surfside",
+          "Bal Harbour",
+          "Bay Harbor Islands",
+          "Indian Creek",
+          "Fisher Island"
+        ]
       },
       "miamiGardens": {
         "name": "Miami Gardens",
         "desc": "Reliable AC repair and installation for Miami Gardens families. Same-day service, honest pricing.",
         "longDesc": "Miami Gardens is one of the largest cities in Miami-Dade County, and its residents deserve fast, dependable AC service. MGM A/C Appliances provides same-day repair, professional installation, and preventive maintenance throughout Miami Gardens, Opa-locka, and surrounding communities. Our bilingual team is ready to serve you.",
-        "neighborhoods": ["Miami Gardens", "Opa-locka", "Carol City", "Norland", "North Miami Beach"]
+        "neighborhoods": [
+          "Miami Gardens",
+          "Opa-locka",
+          "Carol City",
+          "Norland",
+          "North Miami Beach"
+        ]
       },
       "aventura": {
         "name": "Aventura",
         "desc": "Premium AC services for Aventura's luxury condos and residential communities. Licensed and insured.",
         "longDesc": "Aventura is home to some of South Florida's most prestigious residential towers and shopping destinations. MGM A/C Appliances serves Aventura's unique mix of high-rise condos, townhomes, and commercial spaces with expert HVAC solutions. From Aventura Mall-area businesses to waterfront condominiums, we deliver reliable comfort.",
-        "neighborhoods": ["Aventura", "Sunny Isles Beach", "Golden Beach", "Hallandale Beach", "North Miami"]
+        "neighborhoods": [
+          "Aventura",
+          "Sunny Isles Beach",
+          "Golden Beach",
+          "Hallandale Beach",
+          "North Miami"
+        ]
       },
       "theKeys": {
         "name": "Florida Keys",
         "desc": "AC services for the Florida Keys — from Key Largo to Key West. We keep paradise cool.",
         "longDesc": "The Florida Keys' tropical climate and salt air create some of the harshest conditions for HVAC systems anywhere in the country. With year-round heat, extreme humidity, and constant salt exposure, your AC needs specialized attention. MGM A/C Appliances serves the entire island chain, providing expert installation, repair, and maintenance with equipment and techniques built for island life.",
-        "neighborhoods": ["Key Largo", "Islamorada", "Marathon", "Big Pine Key", "Key West", "Tavernier", "Key Colony Beach"]
+        "neighborhoods": [
+          "Key Largo",
+          "Islamorada",
+          "Marathon",
+          "Big Pine Key",
+          "Key West",
+          "Tavernier",
+          "Key Colony Beach"
+        ]
       },
       "fortLauderdale": {
         "name": "Fort Lauderdale",
         "desc": "Full-service AC solutions for Fort Lauderdale homes and businesses. Broward County's trusted AC experts.",
         "longDesc": "Fort Lauderdale's mix of waterfront properties, urban condos, and suburban neighborhoods each present unique cooling challenges. MGM A/C Appliances brings our trusted South Florida service north to Broward County, providing the same honest pricing, bilingual support, and expert workmanship that's made us Miami-Dade's choice for AC service.",
-        "neighborhoods": ["Downtown Fort Lauderdale", "Las Olas", "Victoria Park", "Wilton Manors", "Oakland Park", "Lauderhill", "Plantation", "Davie"]
+        "neighborhoods": [
+          "Downtown Fort Lauderdale",
+          "Las Olas",
+          "Victoria Park",
+          "Wilton Manors",
+          "Oakland Park",
+          "Lauderhill",
+          "Plantation",
+          "Davie"
+        ]
       },
       "hollywood": {
         "name": "Hollywood",
         "desc": "Trusted AC repair, installation, and maintenance in Hollywood and surrounding Broward communities.",
         "longDesc": "Hollywood sits at the crossroads of Miami-Dade and Broward counties, and MGM A/C Appliances is proud to serve this vibrant community. From the beachside condos along Hollywood Beach to the family homes of Pembroke Pines and Miramar, we provide comprehensive AC services with the fast response times and fair pricing our customers expect.",
-        "neighborhoods": ["Hollywood", "Hollywood Beach", "Pembroke Pines", "Miramar", "Cooper City", "Weston", "Southwest Ranches"]
+        "neighborhoods": [
+          "Hollywood",
+          "Hollywood Beach",
+          "Pembroke Pines",
+          "Miramar",
+          "Cooper City",
+          "Weston",
+          "Southwest Ranches"
+        ]
       },
       "bocaraton": {
         "name": "Boca Raton",
         "desc": "Premium AC services for Boca Raton's homes and businesses. South Palm Beach County covered.",
         "longDesc": "Boca Raton's upscale communities and growing commercial districts demand reliable, high-quality AC service. MGM A/C Appliances extends our South Florida expertise to Boca Raton and surrounding Palm Beach County communities, offering everything from high-efficiency system installations to emergency repairs. We understand the standards Boca residents expect.",
-        "neighborhoods": ["Boca Raton", "Deerfield Beach", "Delray Beach", "Boynton Beach", "Lake Worth", "Pompano Beach"]
+        "neighborhoods": [
+          "Boca Raton",
+          "Deerfield Beach",
+          "Delray Beach",
+          "Boynton Beach",
+          "Lake Worth",
+          "Pompano Beach"
+        ]
       },
       "westPalmBeach": {
         "name": "West Palm Beach",
         "desc": "Professional AC services for West Palm Beach and northern Palm Beach County. Installation, repair, and maintenance.",
         "longDesc": "West Palm Beach and the surrounding Palm Beach County communities experience the same relentless South Florida heat as their southern neighbors. MGM A/C Appliances now serves the entire Palm Beach County area with the same commitment to honest pricing, expert service, and bilingual support that built our reputation in Miami-Dade.",
-        "neighborhoods": ["West Palm Beach", "Palm Beach Gardens", "Jupiter", "Royal Palm Beach", "Wellington", "Riviera Beach", "Palm Beach"]
+        "neighborhoods": [
+          "West Palm Beach",
+          "Palm Beach Gardens",
+          "Jupiter",
+          "Royal Palm Beach",
+          "Wellington",
+          "Riviera Beach",
+          "Palm Beach"
+        ]
       },
       "naples": {
         "name": "Naples",
         "desc": "Expert AC services on Florida's Gulf Coast. Naples and Collier County's reliable HVAC partner.",
         "longDesc": "Naples and the greater Collier County area enjoy beautiful Gulf Coast living — but the Southwest Florida heat and humidity are just as demanding as the east coast. MGM A/C Appliances brings our proven South Florida service model to Naples, Marco Island, and surrounding communities, offering expert installation, repair, and maintenance for both residential and commercial properties.",
-        "neighborhoods": ["Naples", "Marco Island", "Golden Gate", "Immokalee", "Ave Maria", "North Naples", "Pelican Bay"]
+        "neighborhoods": [
+          "Naples",
+          "Marco Island",
+          "Golden Gate",
+          "Immokalee",
+          "Ave Maria",
+          "North Naples",
+          "Pelican Bay"
+        ]
       },
       "fortMyers": {
         "name": "Fort Myers",
         "desc": "Reliable AC services in Fort Myers and Lee County. From Cape Coral to Bonita Springs, we've got you covered.",
         "longDesc": "Fort Myers and Lee County are among Southwest Florida's fastest-growing regions, and reliable AC is essential for every home and business. MGM A/C Appliances serves the entire Lee County area with professional HVAC installation, repair, and maintenance. Whether you're in a Cape Coral canal home, a Fort Myers Beach condo, or a Bonita Springs community, our licensed technicians deliver dependable service.",
-        "neighborhoods": ["Fort Myers", "Cape Coral", "Bonita Springs", "Estero", "Lehigh Acres", "Fort Myers Beach", "Sanibel Island"]
+        "neighborhoods": [
+          "Fort Myers",
+          "Cape Coral",
+          "Bonita Springs",
+          "Estero",
+          "Lehigh Acres",
+          "Fort Myers Beach",
+          "Sanibel Island"
+        ]
       }
-    }
+    },
+    "neighborhoodsTitle": "Neighborhoods We Serve",
+    "cityCtaTitle": "AC Service — Call Today",
+    "cityCtaButton": "Call for Free Estimate"
   },
   "about": {
     "label": "About Us",
@@ -422,12 +606,6 @@
         "title": "10% Off First Service",
         "desc": "New customers receive 10% off their first repair or maintenance visit.",
         "expires": "Limited time offer"
-      },
-      "c3": {
-        "badge": "$49",
-        "title": "$49 Seasonal Tune-Up",
-        "desc": "Complete AC system inspection, cleaning, and tune-up to keep your system efficient.",
-        "expires": "Seasonal offer"
       }
     },
     "coupon1": {
@@ -441,12 +619,6 @@
       "desc": "New customers receive 10% off their first repair or maintenance visit.",
       "badge": "10% OFF",
       "expires": "Limited time offer"
-    },
-    "coupon3": {
-      "title": "$49 Seasonal Tune-Up",
-      "desc": "Complete AC system inspection, cleaning, and tune-up to keep your system efficient.",
-      "badge": "$49",
-      "expires": "Seasonal offer"
     }
   },
   "blog": {
@@ -574,6 +746,64 @@
   "metadata": {
     "title": "MGM A/C Appliances — AC Services in South Florida",
     "description": "Family-owned AC installation, repair, and maintenance across South Florida. Available 24/7. Call (786) 352-0084."
+  },
+  "seo": {
+    "about": {
+      "title": "About MGM A/C Appliances — Family-Owned AC Company in Miami",
+      "description": "Meet the family behind MGM A/C Appliances. Honest, bilingual AC service in South Florida since day one. Licensed, insured, and committed to your comfort."
+    },
+    "services": {
+      "title": "AC Services — Installation, Repair & Maintenance | MGM A/C",
+      "description": "Complete AC solutions for South Florida homes and businesses. Installation, repair, maintenance, and 24/7 emergency service. Call (786) 352-0084."
+    },
+    "serviceAreas": {
+      "title": "Service Areas — Miami, Fort Lauderdale & South Florida | MGM A/C",
+      "description": "MGM A/C Appliances serves Miami, Hialeah, Coral Gables, Doral, Fort Lauderdale, and all of South Florida. Find AC service near you."
+    },
+    "blog": {
+      "title": "AC Tips & Advice for South Florida Homeowners | MGM A/C Blog",
+      "description": "Expert AC maintenance tips, buying guides, and advice for South Florida homeowners. Stay cool and save money on your energy bills."
+    },
+    "financing": {
+      "title": "AC Financing Options — Flexible Payment Plans | MGM A/C",
+      "description": "Affordable financing for new AC systems in South Florida. Flexible payment plans to fit your budget. Get a free estimate today."
+    },
+    "warranty": {
+      "title": "AC Warranty Information | MGM A/C Appliances",
+      "description": "Learn about our warranty coverage for AC installations and repairs. We stand behind our work with comprehensive warranties."
+    },
+    "coupons": {
+      "title": "AC Coupons & Special Offers | MGM A/C Appliances",
+      "description": "Save on AC services in South Florida. Free estimates, discounts for new customers, and seasonal specials. Print your coupon today."
+    },
+    "privacy": {
+      "title": "Privacy Policy | MGM A/C Appliances",
+      "description": "Read the MGM A/C Appliances privacy policy. Learn how we handle your personal information."
+    },
+    "installation": {
+      "title": "AC Installation Miami — Free Estimates | MGM A/C Appliances",
+      "description": "Professional AC installation in South Florida. All major brands. Free estimates, expert sizing, and clean installations. Call (786) 352-0084."
+    },
+    "repair": {
+      "title": "AC Repair Miami — Same-Day & 24/7 Emergency | MGM A/C",
+      "description": "Fast, reliable AC repair across South Florida. Same-day service, 24/7 emergency calls, upfront pricing. No after-hours fees. Call now."
+    },
+    "maintenance": {
+      "title": "AC Maintenance Miami — Keep Your System Running | MGM A/C",
+      "description": "Preventive AC maintenance in South Florida. Seasonal tune-ups, filter replacement, and system inspections. Extend your unit's life."
+    },
+    "commercial": {
+      "title": "Commercial HVAC Services Miami | MGM A/C Appliances",
+      "description": "Full-scale commercial HVAC for offices, retail, and industrial spaces in South Florida. Licensed and experienced. Call for a quote."
+    },
+    "residential": {
+      "title": "Residential AC Services Miami | MGM A/C Appliances",
+      "description": "Complete residential AC services for South Florida homes. Installation, repair, and maintenance. Family-owned, bilingual service."
+    },
+    "emergency": {
+      "title": "24/7 Emergency AC Repair Miami | MGM A/C Appliances",
+      "description": "Emergency AC repair in South Florida — day or night. No after-hours fees. Fast response times. Call (786) 352-0084 now."
+    }
   },
   "shared": {
     "phoneEn": "(786) 352-0084",

@@ -1,5 +1,7 @@
+import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
+import { generatePageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -27,6 +29,21 @@ const CITIES = [
 
 export function generateStaticParams() {
   return [{ locale: "en" }, { locale: "es" }];
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "seo" });
+  return generatePageMetadata({
+    title: t("serviceAreas.title"),
+    description: t("serviceAreas.description"),
+    locale,
+    path: "/service-areas",
+  });
 }
 
 export default async function ServiceAreasPage({ params }: { params: Promise<{ locale: string }> }) {

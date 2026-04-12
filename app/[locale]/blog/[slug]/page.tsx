@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -5,6 +6,8 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
+import { generatePageMetadata, SITE_NAME, SITE_URL } from "@/lib/seo";
+import JsonLd from "@/components/JsonLd";
 
 const SLUGS = ["maintenance-tips", "when-to-replace", "miami-climate-hvac"];
 
@@ -13,6 +16,24 @@ export function generateStaticParams() {
   return locales.flatMap((locale) =>
     SLUGS.map((slug) => ({ locale, slug }))
   );
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string; slug: string }>;
+}): Promise<Metadata> {
+  const { locale, slug } = await params;
+  const t = await getTranslations({ locale, namespace: "blog" });
+
+  if (!SLUGS.includes(slug)) return {};
+
+  return generatePageMetadata({
+    title: t(`posts.${slug}.title`),
+    description: t(`posts.${slug}.title`),
+    locale,
+    path: `/blog/${slug}`,
+  });
 }
 
 export default async function BlogPostPage({
@@ -33,8 +54,30 @@ export default async function BlogPostPage({
     contentParagraphs.push(t(`posts.${slug}.content.${i}`));
   }
 
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: t(`posts.${slug}.title`),
+    datePublished: t(`posts.${slug}.date`),
+    inLanguage: locale === "es" ? "es-US" : "en-US",
+    author: {
+      "@type": "Organization",
+      name: SITE_NAME,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: SITE_NAME,
+      url: SITE_URL,
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `${SITE_URL}/${locale}/blog/${slug}`,
+    },
+  };
+
   return (
     <main>
+      <JsonLd data={articleSchema} />
       <Navbar />
       <PageHeader
         label={t("label")}

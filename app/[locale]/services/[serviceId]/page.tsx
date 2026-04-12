@@ -1,9 +1,12 @@
+import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
+import { generatePageMetadata } from "@/lib/seo";
+import JsonLd from "@/components/JsonLd";
 
 const SERVICE_IDS = ["installation", "repair", "maintenance", "commercial", "residential", "emergency"];
 
@@ -12,6 +15,24 @@ export function generateStaticParams() {
   return locales.flatMap((locale) =>
     SERVICE_IDS.map((serviceId) => ({ locale, serviceId }))
   );
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string; serviceId: string }>;
+}): Promise<Metadata> {
+  const { locale, serviceId } = await params;
+  const t = await getTranslations({ locale, namespace: "seo" });
+
+  if (!t.has(`${serviceId}.title`)) return {};
+
+  return generatePageMetadata({
+    title: t(`${serviceId}.title`),
+    description: t(`${serviceId}.description`),
+    locale,
+    path: `/services/${serviceId}`,
+  });
 }
 
 export default async function ServiceDetailPage({
@@ -39,8 +60,26 @@ export default async function ServiceDetailPage({
     signs.push(t(`${serviceId}.signs.${i}`));
   }
 
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    serviceType: t(`${serviceId}.title`),
+    provider: {
+      "@type": "HVACBusiness",
+      name: "MGM A/C Appliances",
+      telephone: "+17863520084",
+    },
+    areaServed: {
+      "@type": "State",
+      name: "Florida",
+    },
+    description: t(`${serviceId}.longDesc`),
+    inLanguage: locale === "es" ? "es-US" : "en-US",
+  };
+
   return (
     <main>
+      <JsonLd data={serviceSchema} />
       <Navbar />
       <PageHeader
         label={t("label")}

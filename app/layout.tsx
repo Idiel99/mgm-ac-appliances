@@ -18,13 +18,18 @@ export const metadata: Metadata = {
   description: "Family-owned AC services in South Florida.",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
+  params,
 }: {
   children: React.ReactNode;
+  params?: Promise<{ locale?: string }>;
 }) {
+  const resolvedParams = params ? await params : {};
+  const lang = resolvedParams.locale ?? "en";
+
   return (
-    <html lang="en" className={`${outfit.variable} ${inter.variable}`}>
+    <html lang={lang} className={`${outfit.variable} ${inter.variable}`}>
       <body className="antialiased">{children}</body>
     </html>
   );

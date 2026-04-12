@@ -1,6 +1,6 @@
 import { getTranslations } from "next-intl/server";
 
-const OFFERS = ["offer1", "offer2", "offer3"] as const;
+const OFFERS = ["offer1", "offer2"] as const;
 
 export default async function SpecialOffers() {
   const t = await getTranslations("offers");
@@ -18,7 +18,7 @@ export default async function SpecialOffers() {
         >
           {t("title")}
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
           {OFFERS.map((key) => (
             <div key={key} className="bg-white/15 backdrop-blur-sm border border-white/20 rounded-2xl p-6 hover:-translate-y-1 transition-all duration-200">
               <span className="inline-block bg-white text-sky-600 font-black text-sm px-3 py-1 rounded-full mb-4">

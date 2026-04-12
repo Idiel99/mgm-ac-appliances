@@ -1,7 +1,8 @@
-import { getTranslations } from "next-intl/server";
+import { getTranslations, getLocale } from "next-intl/server";
 import Link from "next/link";
 
 export default async function Footer() {
+  const locale = await getLocale();
   const t = await getTranslations("footer");
   const nav = await getTranslations("nav");
   const shared = await getTranslations("shared");
@@ -38,32 +39,32 @@ export default async function Footer() {
             </h4>
             <ul className="space-y-2.5 list-none">
               <li>
-                <Link href="/en/about" className="text-white/50 hover:text-sky-200 text-sm transition-colors">
+                <Link href={`/${locale}/about`} className="text-white/50 hover:text-sky-200 text-sm transition-colors">
                   {nav("about")}
                 </Link>
               </li>
               <li>
-                <Link href="/en/service-areas" className="text-white/50 hover:text-sky-200 text-sm transition-colors">
+                <Link href={`/${locale}/service-areas`} className="text-white/50 hover:text-sky-200 text-sm transition-colors">
                   {nav("serviceAreas")}
                 </Link>
               </li>
               <li>
-                <Link href="/en/financing" className="text-white/50 hover:text-sky-200 text-sm transition-colors">
+                <Link href={`/${locale}/financing`} className="text-white/50 hover:text-sky-200 text-sm transition-colors">
                   {nav("financing")}
                 </Link>
               </li>
               <li>
-                <Link href="/en/coupons" className="text-white/50 hover:text-sky-200 text-sm transition-colors">
+                <Link href={`/${locale}/coupons`} className="text-white/50 hover:text-sky-200 text-sm transition-colors">
                   {nav("coupons")}
                 </Link>
               </li>
               <li>
-                <Link href="/en/warranty" className="text-white/50 hover:text-sky-200 text-sm transition-colors">
+                <Link href={`/${locale}/warranty`} className="text-white/50 hover:text-sky-200 text-sm transition-colors">
                   {nav("warranty")}
                 </Link>
               </li>
               <li>
-                <Link href="/en/blog" className="text-white/50 hover:text-sky-200 text-sm transition-colors">
+                <Link href={`/${locale}/blog`} className="text-white/50 hover:text-sky-200 text-sm transition-colors">
                   {nav("blog")}
                 </Link>
               </li>
@@ -81,7 +82,7 @@ export default async function Footer() {
             <ul className="space-y-2.5 list-none">
               {(["installation", "repair", "maintenance", "commercial", "emergency"] as const).map((id) => (
                 <li key={id}>
-                  <Link href={`/en/services/${id}`} className="text-white/50 hover:text-sky-200 text-sm transition-colors">
+                  <Link href={`/${locale}/services/${id}`} className="text-white/50 hover:text-sky-200 text-sm transition-colors">
                     {svc(`${id}.title`)}
                   </Link>
                 </li>
@@ -121,7 +122,7 @@ export default async function Footer() {
         <div className="border-t border-white/10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-white/30 text-xs">{t("copyright")}</p>
           <div className="flex items-center gap-4">
-            <Link href="/en/privacy" className="text-white/30 hover:text-white/50 text-xs transition-colors">
+            <Link href={`/${locale}/privacy`} className="text-white/30 hover:text-white/50 text-xs transition-colors">
               {nav("privacy")}
             </Link>
           </div>

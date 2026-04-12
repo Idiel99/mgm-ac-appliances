@@ -1,5 +1,7 @@
+import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
+import { generatePageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -9,6 +11,21 @@ const POSTS = ["maintenance-tips", "when-to-replace", "miami-climate-hvac"] as c
 
 export function generateStaticParams() {
   return [{ locale: "en" }, { locale: "es" }];
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "seo" });
+  return generatePageMetadata({
+    title: t("blog.title"),
+    description: t("blog.description"),
+    locale,
+    path: "/blog",
+  });
 }
 
 export default async function BlogPage({

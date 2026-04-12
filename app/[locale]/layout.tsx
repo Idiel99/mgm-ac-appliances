@@ -1,6 +1,7 @@
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
+import { SITE_URL, SITE_NAME } from "@/lib/seo";
 
 type Props = {
   children: React.ReactNode;
@@ -12,12 +13,46 @@ export async function generateMetadata({
 }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "metadata" });
+
   return {
-    title: t("title"),
+    title: {
+      default: t("title"),
+      template: `%s | ${SITE_NAME}`,
+    },
     description: t("description"),
+    metadataBase: new URL(SITE_URL),
     alternates: {
-      canonical: `/${locale}`,
-      languages: { en: "/en", es: "/es" },
+      canonical: `${SITE_URL}/${locale}`,
+      languages: {
+        "en-US": `${SITE_URL}/en`,
+        "es-US": `${SITE_URL}/es`,
+        "x-default": `${SITE_URL}/en`,
+      },
+    },
+    openGraph: {
+      title: t("title"),
+      description: t("description"),
+      url: `${SITE_URL}/${locale}`,
+      siteName: SITE_NAME,
+      locale: locale === "es" ? "es_US" : "en_US",
+      alternateLocale: locale === "es" ? "en_US" : "es_US",
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t("title"),
+      description: t("description"),
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-video-preview": -1,
+        "max-image-preview": "large" as const,
+        "max-snippet": -1,
+      },
     },
   };
 }

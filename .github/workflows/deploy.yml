@@ -27,6 +27,12 @@ jobs:
       - run: npm ci
       - run: npm run build
 
+      - name: Verify SEO files exist
+        run: |
+          test -f out/robots.txt   && echo "✓ robots.txt"
+          test -f out/sitemap.xml  && echo "✓ sitemap.xml"
+          test -f out/CNAME        && echo "✓ CNAME"
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out
