@@ -311,7 +311,7 @@ export default function QuotePDFDocument({ data }: { data: QuoteData }) {
         {/* Footer */}
         <View style={s.footer}>
           <Text style={s.footerPayment}>
-            A 25% deposit is required upon acceptance of this quote. The remaining balance is due upon completion of the work.
+            Payment terms: 50% deposit upon acceptance of this quote, 30% due after city inspection, and the remaining 20% upon completion of all work.
           </Text>
           <Text style={s.footerPayable}>
             Make all checks payable to: MGM AC APPLIANCES
