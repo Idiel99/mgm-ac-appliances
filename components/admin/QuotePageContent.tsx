@@ -1,7 +1,15 @@
 "use client";
 
 import { useState } from "react";
+import dynamic from "next/dynamic";
+import { pdf } from "@react-pdf/renderer";
+import QuotePDFDocument from "./QuotePDFDocument";
 import LoginScreen from "./LoginScreen";
+
+const PDFViewer = dynamic(
+  () => import("@react-pdf/renderer").then((mod) => mod.PDFViewer),
+  { ssr: false }
+);
 
 type LineItem = {
   qty: number;
@@ -340,8 +348,14 @@ export default function QuotePageContent({
             </button>
             <button
               type="button"
-              onClick={() => {
-                // PDF download — implemented in Task 6
+              onClick={async () => {
+                const blob = await pdf(<QuotePDFDocument data={form} />).toBlob();
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement("a");
+                a.href = url;
+                a.download = `MGM-Quote-${form.invoiceNumber || "draft"}.pdf`;
+                a.click();
+                URL.revokeObjectURL(url);
               }}
               className="flex-1 bg-gradient-to-r from-sky-500 to-sky-700 text-white font-bold py-3.5 rounded-xl shadow-[0_4px_20px_rgba(14,165,233,0.3)] hover:shadow-[0_8px_28px_rgba(14,165,233,0.4)] hover:-translate-y-px transition-all cursor-pointer"
             >
@@ -350,10 +364,16 @@ export default function QuotePageContent({
           </div>
         </div>
 
-        {/* Preview Section — placeholder for Task 6 */}
         {showPreview && (
-          <div className="mt-8 bg-white rounded-2xl border border-sky-500/10 shadow-[0_8px_40px_rgba(0,0,0,0.06)] p-8 text-center text-slate-500">
-            PDF preview placeholder
+          <div className="mt-8 rounded-2xl border border-sky-500/10 shadow-[0_8px_40px_rgba(0,0,0,0.06)] overflow-hidden">
+            <PDFViewer
+              width="100%"
+              height={700}
+              showToolbar={false}
+              style={{ border: "none" }}
+            >
+              <QuotePDFDocument data={form} />
+            </PDFViewer>
           </div>
         )}
       </div>
