@@ -187,6 +187,13 @@ const s = StyleSheet.create({
     borderTopColor: "#E2E8F0",
     alignItems: "center",
   },
+  footerPayment: {
+    fontSize: 9,
+    fontWeight: 700,
+    color: NAVY,
+    marginBottom: 8,
+    textAlign: "center",
+  },
   footerPayable: {
     fontSize: 8,
     color: SLATE,
@@ -226,13 +233,13 @@ export default function QuotePDFDocument({ data }: { data: QuoteData }) {
               MGM <Text style={s.companyAC}>A/C</Text> APPLIANCES
             </Text>
             <Text style={s.companyDetail}>Phone: (305) 720-8273</Text>
-            <Text style={s.companyDetail}>Email: miguel@mgmacappliances.com</Text>
+            <Text style={s.companyDetail}>Email: sales@mgm-ac-appliances.com</Text>
             <Text style={s.companyDetail}>781 SE 5TH PL HIALEAH FL 33010</Text>
           </View>
           <View style={s.headerRight}>
-            <Text style={s.invoiceLabel}>INVOICE</Text>
+            <Text style={s.invoiceLabel}>QUOTE</Text>
             {data.invoiceNumber && (
-              <Text style={s.invoiceDetail}>#{data.invoiceNumber}</Text>
+              <Text style={s.invoiceDetail}>#INV-{data.invoiceNumber}</Text>
             )}
             <Text style={s.invoiceDetail}>Date: {formatDate(data.date)}</Text>
           </View>
@@ -303,6 +310,9 @@ export default function QuotePDFDocument({ data }: { data: QuoteData }) {
 
         {/* Footer */}
         <View style={s.footer}>
+          <Text style={s.footerPayment}>
+            A 25% deposit is required upon acceptance of this quote. The remaining balance is due upon completion of the work.
+          </Text>
           <Text style={s.footerPayable}>
             Make all checks payable to: MGM AC APPLIANCES
           </Text>

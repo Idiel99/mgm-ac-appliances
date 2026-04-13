@@ -144,7 +144,7 @@ export default function QuotePageContent() {
                 type="text"
                 value={form.invoiceNumber}
                 onChange={handleChange}
-                placeholder="INV-001"
+                placeholder="001"
                 className={inputClass}
               />
             </div>
@@ -365,7 +365,7 @@ export default function QuotePageContent() {
                 const url = URL.createObjectURL(blob);
                 const a = document.createElement("a");
                 a.href = url;
-                a.download = `MGM-Quote-${form.invoiceNumber || "draft"}.pdf`;
+                a.download = `MGM-Quote-INV-${form.invoiceNumber || "draft"}.pdf`;
                 a.click();
                 URL.revokeObjectURL(url);
               }}
