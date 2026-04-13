@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import dynamic from "next/dynamic";
 import { pdf } from "@react-pdf/renderer";
 import QuotePDFDocument from "./QuotePDFDocument";
@@ -42,11 +42,9 @@ function getToday(): string {
   return new Date().toISOString().split("T")[0];
 }
 
-export default function QuotePageContent({
-  authenticated,
-}: {
-  authenticated: boolean;
-}) {
+export default function QuotePageContent() {
+  const [authenticated, setAuthenticated] = useState(false);
+  const [authChecked, setAuthChecked] = useState(false);
   const [form, setForm] = useState<QuoteData>({
     invoiceNumber: "",
     date: getToday(),
@@ -61,8 +59,22 @@ export default function QuotePageContent({
 
   const [showPreview, setShowPreview] = useState(false);
 
+  useEffect(() => {
+    const stored = sessionStorage.getItem("mgm_admin_auth");
+    setAuthenticated(stored === "true");
+    setAuthChecked(true);
+  }, []);
+
+  if (!authChecked) {
+    return (
+      <div className="min-h-[60vh] flex items-center justify-center bg-sky-50">
+        <div className="text-slate-400 text-sm">Loading...</div>
+      </div>
+    );
+  }
+
   if (!authenticated) {
-    return <LoginScreen />;
+    return <LoginScreen onSuccess={() => setAuthenticated(true)} />;
   }
 
   const handleChange = (

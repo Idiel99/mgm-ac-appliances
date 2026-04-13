@@ -1,36 +1,22 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter } from "next/navigation";
 import Logo from "@/components/Logo";
 
-export default function LoginScreen() {
+const QUOTE_PASSWORD = process.env.NEXT_PUBLIC_QUOTE_PASSWORD;
+
+export default function LoginScreen({ onSuccess }: { onSuccess: () => void }) {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
-  const [loading, setLoading] = useState(false);
-  const router = useRouter();
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setError("");
-    setLoading(true);
 
-    try {
-      const res = await fetch("/api/admin/auth", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ password }),
-      });
-
-      if (res.ok) {
-        router.refresh();
-      } else {
-        setError("Invalid password");
-      }
-    } catch {
-      setError("Connection error");
-    } finally {
-      setLoading(false);
+    if (password === QUOTE_PASSWORD) {
+      sessionStorage.setItem("mgm_admin_auth", "true");
+      onSuccess();
+    } else {
+      setError("Invalid password");
     }
   };
 
@@ -69,10 +55,9 @@ export default function LoginScreen() {
           )}
           <button
             type="submit"
-            disabled={loading}
-            className="w-full mt-6 bg-gradient-to-r from-sky-500 to-sky-700 text-white font-bold py-3.5 rounded-xl shadow-[0_4px_20px_rgba(14,165,233,0.3)] hover:shadow-[0_8px_28px_rgba(14,165,233,0.4)] hover:-translate-y-px transition-all cursor-pointer disabled:opacity-50"
+            className="w-full mt-6 bg-gradient-to-r from-sky-500 to-sky-700 text-white font-bold py-3.5 rounded-xl shadow-[0_4px_20px_rgba(14,165,233,0.3)] hover:shadow-[0_8px_28px_rgba(14,165,233,0.4)] hover:-translate-y-px transition-all cursor-pointer"
           >
-            {loading ? "Verifying..." : "Access"}
+            Access
           </button>
         </form>
       </div>
