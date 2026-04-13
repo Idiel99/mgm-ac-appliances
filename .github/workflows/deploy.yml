@@ -26,6 +26,8 @@ jobs:
 
       - run: npm ci
       - run: npm run build
+        env:
+          NEXT_PUBLIC_QUOTE_PASSWORD: ${{ secrets.QUOTE_PASSWORD }}
 
       - name: Verify SEO files exist
         run: |
