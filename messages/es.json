@@ -1344,65 +1344,71 @@
     "ctaDesc": "Llame ahora para un presupuesto gratuito. Servicio disponible el mismo día.",
     "ctaButton": "Llame para Presupuesto Gratis",
     "content": {
-      "repair.miami": {
-        "intro": "El calor durante todo el año en Miami significa que su aire acondicionado nunca descansa — y cuando falla, necesita una reparación rápida y confiable de un equipo que conoce la ciudad de adentro hacia afuera. MGM A/C Appliances ha estado proporcionando reparación experta de aire acondicionado en toda Miami, desde Brickell hasta La Pequeña Habana y Wynwood. Llegamos rápido, diagnosticamos con honestidad y lo arreglamos bien desde la primera vez.",
-        "whyChoose": "El denso entorno urbano de Miami, la humedad costera y el envejecimiento del parque de viviendas crean desafíos únicos de HVAC. Nuestros técnicos entienden las necesidades específicas de los hogares de Miami — desde apartamentos de antes de la guerra en South Beach hasta modernos rascacielos en el Downtown. Tenemos piezas para todas las marcas principales y ofrecemos reparación de emergencia el mismo día sin cargos adicionales por horas nocturnas."
+      "repair": {
+        "miami": {
+          "intro": "El calor durante todo el año en Miami significa que su aire acondicionado nunca descansa — y cuando falla, necesita una reparación rápida y confiable de un equipo que conoce la ciudad de adentro hacia afuera. MGM A/C Appliances ha estado proporcionando reparación experta de aire acondicionado en toda Miami, desde Brickell hasta La Pequeña Habana y Wynwood. Llegamos rápido, diagnosticamos con honestidad y lo arreglamos bien desde la primera vez.",
+          "whyChoose": "El denso entorno urbano de Miami, la humedad costera y el envejecimiento del parque de viviendas crean desafíos únicos de HVAC. Nuestros técnicos entienden las necesidades específicas de los hogares de Miami — desde apartamentos de antes de la guerra en South Beach hasta modernos rascacielos en el Downtown. Tenemos piezas para todas las marcas principales y ofrecemos reparación de emergencia el mismo día sin cargos adicionales por horas nocturnas."
+        },
+        "miamiBeach": {
+          "intro": "El aire marino es el principal enemigo de los sistemas de aire acondicionado en Miami Beach. La exposición costera constante corroe los serpentines del condensador, las conexiones eléctricas y las carcasas de las unidades exteriores más rápido que en cualquier otro lugar del sur de Florida. MGM A/C Appliances se especializa en diagnosticar y reparar daños por aire marino en hogares y condominios de Miami Beach.",
+          "whyChoose": "La combinación única en Miami Beach de corrosión por aire marino, edificios históricos Art Decó y condominios de gran altura requiere conocimientos especializados de HVAC. Regularmente damos servicio a unidades PTAC en torres frente al mar, reparamos sistemas sin conductos en edificios históricos y aplicamos tratamientos anticorrosivos para prolongar la vida útil de su unidad exterior."
+        },
+        "hialeah": {
+          "intro": "En Hialeah, entendemos que necesitas un servicio de reparación de aire acondicionado rápido, confiable y en tu idioma. MGM A/C Appliances ofrece servicio completamente bilingüe — nuestros técnicos hablan español e inglés con fluidez. Reparamos todas las marcas y modelos con precios honestos y transparentes.",
+          "whyChoose": "Las casas de Hialeah fueron construidas principalmente entre los años 60 y 80, lo que significa que muchos sistemas están envejeciendo y los conductos pueden necesitar atención. Entendemos los desafíos específicos de estas casas antiguas — desde unidades sobredimensionadas que ciclan con frecuencia hasta aislamiento de conductos deteriorado. Nuestro equipo bilingüe se asegura de que comprenda cada paso de la reparación."
+        },
+        "coralGables": {
+          "intro": "Las hermosas casas históricas de Coral Gables merecen un servicio de HVAC que respete su integridad arquitectónica. Muchas casas de The Gables fueron construidas entre las décadas de 1920 y 1950 y presentan desafíos únicos — construcción original sin conductos, estrictos códigos de renovación y arquitectura de estilo mediterráneo que requiere soluciones creativas de aire acondicionado.",
+          "whyChoose": "Nos especializamos en trabajar dentro de los estrictos códigos de construcción de Coral Gables y los requisitos de preservación histórica. Ya sea que necesite una reparación en una casa de la época Merrick o una actualización del sistema en un vecindario más nuevo, nuestros técnicos abordan cada trabajo con el cuidado que estas casas merecen."
+        },
+        "doral": {
+          "intro": "La rápidamente creciente comunidad de familias y negocios de Doral necesita una reparación de aire acondicionado en la que puedan confiar. Con muchas casas y espacios comerciales construidos en los años 2000 y 2010, los sistemas de Doral están llegando a la edad en que el mantenimiento y la reparación se vuelven críticos. MGM A/C Appliances es el socio de reparación de confianza para residentes y negocios de Doral.",
+          "whyChoose": "La construcción más nueva de Doral significa que la mayoría de las casas tienen sistemas centrales de aire acondicionado modernos — pero incluso los sistemas más nuevos necesitan reparación experta cuando fallan. Tenemos experiencia con las marcas instaladas comúnmente en los desarrollos de Doral (Carrier, Trane, Lennox) y llevamos piezas para resolver la mayoría de los problemas en una sola visita."
+        }
       },
-      "repair.miamiBeach": {
-        "intro": "El aire marino es el principal enemigo de los sistemas de aire acondicionado en Miami Beach. La exposición costera constante corroe los serpentines del condensador, las conexiones eléctricas y las carcasas de las unidades exteriores más rápido que en cualquier otro lugar del sur de Florida. MGM A/C Appliances se especializa en diagnosticar y reparar daños por aire marino en hogares y condominios de Miami Beach.",
-        "whyChoose": "La combinación única en Miami Beach de corrosión por aire marino, edificios históricos Art Decó y condominios de gran altura requiere conocimientos especializados de HVAC. Regularmente damos servicio a unidades PTAC en torres frente al mar, reparamos sistemas sin conductos en edificios históricos y aplicamos tratamientos anticorrosivos para prolongar la vida útil de su unidad exterior."
+      "installation": {
+        "miami": {
+          "intro": "Instalar un nuevo sistema de aire acondicionado en Miami es una de las inversiones más importantes que hará para su hogar. Con temperaturas que regularmente superan los 90°F y humedad por encima del 70%, su aire acondicionado funciona de 8 a 10 meses al año — lo que hace que el dimensionamiento adecuado, la instalación y la eficiencia sean críticos. MGM A/C Appliances ofrece instalación experta con estimados gratuitos en el hogar.",
+          "whyChoose": "No solo instalamos unidades de aire acondicionado — diseñamos sistemas de confort adaptados al clima extremo de Miami. Eso significa un dimensionamiento adecuado (ni muy grande ni muy pequeño), modelos de alta eficiencia SEER que ahorran en las facturas de FPL, e instalación profesional con tensores para huracanes y protección contra sobretensiones incluidos."
+        },
+        "miamiBeach": {
+          "intro": "La instalación de aire acondicionado en Miami Beach requiere experiencia especializada. Entre la corrosión por aire marino, los requisitos de la HOA y la mezcla de estructuras históricas y modernas, necesita un instalador que conozca la playa. MGM A/C Appliances ha instalado sistemas en todo, desde apartamentos Art Decó hasta lujosos áticos de gran altura.",
+          "whyChoose": "Para las instalaciones en Miami Beach, recomendamos equipos con clasificación costera con revestimientos anticorrosivos, unidades exteriores elevadas en áreas propensas a inundaciones y sistemas mini-split para edificios sin conductos existentes. Manejamos el papeleo de aprobación de la HOA y trabajamos dentro de los requisitos de ordenanzas de ruido."
+        },
+        "hialeah": {
+          "intro": "¿Necesita instalar un nuevo aire acondicionado en Hialeah? MGM A/C Appliances ofrece instalación profesional con presupuestos gratis y opciones de financiamiento. Nuestro equipo bilingüe le guiará en cada paso — desde elegir el sistema correcto hasta la instalación completa.",
+          "whyChoose": "Muchas casas de Hialeah fueron construidas hace décadas con sistemas más antiguos y menos eficientes. Actualizar a una unidad moderna de alta eficiencia SEER puede reducir su factura de FPL en un 30-40%. Le ayudamos a elegir el tamaño y la marca correctos para su hogar y presupuesto, con opciones de financiamiento para que un sistema nuevo sea accesible."
+        },
+        "coralGables": {
+          "intro": "Instalar aire acondicionado en una casa de Coral Gables a menudo significa trabajar con restricciones arquitectónicas únicas. Muchas de las casas más hermosas de The Gables fueron construidas antes de que existiera el aire acondicionado central, lo que requiere soluciones creativas que preserven el carácter del hogar mientras ofrecen confort moderno.",
+          "whyChoose": "Nos especializamos en instalaciones de mini-split sin conductos para casas históricas de Coral Gables donde los conductos tradicionales no son factibles. Para casas más nuevas, instalamos sistemas centrales de alta eficiencia con diseños de conductos adecuados. Todas las instalaciones cumplen con los estrictos códigos de construcción de Coral Gables."
+        },
+        "doral": {
+          "intro": "Las modernas casas de Doral y el creciente distrito comercial necesitan instalaciones de aire acondicionado diseñadas para la eficiencia y la confiabilidad. Ya sea que esté reemplazando un sistema antiguo en una casa establecida o equipando un nuevo espacio comercial, MGM A/C Appliances ofrece instalación profesional con garantías líder en la industria.",
+          "whyChoose": "Las casas más nuevas de Doral a menudo tienen sistemas de conductos bien diseñados, lo que hace que las instalaciones de reemplazo sean más sencillas. Le ayudamos a actualizar a un sistema de alta eficiencia SEER que maximiza los ahorros en su factura de FPL mientras mantiene a su familia cómoda durante todo el año."
+        }
       },
-      "repair.hialeah": {
-        "intro": "En Hialeah, entendemos que necesitas un servicio de reparación de aire acondicionado rápido, confiable y en tu idioma. MGM A/C Appliances ofrece servicio completamente bilingüe — nuestros técnicos hablan español e inglés con fluidez. Reparamos todas las marcas y modelos con precios honestos y transparentes.",
-        "whyChoose": "Las casas de Hialeah fueron construidas principalmente entre los años 60 y 80, lo que significa que muchos sistemas están envejeciendo y los conductos pueden necesitar atención. Entendemos los desafíos específicos de estas casas antiguas — desde unidades sobredimensionadas que ciclan con frecuencia hasta aislamiento de conductos deteriorado. Nuestro equipo bilingüe se asegura de que comprenda cada paso de la reparación."
-      },
-      "repair.coralGables": {
-        "intro": "Las hermosas casas históricas de Coral Gables merecen un servicio de HVAC que respete su integridad arquitectónica. Muchas casas de The Gables fueron construidas entre las décadas de 1920 y 1950 y presentan desafíos únicos — construcción original sin conductos, estrictos códigos de renovación y arquitectura de estilo mediterráneo que requiere soluciones creativas de aire acondicionado.",
-        "whyChoose": "Nos especializamos en trabajar dentro de los estrictos códigos de construcción de Coral Gables y los requisitos de preservación histórica. Ya sea que necesite una reparación en una casa de la época Merrick o una actualización del sistema en un vecindario más nuevo, nuestros técnicos abordan cada trabajo con el cuidado que estas casas merecen."
-      },
-      "repair.doral": {
-        "intro": "La rápidamente creciente comunidad de familias y negocios de Doral necesita una reparación de aire acondicionado en la que puedan confiar. Con muchas casas y espacios comerciales construidos en los años 2000 y 2010, los sistemas de Doral están llegando a la edad en que el mantenimiento y la reparación se vuelven críticos. MGM A/C Appliances es el socio de reparación de confianza para residentes y negocios de Doral.",
-        "whyChoose": "La construcción más nueva de Doral significa que la mayoría de las casas tienen sistemas centrales de aire acondicionado modernos — pero incluso los sistemas más nuevos necesitan reparación experta cuando fallan. Tenemos experiencia con las marcas instaladas comúnmente en los desarrollos de Doral (Carrier, Trane, Lennox) y llevamos piezas para resolver la mayoría de los problemas en una sola visita."
-      },
-      "installation.miami": {
-        "intro": "Instalar un nuevo sistema de aire acondicionado en Miami es una de las inversiones más importantes que hará para su hogar. Con temperaturas que regularmente superan los 90°F y humedad por encima del 70%, su aire acondicionado funciona de 8 a 10 meses al año — lo que hace que el dimensionamiento adecuado, la instalación y la eficiencia sean críticos. MGM A/C Appliances ofrece instalación experta con estimados gratuitos en el hogar.",
-        "whyChoose": "No solo instalamos unidades de aire acondicionado — diseñamos sistemas de confort adaptados al clima extremo de Miami. Eso significa un dimensionamiento adecuado (ni muy grande ni muy pequeño), modelos de alta eficiencia SEER que ahorran en las facturas de FPL, e instalación profesional con tensores para huracanes y protección contra sobretensiones incluidos."
-      },
-      "installation.miamiBeach": {
-        "intro": "La instalación de aire acondicionado en Miami Beach requiere experiencia especializada. Entre la corrosión por aire marino, los requisitos de la HOA y la mezcla de estructuras históricas y modernas, necesita un instalador que conozca la playa. MGM A/C Appliances ha instalado sistemas en todo, desde apartamentos Art Decó hasta lujosos áticos de gran altura.",
-        "whyChoose": "Para las instalaciones en Miami Beach, recomendamos equipos con clasificación costera con revestimientos anticorrosivos, unidades exteriores elevadas en áreas propensas a inundaciones y sistemas mini-split para edificios sin conductos existentes. Manejamos el papeleo de aprobación de la HOA y trabajamos dentro de los requisitos de ordenanzas de ruido."
-      },
-      "installation.hialeah": {
-        "intro": "¿Necesita instalar un nuevo aire acondicionado en Hialeah? MGM A/C Appliances ofrece instalación profesional con presupuestos gratis y opciones de financiamiento. Nuestro equipo bilingüe le guiará en cada paso — desde elegir el sistema correcto hasta la instalación completa.",
-        "whyChoose": "Muchas casas de Hialeah fueron construidas hace décadas con sistemas más antiguos y menos eficientes. Actualizar a una unidad moderna de alta eficiencia SEER puede reducir su factura de FPL en un 30-40%. Le ayudamos a elegir el tamaño y la marca correctos para su hogar y presupuesto, con opciones de financiamiento para que un sistema nuevo sea accesible."
-      },
-      "installation.coralGables": {
-        "intro": "Instalar aire acondicionado en una casa de Coral Gables a menudo significa trabajar con restricciones arquitectónicas únicas. Muchas de las casas más hermosas de The Gables fueron construidas antes de que existiera el aire acondicionado central, lo que requiere soluciones creativas que preserven el carácter del hogar mientras ofrecen confort moderno.",
-        "whyChoose": "Nos especializamos en instalaciones de mini-split sin conductos para casas históricas de Coral Gables donde los conductos tradicionales no son factibles. Para casas más nuevas, instalamos sistemas centrales de alta eficiencia con diseños de conductos adecuados. Todas las instalaciones cumplen con los estrictos códigos de construcción de Coral Gables."
-      },
-      "installation.doral": {
-        "intro": "Las modernas casas de Doral y el creciente distrito comercial necesitan instalaciones de aire acondicionado diseñadas para la eficiencia y la confiabilidad. Ya sea que esté reemplazando un sistema antiguo en una casa establecida o equipando un nuevo espacio comercial, MGM A/C Appliances ofrece instalación profesional con garantías líder en la industria.",
-        "whyChoose": "Las casas más nuevas de Doral a menudo tienen sistemas de conductos bien diseñados, lo que hace que las instalaciones de reemplazo sean más sencillas. Le ayudamos a actualizar a un sistema de alta eficiencia SEER que maximiza los ahorros en su factura de FPL mientras mantiene a su familia cómoda durante todo el año."
-      },
-      "maintenance.miami": {
-        "intro": "En Miami, el mantenimiento del aire acondicionado no es opcional — es esencial. Su sistema funciona casi todo el año en algunas de las condiciones más exigentes del país. El mantenimiento regular previene averías, extiende la vida útil de su sistema en 5 a 7 años y mantiene las facturas de energía bajo control. MGM A/C Appliances ofrece planes de mantenimiento completos para hogares y negocios de Miami.",
-        "whyChoose": "Nuestras visitas de mantenimiento en Miami incluyen una inspección completa de 20 puntos: limpieza de serpentines, verificación de refrigerante, ajuste eléctrico, limpieza de la línea de drenaje, reemplazo de filtro y más. Recomendamos el servicio dos veces al año — una vez antes del verano y otra antes de las fiestas — para detectar problemas antes de que se conviertan en emergencias."
-      },
-      "maintenance.miamiBeach": {
-        "intro": "El mantenimiento del aire acondicionado en Miami Beach debe realizarse con mayor frecuencia que en cualquier otro lugar del sur de Florida. La combinación de aire marino, humedad y operación durante todo el año acelera el desgaste de cada componente. El mantenimiento profesional regular es la única manera de proteger su inversión y evitar costosas reparaciones de emergencia.",
-        "whyChoose": "Nuestros planes de mantenimiento en Miami Beach incluyen tratamiento anticorrosivo para las unidades exteriores, limpieza de la línea de condensación (crítico en ambientes de alta humedad) e inspección de serpentines para detectar acumulación de sal. Recomendamos mantenimiento trimestral para propiedades frente al mar debido a la corrosión acelerada."
-      },
-      "maintenance.hialeah": {
-        "intro": "El mantenimiento regular del aire acondicionado es la mejor manera de evitar reparaciones costosas y mantener su factura de FPL baja. En Hialeah, donde muchos sistemas tienen 10-20 años, el mantenimiento preventivo es especialmente importante. MGM A/C Appliances ofrece planes de mantenimiento accesibles con servicio completamente bilingüe.",
-        "whyChoose": "Nuestro programa de mantenimiento en Hialeah está diseñado para los sistemas envejecidos que son comunes en el área. Verificamos el deterioro de los conductos, realizamos pruebas de fugas de refrigerante, limpiamos los serpentines y nos aseguramos de que su sistema funcione con la máxima eficiencia. Nuestros técnicos bilingüses explican todo claramente para que sepa exactamente lo que necesita su sistema."
-      },
-      "maintenance.coralGables": {
-        "intro": "El mantenimiento de los sistemas de aire acondicionado en las casas históricas de Coral Gables requiere conocimientos especializados. Los conductos antiguos, las configuraciones únicas del sistema y la necesidad de preservar la integridad arquitectónica son factores importantes en el mantenimiento adecuado. MGM A/C Appliances trata cada hogar de Coral Gables con el cuidado que merece.",
-        "whyChoose": "Para las casas de Coral Gables, prestamos especial atención al estado de los conductos, el tamaño de los filtros para sistemas más antiguos y las trayectorias de drenaje que pueden seguir la construcción original. Nuestros técnicos tienen experiencia tanto con sistemas centrales modernos como con configuraciones más antiguas que se encuentran en The Gables."
-      },
-      "maintenance.doral": {
-        "intro": "Las modernas casas de Doral merecen un mantenimiento que mantenga sus sistemas de aire acondicionado funcionando como nuevos. Incluso los sistemas más nuevos necesitan servicio profesional anual para mantener la cobertura de garantía, prevenir la pérdida de eficiencia y detectar pequeños problemas antes de que se conviertan en problemas costosos.",
-        "whyChoose": "Nuestro plan de mantenimiento en Doral cubre todos los elementos esenciales: calibración del termostato, limpieza de serpentines, optimización del refrigerante, inspección eléctrica y reemplazo de filtros. Para clientes comerciales en el distrito empresarial de Doral, ofrecemos horarios de mantenimiento personalizados que minimizan las interrupciones."
+      "maintenance": {
+        "miami": {
+          "intro": "En Miami, el mantenimiento del aire acondicionado no es opcional — es esencial. Su sistema funciona casi todo el año en algunas de las condiciones más exigentes del país. El mantenimiento regular previene averías, extiende la vida útil de su sistema en 5 a 7 años y mantiene las facturas de energía bajo control. MGM A/C Appliances ofrece planes de mantenimiento completos para hogares y negocios de Miami.",
+          "whyChoose": "Nuestras visitas de mantenimiento en Miami incluyen una inspección completa de 20 puntos: limpieza de serpentines, verificación de refrigerante, ajuste eléctrico, limpieza de la línea de drenaje, reemplazo de filtro y más. Recomendamos el servicio dos veces al año — una vez antes del verano y otra antes de las fiestas — para detectar problemas antes de que se conviertan en emergencias."
+        },
+        "miamiBeach": {
+          "intro": "El mantenimiento del aire acondicionado en Miami Beach debe realizarse con mayor frecuencia que en cualquier otro lugar del sur de Florida. La combinación de aire marino, humedad y operación durante todo el año acelera el desgaste de cada componente. El mantenimiento profesional regular es la única manera de proteger su inversión y evitar costosas reparaciones de emergencia.",
+          "whyChoose": "Nuestros planes de mantenimiento en Miami Beach incluyen tratamiento anticorrosivo para las unidades exteriores, limpieza de la línea de condensación (crítico en ambientes de alta humedad) e inspección de serpentines para detectar acumulación de sal. Recomendamos mantenimiento trimestral para propiedades frente al mar debido a la corrosión acelerada."
+        },
+        "hialeah": {
+          "intro": "El mantenimiento regular del aire acondicionado es la mejor manera de evitar reparaciones costosas y mantener su factura de FPL baja. En Hialeah, donde muchos sistemas tienen 10-20 años, el mantenimiento preventivo es especialmente importante. MGM A/C Appliances ofrece planes de mantenimiento accesibles con servicio completamente bilingüe.",
+          "whyChoose": "Nuestro programa de mantenimiento en Hialeah está diseñado para los sistemas envejecidos que son comunes en el área. Verificamos el deterioro de los conductos, realizamos pruebas de fugas de refrigerante, limpiamos los serpentines y nos aseguramos de que su sistema funcione con la máxima eficiencia. Nuestros técnicos bilingüses explican todo claramente para que sepa exactamente lo que necesita su sistema."
+        },
+        "coralGables": {
+          "intro": "El mantenimiento de los sistemas de aire acondicionado en las casas históricas de Coral Gables requiere conocimientos especializados. Los conductos antiguos, las configuraciones únicas del sistema y la necesidad de preservar la integridad arquitectónica son factores importantes en el mantenimiento adecuado. MGM A/C Appliances trata cada hogar de Coral Gables con el cuidado que merece.",
+          "whyChoose": "Para las casas de Coral Gables, prestamos especial atención al estado de los conductos, el tamaño de los filtros para sistemas más antiguos y las trayectorias de drenaje que pueden seguir la construcción original. Nuestros técnicos tienen experiencia tanto con sistemas centrales modernos como con configuraciones más antiguas que se encuentran en The Gables."
+        },
+        "doral": {
+          "intro": "Las modernas casas de Doral merecen un mantenimiento que mantenga sus sistemas de aire acondicionado funcionando como nuevos. Incluso los sistemas más nuevos necesitan servicio profesional anual para mantener la cobertura de garantía, prevenir la pérdida de eficiencia y detectar pequeños problemas antes de que se conviertan en problemas costosos.",
+          "whyChoose": "Nuestro plan de mantenimiento en Doral cubre todos los elementos esenciales: calibración del termostato, limpieza de serpentines, optimización del refrigerante, inspección eléctrica y reemplazo de filtros. Para clientes comerciales en el distrito empresarial de Doral, ofrecemos horarios de mantenimiento personalizados que minimizan las interrupciones."
+        }
       }
     }
   }

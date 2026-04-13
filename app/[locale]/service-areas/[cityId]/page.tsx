@@ -199,7 +199,7 @@ export default async function CityDetailPage({
       <section className="bg-sky-50 py-16 px-4 md:px-8">
         <div className="max-w-4xl mx-auto">
           <h2 className="font-bold text-slate-900 text-xl mb-6" style={{ fontFamily: "var(--font-outfit), sans-serif" }}>
-            {t("servicesInCity").replace("{city}", t(`cities.${cityId}.name`))}
+            {t("servicesInCity", { city: t(`cities.${cityId}.name`) })}
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {["installation", "repair", "maintenance", "commercial", "residential", "emergency"].map((svcId) => (

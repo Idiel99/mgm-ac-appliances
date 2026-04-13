@@ -37,8 +37,8 @@ export async function generateMetadata({
   const cityName = area(`cities.${cityId}.name`);
 
   return generatePageMetadata({
-    title: combo("metaTitle").replace("{service}", serviceName).replace("{city}", cityName),
-    description: combo("metaDesc").replace("{service}", serviceName).replace("{city}", cityName),
+    title: combo("metaTitle", { service: serviceName, city: cityName }),
+    description: combo("metaDesc", { service: serviceName, city: cityName }),
     locale,
     path: `/services/${serviceId}/${cityId}`,
   });
@@ -91,8 +91,8 @@ export default async function ServiceCityPage({
       <Navbar />
       <PageHeader
         label={svc("label")}
-        title={combo("pageTitle").replace("{service}", serviceName).replace("{city}", cityName)}
-        subtitle={combo("pageSubtitle").replace("{service}", serviceName).replace("{city}", cityName)}
+        title={combo("pageTitle", { service: serviceName, city: cityName })}
+        subtitle={combo("pageSubtitle", { service: serviceName, city: cityName })}
         showCta
       />
 
@@ -115,17 +115,17 @@ export default async function ServiceCityPage({
           <p className="text-slate-600 text-lg leading-relaxed mb-8">
             {hasSpecificContent
               ? combo(`content.${contentKey}.intro`)
-              : combo("genericIntro").replace("{service}", serviceName).replace("{city}", cityName)}
+              : combo("genericIntro", { service: serviceName, city: cityName })}
           </p>
 
           {/* Why choose section */}
           <h2 className="font-bold text-slate-900 text-xl mb-4" style={{ fontFamily: "var(--font-outfit), sans-serif" }}>
-            {combo("whyChooseTitle").replace("{city}", cityName)}
+            {combo("whyChooseTitle", { city: cityName })}
           </h2>
           <p className="text-slate-600 leading-relaxed mb-8">
             {hasSpecificContent
               ? combo(`content.${contentKey}.whyChoose`)
-              : combo("genericWhyChoose").replace("{service}", serviceName).replace("{city}", cityName)}
+              : combo("genericWhyChoose", { service: serviceName, city: cityName })}
           </p>
 
           {/* Service features from parent service */}
@@ -150,15 +150,15 @@ export default async function ServiceCityPage({
               href={`/${locale}/services/${serviceId}`}
               className="bg-sky-50 border border-sky-200 rounded-xl p-5 hover:-translate-y-0.5 transition-all"
             >
-              <p className="font-semibold text-slate-900 mb-1">{combo("allServicesLink").replace("{service}", serviceName)}</p>
+              <p className="font-semibold text-slate-900 mb-1">{combo("allServicesLink", { service: serviceName })}</p>
               <p className="text-slate-500 text-sm">{combo("allServicesDesc")}</p>
             </Link>
             <Link
               href={`/${locale}/service-areas/${cityId}`}
               className="bg-sky-50 border border-sky-200 rounded-xl p-5 hover:-translate-y-0.5 transition-all"
             >
-              <p className="font-semibold text-slate-900 mb-1">{combo("allCityLink").replace("{city}", cityName)}</p>
-              <p className="text-slate-500 text-sm">{combo("allCityDesc").replace("{city}", cityName)}</p>
+              <p className="font-semibold text-slate-900 mb-1">{combo("allCityLink", { city: cityName })}</p>
+              <p className="text-slate-500 text-sm">{combo("allCityDesc", { city: cityName })}</p>
             </Link>
           </div>
         </div>
@@ -168,7 +168,7 @@ export default async function ServiceCityPage({
       <section className="bg-gradient-to-br from-slate-900 to-[#0c1e3e] py-20 px-4 md:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="font-black text-white text-2xl mb-4" style={{ fontFamily: "var(--font-outfit), sans-serif" }}>
-            {combo("ctaTitle").replace("{service}", serviceName).replace("{city}", cityName)}
+            {combo("ctaTitle", { service: serviceName, city: cityName })}
           </h2>
           <p className="text-white/60 mb-8">{combo("ctaDesc")}</p>
           <a
